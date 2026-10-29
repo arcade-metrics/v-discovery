@@ -1,0 +1,16 @@
+| wozniak1990sm2 | Optimization of Learning (especificacao do SM-2, pagina super-memory.com) | fornecedor | aprendizagem-adaptativa | https://super-memory.com/english/ol/sm2.htm | 2026-10-29 |
+| supermemoguru2018sm2 | SuperMemo 2: Algorithm (supermemo.guru) | fornecedor | aprendizagem-adaptativa | https://supermemo.guru/wiki/Algorithm_SM-2 | 2026-10-29 |
+| anki2026algofaq | What spaced repetition algorithm does Anki use? | fornecedor | aprendizagem-adaptativa | https://docs.ankiweb.net/faqs/what-spaced-repetition-algorithm.html | 2026-10-29 |
+| anki2026deckoptions | Anki Manual: Deck Options | fornecedor | aprendizagem-adaptativa | https://docs.ankiweb.net/deck-options.html | 2026-10-29 |
+| anki2025release | Anki 25.07 (GitHub Release) | fornecedor | aprendizagem-adaptativa | https://github.com/ankitects/anki/releases/tag/25.07 | 2026-10-29 |
+| settles2016hlr | A Trainable Spaced Repetition Model for Language Learning (ACL 2016) | academico | aprendizagem-adaptativa | https://aclanthology.org/P16-1174.pdf | 2026-10-29 |
+| duolingo2016hlrcode | halflife-regression (GitHub repository): data and code for Settles and Meeder 2016 | fornecedor | aprendizagem-adaptativa | https://github.com/duolingo/halflife-regression | 2026-10-29 |
+| ilidio2026hlr | Revisiting Half-Life Regression for Explainable and Personalized Spaced Repetition in Duolingo (PMLR 339, 2026) | academico | aprendizagem-adaptativa | https://raw.githubusercontent.com/mlresearch/v339/main/assets/ilidio26a/ilidio26a.pdf | 2026-10-29 |
+| fsrs2026algorithm | FSRS Wiki: The Algorithm | tecnico | aprendizagem-adaptativa | https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-Algorithm | 2026-10-29 |
+| fsrs2026optimization | FSRS Wiki: The mechanism of optimization | tecnico | aprendizagem-adaptativa | https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-mechanism-of-optimization | 2026-10-29 |
+| srsbenchmark2026 | srs-benchmark: A benchmark for spaced repetition schedulers/algorithms (mantido pelos autores do FSRS) | tecnico | aprendizagem-adaptativa | https://github.com/open-spaced-repetition/srs-benchmark | 2026-10-29 |
+| ye2022ssp | A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling (KDD 2022; apenas metadados verificados) | academico | aprendizagem-adaptativa | https://doi.org/10.1145/3534678.3539081 | 2026-10-29 |
+| su2023dynamics | Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory (IEEE TKDE 35(10), 2023; apenas metadados verificados) | academico | aprendizagem-adaptativa | https://doi.org/10.1109/TKDE.2023.3251721 | 2026-10-29 |
+| maimemo2022sspmmc | SSP-MMC (GitHub repository): data and code for the KDD 2022 paper | tecnico | aprendizagem-adaptativa | https://github.com/maimemo/SSP-MMC | 2026-10-29 |
+| maimemo2023sspmmcplus | SSP-MMC-Plus (GitHub repository): data and code for the TKDE 2023 paper | tecnico | aprendizagem-adaptativa | https://github.com/maimemo/SSP-MMC-Plus | 2026-10-29 |
+| choffin2019das3h | DAS3H: Modeling Student Learning and Forgetting for Optimally Scheduling Distributed Practice of Skills (EDM 2019) | academico | aprendizagem-adaptativa | https://arxiv.org/pdf/1905.06873 | 2026-10-29 |

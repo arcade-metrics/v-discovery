@@ -1,0 +1,207 @@
+{
+  "titulo": "Benchmark Duolingo para plataforma de jogos sérios em educação especial",
+  "versao": "2026-10-29",
+  "idioma": "pt-BR",
+  "estado_de_referencia": "Duolingo, outubro de 2026",
+  "marcas_de_confianca": {
+    "V": "verificado em fonte primária (Duolingo, artigo acadêmico, documento regulatório)",
+    "S": "fonte secundária (imprensa, análises, guias, wiki)",
+    "I": "inferência ou observação não verificada"
+  },
+  "aviso_sobre_numeros": "Números do Duolingo são variações relativas de testes A/B com adolescentes e adultos e medem retenção/engajamento, não aprendizagem. Nenhum foi medido com crianças nem com alunos da educação especial.",
+  "capitulos": [
+    {"id": "00", "arquivo": "00-visao-geral.md", "titulo": "Visão geral: tese, loop, glossário, matriz de decisão"},
+    {"id": "01", "arquivo": "01-recompensas.md", "titulo": "Sistema de recompensas"},
+    {"id": "02", "arquivo": "02-gameplay.md", "titulo": "Gameplay: lição, exercícios, caminho, adaptação, feedback"},
+    {"id": "03", "arquivo": "03-estilo.md", "titulo": "Estilo: paleta, tipografia, forma, personagens, movimento, som, copy"},
+    {"id": "04", "arquivo": "04-evidencias-e-criticas.md", "titulo": "Evidências e críticas"},
+    {"id": "05", "arquivo": "05-riscos-educacao-especial.md", "titulo": "Riscos e oportunidades por perfil"},
+    {"id": "apendice", "arquivo": "apendice-caso-vuoo.md", "titulo": "Estudo de caso: VUOO"}
+  ],
+  "esquema_de_mecanica": ["o_que_e", "como_funciona", "por_que_funciona", "numeros", "evidencia_externa", "criticas", "risco_educacao_especial", "adaptacoes", "imagens", "fontes"],
+  "mecanicas": [
+    {
+      "id": "licao-loop", "nome": "Loop da lição com feedback imediato", "capitulo": "02", "secao": "1",
+      "alavanca": ["ciclo curto", "progresso visível", "variedade"], "prazo": "item/lição", "reforco": "razão fixa",
+      "monetiza": false, "veredito": "adotar", "risco": "baixo-moderado",
+      "adaptacao": "sessão de 1 a 3 min; feedback multimodal não textual; erro em cor neutra; uma tela final; alvos grandes; sem tempo por item; teto de repetições",
+      "imagens_prefixo": ["02-gameplay-feedback-", "02-gameplay-combo-", "02-gameplay-fim-de-licao-", "02-gameplay-exercicio-"]
+    },
+    {
+      "id": "xp", "nome": "XP", "capitulo": "01", "secao": "1",
+      "alavanca": ["acumulação", "comparação"], "prazo": "item/lição", "reforco": "razão fixa",
+      "monetiza": false, "veredito": "substituir", "risco": "moderado",
+      "adaptacao": "progresso concreto e não numérico ligado a domínio de habilidade",
+      "numeros": {"xp_licao_nova_2025": 35, "xp_revisao": 5, "xp_legendary": 40, "ganho_tslw_minutos_dia": [1100000, 1800000]},
+      "imagens_prefixo": ["01-recompensas-xp-"]
+    },
+    {
+      "id": "ofensiva", "nome": "Ofensiva (streak), congelamento, reparo, marcos, Society, widget", "capitulo": "01", "secao": "2",
+      "alavanca": ["aversão à perda", "hábito", "marco"], "prazo": "dia", "reforco": "intervalo fixo crescente",
+      "monetiza": true, "veredito": "substituir", "risco": "alto",
+      "adaptacao": "contador acumulativo que nunca zera; ritmo coletivo pausado pelo calendário; nunca mostrar perda",
+      "numeros": {"retencao_d14_separar_meta": "+3,3%", "dau_2_congelamentos": "+0,38%", "retencao_d7_animacao_marco": "+1,7%", "chance_voltar_apos_7_dias": "2,4x", "marcos": [7, 30, 50, 100, 365]},
+      "evidencia_externa": ["Silverman & Barasch 2023 JCR: ofensiva quebrada leva ao abandono; evitar 'você quebrou'", "Lally UCL: perder um dia não afeta o hábito"],
+      "imagens_prefixo": ["01-recompensas-ofensiva-", "01-recompensas-widget-", "01-recompensas-friend-streak-"]
+    },
+    {
+      "id": "missoes", "nome": "Missões diárias, mensais, de amigos, de família", "capitulo": "01", "secao": "3",
+      "alavanca": ["meta próxima", "novidade", "compromisso social"], "prazo": "dia/semana/mês", "reforco": "razão fixa + baú",
+      "monetiza": false, "veredito": "adaptar", "risco": "moderado",
+      "adaptacao": "missões do grupo inteiro, de esforço/exploração, anunciadas com antecedência, ícones fixos",
+      "imagens_prefixo": ["01-recompensas-missoes-", "01-recompensas-friends-quest-"]
+    },
+    {
+      "id": "gemas-baus", "nome": "Gemas, baús, loja, colecionáveis", "capitulo": "01", "secao": "4",
+      "alavanca": ["recompensa variável", "escassez"], "prazo": "lição/dia", "reforco": "razão variável",
+      "monetiza": true, "veredito": "nao_usar", "risco": "muito alto",
+      "adaptacao": "recompensas determinísticas e anunciadas; colecionáveis que nunca se perdem e todos completam",
+      "legal": "ECA Digital (Lei 15.211/2025) proíbe loot boxes para crianças; baús sem dinheiro real em zona cinzenta",
+      "imagens_prefixo": ["01-recompensas-bau-", "01-recompensas-gemas-", "01-recompensas-colecionaveis-", "01-recompensas-loja-"]
+    },
+    {
+      "id": "coracoes-energy", "nome": "Corações → Energy", "capitulo": "01", "secao": "5",
+      "alavanca": ["escassez", "punição do erro"], "prazo": "sessão", "reforco": "—",
+      "monetiza": true, "veredito": "nao_usar", "risco": "muito alto",
+      "adaptacao": "errar nunca interrompe; limite de tempo é do educador",
+      "imagens_prefixo": ["01-recompensas-energy-", "02-gameplay-modal-coracoes-"]
+    },
+    {
+      "id": "ligas", "nome": "Ligas e leaderboards", "capitulo": "01", "secao": "6",
+      "alavanca": ["comparação social", "status", "prazo"], "prazo": "semana", "reforco": "—",
+      "monetiza": true, "veredito": "nao_usar", "risco": "muito alto",
+      "adaptacao": "meta coletiva; comparação só consigo mesmo e positiva; desempenho só no painel do educador",
+      "numeros": {"tempo_total": "+17%", "usuarios_altamente_engajados": "3x", "divisoes": 10, "grupo": 30},
+      "evidencia_externa": ["Hanus & Fox 2015: menos motivação intrínseca e notas menores", "Malayao 2026: posições baixas relatam estresse"],
+      "imagens_prefixo": ["01-recompensas-liga-"]
+    },
+    {
+      "id": "conquistas", "nome": "Conquistas, insígnias, recordes pessoais", "capitulo": "01", "secao": "7",
+      "alavanca": ["coleção", "identidade"], "prazo": "longo", "reforco": "razão fixa",
+      "monetiza": false, "veredito": "adaptar", "risco": "moderado",
+      "adaptacao": "cumulativas, nunca perdidas, todas alcançáveis, informativas, ligadas a habilidades",
+      "imagens_prefixo": ["01-recompensas-conquistas-"]
+    },
+    {
+      "id": "social", "nome": "Amigos, feed, cutucadas", "capitulo": "01", "secao": "8",
+      "alavanca": ["reciprocidade", "pertencimento"], "prazo": "semana", "reforco": "—",
+      "monetiza": false, "veredito": "nao_usar", "risco": "alto",
+      "adaptacao": "grupo fechado como unidade; personagem como parceiro; sem seguir/convidar/perfil",
+      "imagens_prefixo": ["01-recompensas-social-", "01-recompensas-friend-streak-"]
+    },
+    {
+      "id": "notificacoes", "nome": "Notificações, e-mail, widget", "capitulo": "01", "secao": "9",
+      "alavanca": ["gatilho", "culpa", "humor"], "prazo": "dia", "reforco": "—",
+      "monetiza": false, "veredito": "nao_usar", "risco": "alto",
+      "adaptacao": "sem push para a criança; informação sem culpa ao responsável/educador; personagem nunca triste",
+      "imagens_prefixo": ["01-recompensas-notificacoes-", "01-recompensas-widget-"]
+    },
+    {
+      "id": "monetizacao", "nome": "Super, Max e fricção da economia grátis", "capitulo": "01", "secao": "10",
+      "alavanca": ["escassez", "resolvedor pago"], "prazo": "—", "reforco": "—",
+      "monetiza": true, "veredito": "nao_usar", "risco": "alto",
+      "imagens_prefixo": ["02-gameplay-max-"]
+    },
+    {
+      "id": "exercicios", "nome": "Catálogo de tipos de exercício", "capitulo": "02", "secao": "2",
+      "veredito": "adaptar", "risco": "variável",
+      "mais_aproveitaveis": ["toque em imagem", "4 opções", "pares", "manipulação direta (Math)", "story com narração"],
+      "evitar": ["modos cronometrados", "arrastar sem alternativa", "digitar", "falar sem alternativa"],
+      "imagens_prefixo": ["02-gameplay-exercicio-", "02-gameplay-duoradio-", "02-gameplay-story-", "02-gameplay-aventuras-", "02-gameplay-video-call-", "02-gameplay-math-"]
+    },
+    {
+      "id": "caminho", "nome": "Caminho linear e estrutura do curso", "capitulo": "02", "secao": "3",
+      "alavanca": ["próximo passo óbvio", "progresso espacial"], "veredito": "adaptar", "risco": "moderado",
+      "adaptacao": "próximo passo destacado; educador atribui e reordena; rotas por modalidade; sem bloqueio duro",
+      "imagens_prefixo": ["02-gameplay-caminho-", "02-gameplay-home-"]
+    },
+    {
+      "id": "adaptacao", "nome": "Adaptação de dificuldade (HLR, Birdbrain) e revisão espaçada", "capitulo": "02", "secao": "4",
+      "veredito": "adotar", "risco": "baixo",
+      "adaptacao": "taxa de acerto alvo alta; educador vê e ajusta; painel explica por que um item volta",
+      "imagens_prefixo": ["02-gameplay-birdbrain-", "02-gameplay-hlr-"]
+    },
+    {
+      "id": "onboarding", "nome": "Onboarding e nivelamento", "capitulo": "02", "secao": "5",
+      "veredito": "adaptar", "risco": "moderado",
+      "adaptacao": "contas pelo educador; zero texto; personagem com voz; jogo fácil com sucesso garantido; nivelamento invisível",
+      "imagens_prefixo": ["02-gameplay-onboarding-"]
+    },
+    {
+      "id": "produtos-infantis", "nome": "Duolingo ABC, Math, Music, for Schools", "capitulo": "02", "secao": "6",
+      "licao": "para crianças pequenas a empresa remove anúncios, compras, competição e economia; mantém loop + feedback + personagem + progresso",
+      "imagens_prefixo": ["02-gameplay-math-", "02-gameplay-product-highlights-"]
+    },
+    {
+      "id": "acessibilidade", "nome": "Acessibilidade", "capitulo": "02", "secao": "7",
+      "existe": ["replay", "áudio lento", "can't listen/speak now", "reveal", "toggles de som/haptics/animação", "word bank ↔ teclado", "modo escuro"],
+      "falta": ["ajuste de fonte", "alto contraste", "remoção de timers", "sem vermelho", "reduced motion", "declaração WCAG"],
+      "imagens_prefixo": ["02-gameplay-acessibilidade-", "02-gameplay-preferencias-"]
+    },
+    {
+      "id": "paleta", "nome": "Paleta e contraste", "capitulo": "03", "secao": "1",
+      "veredito": "adaptar", "risco": "moderado",
+      "cores_chave": {"Feather Green": "#58CC02", "Eel": "#4B4B4B", "Cardinal": "#FF4B4B", "Bee": "#FFC800", "Fox": "#FF9600", "Macaw": "#1CB0F6", "Snow": "#FFFFFF", "Swan": "#E5E5E5", "Hare": "#AFAFAF", "Wolf": "#777777"},
+      "contraste_branco_sobre_feather_green": "2,09:1 (falha AA)",
+      "imagens_prefixo": ["03-estilo-app-store-", "03-estilo-abas-"]
+    },
+    {
+      "id": "tipografia", "nome": "Tipografia e componentes", "capitulo": "03", "secao": "2",
+      "fontes": {"display": "Feather Bold (própria, Johnson Banks/Fontsmith 2019)", "ui": "DIN Next Rounded / DIN Round Pro"},
+      "botao": "aba inferior 3-4 px, sem sombra difusa, 50 px, raio 12-16 px, rótulo caixa alta 15/700",
+      "imagens_prefixo": ["03-estilo-tipografia-"]
+    },
+    {
+      "id": "shape-language", "nome": "Linguagem de forma e ilustração", "capitulo": "03", "secao": "3",
+      "veredito": "adotar", "risco": "baixo",
+      "regra": "retângulo arredondado + círculo + triângulo arredondado; ~14 formas por objeto; silhueta clara; espaço branco",
+      "adaptacao": "modo de baixa estimulação; código duplo cor+forma",
+      "imagens_prefixo": ["03-estilo-shape-language-", "03-estilo-duo-"]
+    },
+    {
+      "id": "personagens", "nome": "Duo e World Characters", "capitulo": "03", "secao": "4",
+      "veredito": "adotar_com_mudancas", "risco": "moderado",
+      "adaptacao": "personalidade estável, literal, calorosa; reage ao erro com curiosidade; humor físico; sem sarcasmo nem ameaça",
+      "imagens_prefixo": ["03-estilo-personagens-", "03-estilo-zari-", "03-estilo-visemas-"]
+    },
+    {
+      "id": "movimento", "nome": "Movimento (Rive, máquina de estados)", "capitulo": "03", "secao": "5",
+      "veredito": "adotar", "risco": "baixo",
+      "imagens_prefixo": ["03-estilo-rive-", "03-estilo-visemas-maquina-", "01-recompensas-ofensiva-marco-fenix-"]
+    },
+    {
+      "id": "som", "nome": "Som", "capitulo": "03", "secao": "6",
+      "veredito": "adaptar", "risco": "moderado", "lacuna": "sem documentação oficial",
+      "adaptacao": "canais separados; efeitos desligáveis sem perder narração; erro suave"
+    },
+    {
+      "id": "copy", "nome": "Tom de voz e copy", "capitulo": "03", "secao": "7",
+      "veredito": "adaptar", "risco": "moderado",
+      "voz_oficial": ["Expressive", "Playful (evitar sarcasmo)", "Embracing", "Worldly"],
+      "adaptacao": "literal, curto, sem ironia, sem culpa, sem ameaça; mesmo tom em todos os estados",
+      "imagens_prefixo": ["03-estilo-copy-"]
+    }
+  ],
+  "perfis_educacao_especial": ["TEA", "TDAH", "dislexia", "DCD/motora", "deficiência intelectual", "deficiência visual", "deficiência auditiva"],
+  "guarda_corpos": [
+    "errar nunca interrompe, nunca custa, nunca é vermelho",
+    "nada zera, nada se perde",
+    "nenhum aluno é comparado a outro na tela do aluno",
+    "toda recompensa é anunciada e determinística",
+    "nenhum limite de tempo por item",
+    "o educador controla cadência, ordem, nível e visibilidade",
+    "o personagem nunca fica triste, bravo ou decepcionado com a criança",
+    "toda informação em duas modalidades; toda interação motora com alternativa",
+    "modo de baixa estimulação a um toque, sem marcação",
+    "pausa e 'agora não' sempre visíveis",
+    "métrica-norte de aprendizagem, não de DAU",
+    "ECA Digital e LGPD art. 14"
+  ],
+  "imagens": {"indice": "imagens.json", "manifesto": "imagens/MANIFESTO.md", "convencao": "<capítulo>-<tema>-<detalhe>.<ext>", "total": 359},
+  "pesquisa_bruta": [
+    "pesquisa/2026-10-27-teardown-original-vuoo.md",
+    "pesquisa/2026-10-29-recompensas.md",
+    "pesquisa/2026-10-29-gameplay.md",
+    "pesquisa/2026-10-29-estilo.md"
+  ]
+}

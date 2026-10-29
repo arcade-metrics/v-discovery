@@ -1,0 +1,12 @@
+| corbett1995kt | Knowledge Tracing: Modeling the Acquisition of Procedural Knowledge (UMUAI 4(4), 1995) | academico | aprendizagem-adaptativa | https://web.archive.org/web/2023/http://act-r.psy.cmu.edu/wordpress/wp-content/uploads/2012/12/893CorbettAnderson1995.pdf | 2026-10-29 |
+| pelanek2017overview | Bayesian Knowledge Tracing, Logistic Models, and Beyond (UMUAI 27, 2017) | academico | aprendizagem-adaptativa | https://www.fi.muni.cz/~xpelanek/publications/umuai-overview.pdf | 2026-10-29 |
+| piech2015dkt | Deep Knowledge Tracing (NIPS 2015) | academico | aprendizagem-adaptativa | https://proceedings.neurips.cc/paper/2015/hash/bac9162b47c56fc8a4d2a519803d51b3-Abstract.html | 2026-10-29 |
+| khajah2016howdeep | How Deep is Knowledge Tracing? (arXiv 1604.02416) | academico | aprendizagem-adaptativa | https://arxiv.org/abs/1604.02416 | 2026-10-29 |
+| xiong2016going | Going Deeper with Deep Knowledge Tracing (EDM 2016) | academico | aprendizagem-adaptativa | https://www.educationaldatamining.org/EDM2016/proceedings/paper_133.pdf | 2026-10-29 |
+| yeung2018dktplus | Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization (arXiv 1806.02180) | academico | aprendizagem-adaptativa | https://arxiv.org/abs/1806.02180 | 2026-10-29 |
+| pavlik2009pfa | Performance Factors Analysis -- A New Alternative to Knowledge Tracing (AIED 2009) | academico | aprendizagem-adaptativa | https://files.eric.ed.gov/fulltext/ED506305.pdf | 2026-10-29 |
+| cen2005lfa | Automating Cognitive Model Improvement by A* Search and Logistic Regression (workshop, 2005) | academico | aprendizagem-adaptativa | https://learnlab.org/wp-content/uploads/2025/07/CenKoedinger-Junker-05pdf.pdf | 2026-10-29 |
+| cen2006lfa | Learning Factors Analysis (ITS 2006) [metadados] | academico | aprendizagem-adaptativa | https://doi.org/10.1007/11774303_17 | 2026-10-29 |
+| beckchang2007identifiability | Identifiability: A Fundamental Problem of Student Modeling (UM 2007) [metadados] | academico | aprendizagem-adaptativa | https://doi.org/10.1007/978-3-540-73078-1_17 | 2026-10-29 |
+| vandesande2013bkt | Properties of the Bayesian Knowledge Tracing Model (JEDM 5(2), 2013) | academico | aprendizagem-adaptativa | https://jedm.educationaldatamining.org/index.php/JEDM/article/view/35 | 2026-10-29 |
+| gervet2020when | When is Deep Learning the Best Approach to Knowledge Tracing? (JEDM 12(3), 2020) | academico | aprendizagem-adaptativa | https://jedm.educationaldatamining.org/index.php/JEDM/article/view/451 | 2026-10-29 |
