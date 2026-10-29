@@ -40,7 +40,7 @@ Os documentos `comparison.md` de cada pasta e os de raiz (`catalogo-padroes.md`,
 | `iop.brief` | relatorio | [00-brief.md](00-brief.md) | Brief do domínio padrões de interoperabilidade |
 | `iop.catalogo` | mapa | [catalogo-padroes.md](catalogo-padroes.md) | Catálogo de padrões |
 | `iop.comp.case` | padrao | [competencies/case.md](competencies/case.md) | CASE (Competencies and Academic Standards Exchange) |
-| `iop.comp.ctdl` | padrao | [competencies/ctdl.md](competencies/ctdl.md) | CTDL e CTDL-ASN (Credential Engine) |
+| `iop.comp.ctdl` | padrao | [competencies/ctdl.md](competencies/ctdl.md) | CTDL e CTDL-ASN (Credential Transparency Description Language) |
 | `iop.comp.esco` | padrao | [competencies/esco.md](competencies/esco.md) | ESCO (European Skills, Competences, Qualifications and Occupations) |
 | `iop.cred.clr` | padrao | [credentials/clr.md](credentials/clr.md) | Comprehensive Learner Record (CLR) 2.0 |
 | `iop.cred.open-badges` | padrao | [credentials/open-badges.md](credentials/open-badges.md) | Open Badges 3.0 |
@@ -60,12 +60,14 @@ Os documentos `comparison.md` de cada pasta e os de raiz (`catalogo-padroes.md`,
 | `iop.lr.cmi5` | padrao | [learning-records/cmi5.md](learning-records/cmi5.md) | cmi5 |
 | `iop.lr.comparison` | comparacao | [learning-records/comparison.md](learning-records/comparison.md) | Comparação entre xAPI, cmi5, Caliper e SCORM |
 | `iop.lr.xapi` | padrao | [learning-records/xapi.md](learning-records/xapi.md) | xAPI (Experience API, IEEE 9274.1.1) |
+| `iop.mapa` | mapa | [mapa-conceitos.md](mapa-conceitos.md) | Mapa de conceitos do domínio interoperabilidade |
 | `iop.matriz` | comparacao | [matriz-comparativa.md](matriz-comparativa.md) | Matriz comparativa por caso de uso |
 | `iop.md.comparison` | comparacao | [metadata/comparison.md](metadata/comparison.md) | Comparação entre IEEE LOM, Dublin Core e LRMI/schema.org |
 | `iop.md.dublin-core` | padrao | [metadata/dublin-core.md](metadata/dublin-core.md) | Dublin Core (DCMI Metadata Terms) |
-| `iop.md.ieee-lom` | padrao | [metadata/ieee-lom.md](metadata/ieee-lom.md) | IEEE LOM (Learning Object Metadata) |
-| `iop.md.lrmi-schema-org` | padrao | [metadata/lrmi-schema-org.md](metadata/lrmi-schema-org.md) | LRMI e schema.org/LearningResource |
+| `iop.md.ieee-lom` | padrao | [metadata/ieee-lom.md](metadata/ieee-lom.md) | IEEE LOM (1484.12.1, Learning Object Metadata) |
+| `iop.md.lrmi-schema-org` | padrao | [metadata/lrmi-schema-org.md](metadata/lrmi-schema-org.md) | LRMI e schema.org LearningResource |
 | `iop.plano-ids` | mapa | [_plano-ids.md](_plano-ids.md) | Plano de identificadores do domínio |
+| `iop.relatorio` | relatorio | [relatorio.md](relatorio.md) | Relatório da primeira versão do domínio |
 | `iop.ros.ceds` | padrao | [rostering/ceds.md](rostering/ceds.md) | CEDS (Common Education Data Standards) |
 | `iop.ros.comparison` | comparacao | [rostering/comparison.md](rostering/comparison.md) | Comparação entre OneRoster, Ed-Fi, SIF e CEDS |
 | `iop.ros.ed-fi` | padrao | [rostering/ed-fi.md](rostering/ed-fi.md) | Ed-Fi Data Standard |
@@ -82,11 +84,12 @@ Os documentos `comparison.md` de cada pasta e os de raiz (`catalogo-padroes.md`,
 
 | Tipo | Quantidade |
 |---|---|
-| `complementa` | 48 |
-| `relacionado-a` | 46 |
-| `alternativa-a` | 22 |
-| `depende-de` | 19 |
+| `relacionado-a` | 60 |
+| `complementa` | 53 |
+| `alternativa-a` | 23 |
+| `depende-de` | 20 |
 | `parte-de` | 2 |
+| `implementado-por` | 1 |
 | `especificado-por` | 1 |
 
 | Origem | Tipo | Alvo |
@@ -106,14 +109,27 @@ Os documentos `comparison.md` de cada pasta e os de raiz (`catalogo-padroes.md`,
 | `iop.comp.case` | alternativa-a | `iop.comp.ctdl` |
 | `iop.comp.case` | complementa | `iop.asmt.qti` |
 | `iop.comp.case` | complementa | `iop.md.lrmi-schema-org` |
+| `iop.comp.case` | complementa | `kg.curr.competency-frameworks` (outro domínio) |
+| `iop.comp.case` | complementa | `kg.curr.prerequisites` (outro domínio) |
 | `iop.comp.case` | depende-de | `iop.sem.vocabularios-e-skos` |
+| `iop.comp.case` | relacionado-a | `kg.curr.bncc` (outro domínio) |
+| `iop.comp.case` | relacionado-a | `kg.curr.cognitive-taxonomies` (outro domínio) |
+| `iop.comp.case` | relacionado-a | `kg.std.skos` (outro domínio) |
+| `iop.comp.case` | relacionado-a | `kg.voc.comparison` (outro domínio) |
 | `iop.comp.ctdl` | alternativa-a | `iop.comp.case` |
+| `iop.comp.ctdl` | alternativa-a | `iop.comp.esco` |
 | `iop.comp.ctdl` | complementa | `iop.cred.open-badges` |
+| `iop.comp.ctdl` | complementa | `kg.curr.competency-frameworks` (outro domínio) |
 | `iop.comp.ctdl` | depende-de | `iop.sem.vocabularios-e-skos` |
-| `iop.comp.ctdl` | relacionado-a | `iop.comp.esco` |
+| `iop.comp.ctdl` | relacionado-a | `kg.std.rdf` (outro domínio) |
+| `iop.comp.ctdl` | relacionado-a | `kg.voc.comparison` (outro domínio) |
 | `iop.comp.esco` | alternativa-a | `iop.comp.ctdl` |
 | `iop.comp.esco` | complementa | `iop.comp.case` |
+| `iop.comp.esco` | complementa | `kg.curr.competency-frameworks` (outro domínio) |
 | `iop.comp.esco` | depende-de | `iop.sem.vocabularios-e-skos` |
+| `iop.comp.esco` | implementado-por | `kg.std.skos` (outro domínio) |
+| `iop.comp.esco` | relacionado-a | `kg.found.identifiers-and-triples` (outro domínio) |
+| `iop.comp.esco` | relacionado-a | `kg.voc.comparison` (outro domínio) |
 | `iop.cred.clr` | complementa | `iop.asmt.qti` |
 | `iop.cred.clr` | complementa | `iop.cred.open-badges` |
 | `iop.cred.clr` | depende-de | `iop.cred.verifiable-credentials` |
@@ -179,15 +195,24 @@ Os documentos `comparison.md` de cada pasta e os de raiz (`catalogo-padroes.md`,
 | `iop.md.dublin-core` | alternativa-a | `iop.md.ieee-lom` |
 | `iop.md.dublin-core` | complementa | `iop.md.lrmi-schema-org` |
 | `iop.md.dublin-core` | depende-de | `iop.sem.vocabularios-e-skos` |
+| `iop.md.dublin-core` | depende-de | `kg.std.rdf` (outro domínio) |
 | `iop.md.dublin-core` | relacionado-a | `iop.md.comparison` |
+| `iop.md.dublin-core` | relacionado-a | `kg.std.skos` (outro domínio) |
+| `iop.md.dublin-core` | relacionado-a | `kg.voc.comparison` (outro domínio) |
 | `iop.md.ieee-lom` | alternativa-a | `iop.md.dublin-core` |
 | `iop.md.ieee-lom` | alternativa-a | `iop.md.lrmi-schema-org` |
 | `iop.md.ieee-lom` | complementa | `iop.tool.common-cartridge` |
 | `iop.md.ieee-lom` | relacionado-a | `iop.md.comparison` |
+| `iop.md.ieee-lom` | relacionado-a | `kg.mod.conceptual-model` (outro domínio) |
+| `iop.md.ieee-lom` | relacionado-a | `kg.voc.comparison` (outro domínio) |
 | `iop.md.lrmi-schema-org` | alternativa-a | `iop.md.ieee-lom` |
 | `iop.md.lrmi-schema-org` | complementa | `iop.comp.case` |
 | `iop.md.lrmi-schema-org` | complementa | `iop.md.dublin-core` |
+| `iop.md.lrmi-schema-org` | complementa | `kg.std.json-ld` (outro domínio) |
 | `iop.md.lrmi-schema-org` | relacionado-a | `iop.md.comparison` |
+| `iop.md.lrmi-schema-org` | relacionado-a | `kg.found.context-and-reification` (outro domínio) |
+| `iop.md.lrmi-schema-org` | relacionado-a | `kg.mod.conceptual-model` (outro domínio) |
+| `iop.md.lrmi-schema-org` | relacionado-a | `kg.voc.comparison` (outro domínio) |
 | `iop.ros.ceds` | complementa | `iop.ros.ed-fi` |
 | `iop.ros.ceds` | complementa | `iop.sem.interoperabilidade-semantica` |
 | `iop.ros.ceds` | relacionado-a | `iop.ros.comparison` |
@@ -240,8 +265,10 @@ graph LR
   iop_comp_case[iop.comp.case] -.->|depende| iop_sem_vocabularios_e_skos[iop.sem.vocabularios-e-skos]
   iop_comp_ctdl[iop.comp.ctdl] <-->|alt| iop_comp_case[iop.comp.case]
   iop_comp_ctdl[iop.comp.ctdl] -.->|depende| iop_sem_vocabularios_e_skos[iop.sem.vocabularios-e-skos]
+  iop_comp_ctdl[iop.comp.ctdl] <-->|alt| iop_comp_esco[iop.comp.esco]
   iop_comp_esco[iop.comp.esco] <-->|alt| iop_comp_ctdl[iop.comp.ctdl]
   iop_comp_esco[iop.comp.esco] -.->|depende| iop_sem_vocabularios_e_skos[iop.sem.vocabularios-e-skos]
+  iop_comp_esco[iop.comp.esco] -->|impl| kg_std_skos[kg.std.skos]
   iop_cred_clr[iop.cred.clr] -.->|depende| iop_cred_verifiable_credentials[iop.cred.verifiable-credentials]
   iop_cred_open_badges[iop.cred.open-badges] -.->|depende| iop_cred_verifiable_credentials[iop.cred.verifiable-credentials]
   iop_cred_verifiable_credentials[iop.cred.verifiable-credentials] -->|spec| iop_cred_open_badges[iop.cred.open-badges]
@@ -259,6 +286,7 @@ graph LR
   iop_matriz[iop.matriz] -.->|depende| iop_fund_dados_vs_protocolo[iop.fund.dados-vs-protocolo]
   iop_md_dublin_core[iop.md.dublin-core] <-->|alt| iop_md_ieee_lom[iop.md.ieee-lom]
   iop_md_dublin_core[iop.md.dublin-core] -.->|depende| iop_sem_vocabularios_e_skos[iop.sem.vocabularios-e-skos]
+  iop_md_dublin_core[iop.md.dublin-core] -.->|depende| kg_std_rdf[kg.std.rdf]
   iop_md_ieee_lom[iop.md.ieee-lom] <-->|alt| iop_md_dublin_core[iop.md.dublin-core]
   iop_md_ieee_lom[iop.md.ieee-lom] <-->|alt| iop_md_lrmi_schema_org[iop.md.lrmi-schema-org]
   iop_md_lrmi_schema_org[iop.md.lrmi-schema-org] <-->|alt| iop_md_ieee_lom[iop.md.ieee-lom]

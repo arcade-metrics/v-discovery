@@ -9,12 +9,12 @@ atualizado: 2026-10-29
 consultado_em: 2026-10-29
 fontes: [ieee2020lom, dcmi2020terms, dcmi2026lrmi, schemaorg2026learningresource, schemaorg2026alignmentobject, onedtech2025case, ims2017case10, esco2026what, esco2026download, credentialengine2026ctdl, mec2026bncc, noy2001ontology101]
 relacoes:
-  - { tipo: relacionado-a, alvo: kg.voc.ieee-lom }
-  - { tipo: relacionado-a, alvo: kg.voc.dublin-core }
-  - { tipo: relacionado-a, alvo: kg.voc.schema-org-learning-resource }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
-  - { tipo: relacionado-a, alvo: kg.voc.esco }
-  - { tipo: relacionado-a, alvo: kg.voc.ctdl }
+  - { tipo: relacionado-a, alvo: iop.md.ieee-lom }
+  - { tipo: relacionado-a, alvo: iop.md.dublin-core }
+  - { tipo: relacionado-a, alvo: iop.md.lrmi-schema-org }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
+  - { tipo: relacionado-a, alvo: iop.comp.esco }
+  - { tipo: relacionado-a, alvo: iop.comp.ctdl }
   - { tipo: complementa, alvo: kg.mod.conceptual-model }
   - { tipo: relacionado-a, alvo: kg.std.comparison }
 termos: [vocabulário, reuso, alinhamento, camada, recurso, competência, framework, credencial, ocupação, governança]

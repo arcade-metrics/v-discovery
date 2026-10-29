@@ -1,6 +1,6 @@
 # Duolingo: sistema de recompensas — complemento ao teardown (pesquisa web, 29/10/2026)
 
-Complementa a-duolingo.md (seções 2–9). Marcas: [V] fonte primária/acadêmica; [S] secundária; [I] inferência.
+Complementa 2026-10-27-teardown-original-vuoo.md (antes chamado a-duolingo.md) (seções 2–9). Marcas: [V] fonte primária/acadêmica; [S] secundária; [I] inferência.
 
 ## 1. Economia: valores de XP, multiplicadores e gemas
 

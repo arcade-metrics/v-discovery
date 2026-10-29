@@ -33,7 +33,7 @@ Leitura sugerida para quem chega sem contexto:
 |---|---|---|
 | `foundations/` | grafos de conhecimento, triplas e identidade, ontologias, inferência, contexto e reificação, RDF versus grafos de propriedades | `kg.found.*` |
 | `standards/` | RDF 1.1 e 1.2, RDFS, OWL 2, SKOS, SPARQL 1.1, SHACL, JSON-LD, PROV-O, índice normativo e comparação | `kg.std.*` |
-| `vocabularies/` | IEEE LOM, Dublin Core e LRMI, schema.org LearningResource, CASE, ESCO, CTDL e comparação | `kg.voc.*` |
+| `vocabularies/` | comparação dos vocabulários (o que reusar e o que criar). Os documentos de IEEE LOM, Dublin Core, schema.org LearningResource, CASE, ESCO e CTDL foram fundidos em `interoperabilidade/` em 29/10/2026 e ficaram aqui como redirecionamentos com o id `kg.voc.*` original | `kg.voc.*` |
 | `modeling/` | separação de camadas, modelo conceitual, competências e objetivos, evidência e estado de domínio | `kg.mod.*` |
 | `curriculum/` | frameworks de competência, BNCC, pré-requisitos e progressões, taxonomias cognitivas | `kg.curr.*` |
 | `retrieval/` | Graph RAG, embeddings de grafo, tradução de pergunta em consulta | `kg.ret.*` |

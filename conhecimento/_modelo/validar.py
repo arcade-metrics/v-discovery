@@ -25,6 +25,7 @@ PREFIXOS = {
     "lms-e-plataformas": "lms",
     "dados-pesquisa-e-eventos": "dat",
     "learning-analytics-e-avaliacao": "lae",
+    "fundamentos-pedagogicos": "ped",
     "privacidade-seguranca-e-governanca": "psg",
     "gamificacao-e-jogos": "gam",
     "acessibilidade-educacao-especial-e-dua": "acs",

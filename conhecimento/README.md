@@ -1,6 +1,6 @@
 # Base de conhecimento da stack tecnológica
 
-Base técnica, agnóstica e reutilizável sobre os domínios tecnológicos que sustentam plataformas educacionais adaptativas. Não contém decisões de nenhum produto. A ponte entre esta base e um produto vive na pasta do produto (ex.: `produtos/<slug>/stack.md`), que cita os identificadores dos conceitos daqui.
+Base técnica, agnóstica e reutilizável sobre os domínios tecnológicos que sustentam plataformas educacionais adaptativas. Não contém decisões de nenhum produto. A ponte entre esta base e um produto vive na pasta do produto (`produtos/<slug>/`, em especial `padroes/` e `regras/`), que cita os identificadores dos conceitos daqui. Estudos de produtos existentes (teardowns com imagens) ficam em `benchmarks/`, na raiz do repositório, e entram aqui só como estudo de caso curto com id, no domínio `lms-e-plataformas`. As camadas e a regra "cada fato tem um dono" estão em `projeto/README.md`.
 
 ## Organização
 
@@ -32,13 +32,15 @@ Cada domínio tem um `00-brief.md` com escopo, fontes prioritárias e perguntas 
 | aprendizagem-adaptativa | `adp` | primeira versão |
 | grafo-conhecimento-educacional | `kg` | primeira versão |
 | interoperabilidade | `iop` | primeira versão |
-| lms-e-plataformas | `lms` | brief (`duolingo_benchmark/` na raiz do repo é o primeiro estudo) |
+| lms-e-plataformas | `lms` | brief; primeiro estudo de caso registrado (`lms.case.duolingo`, aponta para `benchmarks/duolingo/`) |
 | dados-pesquisa-e-eventos | `dat` | brief |
 | gamificacao-e-jogos | `gam` | brief |
 | learning-analytics-e-avaliacao | `lae` | primeira versão |
 | fundamentos-pedagogicos | `ped` | brief |
 | privacidade-seguranca-e-governanca | `psg` | brief |
 | acessibilidade-educacao-especial-e-dua | `acs` | brief |
+
+**Espaços reservados (29/10/2026).** Os seis domínios em estado "brief" já têm escopo, estrutura sugerida, fontes prioritárias e perguntas abertas; a pesquisa de cada um é feita depois, com o mesmo método dos cinco domínios em primeira versão. Ordem de execução decidida pela urgência para o produto consumidor: (1) privacidade, segurança e governança; (2) dados de pesquisa e eventos; (3) acessibilidade, educação especial e DUA; (4) gamificação e jogos, incluindo evidence-centered design e stealth assessment em `instrumentation/`, lacuna registrada nos relatórios de aprendizagem adaptativa e de learning analytics; (5) fundamentos pedagógicos; (6) LMS e plataformas. Fronteira já decidida entre (3) e (5): acessibilidade é dona das definições, diretrizes, normas e marco legal; fundamentos pedagógicos trata o uso em sala e a evidência de eficácia, citando ids `acs.*`.
 
 Ordem sugerida de pesquisa, por dependência: dados e eventos, interoperabilidade, grafo de conhecimento, aprendizagem adaptativa, learning analytics e avaliação. Privacidade, segurança e governança corre em paralelo a dados e eventos, porque ambos alimentam as restrições dos demais. Realtime e plataformas são independentes e podem correr em paralelo. Fundamentos pedagógicos é transversal: convém pesquisar cedo, porque define os padrões de evidência que aprendizagem adaptativa, gamificação, plataformas e avaliação usam. Gamificação e jogos depende de dados e eventos (instrumentação) e de aprendizagem adaptativa (dificuldade), e alimenta plataformas (jogos sérios concretos). Acessibilidade, educação especial e DUA é transversal como fundamentos pedagógicos: define requisitos que plataformas, gamificação e aprendizagem adaptativa precisam respeitar, e convém pesquisar junto com fundamentos pedagógicos para fechar a fronteira de DUA e tecnologia assistiva.
 
@@ -52,6 +54,8 @@ Ordem sugerida de pesquisa, por dependência: dados e eventos, interoperabilidad
 6. Atualize o glossário e o mapa de conceitos do domínio.
 
 ## Convenções
+
+- Um conceito tem um dono. Quando dois domínios cobriam o mesmo padrão (caso dos vocabulários CASE, CTDL, ESCO, Dublin Core, IEEE LOM e schema.org LearningResource, fundidos em 29/10/2026), o documento completo fica no domínio dono e o outro mantém um documento curto do tipo `redirecionamento` com o id original, para que relações e glossários continuem resolvendo.
 
 - Pastas e prosa em português. Identificadores, chaves BibTeX e termos consolidados em inglês, como aparecem na literatura.
 - Marcas de afirmação: `[F]` fato com fonte, `[I]` interpretação do autor do documento, `[H]` hipótese ainda não verificada.
