@@ -1,0 +1,14 @@
+# Índice de fontes — privacidade-seguranca-e-governanca/access-control
+
+| Chave | Título | Tipo | Domínio | URL | Consultado em |
+|---|---|---|---|---|---|
+| ferraiolokuhn1992rbac | Ferraiolo & Kuhn, Role-Based Access Controls (15th National Computer Security Conference, 1992, pp. 554-563) | academico | privacidade-seguranca-e-governanca | https://csrc.nist.gov/CSRC/media/Publications/conference-paper/1992/10/13/role-based-access-controls/documents/ferraiolo-kuhn-92.pdf | 2026-10-29 |
+| sandhu1996rbacmodels | Sandhu, Coyne, Feinstein & Youman, Role-Based Access Control Models (IEEE Computer 29(2), 1996, pp. 38-47; pré-publicação hospedada pelo NIST) | academico | privacidade-seguranca-e-governanca | https://csrc.nist.gov/CSRC/media/Projects/Role-Based-Access-Control/documents/sandhu96.pdf | 2026-10-29 |
+| nist2014sp800162 | Hu et al., Guide to Attribute Based Access Control (ABAC) Definition and Considerations (NIST SP 800-162, 2014, atualizações de 2019, DOI 10.6028/NIST.SP.800-162) | tecnico | privacidade-seguranca-e-governanca | https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.sp.800-162.pdf | 2026-10-29 |
+| nist2020sp80053r5 | Joint Task Force, Security and Privacy Controls for Information Systems and Organizations (NIST SP 800-53 Rev. 5, set. 2020, DOI 10.6028/NIST.SP.800-53r5) | normativo | privacidade-seguranca-e-governanca | https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf | 2026-10-29 |
+| pang2019zanzibar | Pang et al., Zanzibar: Google's Consistent, Global Authorization System (USENIX ATC '19, 2019) | academico | privacidade-seguranca-e-governanca | https://www.usenix.org/system/files/atc19-pang.pdf | 2026-10-29 |
+| nist2026rbacproject | NIST, Role Based Access Control (RBAC) Project (página de projeto, CSRC) | tecnico | privacidade-seguranca-e-governanca | https://csrc.nist.gov/projects/role-based-access-control | 2026-10-29 |
+| incits2012rbac | INCITS, Information Technology — Role Based Access Control (INCITS 359-2012) [metadados] | normativo | privacidade-seguranca-e-governanca | https://csrc.nist.gov/projects/role-based-access-control | 2026-10-29 |
+| ceds2026entities | CEDS, Data Model: Entities (ceds.ed.gov) | fornecedor | privacidade-seguranca-e-governanca | https://ceds.ed.gov/dataModelEntities.aspx | 2026-10-29 |
+| eu2016gdpr | Parlamento Europeu e Conselho, Regulation (EU) 2016/679 (GDPR), art. 25 [lido em reprodução gdpr-info.eu; EUR-Lex inacessível] | normativo | privacidade-seguranca-e-governanca | https://gdpr-info.eu/art-25-gdpr/ | 2026-10-29 |
+| cavoukian2011pbd | Cavoukian, Privacy by Design: The 7 Foundational Principles — Implementation and Mapping of Fair Information Practices (IPC Ontario, rev. jan. 2011) | tecnico | privacidade-seguranca-e-governanca | https://prod.iapp.org/media/pdf/resource_center/pbd_implement_7found_principles.pdf | 2026-10-29 |
