@@ -1,0 +1,849 @@
+% Fragmento de bibliografia: realtime-multiplayer / protocols + standards
+% Todas as entradas foram abertas em 2026-10-29 (rfc-editor.org, datatracker.ietf.org,
+% w3.org, spec.whatwg.org, developer.mozilla.org, caniuse.com, pubs.opengroup.org).
+% DOIs de RFC (padrao 10.17487/RFCnnnn) NAO sao registrados porque as paginas /info/
+% consultadas nao os exibiram; campo omitido por regra do metodo.
+% Quando a pagina /info/ nao exibia o mes, a data vem do cabecalho do texto da RFC.
+
+% ---------- UDP e TCP ----------
+
+@techreport{rfc768,
+  author      = {Postel, J.},
+  title       = {User Datagram Protocol},
+  type        = {RFC},
+  number      = {768},
+  series      = {STD 6},
+  institution = {RFC Editor},
+  year        = {1980},
+  month       = aug,
+  url         = {https://www.rfc-editor.org/info/rfc768},
+  urldate     = {2026-10-29},
+  note        = {Internet Standard. Atualizada por RFC 9868.}
+}
+
+@techreport{rfc9868,
+  author      = {Touch, J. and Heard, C.},
+  title       = {Transport Options for {UDP}},
+  type        = {RFC},
+  number      = {9868},
+  institution = {RFC Editor},
+  year        = {2025},
+  url         = {https://www.rfc-editor.org/info/rfc9868},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualiza RFC 768. Mes de publicacao nao exibido na pagina consultada.}
+}
+
+@techreport{rfc9293,
+  author      = {Eddy, W.},
+  title       = {Transmission Control Protocol ({TCP})},
+  type        = {RFC},
+  number      = {9293},
+  series      = {STD 7},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = aug,
+  url         = {https://www.rfc-editor.org/rfc/rfc9293.html},
+  urldate     = {2026-10-29},
+  note        = {Internet Standard. Obsoleta RFC 793, 879, 2873, 6093, 6429, 6528, 6691.}
+}
+
+@techreport{rfc896,
+  author      = {Nagle, John},
+  title       = {Congestion Control in {IP/TCP} Internetworks},
+  type        = {RFC},
+  number      = {896},
+  institution = {RFC Editor},
+  year        = {1984},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/info/rfc896},
+  urldate     = {2026-10-29},
+  note        = {Historic. Obsoletada por RFC 7805.}
+}
+
+@techreport{rfc5681,
+  author      = {Allman, M. and Paxson, V. and Blanton, E.},
+  title       = {{TCP} Congestion Control},
+  type        = {RFC},
+  number      = {5681},
+  institution = {RFC Editor},
+  year        = {2009},
+  month       = sep,
+  url         = {https://www.rfc-editor.org/info/rfc5681},
+  urldate     = {2026-10-29},
+  note        = {Draft Standard. Obsoleta RFC 2581. Atualizada por RFC 9438.}
+}
+
+@techreport{rfc9438,
+  author      = {Xu, L. and Ha, S. and Rhee, I. and Goel, V. and Eggert, L.},
+  title       = {{CUBIC} for Fast and Long-Distance Networks},
+  type        = {RFC},
+  number      = {9438},
+  institution = {RFC Editor},
+  year        = {2023},
+  url         = {https://www.rfc-editor.org/info/rfc9438},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 8312; atualiza RFC 5681.}
+}
+
+@techreport{rfc6298,
+  author      = {Paxson, V. and Allman, M. and Chu, J. and Sargent, M.},
+  title       = {Computing {TCP}'s Retransmission Timer},
+  type        = {RFC},
+  number      = {6298},
+  institution = {RFC Editor},
+  year        = {2011},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc6298.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 2988; atualiza RFC 1122.}
+}
+
+@techreport{rfc8085,
+  author      = {Eggert, L. and Fairhurst, G. and Shepherd, G.},
+  title       = {{UDP} Usage Guidelines},
+  type        = {RFC},
+  number      = {8085},
+  series      = {BCP 145},
+  institution = {RFC Editor},
+  year        = {2017},
+  month       = mar,
+  url         = {https://www.rfc-editor.org/rfc/rfc8085.html},
+  urldate     = {2026-10-29},
+  note        = {Best Current Practice. Obsoleta RFC 5405. Atualizada por RFC 8899.}
+}
+
+@misc{ieee2018posix,
+  author       = {{IEEE} and {The Open Group}},
+  title        = {{IEEE} Std 1003.1-2017, The Open Group Base Specifications Issue 7, 2018 edition: \texttt{<netinet/tcp.h>}},
+  year         = {2018},
+  url          = {https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/netinet_tcp.h.html},
+  urldate      = {2026-10-29},
+  note         = {Define TCP\_NODELAY como ``Avoid coalescing of small segments''.}
+}
+
+% ---------- HTTP e WebSocket ----------
+
+@techreport{rfc9112,
+  author      = {Fielding, R. and Nottingham, M. and Reschke, J.},
+  title       = {{HTTP/1.1}},
+  type        = {RFC},
+  number      = {9112},
+  series      = {STD 99},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc9112.html},
+  urldate     = {2026-10-29},
+  note        = {Internet Standard. Atualizada por RFC 9931.}
+}
+
+@techreport{rfc9113,
+  author      = {Thomson, M. and Benfield, C.},
+  title       = {{HTTP/2}},
+  type        = {RFC},
+  number      = {9113},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc9113.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 7540 e 8740.}
+}
+
+@techreport{rfc9114,
+  author      = {Bishop, M.},
+  title       = {{HTTP/3}},
+  type        = {RFC},
+  number      = {9114},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc9114.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc6202,
+  author      = {Loreto, S. and Saint-Andre, P. and Salsano, S. and Wilkins, G.},
+  title       = {Known Issues and Best Practices for the Use of Long Polling and Streaming in Bidirectional {HTTP}},
+  type        = {RFC},
+  number      = {6202},
+  institution = {RFC Editor},
+  year        = {2011},
+  month       = apr,
+  url         = {https://www.rfc-editor.org/rfc/rfc6202.html},
+  urldate     = {2026-10-29},
+  note        = {Informational.}
+}
+
+@techreport{rfc6455,
+  author      = {Fette, I. and Melnikov, A.},
+  title       = {The {WebSocket} Protocol},
+  type        = {RFC},
+  number      = {6455},
+  institution = {RFC Editor},
+  year        = {2011},
+  month       = dec,
+  url         = {https://www.rfc-editor.org/rfc/rfc6455.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualizada por RFC 7936, 8307, 8441.}
+}
+
+@techreport{rfc7936,
+  author      = {Hardie, T.},
+  title       = {Clarifying Registry Procedures for the {WebSocket} Subprotocol Name Registry},
+  type        = {RFC},
+  number      = {7936},
+  institution = {RFC Editor},
+  year        = {2016},
+  month       = jul,
+  url         = {https://www.rfc-editor.org/info/rfc7936},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualiza RFC 6455.}
+}
+
+@techreport{rfc8307,
+  author      = {Bormann, C.},
+  title       = {Well-Known {URIs} for the {WebSocket} Protocol},
+  type        = {RFC},
+  number      = {8307},
+  institution = {RFC Editor},
+  year        = {2018},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/info/rfc8307},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualiza RFC 6455.}
+}
+
+@techreport{rfc8441,
+  author      = {McManus, P.},
+  title       = {Bootstrapping {WebSockets} with {HTTP/2}},
+  type        = {RFC},
+  number      = {8441},
+  institution = {RFC Editor},
+  year        = {2018},
+  month       = sep,
+  url         = {https://www.rfc-editor.org/rfc/rfc8441.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualiza RFC 6455.}
+}
+
+@techreport{rfc9220,
+  author      = {Hamilton, R.},
+  title       = {Bootstrapping {WebSockets} with {HTTP/3}},
+  type        = {RFC},
+  number      = {9220},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc9220.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@online{whatwg2026websockets,
+  author  = {{WHATWG}},
+  editor  = {Rice, Adam},
+  title   = {{WebSockets} Standard},
+  year    = {2026},
+  url     = {https://websockets.spec.whatwg.org/},
+  urldate = {2026-10-29},
+  note    = {Living Standard, atualizado em 2026-10-19.}
+}
+
+@online{whatwg2026html,
+  author  = {{WHATWG}},
+  title   = {{HTML} Standard, section 9.2 Server-sent events},
+  year    = {2026},
+  url     = {https://html.spec.whatwg.org/multipage/server-sent-events.html},
+  urldate = {2026-10-29},
+  note    = {Living Standard, atualizado em 2026-10-26.}
+}
+
+@online{whatwg2026fetch,
+  author  = {{WHATWG}},
+  title   = {Fetch Standard},
+  year    = {2026},
+  url     = {https://fetch.spec.whatwg.org/},
+  urldate = {2026-10-29},
+  note    = {Living Standard, atualizado em 2026-10-19.}
+}
+
+% ---------- WebRTC ----------
+
+@techreport{rfc8825,
+  author      = {Alvestrand, H.},
+  title       = {Overview: Real-Time Protocols for Browser-Based Applications},
+  type        = {RFC},
+  number      = {8825},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8825.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8826,
+  author      = {Rescorla, E.},
+  title       = {Security Considerations for {WebRTC}},
+  type        = {RFC},
+  number      = {8826},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8826.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8827,
+  author      = {Rescorla, E.},
+  title       = {{WebRTC} Security Architecture},
+  type        = {RFC},
+  number      = {8827},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8827.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8829,
+  author      = {Uberti, J. and Jennings, C. and Rescorla, E.},
+  title       = {{JavaScript} Session Establishment Protocol ({JSEP})},
+  type        = {RFC},
+  number      = {8829},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8829.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoletada por RFC 9429.}
+}
+
+@techreport{rfc9429,
+  author      = {Uberti, J. and Jennings, C. and Rescorla, E.},
+  title       = {{JavaScript} Session Establishment Protocol ({JSEP})},
+  type        = {RFC},
+  number      = {9429},
+  institution = {RFC Editor},
+  year        = {2024},
+  url         = {https://www.rfc-editor.org/info/rfc9429},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 8829. Mes nao exibido na pagina consultada.}
+}
+
+@techreport{rfc8831,
+  author      = {Jesup, R. and Loreto, S. and T{\"u}xen, M.},
+  title       = {{WebRTC} Data Channels},
+  type        = {RFC},
+  number      = {8831},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8831.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8832,
+  author      = {Jesup, R. and Loreto, S. and T{\"u}xen, M.},
+  title       = {{WebRTC} Data Channel Establishment Protocol},
+  type        = {RFC},
+  number      = {8832},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8832.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8834,
+  author      = {Perkins, C. and Westerlund, M. and Ott, J.},
+  title       = {Media Transport and Use of {RTP} in {WebRTC}},
+  type        = {RFC},
+  number      = {8834},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8834.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8835,
+  author      = {Alvestrand, H.},
+  title       = {Transports for {WebRTC}},
+  type        = {RFC},
+  number      = {8835},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc8835.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8445,
+  author      = {Keranen, A. and Holmberg, C. and Rosenberg, J.},
+  title       = {Interactive Connectivity Establishment ({ICE}): A Protocol for Network Address Translator ({NAT}) Traversal},
+  type        = {RFC},
+  number      = {8445},
+  institution = {RFC Editor},
+  year        = {2018},
+  month       = jul,
+  url         = {https://www.rfc-editor.org/rfc/rfc8445.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 5245. Atualizada por RFC 8863.}
+}
+
+@techreport{rfc8863,
+  author      = {Holmberg, C. and Uberti, J.},
+  title       = {Interactive Connectivity Establishment Patiently Awaiting Connectivity ({ICE PAC})},
+  type        = {RFC},
+  number      = {8863},
+  institution = {RFC Editor},
+  year        = {2021},
+  url         = {https://www.rfc-editor.org/info/rfc8863},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualiza RFC 8445 e 8838. Mes nao exibido na pagina consultada.}
+}
+
+@techreport{rfc8489,
+  author      = {Petit-Huguenin, M. and Salgueiro, G. and Rosenberg, J. and Wing, D. and Mahy, R. and Matthews, P.},
+  title       = {Session Traversal Utilities for {NAT} ({STUN})},
+  type        = {RFC},
+  number      = {8489},
+  institution = {RFC Editor},
+  year        = {2020},
+  month       = feb,
+  url         = {https://www.rfc-editor.org/rfc/rfc8489.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 5389.}
+}
+
+@techreport{rfc8656,
+  author      = {Reddy, T. and Johnston, A. and Matthews, P. and Rosenberg, J.},
+  title       = {Traversal Using Relays around {NAT} ({TURN}): Relay Extensions to Session Traversal Utilities for {NAT} ({STUN})},
+  type        = {RFC},
+  number      = {8656},
+  institution = {RFC Editor},
+  year        = {2020},
+  month       = feb,
+  url         = {https://www.rfc-editor.org/rfc/rfc8656.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 5766 e 6156.}
+}
+
+@techreport{rfc7675,
+  author      = {Perumal, M. and Wing, D. and Ravindranath, R. and Reddy, T. and Thomson, M.},
+  title       = {Session Traversal Utilities for {NAT} ({STUN}) Usage for Consent Freshness},
+  type        = {RFC},
+  number      = {7675},
+  institution = {RFC Editor},
+  year        = {2015},
+  month       = oct,
+  url         = {https://www.rfc-editor.org/rfc/rfc7675.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@online{w3c2021webrtc,
+  author  = {{W3C}},
+  editor  = {Jennings, Cullen and Bostr{\"o}m, Henrik and Bruaroey, Jan-Ivar},
+  title   = {{WebRTC} 1.0: Real-Time Communication Between Browsers},
+  year    = {2021},
+  url     = {https://www.w3.org/TR/2021/REC-webrtc-20210126/},
+  urldate = {2026-10-29},
+  note    = {W3C Recommendation, 26 January 2021.}
+}
+
+@online{w3c2025webrtc,
+  author  = {{W3C}},
+  editor  = {Jennings, Cullen and Castelli, Florent and Bostr{\"o}m, Henrik and Bruaroey, Jan-Ivar},
+  title   = {{WebRTC}: Real-Time Communication in Browsers},
+  year    = {2025},
+  url     = {https://www.w3.org/TR/webrtc/},
+  urldate = {2026-10-29},
+  note    = {W3C Recommendation, 13 March 2025 (REC-webrtc-20250313).}
+}
+
+@online{w3c2026webrtced,
+  author  = {{W3C Web Real-Time Communications Working Group}},
+  title   = {{WebRTC}: Real-Time Communication in Browsers (Editor's Draft)},
+  year    = {2026},
+  url     = {https://w3c.github.io/webrtc-pc/},
+  urldate = {2026-10-29},
+  note    = {Editor's Draft, usado apenas para confirmar a secao 6.2 (RTCDataChannel) nao recuperada da Recommendation.}
+}
+
+@online{mdn2026createdatachannel,
+  author  = {{MDN Web Docs}},
+  title   = {{RTCPeerConnection}: {createDataChannel()} method},
+  year    = {2026},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/createDataChannel},
+  urldate = {2026-10-29},
+  note    = {Documentacao de fornecedor (Mozilla). Baseline: Widely available.}
+}
+
+@online{mdn2026rtcdatachannel,
+  author  = {{MDN Web Docs}},
+  title   = {{RTCDataChannel}},
+  year    = {2026},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel},
+  urldate = {2026-10-29},
+  note    = {Documentacao de fornecedor (Mozilla). Baseline: Widely available since January 2020.}
+}
+
+@online{caniuse2026rtcpeerconnection,
+  author  = {{Can I use}},
+  title   = {{WebRTC} Peer-to-peer connections},
+  year    = {2026},
+  url     = {https://caniuse.com/rtcpeerconnection},
+  urldate = {2026-10-29},
+  note    = {Fonte secundaria. Uso global suportado 97,26\% em 2026-10-29.}
+}
+
+% ---------- SCTP e DTLS ----------
+
+@techreport{rfc9260,
+  author      = {Stewart, R. and T{\"u}xen, M. and Nielsen, K.},
+  title       = {Stream Control Transmission Protocol},
+  type        = {RFC},
+  number      = {9260},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc9260.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 4960, 4460, 6096, 7053, 8540.}
+}
+
+@techreport{rfc3758,
+  author      = {Stewart, R. and Ramalho, M. and Xie, Q. and Tuexen, M. and Conrad, P.},
+  title       = {Stream Control Transmission Protocol ({SCTP}) Partial Reliability Extension},
+  type        = {RFC},
+  number      = {3758},
+  institution = {RFC Editor},
+  year        = {2004},
+  month       = may,
+  url         = {https://www.rfc-editor.org/rfc/rfc3758.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc7496,
+  author      = {Tuexen, M. and Seggelmann, R. and Stewart, R. and Loreto, S.},
+  title       = {Additional Policies for the Partially Reliable Stream Control Transmission Protocol Extension},
+  type        = {RFC},
+  number      = {7496},
+  institution = {RFC Editor},
+  year        = {2015},
+  month       = apr,
+  url         = {https://www.rfc-editor.org/rfc/rfc7496.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8260,
+  author      = {Stewart, R. and Tuexen, M. and Loreto, S. and Seggelmann, R.},
+  title       = {Stream Schedulers and User Message Interleaving for the Stream Control Transmission Protocol},
+  type        = {RFC},
+  number      = {8260},
+  institution = {RFC Editor},
+  year        = {2017},
+  month       = nov,
+  url         = {https://www.rfc-editor.org/rfc/rfc8260.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc8261,
+  author      = {Tuexen, M. and Stewart, R. and Jesup, R. and Loreto, S.},
+  title       = {Datagram Transport Layer Security ({DTLS}) Encapsulation of {SCTP} Packets},
+  type        = {RFC},
+  number      = {8261},
+  institution = {RFC Editor},
+  year        = {2017},
+  month       = nov,
+  url         = {https://www.rfc-editor.org/rfc/rfc8261.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualizada por RFC 8899 e 8996.}
+}
+
+@techreport{rfc6347,
+  author      = {Rescorla, E. and Modadugu, N.},
+  title       = {Datagram Transport Layer Security Version 1.2},
+  type        = {RFC},
+  number      = {6347},
+  institution = {RFC Editor},
+  year        = {2012},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/info/rfc6347},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoletada por RFC 9147.}
+}
+
+@techreport{rfc9147,
+  author      = {Rescorla, E. and Tschofenig, H. and Modadugu, N.},
+  title       = {The Datagram Transport Layer Security ({DTLS}) Protocol Version 1.3},
+  type        = {RFC},
+  number      = {9147},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = apr,
+  url         = {https://www.rfc-editor.org/rfc/rfc9147.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 6347. Atualizada por RFC 9853.}
+}
+
+@techreport{rfc9853,
+  author      = {Tschofenig, H. and Kraus, A. and Fossati, T.},
+  title       = {Return Routability Check for {DTLS} 1.2 and 1.3},
+  type        = {RFC},
+  number      = {9853},
+  institution = {RFC Editor},
+  year        = {2026},
+  url         = {https://www.rfc-editor.org/info/rfc9853},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Atualiza RFC 9146 e 9147. Mes nao exibido na pagina consultada.}
+}
+
+% ---------- TLS, QUIC, WebTransport ----------
+
+@techreport{rfc8446,
+  author      = {Rescorla, E.},
+  title       = {The Transport Layer Security ({TLS}) Protocol Version 1.3},
+  type        = {RFC},
+  number      = {8446},
+  institution = {RFC Editor},
+  year        = {2018},
+  month       = aug,
+  url         = {https://www.rfc-editor.org/rfc/rfc8446.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoletada por RFC 9846.}
+}
+
+@techreport{rfc9846,
+  author      = {Rescorla, E.},
+  title       = {The Transport Layer Security ({TLS}) Protocol Version 1.3},
+  type        = {RFC},
+  number      = {9846},
+  institution = {RFC Editor},
+  year        = {2026},
+  url         = {https://www.rfc-editor.org/info/rfc9846},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 8446, 5246, 5077, 6961, 7627, 8422. Mes nao exibido na pagina consultada.}
+}
+
+@techreport{rfc9000,
+  author      = {Iyengar, J. and Thomson, M.},
+  title       = {{QUIC}: A {UDP}-Based Multiplexed and Secure Transport},
+  type        = {RFC},
+  number      = {9000},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = may,
+  url         = {https://www.rfc-editor.org/rfc/rfc9000.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc9001,
+  author      = {Thomson, M. and Turner, S.},
+  title       = {Using {TLS} to Secure {QUIC}},
+  type        = {RFC},
+  number      = {9001},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = may,
+  url         = {https://www.rfc-editor.org/rfc/rfc9001.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc9002,
+  author      = {Iyengar, J. and Swett, I.},
+  title       = {{QUIC} Loss Detection and Congestion Control},
+  type        = {RFC},
+  number      = {9002},
+  institution = {RFC Editor},
+  year        = {2021},
+  month       = may,
+  url         = {https://www.rfc-editor.org/rfc/rfc9002.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc9221,
+  author      = {Pauly, T. and Kinnear, E. and Schinazi, D.},
+  title       = {An Unreliable Datagram Extension to {QUIC}},
+  type        = {RFC},
+  number      = {9221},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = mar,
+  url         = {https://www.rfc-editor.org/rfc/rfc9221.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc9297,
+  author      = {Schinazi, D. and Pardue, L.},
+  title       = {{HTTP} Datagrams and the Capsule Protocol},
+  type        = {RFC},
+  number      = {9297},
+  institution = {RFC Editor},
+  year        = {2022},
+  month       = aug,
+  url         = {https://www.rfc-editor.org/rfc/rfc9297.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{kinnear2026overview,
+  author      = {Kinnear, Eric and Vasiliev, Victor},
+  title       = {The {WebTransport} Protocol Framework},
+  type        = {Internet-Draft},
+  number      = {draft-ietf-webtrans-overview-13},
+  institution = {IETF, WEBTRANS Working Group},
+  year        = {2026},
+  month       = jul,
+  url         = {https://datatracker.ietf.org/doc/draft-ietf-webtrans-overview/},
+  urldate     = {2026-10-29},
+  version     = {13},
+  note        = {Internet-Draft, In WG Last Call, intended status Proposed Standard; versao de 2026-07-06, expira 2027-01-07. Nao e RFC.}
+}
+
+@techreport{frindell2026webtransport,
+  author      = {Frindell, Alan and Kinnear, Eric and Vasiliev, Victor},
+  title       = {{WebTransport} over {HTTP/3}},
+  type        = {Internet-Draft},
+  number      = {draft-ietf-webtrans-http3-16},
+  institution = {IETF, WEBTRANS Working Group},
+  year        = {2026},
+  month       = jul,
+  url         = {https://datatracker.ietf.org/doc/draft-ietf-webtrans-http3/},
+  urldate     = {2026-10-29},
+  version     = {16},
+  note        = {Internet-Draft, In WG Last Call, intended status Proposed Standard; versao de 2026-07-06, expira 2027-01-07. Nao e RFC.}
+}
+
+@techreport{frindell2026http2,
+  author      = {Frindell, Alan and Kinnear, Eric and Pauly, Tommy and Thomson, Martin and Vasiliev, Victor and Xie, Guowu},
+  title       = {{WebTransport} over {HTTP/2}},
+  type        = {Internet-Draft},
+  number      = {draft-ietf-webtrans-http2-15},
+  institution = {IETF, WEBTRANS Working Group},
+  year        = {2026},
+  month       = jul,
+  url         = {https://datatracker.ietf.org/doc/draft-ietf-webtrans-http2/},
+  urldate     = {2026-10-29},
+  version     = {15},
+  note        = {Internet-Draft, In WG Last Call, intended status Proposed Standard; versao de 2026-07-06, expira 2027-01-07. Nao e RFC.}
+}
+
+@online{w3c2026webtransport,
+  author  = {{W3C}},
+  editor  = {Jaju, Nidhi and Vasiliev, Victor and Bruaroey, Jan-Ivar},
+  title   = {{WebTransport}},
+  year    = {2026},
+  url     = {https://www.w3.org/TR/webtransport/},
+  urldate = {2026-10-29},
+  note    = {W3C Candidate Recommendation Snapshot, 30 July 2026 (CR-webtransport-20260730).}
+}
+
+@online{mdn2026webtransport,
+  author  = {{MDN Web Docs}},
+  title   = {{WebTransport}},
+  year    = {2026},
+  url     = {https://developer.mozilla.org/en-US/docs/Web/API/WebTransport},
+  urldate = {2026-10-29},
+  note    = {Documentacao de fornecedor (Mozilla). Baseline 2026, Newly available (since March 2026). Tabela de compatibilidade nao recuperada.}
+}
+
+@online{caniuse2026webtransport,
+  author  = {{Can I use}},
+  title   = {{WebTransport}},
+  year    = {2026},
+  url     = {https://caniuse.com/webtransport},
+  urldate = {2026-10-29},
+  note    = {Fonte secundaria. Uso global suportado 91,64\% em 2026-10-29; Chrome 97+, Edge 98+, Firefox 114+, Safari 26.4+.}
+}
+
+@online{caniuse2026websockets,
+  author  = {{Can I use}},
+  title   = {Web Sockets},
+  year    = {2026},
+  url     = {https://caniuse.com/websockets},
+  urldate = {2026-10-29},
+  note    = {Fonte secundaria. Uso global suportado 97,49\% em 2026-10-29.}
+}
+
+@online{caniuse2026eventsource,
+  author  = {{Can I use}},
+  title   = {Server-sent events},
+  year    = {2026},
+  url     = {https://caniuse.com/eventsource},
+  urldate = {2026-10-29},
+  note    = {Fonte secundaria. Uso global suportado 97,28\% em 2026-10-29.}
+}
+
+% ---------- Metricas de rede e tempo ----------
+
+@techreport{rfc3393,
+  author      = {Demichelis, C. and Chimento, P.},
+  title       = {{IP} Packet Delay Variation Metric for {IP} Performance Metrics ({IPPM})},
+  type        = {RFC},
+  number      = {3393},
+  institution = {RFC Editor},
+  year        = {2002},
+  month       = nov,
+  url         = {https://www.rfc-editor.org/rfc/rfc3393.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard.}
+}
+
+@techreport{rfc5905,
+  author      = {Mills, D. and Martin, J. and Burbank, J. and Kasch, W.},
+  title       = {Network Time Protocol Version 4: Protocol and Algorithms Specification},
+  type        = {RFC},
+  number      = {5905},
+  institution = {RFC Editor},
+  year        = {2010},
+  month       = jun,
+  url         = {https://www.rfc-editor.org/rfc/rfc5905.html},
+  urldate     = {2026-10-29},
+  note        = {Proposed Standard. Obsoleta RFC 1305 e 4330. Atualizada por RFC 7822, 8573, 9109, 9748, 9769.}
+}
+
+@techreport{rfc7679,
+  author      = {Almes, G. and Kalidindi, S. and Zekauskas, M. and Morton, A.},
+  title       = {A One-Way Delay Metric for {IP} Performance Metrics ({IPPM})},
+  type        = {RFC},
+  number      = {7679},
+  series      = {STD 81},
+  institution = {RFC Editor},
+  year        = {2016},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc7679.html},
+  urldate     = {2026-10-29},
+  note        = {Internet Standard. Obsoleta RFC 2679.}
+}
+
+@techreport{rfc7680,
+  author      = {Almes, G. and Kalidindi, S. and Zekauskas, M. and Morton, A.},
+  title       = {A One-Way Loss Metric for {IP} Performance Metrics ({IPPM})},
+  type        = {RFC},
+  number      = {7680},
+  series      = {STD 82},
+  institution = {RFC Editor},
+  year        = {2016},
+  month       = jan,
+  url         = {https://www.rfc-editor.org/rfc/rfc7680.html},
+  urldate     = {2026-10-29},
+  note        = {Internet Standard. Obsoleta RFC 2680.}
+}

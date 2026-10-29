@@ -1,0 +1,6 @@
+| vanlehn2006behavior | The Behavior of Tutoring Systems (IJAIED 16(3), 2006) | academico | aprendizagem-adaptativa | https://www.cs.uky.edu/~sgware/reading/papers/vanlehn2006behavior.pdf | 2026-10-29 |
+| doroudi2019reward | Where's the Reward? A Review of Reinforcement Learning for Instructional Sequencing (IJAIED 29(4), 2019) | academico | aprendizagem-adaptativa | https://drive.google.com/file/d/1gQjY8FCYq1seR1q4PixNOlEm2_RBiZaM/view | 2026-10-29 |
+| pelanekrihak2017mastery | Experimental Analysis of Mastery Learning Criteria (UMAP 2017) | academico | aprendizagem-adaptativa | https://www.fi.muni.cz/~xpelanek/publications/mastery-detection.pdf | 2026-10-29 |
+| brusilovsky2001adaptive | Adaptive Hypermedia (UMUAI 11(1-2), 2001) | academico | aprendizagem-adaptativa | http://www.pitt.edu/~peterb/papers/brusilovsky-umuai-2001.pdf | 2026-10-29 |
+| bloom1968mastery | Learning for Mastery (Evaluation Comment 1(2), 1968; apenas metadados via ERIC ED053419) | academico | aprendizagem-adaptativa | https://searchworks.jioinstitute.edu.in/articles/eric__ED053419 | 2026-10-29 |
+| martin2020adaptive | Systematic Review of Adaptive Learning Research Designs, Context, Strategies, and Technologies from 2009 to 2018 (ETR&D 68, 2020; apenas metadados via ERIC EJ1266198) | academico | aprendizagem-adaptativa | https://eric.ed.gov/?id=EJ1266198 | 2026-10-29 |

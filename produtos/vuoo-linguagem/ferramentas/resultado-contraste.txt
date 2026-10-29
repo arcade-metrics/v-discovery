@@ -1,0 +1,61 @@
+texto             fundo               razão   meta  resultado  uso
+tinta             papel               13.69    4.5  ok AAA      texto principal sobre fundo
+tinta             superficie          14.96    4.5  ok AAA      texto principal em cartão
+tinta-suave       papel                6.67    4.5  ok AA       texto secundário
+tinta-suave       superficie           7.29    4.5  ok AAA      texto secundário em cartão
+superficie        ceu                  6.03    4.5  ok AA       rótulo de botão primário
+superficie        ceu-profundo         9.19    4.5  ok AAA      rótulo de botão pressionado
+ceu-profundo      ceu-claro            7.33    4.5  ok AAA      texto em área de destaque
+ceu               papel                5.52    3.0  ok AA       anel de foco e ícone ativo (UI)
+contorno          superficie           3.52    3.0  ok AA-grande borda de alvo e de componente (UI)
+contorno          papel                3.22    3.0  ok AA-grande borda de alvo sobre fundo (UI)
+contorno          casco                3.16    3.0  ok AA-grande traço do casco do Bot (UI)
+sol-tinta         sol-claro            7.12    4.5  ok AAA      texto em selo de peça
+sol               visor                6.70    3.0  ok AA       estrela do Céu sobre fundo escuro (UI)
+ceu-texto-noite   visor                9.86    4.5  ok AAA      texto do Céu da turma
+sol-icone         papel                3.40    3.0  ok AA-grande pena, próximo voo, estrela offline (UI)
+sol-icone         superficie           3.72    3.0  ok AA-grande pena sobre cartão (UI)
+tinta             sol                  6.70    4.5  ok AA       rótulo sobre âmbar
+folha-tinta       folha-claro          7.49    4.5  ok AAA      texto de concluído
+superficie        folha                4.82    4.5  ok AA       rótulo em botão de concluído
+folha             superficie           4.82    3.0  ok AA       visto de concluído (UI)
+lavanda-tinta     lavanda-claro        8.45    4.5  ok AAA      texto de ajuda e pista
+lavanda-tinta     superficie          10.35    3.0  ok AAA      contorno de pista no treino (UI)
+tinta             lavanda              5.55    4.5  ok AA       rótulo em botão de ajuda
+olho              visor                9.97    3.0  ok AAA      olhos e boca do Bot (UI)
+tinta             casco               13.40    4.5  ok AAA      texto sobre corpo do Bot
+superficie        suave-ceu            5.25    4.5  ok AA       botão primário no Modo suave
+superficie        suave-ceu-profundo   7.87    4.5  ok AAA      botão pressionado no Modo suave
+tinta             suave-papel         13.10    4.5  ok AAA      texto no Modo suave
+tinta             suave-sol            5.33    4.5  ok AA       rótulo sobre âmbar no Modo suave
+suave-sol-icone   suave-papel          3.30    3.0  ok AA-grande pena no Modo suave (UI)
+superficie        suave-folha          4.82    4.5  ok AA       botão concluído no Modo suave
+tinta             suave-lavanda        6.79    4.5  ok AA       botão de ajuda no Modo suave
+suave-ceu         suave-papel          4.60    3.0  ok AA       anel de foco no Modo suave (UI)
+suave-olho        visor                9.27    3.0  ok AAA      olhos do Bot no Modo suave (UI)
+ac-tinta          ac-papel            21.00    7.0  ok AAA      texto em alto contraste
+ac-papel          ac-ceu              11.09    7.0  ok AAA      botão primário em alto contraste
+ac-contorno       ac-papel            14.96    7.0  ok AAA      borda em alto contraste (UI)
+ac-sol-icone      ac-papel             6.92    4.5  ok AA       pena em alto contraste (UI)
+ac-papel          ac-folha             9.46    7.0  ok AAA      botão concluído em alto contraste
+ac-lavanda-tinta  ac-papel            13.86    7.0  ok AAA      pista em alto contraste
+
+Distinção sob daltonismo: ceu, sol, folha, lavanda
+  visão típica  menor ΔE:  32.4 (ceu x lavanda)
+  protanopia    menor ΔE:  21.8 (ceu x lavanda)
+  deuteranopia  menor ΔE:  24.8 (ceu x lavanda)
+  tritanopia    menor ΔE:  10.6 (ceu x folha)
+
+Distinção sob daltonismo: ceu, sol-icone, folha, lavanda-tinta
+  visão típica  menor ΔE:  29.7 (ceu x lavanda-tinta)
+  protanopia    menor ΔE:  17.5 (ceu x lavanda-tinta)
+  deuteranopia  menor ΔE:  13.9 (ceu x lavanda-tinta)
+  tritanopia    menor ΔE:  10.6 (ceu x folha)
+
+Distinção sob daltonismo: ceu-claro, sol-claro, folha-claro, lavanda-claro
+  visão típica  menor ΔE:   5.7 (ceu-claro x lavanda-claro)  << confundíveis
+  protanopia    menor ΔE:   1.1 (ceu-claro x lavanda-claro)  << confundíveis
+  deuteranopia  menor ΔE:   1.2 (ceu-claro x lavanda-claro)  << confundíveis
+  tritanopia    menor ΔE:   3.2 (ceu-claro x folha-claro)  << confundíveis
+
+0 par(es) abaixo da meta

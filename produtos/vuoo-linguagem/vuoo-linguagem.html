@@ -1,0 +1,676 @@
+<title>Linguagem VUOO</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Atkinson+Hyperlegible+Next:wght@400;600;700;800&display=swap">
+<style>
+/* Layout: coluna de leitura (66ch) com pranchas largas para os mockups; cada seção é um capítulo do guia. */
+:root {
+  /* moldura do guia (muda com o tema da página) */
+  --pg-bg: #EEF1F4; --pg-fg: #1D2833; --pg-soft: #4A5866; --pg-line: #D3DAE2; --pg-card: #FFFFFF; --pg-accent: #2F6699; --pg-device: #0F151B;
+  /* tokens do produto VUOO, modo padrão (ferramentas/paleta.json) */
+  --papel: #F3F5F7; --superficie: #FFFFFF; --nevoa: #DDE3EA; --contorno: #7D8A98;
+  --tinta: #1D2833; --tinta-suave: #4A5866;
+  --ceu: #2F6699; --ceu-profundo: #1F4A73; --ceu-claro: #DCE7F2;
+  --sol: #E0A23A; --sol-icone: #B07A1C; --sol-claro: #FBEED3; --sol-tinta: #6E4708;
+  --folha: #3B7F57; --folha-claro: #DCEEE2; --folha-tinta: #1F5236;
+  --lavanda: #A593DB; --lavanda-claro: #EAE6F5; --lavanda-tinta: #43357A;
+  --casco: #F6F2EA; --visor: #1D2833; --olho: #8BE0EE; --ceu-texto-noite: #C9D3DC;
+  --ipe: #D9A7C7; --ipe-escuro: #C98FB4;
+  --f-crianca: "Andika", "Atkinson Hyperlegible Next", system-ui, sans-serif;
+  --f-ui: "Atkinson Hyperlegible Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --pg-bg: #141B22; --pg-fg: #E6ECF2; --pg-soft: #A9B6C3; --pg-line: #2C3743; --pg-card: #1C252E; --pg-accent: #8DB6E0; --pg-device: #05080B; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --pg-bg: #141B22; --pg-fg: #E6ECF2; --pg-soft: #A9B6C3; --pg-line: #2C3743; --pg-card: #1C252E; --pg-accent: #8DB6E0; --pg-device: #05080B; color-scheme: dark; }
+/* Modo suave: troca valores da moldura (tokens suave-* de paleta.json) */
+.suave {
+  --papel: #EEF0F2; --ceu: #4F6F8E; --ceu-profundo: #3A546D; --ceu-claro: #E2E8EE;
+  --sol: #B89559; --sol-icone: #97814F; --sol-claro: #F3EDE2; --folha: #557A64; --folha-claro: #E3ECE6;
+  --lavanda: #B3AACB; --lavanda-claro: #EEECF3; --olho: #A9D3DA;
+}
+/* O palco de medida e o painel do professor não seguem o Modo suave (D-20) */
+.palco-medida, .painel {
+  --papel: #F3F5F7; --ceu: #2F6699; --ceu-profundo: #1F4A73; --ceu-claro: #DCE7F2;
+  --sol: #E0A23A; --sol-icone: #B07A1C; --sol-claro: #FBEED3; --folha: #3B7F57; --folha-claro: #DCEEE2;
+  --lavanda: #A593DB; --lavanda-claro: #EAE6F5; --olho: #8BE0EE;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--pg-bg); color: var(--pg-fg);
+  font: 400 17px/1.6 var(--f-ui);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 64px;
+}
+.wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 72px; }
+.col { max-width: 66ch; }
+h1, h2, h3 { text-wrap: balance; line-height: 1.15; margin: 0; }
+h2 { font-size: clamp(26px, 3.2vw, 34px); font-weight: 800; letter-spacing: -0.01em; }
+h3 { font-size: 19px; font-weight: 700; }
+p { margin: 0; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--pg-accent); }
+.lede { color: var(--pg-soft); font-size: 18px; }
+section { display: grid; gap: 22px; }
+.stack { display: grid; gap: 10px; }
+.muted { color: var(--pg-soft); }
+code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 0.88em; }
+a { color: var(--pg-accent); }
+:focus-visible { outline: 3px solid var(--pg-accent); outline-offset: 3px; border-radius: 6px; }
+.nota { font-size: 14px; color: var(--pg-soft); border-left: 3px solid var(--pg-line); padding-left: 12px; }
+
+/* Hero */
+.hero { padding-block: 56px 8px; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+.hero h1 { font-size: clamp(34px, 5vw, 54px); font-weight: 800; letter-spacing: -0.02em; }
+.hero .stack { gap: 18px; }
+.wordmark { width: 100%; max-width: 420px; height: auto; display: block; }
+.ideia { font-family: var(--f-crianca); font-size: 22px; border-left: 4px solid var(--sol); padding-left: 14px; }
+
+.prancha { background: var(--pg-card); border: 1px solid var(--pg-line); border-radius: 18px; padding: 24px; }
+.grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.grid-5 { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+
+.principios { list-style: none; padding: 0; margin: 0; counter-reset: p; }
+.principios li { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; padding: 16px 0; border-top: 1px solid var(--pg-line); counter-increment: p; }
+.principios li::before { content: counter(p); font-weight: 800; font-size: 22px; color: var(--pg-accent); }
+.principios b { display: block; font-size: 18px; }
+
+/* Bot */
+.expr { display: grid; justify-items: center; gap: 6px; text-align: center; }
+.expr svg { width: 100%; max-width: 120px; height: auto; }
+.expr b { font-size: 15px; }
+.expr span { font-size: 13px; color: var(--pg-soft); }
+.bot-anatomia { display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 28px; align-items: center; }
+.bot-anatomia ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.comportamentos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.comp { border: 1px solid var(--pg-line); border-radius: 14px; padding: 16px; display: grid; gap: 8px; align-content: start; background: var(--pg-card); }
+.comp svg { width: 64px; height: auto; }
+.comp q { font-family: var(--f-crianca); font-size: 16px; }
+.braco { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--pg-soft); }
+.regras-bot { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.regras-bot ul { margin: 8px 0 0; padding-left: 20px; display: grid; gap: 6px; }
+
+/* Cor */
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.toggle { font: 700 15px var(--f-ui); border: 2px solid var(--pg-accent); color: var(--pg-accent); background: transparent; border-radius: 999px; padding: 10px 18px; cursor: pointer; min-height: 44px; }
+.toggle[aria-pressed="true"] { background: var(--pg-accent); color: var(--pg-card); }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.sw { border-radius: 12px; overflow: hidden; border: 1px solid var(--pg-line); background: var(--pg-card); }
+.sw i { display: block; height: 72px; }
+.sw div { padding: 10px 12px; display: grid; gap: 2px; }
+.sw b { font-size: 14px; }
+.sw span { font-size: 12px; color: var(--pg-soft); }
+.sw code { font-size: 12px; color: var(--pg-soft); }
+.regras { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 28px; padding: 0; margin: 0; list-style: none; }
+.regras li { padding-left: 16px; border-left: 3px solid var(--pg-line); }
+
+/* Tipografia */
+.tipo { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.amostra-c { font-family: var(--f-crianca); }
+.grande { font-size: 44px; line-height: 1.25; letter-spacing: 0.03em; font-weight: 700; }
+.media { font-size: 28px; line-height: 1.4; letter-spacing: 0.03em; }
+.ui-grande { font-size: 32px; font-weight: 800; line-height: 1.2; }
+
+/* Aparelhos (mockups; escala 0,75 dos valores reais) */
+.telas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; align-items: start; }
+.tela-legenda { display: grid; gap: 10px; }
+.tela-legenda > p { font-size: 15px; color: var(--pg-soft); }
+.aparelho { background: var(--pg-device); border-radius: 30px; padding: 10px; }
+.app { background: var(--papel); border-radius: 22px; overflow: hidden; color: var(--tinta); font-family: var(--f-crianca); display: grid; grid-template-rows: auto 1fr auto; aspect-ratio: 9 / 16; }
+.faixa { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px; }
+.btn-ic { width: 48px; height: 48px; border-radius: 14px; background: var(--superficie); border: 2px solid var(--contorno); display: grid; place-items: center; flex: none; }
+.btn-ic svg { width: 22px; height: 22px; }
+.plano { display: flex; gap: 6px; }
+.plano span { width: 34px; height: 34px; border-radius: 10px; background: var(--superficie); border: 2px solid var(--contorno); display: grid; place-items: center; }
+.plano span svg { width: 18px; height: 18px; }
+.plano .atual { border-color: var(--ceu); box-shadow: 0 0 0 3px var(--ceu-claro); }
+.plano .feito { background: var(--folha-claro); border-color: var(--folha); }
+.palco { margin: 0 10px; background: var(--superficie); border-radius: 16px; display: grid; place-items: center; position: relative; }
+.palco-medida { outline: 2px dashed var(--contorno); outline-offset: -6px; }
+.selo-palco { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); font: 600 11px var(--f-ui); color: var(--tinta-suave); background: var(--papel); padding: 2px 8px; border-radius: 99px; white-space: nowrap; }
+.base { padding: 10px; display: grid; gap: 10px; }
+.duracao { height: 10px; border-radius: 99px; background: var(--nevoa); overflow: hidden; }
+.duracao i { display: block; height: 100%; width: 58%; background: var(--ceu); border-radius: 99px; }
+.fala { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 8px; align-items: center; }
+.fala svg { width: 52px; height: auto; }
+.balao { background: var(--superficie); border: 2px solid var(--contorno); border-radius: 16px; padding: 8px 12px; font-size: 17px; line-height: 1.4; letter-spacing: 0.03em; }
+.instrucao-estatica { font-size: 17px; line-height: 1.4; letter-spacing: 0.03em; font-weight: 700; }
+.sinal { display: grid; gap: 14px; justify-items: center; }
+.sinal-luz { width: 96px; height: 96px; border-radius: 50%; background: var(--folha); }
+.sinal small { font-size: 12px; color: var(--tinta-suave); font-family: var(--f-ui); }
+.figuras { display: grid; grid-template-columns: repeat(2, 84px); gap: 14px; }
+.fig { width: 84px; height: 84px; border-radius: 16px; background: var(--superficie); border: 2px solid var(--contorno); display: grid; place-items: center; }
+.fig svg { width: 52px; height: 52px; }
+.fig.pista { border: 3px solid var(--lavanda-tinta); box-shadow: 0 0 0 4px var(--lavanda-claro); }
+.balao.pista { background: var(--lavanda-claro); border-color: var(--lavanda-tinta); color: var(--lavanda-tinta); }
+.btn { font: 700 17px var(--f-crianca); letter-spacing: 0.04em; border-radius: 20px; min-height: 56px; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 0 14px; border: 0; background: var(--ceu); color: var(--superficie); }
+.pouso { padding: 16px 14px; display: grid; gap: 12px; align-content: start; }
+.pouso .titulo { font-size: 22px; letter-spacing: 0.02em; font-weight: 700; }
+.feito-lista { display: grid; gap: 8px; }
+.feito-item { display: flex; gap: 10px; align-items: center; background: var(--superficie); border-radius: 14px; padding: 8px 10px; font-size: 15px; }
+.feito-item i { width: 26px; height: 26px; border-radius: 50%; background: var(--folha); display: grid; place-items: center; flex: none; }
+.feito-item i svg { width: 14px; height: 14px; }
+.caminho svg, .ceu-turma svg { width: 100%; height: auto; display: block; }
+
+/* painel do professor */
+.painel { background: var(--papel); border-radius: 16px; padding: 18px; color: var(--tinta); font-family: var(--f-ui); display: grid; gap: 14px; }
+.cartao-p { background: var(--superficie); border: 1px solid var(--contorno); border-radius: 14px; padding: 16px; display: grid; gap: 10px; }
+.cartao-p header { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.cartao-p .t { font-size: 17px; font-weight: 700; }
+.chip { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 99px; background: var(--ceu-claro); color: var(--ceu-profundo); display: inline-flex; gap: 6px; align-items: center; }
+.chip svg { width: 14px; height: 14px; }
+.tendencia { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 14px; align-items: center; }
+.tendencia svg { width: 100%; height: auto; }
+.detalhe { font-size: 14px; border-top: 1px solid var(--nevoa); padding-top: 4px; }
+.detalhe summary { cursor: pointer; font-weight: 700; color: var(--ceu-profundo); min-height: 44px; display: flex; align-items: center; }
+.detalhe p { margin-top: 6px; color: var(--tinta-suave); }
+.sugestao { font-size: 14px; background: var(--ceu-claro); color: var(--ceu-profundo); border-radius: 10px; padding: 8px 10px; }
+.rodape-p { font-size: 12px; color: var(--tinta-suave); font-style: italic; }
+.acoes-p { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn-p { font: 700 13px var(--f-ui); border: 2px solid var(--ceu); color: var(--ceu-profundo); border-radius: 10px; padding: 0 12px; min-height: 44px; display: inline-flex; align-items: center; background: var(--superficie); }
+
+/* tabelas */
+.tabela { overflow-x: auto; border: 1px solid var(--pg-line); border-radius: 14px; background: var(--pg-card); }
+table { border-collapse: collapse; width: 100%; min-width: 620px; font-size: 15px; }
+th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--pg-line); vertical-align: top; }
+th { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--pg-soft); }
+tr:last-child td { border-bottom: 0; }
+td.fala-c { font-family: var(--f-crianca); font-size: 16px; }
+td.evitar { color: var(--pg-soft); text-decoration: line-through; }
+.destino { font-weight: 700; color: var(--pg-accent); }
+.rem { color: var(--pg-soft); font-style: italic; }
+
+footer.creditos { border-top: 1px solid var(--pg-line); padding-top: 20px; font-size: 14px; color: var(--pg-soft); display: grid; gap: 8px; }
+
+@media (max-width: 860px) {
+  .hero, .grid-2, .tipo, .bot-anatomia, .regras-bot { grid-template-columns: minmax(0, 1fr); }
+  .grid-5 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .comportamentos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .regras { grid-template-columns: minmax(0, 1fr); }
+  .tendencia { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .comportamentos { grid-template-columns: minmax(0, 1fr); }
+  .prancha { padding: 16px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .pisca { animation: piscar 5s 3; transform-origin: center; transform-box: fill-box; }
+  @keyframes piscar { 0%, 94%, 100% { transform: scaleY(1); } 97% { transform: scaleY(0.1); } }
+}
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="stack">
+    <p class="eyebrow">Estudo de linguagem de produto · versão revisada em 3 rodadas</p>
+    <h1>A linguagem dos microjogos do VUOO</h1>
+    <p class="lede">Cor, tipo, mascote, som, movimento, tom de voz e jogabilidade para crianças de 6 a 12 anos dos anos iniciais, desenhados para a turma inteira e com atenção especial a quem é neurodivergente. Proposta para o primeiro ciclo de co-design.</p>
+    <p class="ideia">O Duolingo recompensa o resultado e pune a ausência. O VUOO reconhece a presença e não pune nada.</p>
+  </div>
+  <svg class="wordmark" viewBox="0 0 420 200" role="img" aria-labelledby="wm-t">
+    <title id="wm-t">Estudo de logotipo: a palavra VUOO, em que as duas letras O são os olhos do Bot, dentro do visor</title>
+    <g fill="none" stroke="var(--pg-accent)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 46 L62 154 L102 46"/>
+      <path d="M134 46 V112 a40 40 0 0 0 80 0 V46"/>
+    </g>
+    <rect x="236" y="30" width="176" height="140" rx="58" fill="var(--visor)"/>
+    <g class="pisca"><ellipse cx="290" cy="94" rx="26" ry="34" fill="var(--olho)"/></g>
+    <g class="pisca"><ellipse cx="358" cy="94" rx="26" ry="34" fill="var(--olho)"/></g>
+    <path d="M308 146 H340" stroke="var(--olho)" stroke-width="9" stroke-linecap="round"/>
+  </svg>
+</header>
+
+<section>
+  <div class="col stack">
+    <p class="eyebrow">Conceito</p>
+    <h2>Voar junto</h2>
+    <p>O VUOO é a trajetória de cada criança, desenhada um dia de cada vez, com um companheiro que acompanha sem julgar. A identidade se organiza em torno de uma linha que cresce: a linha de voo do Bot no Caminho, a fileira de penas, o traço de evolução no painel do professor.</p>
+  </div>
+  <ol class="principios col">
+    <li><div><b>Previsível antes de surpreendente.</b><span class="muted">Regras, rotina, tempo e fim são sempre conhecidos. A única surpresa é um presente sem nada em jogo.</span></div></li>
+    <li><div><b>Suave por padrão, intenso por escolha.</b><span class="muted">O padrão serve a quem tem mais sensibilidade sensorial. Quem busca estímulo aumenta a intensidade.</span></div></li>
+    <li><div><b>Mostra o que fez, nunca o que faltou.</b><span class="muted">Nenhuma tela da criança tem nota, erro acumulado, comparação, contagem regressiva ou casa vazia.</span></div></li>
+    <li><div><b>Literal para a criança, transparente para o adulto.</b><span class="muted">Frases curtas e concretas para quem joga; evidência e limite por trás de cada afirmação para quem ensina.</span></div></li>
+    <li><div><b>A mesma tela e o mesmo som para todos.</b><span class="muted">Nada do que a criança vê, nem do que os colegas ouvem, distingue quem tem Plano Educacional Individualizado.</span></div></li>
+    <li><div><b>A linguagem fica fora do palco de medida.</b><span class="muted">Os estímulos medidos pertencem ao protocolo do CIATec. A gamificação vive na moldura.</span></div></li>
+  </ol>
+</section>
+
+<section>
+  <div class="col stack">
+    <p class="eyebrow">Mascote</p>
+    <h2>VUOO Bot, o par previsível</h2>
+    <p>Três formas básicas: casco, visor e asas. Olhos e boca são luz desenhada no visor, então a mesma expressão funciona na tela e na matriz de LED do animatrônico do CIATec. A antena mostra só a emoção do Bot; estados do sistema, como câmera ligada, ficam na moldura.</p>
+  </div>
+  <div class="prancha bot-anatomia">
+    <div id="bot-grande"></div>
+    <ol>
+      <li><b>Casco</b> oval, branco quente, sempre com traço de 2 px.</li>
+      <li><b>Visor</b> escuro, de cantos muito arredondados. Na versão física, OLED ou matriz de LED.</li>
+      <li><b>Olhos e boca de luz</b>: a expressão está aqui.</li>
+      <li><b>Asas</b> curtas na cor da marca. Mexem pouco.</li>
+      <li><b>Antena</b>: indica só a emoção do Bot.</li>
+    </ol>
+  </div>
+  <div class="prancha stack">
+    <h3>Cinco expressões, que não dependem de acerto nem de erro</h3>
+    <div class="grid-5" id="expressoes"></div>
+    <p class="muted">Depois de um erro, o Bot continua atento. Contente aparece só em pontos que todos alcançam, como o fim do voo. Não existe arte de tristeza, decepção, raiva, medo ou surpresa.</p>
+  </div>
+  <div class="comportamentos" id="comportamentos"></div>
+  <div class="prancha regras-bot">
+    <div>
+      <h3>O Bot nunca</h3>
+      <ul>
+        <li>fica triste, chora ou diz que vai sentir falta</li>
+        <li>chama a criança de volta ou manda notificação</li>
+        <li>compara a criança com outra</li>
+        <li>usa ironia, sarcasmo, gíria ou figura de linguagem</li>
+        <li>diz "errado", "quase" ou "de novo não"</li>
+        <li>fala, se mexe, pisca ou aponta durante um bloco de medida</li>
+        <li>fala em voz alta sobre pista, recuo, pausa ou ajuste quando não há fone</li>
+        <li>fala um número em voz alta</li>
+        <li>muda de expressão por causa de acerto ou erro</li>
+        <li>aparece de repente, pede dado pessoal ou fala de diagnóstico</li>
+      </ul>
+    </div>
+    <div>
+      <h3>O Bot sempre</h3>
+      <ul>
+        <li>fica no mesmo lugar e no mesmo tamanho em todos os jogos</li>
+        <li>pode ser escondido pela criança</li>
+        <li>mostra à criança quando o professor mudou algo</li>
+        <li>fala com a mesma voz, no mesmo ritmo, com frases do repertório</li>
+        <li>tem cada fala em texto e pictograma, e as instruções também em Libras</li>
+        <li>avisa no início do voo quando o sistema mudou a aparência dele</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col stack">
+    <p class="eyebrow">Cor</p>
+    <h2>Uma cor forte por tela</h2>
+    <p>Saturação moderada, nenhum vermelho. O âmbar marca só recompensa. Três modos, todos validados: padrão, Modo suave e alto contraste, com 40 pares de texto e fundo em WCAG AA ou AAA. Os quatro tons semânticos continuam distinguíveis com protanopia e deuteranopia.</p>
+  </div>
+  <div class="toolbar">
+    <button class="toggle" id="t-suave" aria-pressed="false" aria-describedby="t-suave-desc">Modo suave</button>
+    <span class="muted" id="t-suave-desc">Troca os valores das cores da moldura nos mockups da criança. O palco de medida e o painel do professor não mudam.</span>
+  </div>
+  <div id="produto" class="stack" style="gap:28px">
+    <div class="swatches" id="swatches"></div>
+    <ul class="regras">
+      <li><b>Sem vermelho.</b> Erro não é perigo. No painel, o sinal de atenção se distingue por ícone e texto.</li>
+      <li><b>Cor nunca sozinha.</b> Todo estado tem forma ou ícone: visto, mão, contorno.</li>
+      <li><b>Tons claros só como fundo.</b> Em pastel, eles se confundem; o significado vem do ícone.</li>
+      <li><b>Nada disso entra no palco de medida.</b> Lá, cor, contraste e tamanho em milímetros são do protocolo do CIATec.</li>
+    </ul>
+
+    <div class="col stack">
+      <p class="eyebrow">Telas</p>
+      <h2>Palco de medida e moldura</h2>
+      <p>Toda tela de microjogo tem duas zonas. O <b>palco de medida</b> é do protocolo do CIATec: estímulos em milímetros, orientação travada, sem tema, sem barra de tempo, com o Bot imóvel do lado de fora e a instrução como texto estático. A <b>moldura</b> é desta linguagem: Pausar sempre no canto superior esquerdo, Ouvir sempre no direito, o Plano de hoje no meio.</p>
+      <p class="nota">Os mockups estão em escala 0,75 dos valores reais (alvo da criança: 64 px; instrução: 28 px).</p>
+    </div>
+    <div class="telas">
+      <div class="tela-legenda">
+        <div class="aparelho"><div class="app">
+          <div class="faixa">
+            <span class="btn-ic" role="img" aria-label="Pausar"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1.5" fill="var(--tinta)"/><rect x="14" y="5" width="4" height="14" rx="1.5" fill="var(--tinta)"/></svg></span>
+            <div class="plano" role="img" aria-label="Plano de hoje: jogo 1 de 3">
+              <span class="atual"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="var(--ceu)"/></svg></span>
+              <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="10" r="4" fill="none" stroke="var(--contorno)" stroke-width="2.5"/><circle cx="15" cy="15" r="5" fill="none" stroke="var(--contorno)" stroke-width="2.5"/></svg></span>
+              <span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="5" height="5" rx="1" fill="var(--contorno)"/><rect x="10" y="10" width="5" height="5" rx="1" fill="var(--contorno)"/><rect x="16" y="16" width="5" height="5" rx="1" fill="var(--contorno)"/></svg></span>
+            </div>
+            <span class="btn-ic" role="img" aria-label="Ouvir"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="var(--tinta)"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" fill="none" stroke="var(--tinta)" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </div>
+          <div class="palco palco-medida">
+            <span class="selo-palco">palco de medida · protocolo CIATec</span>
+            <div class="sinal">
+              <div class="sinal-luz" aria-hidden="true"></div>
+              <small>círculo cheio = tocar · quadrado vazado = não tocar</small>
+            </div>
+          </div>
+          <div class="base">
+            <div class="fala"><span data-bot="atento" data-imovel="1"></span><p class="instrucao-estatica">TOQUE QUANDO APARECER O CÍRCULO.</p></div>
+          </div>
+        </div></div>
+        <h3>Sinal Aberto, bloco de medida</h3>
+        <p>Controle inibitório, sem conteúdo curricular decidindo a resposta. Sem barra de tempo; o Bot fica imóvel, sem piscar, e a instrução vira texto estático, sem balão. Cores e tamanhos do estímulo são do protocolo; os daqui são ilustrativos.</p>
+      </div>
+
+      <div class="tela-legenda">
+        <div class="aparelho"><div class="app">
+          <div class="faixa">
+            <span class="btn-ic" role="img" aria-label="Pausar"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1.5" fill="var(--tinta)"/><rect x="14" y="5" width="4" height="14" rx="1.5" fill="var(--tinta)"/></svg></span>
+            <div class="plano" role="img" aria-label="Plano de hoje: jogo 1 de 3, parte de treino">
+              <span class="atual"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="var(--ceu)"/></svg></span>
+              <span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="10" r="4" fill="none" stroke="var(--contorno)" stroke-width="2.5"/><circle cx="15" cy="15" r="5" fill="none" stroke="var(--contorno)" stroke-width="2.5"/></svg></span>
+              <span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="5" height="5" rx="1" fill="var(--contorno)"/><rect x="10" y="10" width="5" height="5" rx="1" fill="var(--contorno)"/><rect x="16" y="16" width="5" height="5" rx="1" fill="var(--contorno)"/></svg></span>
+            </div>
+            <span class="btn-ic" role="img" aria-label="Ouvir"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="var(--tinta)"/><path d="M16 9a4 4 0 0 1 0 6" fill="none" stroke="var(--tinta)" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </div>
+          <div class="palco">
+            <div class="figuras" role="img" aria-label="Quatro figuras: bola, casa, sol, peixe; a bola está destacada como pista">
+              <div class="fig pista"><svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="18" fill="var(--ceu-claro)" stroke="var(--tinta)" stroke-width="3"/><path d="M8 26h36M26 8c-8 10-8 26 0 36M26 8c8 10 8 26 0 36" fill="none" stroke="var(--tinta)" stroke-width="2.5"/></svg></div>
+              <div class="fig"><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M10 26 26 12l16 14v16H10z" fill="var(--superficie)" stroke="var(--tinta)" stroke-width="3" stroke-linejoin="round"/><rect x="22" y="30" width="8" height="12" fill="var(--tinta)"/></svg></div>
+              <div class="fig"><svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="9" fill="var(--sol-claro)" stroke="var(--tinta)" stroke-width="3"/><path d="M26 6v7M26 39v7M6 26h7M39 26h7M12 12l5 5M35 35l5 5M40 12l-5 5M17 35l-5 5" stroke="var(--tinta)" stroke-width="3" stroke-linecap="round"/></svg></div>
+              <div class="fig"><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M8 26c8-10 22-12 32 0-10 12-24 10-32 0z" fill="var(--folha-claro)" stroke="var(--tinta)" stroke-width="3" stroke-linejoin="round"/><path d="M40 26l6-7v14z" fill="var(--folha-claro)" stroke="var(--tinta)" stroke-width="3" stroke-linejoin="round"/><circle cx="18" cy="24" r="2" fill="var(--tinta)"/></svg></div>
+            </div>
+          </div>
+          <div class="base">
+            <div class="duracao" role="img" aria-label="Tempo do treino, sem números"><i></i></div>
+            <div class="fala"><span data-bot="atento"></span><div class="balao pista">Esse não. Toque na figura que começa com bê.</div></div>
+          </div>
+        </div></div>
+        <h3>Sinal Aberto, bloco de treino com pista</h3>
+        <p>A parte "figuras e sons", com consciência fonológica. A pista informa sem julgar, com contorno <code>lavanda-tinta</code> no alvo certo. Sem fone, a pista fica só no texto. O Bot faz o mesmo gesto no acerto e no erro; quem reage ao acerto é o alvo.</p>
+      </div>
+
+      <div class="tela-legenda">
+        <div class="aparelho"><div class="app">
+          <div class="faixa">
+            <span class="btn-ic" role="img" aria-label="Pausar"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1.5" fill="var(--tinta)"/><rect x="14" y="5" width="4" height="14" rx="1.5" fill="var(--tinta)"/></svg></span>
+            <div class="plano" role="img" aria-label="Plano de hoje: concluído">
+              <span class="feito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10" fill="none" stroke="var(--folha)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="feito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10" fill="none" stroke="var(--folha)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+              <span class="feito"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10" fill="none" stroke="var(--folha)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+            <span class="btn-ic" role="img" aria-label="Ouvir"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="var(--tinta)"/><path d="M16 9a4 4 0 0 1 0 6" fill="none" stroke="var(--tinta)" stroke-width="2" stroke-linecap="round"/></svg></span>
+          </div>
+          <div class="pouso">
+            <div class="fala"><span data-bot="contente"></span><p class="titulo">Hoje você jogou 3 jogos.</p></div>
+            <div class="feito-lista">
+              <div class="feito-item"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10" fill="none" stroke="var(--superficie)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Você jogou Sinal Aberto até o fim.</div>
+              <div class="feito-item"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10" fill="none" stroke="var(--superficie)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Você tocou em 8 figuras.</div>
+              <div class="feito-item"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5 9-10" fill="none" stroke="var(--superficie)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></i>Você jogou Bolhas até o fim.</div>
+            </div>
+          </div>
+          <div class="base">
+            <span class="btn">PARAR POR HOJE</span>
+          </div>
+        </div></div>
+        <h3>Pouso</h3>
+        <p>Depois de medida, reconhece participação; depois de treino, conta ações, nunca acertos. Números só no texto: a voz diz "Você jogou os jogos de hoje." Em aparelho compartilhado, o único botão é parar; o segundo voo começa no próximo rodízio.</p>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="tela-legenda">
+        <div class="prancha caminho" style="background:var(--papel);padding:12px">
+          <svg viewBox="0 0 480 320" role="img" aria-labelledby="cam-t">
+            <title id="cam-t">Caminho, a tela inicial da criança: penas no topo, a linha de voo do Bot sobre uma paisagem com ipê, rio e casas, o próximo voo marcado em âmbar e o botão Jogar</title>
+            <rect width="480" height="320" rx="14" fill="var(--papel)"/>
+            <g id="penas-topo" transform="translate(20 18)"></g>
+            <path d="M0 250 Q120 220 240 246 T480 236 V320 H0z" fill="var(--folha-claro)"/>
+            <path d="M0 278 Q140 262 300 280 T480 272 V320 H0z" fill="var(--ceu-claro)"/>
+            <g transform="translate(70 178)"><rect x="-3" y="20" width="6" height="52" fill="var(--contorno)"/><circle cx="-14" cy="14" r="20" fill="var(--ipe-escuro)"/><circle cx="12" cy="8" r="22" fill="var(--ipe)"/><circle cx="2" cy="26" r="18" fill="var(--ipe-escuro)"/></g>
+            <g transform="translate(360 206)" fill="var(--superficie)" stroke="var(--contorno)" stroke-width="2"><path d="M0 40V16l18-14 18 14v24z"/><path d="M40 40V22l14-10 14 10v18z"/></g>
+            <path d="M40 210 C110 130 170 200 230 140 S350 80 420 106" fill="none" stroke="var(--ceu)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M420 106 C440 114 452 130 456 150" fill="none" stroke="var(--ceu)" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/>
+            <g fill="var(--superficie)" stroke="var(--ceu)" stroke-width="4">
+              <circle cx="40" cy="210" r="9"/><circle cx="118" cy="160" r="9"/><circle cx="182" cy="174" r="9"/><circle cx="246" cy="132" r="9"/><circle cx="320" cy="104" r="9"/><circle cx="388" cy="96" r="9"/>
+            </g>
+            <circle cx="456" cy="150" r="13" fill="var(--sol-icone)"/>
+            <g transform="translate(396 50) scale(0.42)" data-bot-svg="atento"></g>
+            <rect x="320" y="270" width="140" height="40" rx="20" fill="var(--ceu)"/>
+            <text x="390" y="296" text-anchor="middle" fill="var(--superficie)" font-family="Andika, sans-serif" font-weight="700" font-size="17" letter-spacing="1">JOGAR</text>
+          </svg>
+        </div>
+        <h3>Caminho, a tela inicial</h3>
+        <p>No Duolingo, a trilha é o currículo que falta. No VUOO, é a trajetória feita: cada dia de voo desenha um trecho. As penas ficam no topo, uma por dia de voo; a cada 10 viram um galho, sem número. A peça nova chega aqui, em marcos fixos, sem contador e sem anúncio.</p>
+      </div>
+      <div class="tela-legenda">
+        <div class="prancha ceu-turma" style="background:var(--visor);padding:12px">
+          <svg viewBox="0 0 480 300" role="img" aria-labelledby="ct-t">
+            <title id="ct-t">Céu da turma: uma constelação em forma de trem com 18 estrelas acesas, ligadas só entre as já acesas</title>
+            <rect width="480" height="300" rx="14" fill="var(--visor)"/>
+            <g id="linhas-ceu" stroke="var(--olho)" stroke-opacity="0.45" stroke-width="2" fill="none"></g>
+            <g id="estrelas"></g>
+            <text x="24" y="44" fill="var(--olho)" font-family="Andika, sans-serif" font-size="24" letter-spacing="1">CÉU DA TURMA · 2º B</text>
+            <text x="24" y="272" fill="var(--ceu-texto-noite)" font-family="Atkinson Hyperlegible Next, sans-serif" font-size="22">A turma acendeu 18 estrelas.</text>
+          </svg>
+        </div>
+        <h3>Céu da turma</h3>
+        <p>No lugar das ligas, um pertencimento anônimo. Cada criança que voou no dia acende uma estrela, uma só. Só se desenham as estrelas acesas e as linhas entre elas: sem "faltam", sem prazo, sem "Ver quem". É o único elemento projetável. Se alguma criança for culpada pela constelação, ele sai do produto.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="tela-legenda">
+    <div class="painel">
+      <div class="cartao-p">
+        <header><span class="t">Ana · Esperar o sinal</span><span class="chip"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 12 7 7l3 3 4-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>evolução</span></header>
+        <div class="tendencia">
+          <p>Nas últimas 2 semanas, Ana esperou o sinal antes de tocar em <b>7 de cada 10</b> tentativas. No começo do mês, eram 4 de cada 10.</p>
+          <svg viewBox="0 0 150 70" role="img" aria-label="Evolução de 4 para 7 em cada 10 tentativas ao longo de 9 partidas">
+            <line x1="4" y1="62" x2="146" y2="62" stroke="var(--nevoa)" stroke-width="1.5"/>
+            <polyline points="6,44 22,46 38,40 54,38 70,32 86,30 102,24 118,22 140,20" fill="none" stroke="var(--ceu)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="140" cy="20" r="4.5" fill="var(--ceu)"/>
+          </svg>
+        </div>
+        <details class="detalhe">
+          <summary>De onde veio</summary>
+          <p><b>Controle inibitório</b> · jogo Sinal Aberto · 9 partidas em modo sala, de 6 a 24/10.</p>
+          <p><b>Faixa para a idade:</b> dentro do esperado para 7 anos neste jogo. Confiança moderada (9 partidas).</p>
+          <p><b>O que isto mede:</b> esperar antes de agir, num jogo de toque. <b>Não mede:</b> comportamento em sala, atenção em geral, aprendizagem.</p>
+        </details>
+        <p class="sugestao"><b>Sugestão:</b> registrar o avanço no objetivo 2 do Plano Educacional Individualizado.</p>
+        <p class="rodape-p">Isto é uma pista de sala de aula. Não é avaliação nem diagnóstico, e não substitui a equipe da escola.</p>
+      </div>
+      <div class="cartao-p">
+        <header><span class="t">Bruno · Lembrar a ordem</span><span class="chip"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 10.5 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>sinal de atenção</span></header>
+        <p>Nas últimas 3 semanas, a forma como Bruno joga Luzes em Ordem mudou: ele tem lembrado sequências mais curtas que em setembro.</p>
+        <p><b>Antes de tudo, vale olhar o contexto:</b> mudou de aparelho, de horário ou de sala? Faltou nos últimos dias?</p>
+        <p><b>Se o contexto não explica:</b> observe em sala se ele tem lembrado a ordem de tarefas em outras situações.</p>
+        <p><b>Encaminhamento:</b> converse com a professora do AEE ou com a coordenação.</p>
+        <details class="detalhe">
+          <summary>De onde veio</summary>
+          <p><b>Memória de trabalho visuoespacial</b> · jogo Luzes em Ordem · 11 partidas em modo sala, de 1/10 a 24/10.</p>
+          <p><b>Faixa para a idade:</b> dentro do esperado para 8 anos neste jogo, com queda em relação ao próprio Bruno. Confiança moderada.</p>
+          <p><b>O que isto mede:</b> lembrar a ordem de luzes num jogo de toque. <b>Não mede:</b> memória em geral, aprendizagem.</p>
+        </details>
+        <div class="acoes-p">
+          <span class="btn-p">Confirmo o que observei</span><span class="btn-p">Não observei isso em sala</span><span class="btn-p">Já encaminhado</span>
+        </div>
+        <p class="rodape-p">Isto é uma pista de sala de aula. Não é avaliação nem diagnóstico, e não substitui a equipe da escola.</p>
+      </div>
+      <div class="cartao-p">
+        <header><span class="t">Turma 2º B · 3 crianças ainda não tiveram vez no aparelho esta semana</span><span class="chip"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="1.5" width="10" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2"/></svg>acesso</span></header>
+        <p class="sugestao"><b>Sugestão:</b> reservar 15 minutos na quinta-feira.</p>
+      </div>
+    </div>
+    <h3 id="painel">Painel do professor</h3>
+    <p>Duas camadas. A abertura mostra uma ação observável e a evolução da criança em relação a ela mesma. O detalhe traz o construto, o instrumento, a faixa para a idade com incerteza e o que o jogo não mede. Todo sinal vem com contexto, encaminhamento e botões de confirmação e contestação. Sem vermelho, sem "risco", sem nome de condição, sem comparação com a turma, nunca em projeção. Nomes fictícios.</p>
+  </div>
+</section>
+
+<section>
+  <div class="col stack">
+    <p class="eyebrow">Tipografia</p>
+    <h2>Uma letra para quem aprende a ler, outra para quem ensina</h2>
+  </div>
+  <div class="tipo">
+    <div class="prancha stack">
+      <p class="eyebrow">Andika · letra da criança</p>
+      <p class="amostra-c grande">TOQUE NA ESTRELA.</p>
+      <p class="amostra-c media">Toque na estrela. a g Il1 bola</p>
+      <p class="muted">"a" e "g" de um andar, I, l e 1 diferentes. Caixa alta no 1º ano, configurável. Instrução com no mínimo 28 px, espaço entre letras de +0,03 em, até 40 caracteres por linha.</p>
+    </div>
+    <div class="prancha stack">
+      <p class="eyebrow">Atkinson Hyperlegible Next · letra do adulto</p>
+      <p class="ui-grande">Turma 2º B</p>
+      <p>Ana esperou o sinal em 7 de cada 10 tentativas.</p>
+      <p class="muted">Feita para baixa visão, com boa diferenciação entre caracteres e pesos para dar hierarquia ao painel. Nenhuma das duas tem estudo com crianças; o que tem evidência é o tamanho e o espaçamento.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="col stack">
+    <p class="eyebrow">Tom de voz</p>
+    <h2>O Bot fala como um colega mais velho e paciente</h2>
+    <p>Uma ação pedida por frase, no presente, até 8 palavras. Sem metáfora, ironia ou gíria. O elogio descreve a ação, nunca a pessoa. Sem fone, pista, pausa e recuo ficam só no texto, e nenhum número é falado.</p>
+  </div>
+  <div class="tabela" role="region" aria-label="Falas-modelo do Bot" tabindex="0">
+    <table>
+      <thead><tr><th>Situação</th><th>O Bot diz</th><th>Sem fone</th><th>Nunca</th></tr></thead>
+      <tbody>
+        <tr><td>Instrução</td><td class="fala-c">Toque quando aparecer o círculo.</td><td>voz e texto</td><td class="evitar">Toque quando o sinal abrir. / Seja rápido!</td></tr>
+        <tr><td>Pista no treino</td><td class="fala-c">Esse não. Toque na figura que começa com bê.</td><td>só texto</td><td class="evitar">Errado! / Quase! / Ops!</td></tr>
+        <tr><td>Jogo fica mais devagar</td><td class="fala-c">O jogo vai ficar mais devagar.</td><td>só texto</td><td class="evitar">Vamos mais devagar. / Está difícil?</td></tr>
+        <tr><td>Fim de bloco de medida</td><td class="fala-c">Você jogou Bolhas até o fim.</td><td>voz e texto</td><td class="evitar">Você tocou 14 bolhas. / 12 de 20.</td></tr>
+        <tr><td>Convite</td><td class="fala-c">Tem um jogo novo. Quer jogar?</td><td>só texto</td><td class="evitar">Aposto que você não consegue!</td></tr>
+        <tr><td>Pular</td><td class="fala-c">Tudo bem. Agora: próximo jogo.</td><td>só texto</td><td class="evitar">Que pena.</td></tr>
+        <tr><td>Limite do dia</td><td class="fala-c">Os jogos de hoje acabaram.</td><td>voz e texto</td><td class="evitar">Amanhã tem mais. / Vou sentir sua falta.</td></tr>
+        <tr><td>Volta depois de dias</td><td class="fala-c">Oi! Hoje tem 3 jogos.</td><td>voz sem o número</td><td class="evitar">Onde você estava?</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="nota">Fonte única das falas, com ID, versão falada e plural: <code>06-especificacao-base.md</code>, seções 3 e 4.</p>
+</section>
+
+<section>
+  <div class="col stack">
+    <p class="eyebrow">Jogabilidade</p>
+    <h2>Do Duolingo, a forma; o motor é outro</h2>
+    <p>Cada mecânica passa por três perguntas: engaja, é segura, fica fora da medida cognitivo-motora? Só entra o que passa nas três; o resto é transformado.</p>
+  </div>
+  <div class="tabela" role="region" aria-label="Mecânicas do Duolingo e o destino de cada uma no VUOO" tabindex="0">
+    <table>
+      <thead><tr><th>No Duolingo</th><th>No VUOO</th><th>Por quê</th></tr></thead>
+      <tbody>
+        <tr><td>Lição</td><td class="destino">Voo: 3 jogos, cada um com as mesmas 9 fases</td><td>A rotina previsível é uma das acomodações com mais apoio para crianças autistas.</td></tr>
+        <tr><td>XP</td><td class="rem">removido</td><td>Bônus de velocidade e perfeição contaminam a medida e alimentam comparação.</td></tr>
+        <tr><td>Ofensiva que zera</td><td class="destino">Penas: uma por dia de voo, só cresce</td><td>Na escola, a ausência raramente é escolha da criança.</td></tr>
+        <tr><td>Vidas / energia</td><td class="rem">removido</td><td>O próprio Duolingo abandonou os corações; o erro é dado útil para o gêmeo.</td></tr>
+        <tr><td>Verde / vermelho</td><td class="destino">Dois regimes, só na moldura</td><td>No bloco de medida, o retorno é o do protocolo; a linguagem não entra no palco.</td></tr>
+        <tr><td>Trilha</td><td class="destino">Caminho que só cresce</td><td>Mostra a trajetória feita, não o currículo bloqueado.</td></tr>
+        <tr><td>Missões diárias</td><td class="destino">Plano de hoje (agenda visual)</td><td>Agenda visual tem apoio para crianças autistas, com ressalvas metodológicas na literatura.</td></tr>
+        <tr><td>Baús e gemas</td><td class="destino">Coleção em marcos, sem contador</td><td>Nada aleatório (ECA Digital); recompensa esperada enfraquece a motivação; contador é gancho.</td></tr>
+        <tr><td>Ligas</td><td class="destino">Céu da turma, sem prazo nem falta</td><td>Rankings em sala expõem quem fica embaixo.</td></tr>
+        <tr><td>Quests de amigos</td><td class="destino">Jogos em dupla, sem medida individual</td><td>Turno, objetivo compartilhado e o Bot como mediador: o pilar "conviver".</td></tr>
+        <tr><td>Duo que cobra</td><td class="destino">Bot com afeto que não depende do desempenho</td><td>Se a expressão segue o acerto, a criança aprende que o afeto do Bot depende dela.</td></tr>
+        <tr><td>Notificações</td><td class="destino">Só para o professor, sobre acesso</td><td>Quem controla o acesso ao aparelho é a escola.</td></tr>
+        <tr><td>Sessão infinita</td><td class="destino">Voo com fim, limite diário com teto de 3</td><td>Prevenção de uso compulsivo; dado demais cansa e não melhora o gêmeo.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer class="creditos">
+  <p>Estudo de linguagem de produto para o VUOO (Wemoga Software Studio), em cooperação com o CIATec – Centro de Inclusão e Acessibilidade por meio da Tecnologia (EACH/USP). Documento de trabalho para revisão interna; não é material de comunicação. Onde esta página divergir dos documentos <code>.md</code>, os documentos prevalecem.</p>
+  <p>Documentos completos, fontes, registro de decisões e as três rodadas de revisão: <code>produtos/vuoo-linguagem/</code>.</p>
+</footer>
+</div>
+
+<script>
+(function () {
+  document.documentElement.lang = 'pt-BR';
+
+  var OLHOS = {
+    atento:    function (x) { return '<ellipse cx="' + x + '" cy="58" rx="8" ry="10" fill="var(--olho)"/>'; },
+    contente:  function (x) { return '<path d="M' + (x - 10) + ' 61 Q' + x + ' 47 ' + (x + 10) + ' 61" fill="none" stroke="var(--olho)" stroke-width="5" stroke-linecap="round"/>'; },
+    sossegado: function (x) { return '<path d="M' + (x - 8) + ' 55 H' + (x + 8) + ' V58 A8 7 0 0 1 ' + (x - 8) + ' 58 Z" fill="var(--olho)"/>'; },
+    pensando:  function (x) { return '<ellipse cx="' + (x + 4) + '" cy="53" rx="7" ry="9" fill="var(--olho)"/>'; },
+    curioso:   function (x, esq) { return esq ? '<ellipse cx="' + x + '" cy="56" rx="10" ry="13" fill="var(--olho)"/>' : '<ellipse cx="' + x + '" cy="59" rx="7" ry="8" fill="var(--olho)"/>'; }
+  };
+  var BOCA = {
+    atento: '<path d="M54 74 H66" stroke="var(--olho)" stroke-width="3.5" stroke-linecap="round"/>',
+    contente: '<path d="M52 72 Q60 80 68 72" fill="none" stroke="var(--olho)" stroke-width="3.5" stroke-linecap="round"/>',
+    sossegado: '<path d="M54 74 Q60 77 66 74" fill="none" stroke="var(--olho)" stroke-width="3.5" stroke-linecap="round"/>',
+    pensando: '<path d="M55 76 L66 72" stroke="var(--olho)" stroke-width="3.5" stroke-linecap="round"/>',
+    curioso: '<circle cx="60" cy="74" r="3.5" fill="none" stroke="var(--olho)" stroke-width="3"/>'
+  };
+  var ANTENA = { atento: 'none', contente: 'var(--sol)', sossegado: 'var(--folha)', pensando: 'var(--lavanda)', curioso: 'var(--ceu)' };
+  var ASAS = { atento: [0, 0], contente: [-20, 20], sossegado: [0, 0], pensando: [0, 0], curioso: [-20, 0] };
+
+  function botSVG(expr, imovel) {
+    var a = ASAS[expr];
+    var pisca = imovel ? '' : ' class="pisca"';
+    return '<path d="M60 14 V4" stroke="var(--contorno)" stroke-width="3" stroke-linecap="round"/>' +
+      '<circle cx="60" cy="4" r="5" fill="' + ANTENA[expr] + '" stroke="var(--contorno)" stroke-width="1.5"/>' +
+      '<g transform="rotate(' + a[0] + ' 20 70)"><path d="M20 70 C2 62 -2 82 8 92 C14 90 20 82 22 76z" fill="var(--ceu)"/></g>' +
+      '<g transform="rotate(' + a[1] + ' 100 70)"><path d="M100 70 C118 62 122 82 112 92 C106 90 100 82 98 76z" fill="var(--ceu)"/></g>' +
+      '<ellipse cx="60" cy="68" rx="44" ry="52" fill="var(--casco)" stroke="var(--contorno)" stroke-width="2"/>' +
+      '<rect x="26" y="40" width="68" height="44" rx="20" fill="var(--visor)"/>' +
+      '<g' + pisca + '>' + OLHOS[expr](46, true) + '</g><g' + pisca + '>' + OLHOS[expr](74, false) + '</g>' + BOCA[expr];
+  }
+  function bot(expr, rotulo, imovel) {
+    return '<svg viewBox="-8 -4 136 128" role="img" aria-label="VUOO Bot, ' + rotulo + '">' + botSVG(expr, imovel) + '</svg>';
+  }
+  document.getElementById('bot-grande').innerHTML = bot('atento', 'atento');
+  document.querySelectorAll('[data-bot]').forEach(function (el) { el.innerHTML = bot(el.dataset.bot, el.dataset.bot, el.dataset.imovel === '1'); });
+  document.querySelectorAll('[data-bot-svg]').forEach(function (g) { g.innerHTML = botSVG(g.dataset.botSvg, false); });
+
+  var EXPR = [
+    ['atento', 'Atento', 'padrão, inclusive depois de erro'],
+    ['contente', 'Contente', 'só no fim do voo e em marcos'],
+    ['curioso', 'Curioso', 'no convite a um jogo novo'],
+    ['pensando', 'Pensando', 'só enquanto o jogo carrega'],
+    ['sossegado', 'Sossegado', 'só no Ninho']
+  ];
+  document.getElementById('expressoes').innerHTML = EXPR.map(function (e) {
+    return '<div class="expr">' + bot(e[0], e[1]) + '<b>' + e[1] + '</b><span>' + e[2] + '</span></div>';
+  }).join('');
+
+  var COMP = [
+    ['atento', 'Espelhar', 'Fora do palco, inclina 8° em todo toque do treino, certo ou errado. Imóvel durante a medida.', '', 'dois braços do PP3'],
+    ['curioso', 'Convidar', 'Quando o gêmeo quer apresentar um jogo que a criança ainda não jogou. Recusar tem o mesmo peso.', 'Tem um jogo novo. Quer jogar?', 'só o braço adaptativo'],
+    ['contente', 'Celebrar', 'No fim do voo e em marcos, que todos alcançam. Descreve a ação, nunca elogia a pessoa.', 'Hoje você jogou 3 jogos.', 'dois braços do PP3'],
+    ['atento', 'Recuar', 'Erros seguidos no treino: o jogo fica mais devagar. O Bot não muda de expressão; o aviso é só texto.', 'O jogo vai ficar mais devagar.', 'só o braço adaptativo']
+  ];
+  document.getElementById('comportamentos').innerHTML = COMP.map(function (c) {
+    return '<div class="comp">' + bot(c[0], c[1]) + '<h3>' + c[1] + '</h3><span class="braco">' + c[4] + '</span><p class="muted">' + c[2] + '</p>' + (c[3] ? '<q>' + c[3] + '</q>' : '') + '</div>';
+  }).join('');
+
+  var SW = [
+    ['papel', 'fundo da moldura'], ['superficie', 'cartões, palco no treino'], ['tinta', 'texto principal'],
+    ['ceu', 'marca, ação principal'], ['ceu-claro', 'área de destaque'], ['sol', 'recompensa sobre fundo escuro'],
+    ['sol-icone', 'pena e próximo voo sobre fundo claro'], ['folha', 'concluído'], ['lavanda', 'ajuda, Ninho'],
+    ['lavanda-tinta', 'contorno de pista'], ['casco', 'corpo do Bot'], ['visor', 'visor do Bot'], ['olho', 'olhos e boca do Bot'], ['contorno', 'bordas de alvo']
+  ];
+  var raiz = document.getElementById('produto');
+  var mockupsCrianca = raiz.querySelectorAll('.app, .caminho');
+  function pintaSwatches() {
+    var alvo = raiz.querySelector('.app') || raiz;
+    var cs = getComputedStyle(alvo);
+    document.getElementById('swatches').innerHTML = SW.map(function (s) {
+      var v = cs.getPropertyValue('--' + s[0]).trim().toUpperCase();
+      return '<div class="sw"><i style="background:var(--' + s[0] + ')"></i><div><b>' + s[0] + '</b><code>' + v + '</code><span>' + s[1] + '</span></div></div>';
+    }).join('');
+  }
+  var bt = document.getElementById('t-suave');
+  bt.addEventListener('click', function () {
+    var on = bt.getAttribute('aria-pressed') !== 'true';
+    bt.setAttribute('aria-pressed', String(on));
+    document.getElementById('swatches').classList.toggle('suave', on);
+    mockupsCrianca.forEach(function (m) { m.classList.toggle('suave', on); });
+    pintaSwatches();
+  });
+  pintaSwatches();
+
+  // Penas no topo do Caminho: 1 galho (10 penas) + 4 penas soltas; a do dia com anel
+  var pena = function (x, hoje) {
+    return '<g transform="translate(' + x + ' 0)"><path d="M3 20C7 9 13 4 19 3c-1 7-7 13-16 17z" fill="var(--sol-icone)"/>' +
+      (hoje ? '<circle cx="11" cy="11" r="12" fill="none" stroke="var(--sol-icone)" stroke-width="2"/>' : '') + '</g>';
+  };
+  var galho = '<g><path d="M0 18 H40" stroke="var(--contorno)" stroke-width="3" stroke-linecap="round"/>' +
+    [4, 14, 24, 34].map(function (x) { return '<path d="M' + x + ' 18 C' + (x + 2) + ' 8 ' + (x + 6) + ' 4 ' + (x + 10) + ' 3 c0 5 -4 11 -10 15z" fill="var(--sol-icone)"/>'; }).join('') + '</g>';
+  document.getElementById('penas-topo').innerHTML = galho + pena(54) + pena(80) + pena(106) + pena(132, true);
+
+  // Céu da turma: só estrelas acesas e linhas entre elas
+  var pts = [[70,200],[110,200],[150,200],[190,200],[230,200],[270,200],[310,200],[350,200],[390,200],[70,150],[130,150],[130,110],[170,110],[170,150],[230,150],[250,150],[330,150],[330,200]];
+  var lig = [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7],[7,8],[0,9],[9,10],[10,11],[11,12],[12,13],[13,14],[14,4],[15,16],[16,17]];
+  document.getElementById('linhas-ceu').innerHTML = lig.map(function (l) {
+    var a = pts[l[0]], b = pts[l[1]];
+    return '<line x1="' + a[0] + '" y1="' + a[1] + '" x2="' + b[0] + '" y2="' + b[1] + '"/>';
+  }).join('');
+  document.getElementById('estrelas').innerHTML = pts.map(function (p) {
+    return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="7" fill="var(--sol)"/>';
+  }).join('');
+})();
+</script>

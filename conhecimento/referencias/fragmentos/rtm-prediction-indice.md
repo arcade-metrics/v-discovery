@@ -1,0 +1,14 @@
+| gambetta2014architecture | Fast-Paced Multiplayer (Part I): Client-Server Game Architecture | tecnico | realtime-multiplayer | https://www.gabrielgambetta.com/client-server-game-architecture.html | 2026-10-29 |
+| gambetta2014prediction | Fast-Paced Multiplayer (Part II): Client-Side Prediction and Server Reconciliation | tecnico | realtime-multiplayer | https://www.gabrielgambetta.com/client-side-prediction-server-reconciliation.html | 2026-10-29 |
+| gambetta2014interpolation | Fast-Paced Multiplayer (Part III): Entity Interpolation | tecnico | realtime-multiplayer | https://www.gabrielgambetta.com/entity-interpolation.html | 2026-10-29 |
+| gambetta2014lagcomp | Fast-Paced Multiplayer (Part IV): Lag Compensation | tecnico | realtime-multiplayer | https://www.gabrielgambetta.com/lag-compensation.html | 2026-10-29 |
+| gambetta2014demo | Fast-Paced Multiplayer: Sample Code and Live Demo | tecnico | realtime-multiplayer | https://www.gabrielgambetta.com/client-side-prediction-live-demo.html | 2026-10-29 |
+| bernier2001latency | Latency Compensating Methods in Client/Server In-game Protocol Design and Optimization (GDC 2001; original 403, verificado em cópia integral) | tecnico | realtime-multiplayer | https://developer.valvesoftware.com/wiki/Latency_Compensating_Methods_in_Client/Server_In-game_Protocol_Design_and_Optimization | 2026-10-29 |
+| valve2026source | Source Multiplayer Networking (original 403, verificado em cópia integral) | fornecedor | realtime-multiplayer | https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking | 2026-10-29 |
+| fiedler2010networking | What Every Programmer Needs To Know About Game Networking | tecnico | realtime-multiplayer | https://gafferongames.com/post/what_every_programmer_needs_to_know_about_game_networking/ | 2026-10-29 |
+| fiedler2014snapshot | Snapshot Interpolation | tecnico | realtime-multiplayer | https://gafferongames.com/post/snapshot_interpolation/ | 2026-10-29 |
+| liu2022survey | A Survey and Taxonomy of Latency Compensation Techniques for Network Computer Games | academico | realtime-multiplayer | https://doi.org/10.1145/3519023 | 2026-10-29 |
+| lee2015evaluation | Evaluation of lag-related configurations in first-person shooter games | academico | realtime-multiplayer | https://doi.org/10.1109/NetGames.2015.7382997 | 2026-10-29 |
+| lee2017corner | On "shot around a corner" in first-person shooter games | academico | realtime-multiplayer | https://doi.org/10.1109/NetGames.2017.7991545 | 2026-10-29 |
+| lee2018advanced | Enhancing the experience of multiplayer shooter games via advanced lag compensation (apenas metadados verificados) | academico | realtime-multiplayer | https://doi.org/10.1145/3204949.3204971 | 2026-10-29 |
+| wikipedia2026csp | Client-side prediction (Wikipedia) | secundario | realtime-multiplayer | https://en.wikipedia.org/wiki/Client-side_prediction | 2026-10-29 |

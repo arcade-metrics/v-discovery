@@ -1,0 +1,171 @@
+% Fragmento de bibliografia: aprendizagem-adaptativa / spaced-repetition (algoritmos classicos, HLR, FSRS)
+% Todas as entradas marcadas sem nota foram abertas de fato em 2026-10-29.
+% Entradas KDD 2022 e TKDE 2023 (ye2022ssp, su2023dynamics) so tiveram metadados
+% verificados (OpenAlex) - texto completo bloqueado (ACM 403 / IEEE fechado).
+% Fontes tentadas e nao verificadas (nao constam aqui por regra do metodo):
+% - Bernier/Valve nao se aplica a este fragmento.
+% - GitHub issue fasiha/ebisu#22 (critica de prático ao MAE do HLR): nao citada como fonte.
+% - "half-life regression revisited" como relatorio tecnico isolado: nao localizado; o que
+%   verificamos foi o artigo revisado por pares de Ilidio et al. 2026 (ilidio2026hlr), citado.
+
+@mastersthesis{wozniak1990sm2,
+  author  = {Wozniak, Piotr A.},
+  title   = {Optimization of Learning},
+  school  = {University of Technology in Pozna{\'n}},
+  year    = {1990},
+  url     = {https://super-memory.com/english/ol/sm2.htm},
+  urldate = {2026-10-29},
+  note    = {Especificacao do algoritmo SM-2 conforme publicada pela SuperMemo World (super-memory.com); pagina do fornecedor, nao a dissertacao original digitalizada.}
+}
+
+@online{supermemoguru2018sm2,
+  author  = {{SuperMemo World}},
+  title   = {SuperMemo 2: Algorithm (supermemo.guru)},
+  year    = {2018},
+  month   = {6},
+  url     = {https://supermemo.guru/wiki/Algorithm_SM-2},
+  urldate = {2026-10-29},
+  note    = {Wiki de fornecedor; entrada de glossario usada para explicar "History of spaced repetition" de Piotr Wozniak, junho de 2018.}
+}
+
+@online{anki2026algofaq,
+  author  = {{Anki / Ankitects}},
+  title   = {What spaced repetition algorithm does Anki use?},
+  url     = {https://docs.ankiweb.net/faqs/what-spaced-repetition-algorithm.html},
+  urldate = {2026-10-29},
+  note    = {Documentacao de fornecedor (FAQ oficial do Anki); versao do Anki nao indicada na propria pagina, mas refere "As of Anki 23.10" para a introducao do FSRS. Citado como exemplo de implementacao de SM-2 modificado, nao como recomendacao.}
+}
+
+@online{anki2026deckoptions,
+  author  = {{Anki / Ankitects}},
+  title   = {Anki Manual: Deck Options},
+  url     = {https://docs.ankiweb.net/deck-options.html},
+  urldate = {2026-10-29},
+  note    = {Documentacao de fornecedor; secoes sobre FSRS (desired retention, otimizacao de parametros) e sobre as opcoes do algoritmo baseado em SM-2 (starting ease, interval modifier). Versao do Anki nao indicada na pagina.}
+}
+
+@online{anki2025release,
+  author  = {{Ankitects}},
+  title   = {Anki 25.07 (GitHub Release)},
+  year    = {2025},
+  month   = {7},
+  url     = {https://github.com/ankitects/anki/releases/tag/25.07},
+  urldate = {2026-10-29},
+  note    = {Notas de lancamento; "FSRS-6 brings further algorithm improvements". Publicado em 04/07 (ano nao exibido explicitamente na pagina capturada, inferido 2025 pelo numero de versao e pela ordem cronologica dos releases vizinhos).}
+}
+
+@inproceedings{settles2016hlr,
+  author    = {Settles, Burr and Meeder, Brendan},
+  title     = {A Trainable Spaced Repetition Model for Language Learning},
+  booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  editor    = {Erk, Katrin and Smith, Noah A.},
+  year      = {2016},
+  month     = {8},
+  address   = {Berlin, Germany},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1848--1858},
+  doi       = {10.18653/v1/P16-1174},
+  url       = {https://aclanthology.org/P16-1174.pdf},
+  urldate   = {2026-10-29},
+  note      = {PDF completo lido via ACL Anthology.}
+}
+
+@online{duolingo2016hlrcode,
+  author  = {{Duolingo, Inc.}},
+  title   = {halflife-regression (GitHub repository): data and code for Settles and Meeder 2016},
+  year    = {2016},
+  url     = {https://github.com/duolingo/halflife-regression},
+  urldate = {2026-10-29},
+  note    = {Repositorio MIT License; README descreve dataset de ~13 milhoes de learning traces hospedado no Harvard Dataverse (DOI 10.7910/DVN/N8XJME) e o codigo experiment.py/evaluation.r.}
+}
+
+@inproceedings{ilidio2026hlr,
+  author    = {Il{\'i}dio, Pedro and Ghinis, Achilleas and Metwaly, Sameh Said and Vens, Celine and Cornillie, Frederik and Gharahighehi, Alireza},
+  title     = {Revisiting Half-Life Regression for Explainable and Personalized Spaced Repetition in Duolingo},
+  booktitle = {Proceedings of the Impactful and Responsible AI Systems for Education Workshop (IRAISE), Festival of Learning 2026},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {339},
+  year      = {2026},
+  pages     = {217--227},
+  url       = {https://raw.githubusercontent.com/mlresearch/v339/main/assets/ilidio26a/ilidio26a.pdf},
+  urldate   = {2026-10-29},
+  note      = {PDF completo lido via mirror oficial do PMLR no GitHub (mlresearch/v339).}
+}
+
+@online{fsrs2026algorithm,
+  author  = {{open-spaced-repetition contributors}},
+  title   = {FSRS Wiki: The Algorithm},
+  url     = {https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-Algorithm},
+  urldate = {2026-10-29},
+  note    = {Wiki do projeto FSRS (sucessora de fsrs4anki/wiki, que redireciona para esta); descreve FSRS-6 (atual) e versoes anteriores (v1 a FSRS-5). Documentacao de fornecedor/mantenedores do algoritmo, sem data de ultima edicao exibida.}
+}
+
+@online{fsrs2026optimization,
+  author  = {{open-spaced-repetition contributors}},
+  title   = {FSRS Wiki: The mechanism of optimization},
+  url     = {https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-mechanism-of-optimization},
+  urldate = {2026-10-29},
+  note    = {Wiki do projeto FSRS; descreve a perda por maxima verossimilhanca e o treino via PyTorch com backpropagation through time sobre logs do Anki. Sem data de ultima edicao exibida.}
+}
+
+@online{srsbenchmark2026,
+  author  = {{open-spaced-repetition contributors}},
+  title   = {srs-benchmark: A benchmark for spaced repetition schedulers/algorithms},
+  url     = {https://github.com/open-spaced-repetition/srs-benchmark},
+  urldate = {2026-10-29},
+  note    = {Repositorio mantido pela organizacao open-spaced-repetition, a mesma que desenvolve o FSRS; README credita FSRS a Jarrett Ye e direciona submissoes a L-M-Sherlock. Dataset publico (anki-revlogs-10k / FSRS-Anki-20k, Hugging Face). Citado com a ressalva explicita de ser benchmark dos proprios autores do FSRS.}
+}
+
+@inproceedings{ye2022ssp,
+  author    = {Ye, Junyao and Su, Jingyong and Cao, Yilong},
+  title     = {A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling},
+  booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '22)},
+  year      = {2022},
+  pages     = {4381--4390},
+  doi       = {10.1145/3534678.3539081},
+  url       = {https://doi.org/10.1145/3534678.3539081},
+  urldate   = {2026-10-29},
+  note      = {[metadados] Apenas metadados (titulo, autores, ano, paginas, DOI) verificados via OpenAlex e via citacao completa reproduzida em ilidio2026hlr. Texto completo nao acessado: ACM Digital Library retorna 403 mesmo via link de acesso de autor (maimemo.com/paper); OpenAlex reporta a obra como fechada, sem copia em repositorio.}
+}
+
+@article{su2023dynamics,
+  author  = {Su, Jingyong and Ye, Junyao and Nie, Liqiang and Cao, Yilong and Chen, Yongyong},
+  title   = {Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory},
+  journal = {IEEE Transactions on Knowledge and Data Engineering},
+  year    = {2023},
+  volume  = {35},
+  number  = {10},
+  pages   = {10085--10097},
+  doi     = {10.1109/TKDE.2023.3251721},
+  url     = {https://doi.org/10.1109/TKDE.2023.3251721},
+  urldate = {2026-10-29},
+  note    = {[metadados] Apenas metadados (titulo, autores, ano, volume, numero, paginas, DOI) verificados via OpenAlex. Texto completo nao acessado: OpenAlex reporta a obra como fechada (is_oa: false), sem copia em repositorio aberto.}
+}
+
+@online{maimemo2022sspmmc,
+  author  = {{MaiMemo / Ye, Junyao and colaboradores}},
+  title   = {SSP-MMC (GitHub repository): data and code for the KDD 2022 paper},
+  year    = {2022},
+  url     = {https://github.com/maimemo/SSP-MMC},
+  urldate = {2026-10-29},
+  note    = {Repositorio MIT License com dados (220 milhoes de logs de memoria no MaiMemo, Harvard Dataverse DOI 10.7910/DVN/VAGUL0) e codigo do artigo ye2022ssp.}
+}
+
+@online{maimemo2023sspmmcplus,
+  author  = {{MaiMemo / Su, Jingyong e colaboradores}},
+  title   = {SSP-MMC-Plus (GitHub repository): data and code for the TKDE 2023 paper},
+  year    = {2023},
+  url     = {https://github.com/maimemo/SSP-MMC-Plus},
+  urldate = {2026-10-29},
+  note    = {Repositorio MIT License, versao estendida do SSP-MMC; dataset no mesmo Dataverse (DOI 10.7910/DVN/VAGUL0, 1.6 GB). README nao descreve o modelo DHP em detalhe.}
+}
+
+@inproceedings{choffin2019das3h,
+  author    = {Choffin, Beno{\^i}t and Popineau, Fabrice and Bourda, Yolaine and Vie, Jill-J{\^e}nn},
+  title     = {DAS3H: Modeling Student Learning and Forgetting for Optimally Scheduling Distributed Practice of Skills},
+  booktitle = {Proceedings of the 12th International Conference on Educational Data Mining (EDM 2019)},
+  year      = {2019},
+  url       = {https://arxiv.org/pdf/1905.06873},
+  urldate   = {2026-10-29},
+  note      = {PDF completo lido via arXiv (arXiv:1905.06873).}
+}

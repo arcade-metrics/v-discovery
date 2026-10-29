@@ -1,0 +1,15 @@
+# Índice de fontes — learning-analytics-e-avaliacao/foundations
+
+| Chave | Título | Tipo | Domínio | URL | Consultado em |
+|---|---|---|---|---|---|
+| siemensbaker2012towards | Siemens & Baker, Learning Analytics and Educational Data Mining: Towards Communication and Collaboration (LAK '12, pp. 252-254, DOI 10.1145/2330601.2330661) | academico | learning-analytics-e-avaliacao | https://learninganalytics.upenn.edu/ryanbaker/LAKs%20reformatting%20v2.pdf | 2026-10-29 |
+| solaresearch2026whatisla | Society for Learning Analytics Research (SoLAR), What Is Learning Analytics? | secundario | learning-analytics-e-avaliacao | https://www.solaresearch.org/about/what-is-learning-analytics/ | 2026-10-29 |
+| iedms2026about | International Educational Data Mining Society, About | secundario | learning-analytics-e-avaliacao | https://educationaldatamining.org/about/ | 2026-10-29 |
+| bakerinventado2014edm | Baker & Inventado, Educational Data Mining and Learning Analytics, em Learning Analytics: From Research to Practice (Springer, 2014, pp. 61-75, DOI 10.1007/978-1-4614-3305-7_4) | academico | learning-analytics-e-avaliacao | https://learninganalytics.upenn.edu/ryanbaker/Educational%20Data%20Mining%20and%20Learning%20Analytics%20-%20DRAFT.pdf | 2026-10-29 |
+| chatti2014challenges | Chatti et al., Learning Analytics: Challenges and Future Research Directions (eleed, Issue 10, 2014) | academico | learning-analytics-e-avaliacao | https://ojs.hbz-nrw.de/dipp_ojs/eleed/article/download/1735/2443/21077 | 2026-10-29 |
+| romeroventura2007survey | Romero & Ventura, Educational Data Mining: A Survey from 1995 to 2005 (Expert Systems with Applications 33, 2007) [metadados] | academico | learning-analytics-e-avaliacao | https://learninganalytics.upenn.edu/ryanbaker/LAKs%20reformatting%20v2.pdf | 2026-10-29 |
+| romeroventura2010review | Romero & Ventura, Educational Data Mining: A Review of the State of the Art (IEEE TSMC-C 40(6), 2010) [resumo] | academico | learning-analytics-e-avaliacao | https://ieeexplore.ieee.org/document/5524021 | 2026-10-29 |
+| romeroventura2020updated | Romero & Ventura, Educational Data Mining and Learning Analytics: An Updated Survey (WIREs DMKD 10(3), 2020) [resumo] | academico | learning-analytics-e-avaliacao | https://arxiv.org/abs/2402.07956 | 2026-10-29 |
+| campbelldeblois2007academic | Campbell, DeBlois & Oblinger, Academic Analytics: A New Tool for a New Era (EDUCAUSE Review 42(4), 2007) | academico | learning-analytics-e-avaliacao | https://www.educause.edu/ir/library/pdf/erm0742.pdf | 2026-10-29 |
+| clow2012cycle | Clow, The Learning Analytics Cycle: Closing the Loop Effectively (LAK '12, DOI 10.1145/2330601.2330636) [texto integral bloqueado; via slides do autor e citações secundárias] | academico | learning-analytics-e-avaliacao | https://www.slideshare.net/slideshow/the-learning-analytics-cycle-closing-the-loop-effectively/12739459 | 2026-10-29 |
+| shum2012policybrief | Buckingham Shum, Learning Analytics (UNESCO IITE Policy Brief, nov. 2012) | normativo | learning-analytics-e-avaliacao | http://iite.unesco.org/pics/publications/en/files/3214711.pdf | 2026-10-29 |
