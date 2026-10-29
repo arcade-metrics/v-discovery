@@ -41,6 +41,15 @@ def main():
         for m in re.finditer(r"tipo:\s*([\w\-]+),\s*alvo:\s*([\w.\-]+)", fm):
             rels.append((i.group(1), m.group(1), m.group(2)))
 
+    # ids de todos os dominios, para distinguir alvo em outro dominio de alvo inexistente
+    todos = set()
+    for q in RAIZ.rglob("*.md"):
+        fm = frontmatter(q.read_text(encoding="utf-8"))
+        if fm:
+            m = re.search(r"^id:\s*(\S+)", fm, re.M)
+            if m:
+                todos.add(m.group(1))
+
     print("### Documentos\n")
     print("| Id | Tipo | Arquivo | Título |")
     print("|---|---|---|---|")
@@ -59,7 +68,7 @@ def main():
     print("| Origem | Tipo | Alvo |")
     print("|---|---|---|")
     for o, t, a in sorted(rels):
-        falta = "" if a in docs else " (inexistente)"
+        falta = "" if a in docs else (" (outro domínio)" if a in todos else " (inexistente)")
         print(f"| `{o}` | {t} | `{a}`{falta} |")
 
     print("\n### Diagrama (relações estruturais)\n")

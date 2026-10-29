@@ -30,7 +30,7 @@ Escrito primeiro para ser lido por modelos de linguagem (estrutura fixa, campos 
 ## Estrutura
 
 ```
-duolingo_benchmark/
+benchmarks/duolingo/
   README.md                          este arquivo
   00-visao-geral.md                  tese, loop central, glossário, matriz de decisão
   01-recompensas.md                  XP, ofensiva, missões, gemas/baús/energia, ligas, conquistas, social, notificações, monetização

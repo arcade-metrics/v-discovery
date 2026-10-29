@@ -1,3 +1,19 @@
+# Discovery: base curada do VUOO
+
+Repositório de descoberta do produto VUOO (Wemoga + CIATec/CCD, EACH/USP). Reúne as fontes do projeto, uma base de conhecimento técnica agnóstica, benchmarks de produtos existentes e as decisões de produto, em camadas que só se referenciam de cima para baixo.
+
+```
+projeto/        propostas (PIPE-TC, CCD) e insumos IN-nn extraídos delas      → projeto/README.md
+conhecimento/   11 domínios técnicos, ids estáveis, sem menção a produto       → conhecimento/README.md
+benchmarks/     teardowns de produtos existentes (hoje: Duolingo)              → benchmarks/README.md
+produtos/       vuoo/ (plataforma, regras, padrões) e vuoo-linguagem/ (estudo) → produtos/vuoo/LEIAME.md
+.claude/skills/ skills de produto que geram os specs em produtos/              → abaixo
+```
+
+A regra que organiza tudo: **cada fato tem um dono, o resto aponta** (detalhe em `projeto/README.md`). Validação da base de conhecimento: `python conhecimento/_modelo/validar.py`.
+
+---
+
 # Infra de produto: da ideia ao plano
 
 Cinco skills para Claude Code que transformam uma ideia de app em um conjunto de specs versionados no repo.

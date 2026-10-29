@@ -92,8 +92,8 @@ Termos consolidados do domínio. Cada entrada tem definição curta e o id do do
 | habilidade | competência tal como enunciada por um framework oficial, com código | kg.mod.competencies-and-objectives |
 | objetivo de aprendizagem | formulação operacional, com verbo observável e nível cognitivo | kg.mod.competencies-and-objectives |
 | knowledge component (KC) | unidade adquirida de função ou estrutura cognitiva, inferível do desempenho em tarefas relacionadas | adp.id.knowledge-components |
-| recurso de aprendizagem | obra com orientação explícita para aprendizagem, educação ou aquisição de habilidade | kg.voc.schema-org-learning-resource |
-| learning object | qualquer entidade, digital ou não, usada para aprendizagem, educação ou treinamento | kg.voc.ieee-lom |
+| recurso de aprendizagem | obra com orientação explícita para aprendizagem, educação ou aquisição de habilidade | iop.md.lrmi-schema-org |
+| learning object | qualquer entidade, digital ou não, usada para aprendizagem, educação ou treinamento | iop.md.ieee-lom |
 | instrumento / item | o que avalia / a unidade avaliativa dentro dele | kg.mod.conceptual-model |
 | evidência | observação interpretada à luz do grafo conceitual | kg.mod.evidence-and-mastery |
 | estado de domínio (mastery) | estimativa, em um instante, de que o aluno domina um conceito; derivada e revisável | kg.mod.evidence-and-mastery |
@@ -106,18 +106,18 @@ Termos consolidados do domínio. Cada entrada tem definição curta e o id do do
 
 | Termo | Definição | Documento |
 |---|---|---|
-| LOM | esquema conceitual de metadados de objeto de aprendizagem, em nove categorias | kg.voc.ieee-lom |
-| DCMI Metadata Terms | especificação corrente de todos os termos de metadados mantidos pela DCMI | kg.voc.dublin-core |
-| LRMI | classes, propriedades e concept schemes da DCMI para descrição de recursos educacionais | kg.voc.dublin-core |
-| LearningResource | tipo schema.org para obras com orientação explícita para aprendizagem | kg.voc.schema-org-learning-resource |
-| teaches / assesses / competencyRequired | propriedades schema.org que ligam recurso a competência | kg.voc.schema-org-learning-resource |
-| AlignmentObject | item schema.org que descreve alinhamento entre recurso e nó de framework educacional | kg.voc.schema-org-learning-resource |
-| CASE | padrão 1EdTech para troca de padrões acadêmicos, competências e habilidades | kg.voc.case |
-| CFDocument / CFItem / CFAssociation | o framework / o item / a associação tipada, no modelo CASE | kg.voc.case |
-| precedes | associação CASE: a origem vem antes do destino em tempo ou ordem | kg.voc.case, kg.curr.prerequisites |
-| hasSkillLevel | associação CASE cujo destino define um nível de habilidade, p. ex. nível cognitivo | kg.voc.case, kg.curr.cognitive-taxonomies |
-| ESCO | classificação multilíngue europeia de competências, habilidades e ocupações | kg.voc.esco |
-| CTDL | família de padrões de facto para descrição de credenciais e competências | kg.voc.ctdl |
+| LOM | esquema conceitual de metadados de objeto de aprendizagem, em nove categorias | iop.md.ieee-lom |
+| DCMI Metadata Terms | especificação corrente de todos os termos de metadados mantidos pela DCMI | iop.md.dublin-core |
+| LRMI | classes, propriedades e concept schemes da DCMI para descrição de recursos educacionais | iop.md.dublin-core |
+| LearningResource | tipo schema.org para obras com orientação explícita para aprendizagem | iop.md.lrmi-schema-org |
+| teaches / assesses / competencyRequired | propriedades schema.org que ligam recurso a competência | iop.md.lrmi-schema-org |
+| AlignmentObject | item schema.org que descreve alinhamento entre recurso e nó de framework educacional | iop.md.lrmi-schema-org |
+| CASE | padrão 1EdTech para troca de padrões acadêmicos, competências e habilidades | iop.comp.case |
+| CFDocument / CFItem / CFAssociation | o framework / o item / a associação tipada, no modelo CASE | iop.comp.case |
+| precedes | associação CASE: a origem vem antes do destino em tempo ou ordem | iop.comp.case, kg.curr.prerequisites |
+| hasSkillLevel | associação CASE cujo destino define um nível de habilidade, p. ex. nível cognitivo | iop.comp.case, kg.curr.cognitive-taxonomies |
+| ESCO | classificação multilíngue europeia de competências, habilidades e ocupações | iop.comp.esco |
+| CTDL | família de padrões de facto para descrição de credenciais e competências | iop.comp.ctdl |
 | BNCC | documento normativo que define as aprendizagens essenciais da Educação Básica no Brasil | kg.curr.bncc |
 
 ## Recuperação e construção

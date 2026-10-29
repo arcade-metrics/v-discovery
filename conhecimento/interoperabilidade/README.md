@@ -35,8 +35,8 @@ Leitura sugerida para quem chega sem contexto:
 | `tool-integration/` | LTI 1.3, LTI Advantage, SCORM, Common Cartridge | `iop.tool.*` |
 | `assessment/` | QTI 3.0 | `iop.asmt.*` |
 | `rostering/` | OneRoster, Ed-Fi, SIF, CEDS, comparação | `iop.ros.*` |
-| `metadata/` | IEEE LOM, Dublin Core, LRMI/schema.org, comparação | `iop.md.*` |
-| `competencies/` | CASE, CTDL/CTDL-ASN, ESCO | `iop.comp.*` |
+| `metadata/` | IEEE LOM, Dublin Core, LRMI/schema.org, comparação (documentos donos, fundidos com os do grafo em 29/10/2026; incluem as seções de modelagem em grafo) | `iop.md.*` |
+| `competencies/` | CASE, CTDL/CTDL-ASN, ESCO (documentos donos, fundidos com os do grafo em 29/10/2026) | `iop.comp.*` |
 | `credentials/` | W3C Verifiable Credentials, Open Badges 3.0, CLR 2.0 | `iop.cred.*` |
 | `semantics/` | vocabulários e SKOS, interoperabilidade semântica | `iop.sem.*` |
 | `health/` | CIF, FHIR | `iop.health.*` |

@@ -16,7 +16,7 @@ Segue o modelo, o método e o checklist de `_modelo/`. Este arquivo contém só 
 
 Estudo técnico de plataformas existentes como referência de arquitetura, mecânicas e integração. Três famílias: sistemas de gestão de aprendizagem (Moodle, Canvas, Google Classroom); plataformas adaptativas (ALEKS, MATHia, DreamBox, Khan Academy e similares); jogos sérios e aplicações para neurodivergência com evidência publicada (EndeavorRx, Cogmed e similares). Para cada plataforma: arquitetura pública, modelo de adaptação quando documentado, padrões de interoperabilidade suportados, evidências de eficácia e críticas.
 
-O estudo do Duolingo em `duolingo_benchmark/` na raiz do repositório é o primeiro documento desta família. Decisão pendente: migrar para cá ou manter e linkar.
+O estudo do Duolingo em `benchmarks/duolingo/` (raiz do repositório) é o primeiro documento desta família. Decisão tomada em 29/10/2026: benchmarks com imagens e índices JSON ficam em `benchmarks/`, fora do modelo documental; este domínio registra cada um como estudo de caso curto com id (`serious-games/duolingo.md`, `lms.case.duolingo`).
 
 Fora do escopo: comparação comercial, precificação, decisões de adoção.
 

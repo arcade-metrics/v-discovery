@@ -16,6 +16,8 @@ Formato: `<dominio>.<area>.<slug>`, em inglês, minúsculas, hífens.
 | dados-pesquisa-e-eventos | `dat` |
 | gamificacao-e-jogos | `gam` |
 | learning-analytics-e-avaliacao | `lae` |
+| fundamentos-pedagogicos | `ped` |
+| privacidade-seguranca-e-governanca | `psg` |
 | acessibilidade-educacao-especial-e-dua | `acs` |
 
 Exemplos: `rtm.sync.snapshot-interpolation`, `iop.spec.xapi`, `adp.model.bayesian-knowledge-tracing`.
@@ -28,7 +30,7 @@ Um id nunca muda depois de publicado. Se o conceito for renomeado, o arquivo mud
 ---
 id: rtm.sync.snapshot-interpolation
 titulo: Snapshot interpolation
-tipo: conceito          # conceito | tecnica | protocolo | padrao | framework | estudo-de-caso | comparacao | glossario | mapa | relatorio
+tipo: conceito          # conceito | tecnica | protocolo | padrao | framework | estudo-de-caso | comparacao | glossario | mapa | relatorio | redirecionamento
 dominio: realtime-multiplayer
 status: rascunho        # rascunho | revisado
 criado: 2026-10-29
