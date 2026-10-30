@@ -1,0 +1,31 @@
+# Índice de fontes — dados-pesquisa-e-eventos/datasets
+
+| Chave | Título | Tipo | Domínio | URL | Consultado em |
+|---|---|---|---|---|---|
+| koedinger2010datashop | Koedinger, Baker, Cunningham, Skogsholm, Leber & Stamper, A Data Repository for the EDM Community: The PSLC DataShop (Handbook of Educational Data Mining, CRC Press, 2010; versão de autor) | academico | dados-pesquisa-e-eventos | https://learninganalytics.upenn.edu/ryanbaker/10.1.1.206.4841.pdf | 2026-10-30 |
+| koedinger2008open | Koedinger, Cunningham, Skogsholm & Leber, An Open Repository and Analysis Tools for Fine-Grained, Longitudinal Learner Data (2008; veículo não verificado) | academico | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/about/pubs/16_Koedinger_45.pdf | 2026-10-30 |
+| datashop2026importformat | DataShop, Help: Tab-delimited Format (DataShop 11.4.0) | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/help?page=importFormatTd | 2026-10-30 |
+| datashop2026export | DataShop, Help: Export (DataShop 11.4.0) | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/help?page=export | 2026-10-30 |
+| datashop2026glossary | DataShop, Help: Glossary | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/help?page=terms | 2026-10-30 |
+| datashop2026faq | DataShop, Frequently Asked Questions | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/about/faq.html | 2026-10-30 |
+| datashop2026terms | DataShop, Terms of Use (vigentes desde 16/01/2012) | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/Terms | 2026-10-30 |
+| datashop2026irb | DataShop, Help: IRB and Data Shareability | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/help?page=irb | 2026-10-30 |
+| datashop2026junyi1198 | DataShop, Dataset Info: Junyi Academy Math Practicing Log (to Jan. 2015) | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/DatasetInfo?datasetId=1198 | 2026-10-30 |
+| stamper2010kddcup | Stamper, Niculescu-Mizil, Ritter, Gordon & Koedinger, KDD Cup 2010 Educational Data Mining Challenge: data sets (PSLC DataShop, 2010) | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/KDDCup/downloads.jsp | 2026-10-30 |
+| datashop2010kddcuprules | PSLC DataShop, KDD Cup 2010: Data Format | fornecedor | dados-pesquisa-e-eventos | https://pslcdatashop.web.cmu.edu/KDDCup/rules_data_format.jsp | 2026-10-30 |
+| yu2010feature | Yu et al., Feature Engineering and Classifier Ensemble for KDD Cup 2010 (KDD Cup 2010 Workshop, JMLR W&CP, 2010) | academico | dados-pesquisa-e-eventos | https://homepage.iis.sinica.edu.tw/~hungyi/10c.pdf | 2026-10-30 |
+| heffernan2014assistments | Heffernan & Heffernan, The ASSISTments Ecosystem (International Journal of Artificial Intelligence in Education 24(4):470-497, 2014, DOI 10.1007/s40593-014-0024-x) | academico | dados-pesquisa-e-eventos | https://link.springer.com/content/pdf/10.1007/s40593-014-0024-x.pdf | 2026-10-30 |
+| assistments2026skillbuilder0910 | ASSISTments, Skill-builder data 2009-2010 | fornecedor | dados-pesquisa-e-eventos | https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010 | 2026-10-30 |
+| assistments2026interpret | ASSISTments, An Explanation on How to Interpret Our Data Sets | fornecedor | dados-pesquisa-e-eventos | https://sites.google.com/site/assistmentsdata/an-explanation-on-how-to-interpret-our-data-sets | 2026-10-30 |
+| assistments2026data2012 | ASSISTments, 2012-13 School Data with Affect | fornecedor | dados-pesquisa-e-eventos | https://sites.google.com/site/assistmentsdata/datasets/2012-13-school-data-with-affect | 2026-10-30 |
+| assistments2026data2015 | ASSISTments, 2015 ASSISTments Skill Builder Data | fornecedor | dados-pesquisa-e-eventos | https://sites.google.com/site/assistmentsdata/datasets/2015-assistments-skill-builder-data | 2026-10-30 |
+| assistments2017competition | ASSISTments Longitudinal Data Mining Competition 2017 | fornecedor | dados-pesquisa-e-eventos | https://sites.google.com/view/assistmentsdatamining | 2026-10-30 |
+| assistments2026terms | ASSISTments, Terms of Use for Using Data | fornecedor | dados-pesquisa-e-eventos | https://sites.google.com/site/assistmentsdata/termsofuseforusingdata | 2026-10-30 |
+| choi2020ednet | Choi et al., EdNet: A Large-Scale Hierarchical Dataset in Education (AIED 2020, LNCS, pp. 69-73, DOI 10.1007/978-3-030-52240-7_13; lido em arXiv 1912.03072v3) | academico | dados-pesquisa-e-eventos | https://arxiv.org/abs/1912.03072 | 2026-10-30 |
+| riiid2020ednetrepo | Riiid AI Research, ednet (repositório GitHub, sem versão) | fornecedor | dados-pesquisa-e-eventos | https://github.com/riiid/ednet | 2026-10-30 |
+| kuzilek2017oulad | Kuzilek, Hlosta & Zdrahal, Open University Learning Analytics dataset (Scientific Data 4:170171, 2017, DOI 10.1038/sdata.2017.171) | academico | dados-pesquisa-e-eventos | https://www.nature.com/articles/sdata2017171 | 2026-10-30 |
+| chang2015junyi | Chang, Hsu & Chen, Modeling Exercise Relationships in E-Learning: A Unified Approach (EDM 2015) | academico | dados-pesquisa-e-eventos | https://ken77921.github.io/assets/pdf/proj8-education-student%20modeling-paper.pdf | 2026-10-30 |
+| edudata2026junyi | EduData contributors, documentação: Junyi Academy dataset | secundario | dados-pesquisa-e-eventos | https://edudata.readthedocs.io/en/dev/build/blitz/junyi/junyi.html | 2026-10-30 |
+| junyi2020kaggle | Junyi Academy Foundation, Junyi Academy Online Learning Activity Dataset (Kaggle, versão 9, 13/05/2020) | fornecedor | dados-pesquisa-e-eventos | https://www.kaggle.com/datasets/junyiacademy/learning-activity-public-dataset-by-junyi-academy | 2026-10-30 |
+| settles2018slam | Settles, Brust, Gustafson, Hagiwara & Madnani, Second Language Acquisition Modeling (BEA workshop 2018, pp. 56-65, DOI 10.18653/v1/W18-0506) | academico | dados-pesquisa-e-eventos | https://aclanthology.org/W18-0506.pdf | 2026-10-30 |
+| settles2018slamdata | Settles, Data for the 2018 Duolingo Shared Task on SLAM (Harvard Dataverse, versão 4, 13/02/2019, DOI 10.7910/DVN/8SWHNO) | fornecedor | dados-pesquisa-e-eventos | https://doi.org/10.7910/DVN/8SWHNO | 2026-10-30 |
