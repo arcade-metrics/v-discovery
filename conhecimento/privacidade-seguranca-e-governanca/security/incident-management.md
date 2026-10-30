@@ -5,7 +5,7 @@ tipo: protocolo
 dominio: privacidade-seguranca-e-governanca
 status: rascunho
 criado: 2026-10-29
-atualizado: 2026-10-29
+atualizado: 2026-10-30
 consultado_em: 2026-10-29
 fontes: [brasil2018lgpd, anpd152024, anpd2026cis, anpd2021pequenoporte, nist2025sp80061, k12six2022stateofk12, verizon2025dbir, cis2026k12]
 relacoes:
@@ -31,7 +31,7 @@ O regulamento da ANPD define **incidente de segurança** como "qualquer evento a
 
 ## Problema que resolve
 
-A LGPD determina que "o controlador deverá comunicar à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares", em prazo razoável definido pela autoridade, com conteúdo mínimo (natureza dos dados, titulares envolvidos, medidas de segurança, riscos, motivos da demora, medidas de mitigação); a autoridade pode determinar ampla divulgação e medidas de reversão, e avalia, no juízo de gravidade, se os dados foram tornados ininteligíveis [F: brasil2018lgpd, art. 48]. O art. 50 inclui "planos de resposta a incidentes e remediação" entre os elementos do programa de governança em privacidade [F: brasil2018lgpd, art. 50, §2]. Em educação, o problema é agravado pela baixa capacidade: 66% dos distritos americanos têm uma ou duas pessoas para segurança [F: cis2026k12], o K12 SIX relata exigências de divulgação "quite weak" e distritos que tomaram medidas para evitar divulgar [F: k12six2022stateofk12], e no DBIR 2025 os erros respondem por 29% das violações do setor, com envio ao destinatário errado em 60% das violações por erro [F: verizon2025dbir]. [I] Um fluxo de incidentes bem definido é o que permite a uma equipe pequena cumprir prazos de dias úteis sob pressão.
+A LGPD determina que "o controlador deverá comunicar à autoridade nacional e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares", em prazo razoável definido pela autoridade, com conteúdo mínimo (natureza dos dados, titulares envolvidos, medidas de segurança, riscos, motivos da demora, medidas de mitigação); a autoridade pode determinar ampla divulgação e medidas de reversão, e avalia, no juízo de gravidade, se os dados foram tornados ininteligíveis [F: brasil2018lgpd, art. 48]. O art. 50 inclui "planos de resposta a incidentes e remediação" entre os elementos do programa de governança em privacidade [F: brasil2018lgpd, art. 50, §2]. Em educação, o problema é agravado pela baixa capacidade: 66% dos distritos americanos têm uma ou duas pessoas para segurança [F: cis2026k12], o K12 SIX relata exigências de divulgação "quite weak" e distritos que tomaram medidas para evitar divulgar [F: k12six2022stateofk12], e no DBIR 2025, seção Educational Services, os erros respondem por 29% das violações do setor, com envio ao destinatário errado (Misdelivery) como principal variedade de erro: 17% de todas as violações do setor (p. 73) e 60% das violações por erro (p. 74) [F: verizon2025dbir, Educational Services, p. 73-74]. [I] Um fluxo de incidentes bem definido é o que permite a uma equipe pequena cumprir prazos de dias úteis sob pressão.
 
 ## Fundamentos e funcionamento
 

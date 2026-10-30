@@ -5,7 +5,7 @@ tipo: comparacao
 dominio: privacidade-seguranca-e-governanca
 status: rascunho
 criado: 2026-10-29
-atualizado: 2026-10-29
+atualizado: 2026-10-30
 consultado_em: 2026-10-29
 fontes: [brasil2018lgpd, lei8069eca, lei15211ecadigital, anpd2023enunciado1, anpd2024legitimointeresse, eu2016gdpr, ico2020aadc, ftc2025coppa, ftc2025coppafinalrule, ftc2025coppafaq]
 relacoes:
@@ -42,9 +42,9 @@ Equipes que desenham uma plataforma educacional brasileira precisam saber onde a
 | Desenho e padrões | informação acessível à criança; não condicionar participação a dados excessivos [F: brasil2018lgpd, art. 14, §4 e §6] | privacidade por padrão no nível mais alto; gestão de riscos; sem uso compulsivo [F: lei15211ecadigital, art. 7 e 8] | linguagem clara para crianças [F: eu2016gdpr, art. 12(1)] | 15 padrões (defaults, minimização, geolocalização, nudges, perfilamento etc.) [F: ico2020aadc] | segurança escrita e política de retenção escrita; retenção indefinida proibida [F: ftc2025coppafinalrule] |
 | Dado de saúde e deficiência | sensível; só art. 11; legítimo interesse excluído [F: brasil2018lgpd, art. 5, II e 11; F: anpd2024legitimointeresse] | não trata | categoria especial do art. 9; consentimento explícito ou lei [F: eu2016gdpr, art. 9] | sem regra própria; [I] coberto pelos padrões de DPIA e "detrimental use of data", cujo conteúdo não foi lido | não é categoria à parte; entra como personal information quando identificável [I] |
 | Decisão automatizada | direito de revisão e de informação sobre critérios [F: brasil2018lgpd, art. 20] | não trata | direito de não ser submetido; intervenção humana; "should not concern a child" [F: eu2016gdpr, art. 22; cons. 71] | há padrão específico de "profiling" (título visto; conteúdo não lido) [F: ico2020aadc] | não trata |
-| Avaliação de impacto | ANPD "poderá determinar" RIPD; ANPD orienta fazê-lo em alto risco [F: brasil2018lgpd, art. 38; F: anpd2024legitimointeresse] | relatório de impacto se o tratamento exceder o estritamente necessário [F: lei15211ecadigital, art. 16] | DPIA (art. 35, não lido nesta sessão) | padrão 2, DPIA obrigatória [F: ico2020aadc] | não exige |
+| Avaliação de impacto | ANPD "poderá determinar" RIPD; ANPD orienta fazê-lo em alto risco [F: brasil2018lgpd, art. 38; F: anpd2024legitimointeresse] | relatório de impacto se o tratamento exceder o estritamente necessário [F: lei15211ecadigital, art. 16] | DPIA (art. 35; ver psg.audit.ripd-dpia) | padrão 2, DPIA obrigatória [F: ico2020aadc] | não exige |
 | Autoridade | ANPD | ANPD, por decreto [F: lei15211ecadigital, art. 34] | autoridades nacionais | ICO | FTC |
-| Sanção máxima | multa até 2% do faturamento, limitada a R$ 50 milhões por infração [F: brasil2018lgpd, art. 52, II] | multa até 10% do faturamento do grupo no Brasil; suspensão e proibição de atividades pelo Judiciário [F: lei15211ecadigital, art. 35] | não verificado nesta sessão | código, sem multa própria; aplicado via UK GDPR [F: ico2020aadc] | não verificado nesta sessão |
+| Sanção máxima | multa simples de até 2% do faturamento no Brasil, limitada a R$ 50 milhões por infração (redação vigente, conferida no texto compilado em 2026-10-30; ver psg.legal.lgpd-children) [F: brasil2018lgpd, art. 52, II] | multa até 10% do faturamento do grupo no Brasil; suspensão e proibição de atividades pelo Judiciário [F: lei15211ecadigital, art. 35] | não verificado nesta sessão | código, sem multa própria; aplicado via UK GDPR [F: ico2020aadc] | não verificado nesta sessão |
 
 ### Leitura da tabela
 
@@ -63,7 +63,7 @@ Os três documentos da área (psg.legal.lgpd-children, psg.legal.eca-and-digital
 ## Lacunas e questões abertas
 
 - Sanções do GDPR (art. 83) e da COPPA (penalidades civis) não foram verificadas nesta sessão e ficaram como "não verificado".
-- O art. 35 do GDPR (DPIA) não foi lido; a célula remete ao conhecimento geral e deve ser conferida.
+- O art. 35 do GDPR (DPIA) não foi lido por esta comparação; foi lido em espelho em psg.audit.ripd-dpia, para onde a célula remete.
 - Falta na comparação a regulamentação da ANPD sobre age assurance prevista no Decreto 12.880/2026, ainda não editada na data de consulta.
 - A comparação não cobre o FERPA (EUA), referido pela FTC como motivo para não finalizar a exceção escolar da COPPA, nem a Convenção sobre os Direitos da Criança em texto primário (citada via guia da ANPD).
 
@@ -78,6 +78,6 @@ Os três documentos da área (psg.legal.lgpd-children, psg.legal.eca-and-digital
 | anpd2024legitimointeresse | tecnico | 2026-10-29 |
 | eu2016gdpr | normativo (lido em espelho) | 2026-10-29 |
 | ico2020aadc | normativo | 2026-10-29 |
-| ftc2025coppa | normativo | 2026-10-29 |
+| ftc2025coppa | normativo (CFR, edição de 1/1/2025, anterior à emenda de 2025) | 2026-10-29 |
 | ftc2025coppafinalrule | normativo | 2026-10-29 |
 | ftc2025coppafaq | tecnico | 2026-10-29 |

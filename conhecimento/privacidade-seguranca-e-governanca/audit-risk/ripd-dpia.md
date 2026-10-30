@@ -5,7 +5,7 @@ tipo: protocolo
 dominio: privacidade-seguranca-e-governanca
 status: rascunho
 criado: 2026-10-29
-atualizado: 2026-10-29
+atualizado: 2026-10-30
 consultado_em: 2026-10-29
 fontes: [brasil2018lgpd, anpd22022, anpd2023ripdfaq, anpd182024, sgd2026guiaripd, sgd2026modeloripd, eu2016gdpr, wp292017wp248, cnil2018piamethodology, iso291342023]
 relacoes:
@@ -111,7 +111,7 @@ Depende de `psg.audit.processing-records`, `psg.audit.privacy-risk-management` e
 
 - A ANPD ainda não editou o regulamento específico de RIPD previsto no art. 55-J, XIII; a página de perguntas e respostas, modificada em 23/09/2026, continua a remeter ao art. 4 da Res. 2/2022.
 - O texto da ISO/IEC 29134:2023 não foi acessado; sua estrutura de relatório não pôde ser comparada com os blocos da ANPD.
-- O ECA Digital (Lei 15.211/2025) é citado pelo guia federal, mas seu texto não foi aberto nesta sessão; o que ele muda para o RIPD fica para `psg.legal.eca-and-digital-eca`.
+- O ECA Digital (Lei 15.211/2025) é citado pelo guia federal; o texto da lei foi lido em psg.legal.eca-and-digital-eca, e o relatório de impacto que ela prevê aparece em psg.legal.comparison. A integração desse relatório com o RIPD da LGPD não é tratada aqui.
 - Falta orientação sobre como consultar crianças e responsáveis na elaboração do relatório (art. 35(9) do GDPR; "público externo" na ANPD), em especial alunos com deficiência intelectual ou de comunicação.
 
 ## Fontes

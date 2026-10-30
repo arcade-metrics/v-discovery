@@ -7,7 +7,7 @@ status: rascunho
 criado: 2026-10-29
 atualizado: 2026-10-29
 consultado_em: 2026-10-29
-fontes: [brasil2018lgpd, lei104062002, lei80691990, eu2016gdpr, cfr16312coppa, ftc2025coppafinalrule, iso291842020, crc2021gc25, cns5102016]
+fontes: [brasil2018lgpd, lei104062002, lei8069eca, eu2016gdpr, cfr16312coppa, ftc2025coppafinalrule, iso291842020, crc2021gc25, cns5102016]
 relacoes:
   - { tipo: depende-de, alvo: psg.consent.parental-consent }
   - { tipo: depende-de, alvo: psg.legal.lgpd-children }
@@ -59,7 +59,7 @@ Quando houver "mudanças da finalidade para o tratamento de dados pessoais não 
 
 ### Transição à maioridade
 
-"A menoridade cessa aos dezoito anos completos, quando a pessoa fica habilitada à prática de todos os atos da vida civil" [F: lei104062002, art. 5]; antes disso, entre 16 e 18 a pessoa é relativamente incapaz [F: lei104062002, art. 4, I]. A LGPD não regula o que acontece com o consentimento dado pelo responsável quando o titular completa 18 anos. O GDPR também não, mas o considerando 65 diz que o direito ao apagamento é relevante "where the data subject has given his or her consent as a child and is not fully aware of the risks" e pode ser exercido "notwithstanding the fact that he or she is no longer a child" [F: eu2016gdpr, considerando 65], e o art. 17(1)(f) lista como fundamento de apagamento os dados coletados em serviços oferecidos a crianças sob o art. 8(1) [F: eu2016gdpr, art. 17(1)(f)]. Recomendação deste documento, sem fonte normativa [I]: ao completar 18 anos, o detentor da permissão passa a ser o titular; o sistema notifica o titular, apresenta o aviso vigente em linguagem para adulto e oferece confirmar, ajustar ou revogar; o responsável perde o poder de revogar e o acesso de representante é encerrado; o histórico de quem consentiu e quando é preservado como prova. Variante mais cautelosa, inspirada no considerando 65 [I]: tratar a permissão herdada como "a confirmar" e suspender finalidades opcionais até a confirmação. A transição aos 12 anos (criança para adolescente, no ECA [F: lei80691990, art. 2]) também merece evento próprio, porque o §1 do art. 14 fala só em crianças e a informação deve acompanhar as capacidades evolutivas [F: crc2021gc25, §19]; o que muda juridicamente é questão aberta (ver `psg.consent.parental-consent`).
+"A menoridade cessa aos dezoito anos completos, quando a pessoa fica habilitada à prática de todos os atos da vida civil" [F: lei104062002, art. 5]; antes disso, entre 16 e 18 a pessoa é relativamente incapaz [F: lei104062002, art. 4, I]. A LGPD não regula o que acontece com o consentimento dado pelo responsável quando o titular completa 18 anos. O GDPR também não, mas o considerando 65 diz que o direito ao apagamento é relevante "where the data subject has given his or her consent as a child and is not fully aware of the risks" e pode ser exercido "notwithstanding the fact that he or she is no longer a child" [F: eu2016gdpr, considerando 65], e o art. 17(1)(f) lista como fundamento de apagamento os dados coletados em serviços oferecidos a crianças sob o art. 8(1) [F: eu2016gdpr, art. 17(1)(f)]. Recomendação deste documento, sem fonte normativa [I]: ao completar 18 anos, o detentor da permissão passa a ser o titular; o sistema notifica o titular, apresenta o aviso vigente em linguagem para adulto e oferece confirmar, ajustar ou revogar; o responsável perde o poder de revogar e o acesso de representante é encerrado; o histórico de quem consentiu e quando é preservado como prova. Variante mais cautelosa, inspirada no considerando 65 [I]: tratar a permissão herdada como "a confirmar" e suspender finalidades opcionais até a confirmação. A transição aos 12 anos (criança para adolescente, no ECA [F: lei8069eca, art. 2]) também merece evento próprio, porque o §1 do art. 14 fala só em crianças e a informação deve acompanhar as capacidades evolutivas [F: crc2021gc25, §19]; o que muda juridicamente é questão aberta (ver `psg.consent.parental-consent`).
 
 ## Requisitos e pressupostos
 
@@ -116,7 +116,7 @@ Depende de `psg.consent.parental-consent` (o que entra no registro) e de `psg.le
 |---|---|---|
 | brasil2018lgpd | normativo | 2026-10-29 |
 | lei104062002 | normativo | 2026-10-29 |
-| lei80691990 | normativo | 2026-10-29 |
+| lei8069eca | normativo | 2026-10-29 |
 | eu2016gdpr | normativo (via reprodução gdpr-info.eu) | 2026-10-29 |
 | cfr16312coppa | normativo (eCFR via LII) | 2026-10-29 |
 | ftc2025coppafinalrule | normativo | 2026-10-29 |

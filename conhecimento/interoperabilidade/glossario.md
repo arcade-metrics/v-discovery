@@ -36,7 +36,7 @@ Termos consolidados do domínio, com definição curta e o id do documento que a
 | `registration` | UUID que agrupa os eventos de uma mesma tentativa ou inscrição | iop.lr.xapi |
 | `sourcedId` | identificador de entidade atribuído pelo sistema de origem, no OneRoster | iop.ros.oneroster |
 | `deployment_id` | identificador da instalação de uma ferramenta em uma plataforma, no LTI | iop.tool.lti-core |
-| pseudonimização | substituição do identificador direto por um opaco, com tabela de resolução sob controle | iop.fund.privacidade-e-seguranca |
+| pseudonimização | definição em psg.deid.anonymization-and-pseudonymization; na troca entre sistemas, o identificador direto é substituído por um opaco, com tabela de resolução sob controle | psg.deid.anonymization-and-pseudonymization |
 
 ## Registro de experiências
 
