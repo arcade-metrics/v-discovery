@@ -1,0 +1,15 @@
+# Índice de fontes — transversal/termos-design
+
+| Chave | Título | Tipo | Domínio | URL | Consultado em |
+|---|---|---|---|---|---|
+| cavoukianndsevenprinciples | Cavoukian, Privacy by Design: The 7 Foundational Principles (Privacy and Big Data Institute, Ryerson University, s.d.) | tecnico | privacidade-seguranca-e-governanca | https://thesedonaconference.org/sites/default/files/conference_papers/Recommended%20%5B08b%5D%20Privacy%20By%20Design_Cavoukian.pdf | 2026-10-30 |
+| icdppc2010pbd | 32nd International Conference of Data Protection and Privacy Commissioners, Resolution on Privacy by Design (Jerusalém, 27-29 out. 2010) | tecnico | privacidade-seguranca-e-governanca | https://edps.europa.eu/sites/edp/files/publication/10-10-27_jerusalem_resolutionon_privacybydesign_en.pdf | 2026-10-30 |
+| bruce2020sbd | Bruce, Safety By Design (SbD) (slides, ITU-D Child Online Protection Virtual 2020) | secundario | privacidade-seguranca-e-governanca | https://itu.int/en/ITU-D/Regional-Presence/Africa/Documents/COP%20Virtual%202020/Guidelines%20For%20Industry%20SbD%20COPG.pdf | 2026-10-30 |
+| weiser1995designing | Weiser e Brown, Designing Calm Technology (Xerox PARC, 21 dez. 1995) | tecnico | gamificacao-e-jogos | https://calmtech.com/papers/designing-calm-technology.html | 2026-10-30 |
+| blackwell2017curb | Blackwell, The Curb-Cut Effect (Stanford Social Innovation Review, Winter 2017, DOI 10.48558/yvms-cc96) | tecnico | acessibilidade-educacao-especial-e-dua | https://ssir.org/articles/entry/the_curb_cut_effect | 2026-10-30 |
+| microsoft2016inclusive | Microsoft Design, Inclusive: A Microsoft Design Toolkit (manual, 2016) | tecnico | acessibilidade-educacao-especial-e-dua | https://download.microsoft.com/download/b/0/d/b0d4bf87-09ce-4417-8f28-d60703d672ed/inclusive_toolkit_manual_final.pdf | 2026-10-30 |
+| charlton2000nothing | Charlton, Nothing About Us Without Us: Disability Oppression and Empowerment (University of California Press, brochura 2000) [metadados] | academico | acessibilidade-educacao-especial-e-dua | https://www.ucpress.edu/books/nothing-about-us-without-us/paper | 2026-10-30 |
+| gray2018dark | Gray, Kou, Battles, Hoggatt e Toombs, The Dark (Patterns) Side of UX Design (CHI 2018, DOI 10.1145/3173574.3174108) | academico | gamificacao-e-jogos | https://classes.cs.uchicago.edu/archive/2020/fall/33231-1/readings/2018_Grayetal_CHI_DarkPatternsUXDesign.pdf | 2026-10-30 |
+| brignull2026deceptive | Brignull, Deceptive Patterns (antigo darkpatterns.org, desde 2010): About us | tecnico | gamificacao-e-jogos | https://www.deceptive.design/about | 2026-10-30 |
+| eu2022dsa | Parlamento Europeu e Conselho, Regulamento (UE) 2022/2065 (Digital Services Act), art. 25 (2022) | normativo | privacidade-seguranca-e-governanca | https://www.eu-digital-services-act.com/Digital_Services_Act_Article_25.html | 2026-10-30 |
+| hleg2019ethics | AI HLEG, Ethics Guidelines for Trustworthy AI (Comissão Europeia, 8 abr. 2019) | tecnico | privacidade-seguranca-e-governanca | https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419 | 2026-10-30 |

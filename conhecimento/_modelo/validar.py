@@ -93,10 +93,18 @@ def main():
             if not i.startswith(PREFIXOS[d] + "."):
                 erros.append(f"{rel}: id {i} nao usa prefixo {PREFIXOS[d]}")
             docs.append((rel, fm, corpo, i))
+    # ids planejados (colunas de _plano-ids.md de todos os dominios) contam como alvo valido pendente
+    planejados = set()
+    for plano in RAIZ.glob("*/_plano-ids.md"):
+        planejados.update(re.findall(r"\|\s*`?([a-z]+\.[a-z0-9-]+\.[a-z0-9.-]+)`?\s*\|", plano.read_text(encoding="utf-8")))
+    pendentes = set()
     for rel, fm, corpo, i in docs:
         for alvo in relacoes(fm):
             if alvo not in ids and not any(alvo.startswith(k.rstrip("*")) for k in ids if k.endswith("*")):
-                avisos.append(f"{rel}: relacao para id inexistente {alvo}")
+                if alvo in planejados:
+                    pendentes.add(alvo)
+                else:
+                    avisos.append(f"{rel}: relacao para id inexistente {alvo}")
         for k in campo_lista(fm, "fontes"):
             if k not in bib:
                 erros.append(f"{rel}: fonte {k} nao esta em bibliografia.bib")
@@ -104,7 +112,7 @@ def main():
             k = k.split(":")[0]
             if k not in bib:
                 erros.append(f"{rel}: citacao [F: {k}] sem entrada em bibliografia.bib")
-    print(f"documentos: {len(docs)}  ids: {len(ids)}  chaves bib: {len(bib)}")
+    print(f"documentos: {len(docs)}  ids: {len(ids)}  chaves bib: {len(bib)}  alvos planejados ainda nao escritos: {len(pendentes)}")
     for a in avisos:
         print("AVISO", a)
     for e in erros:
