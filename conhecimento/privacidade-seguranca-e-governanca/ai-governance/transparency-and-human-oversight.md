@@ -7,7 +7,7 @@ status: rascunho
 criado: 2026-10-30
 atualizado: 2026-10-30
 consultado_em: 2026-10-30
-fontes: [brasil2018lgpd, eu2016gdpr, eu2024aiact, pl23382023, nist2023airmf, nist2024ai6001, unicef2021aichildren, khosravi2022explainable, conati2021personalized]
+fontes: [brasil2018lgpd, mpv8692018, lei138532019, eu2016gdpr, eu2024aiact, pl23382023, nist2023airmf, nist2024ai6001, unicef2021aichildren, khosravi2022explainable, conati2021personalized]
 relacoes:
   - { tipo: depende-de, alvo: psg.audit.audit-trails }
   - { tipo: depende-de, alvo: psg.access.school-roles }
@@ -38,7 +38,7 @@ Pergunta do domínio: como explicar uma adaptação ou um alerta a professor e r
 
 ### Obrigações e orientações
 
-- **LGPD art. 20** (redação da Lei 13.853/2019): o titular pode "solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado" que afetem seus interesses, incluídas decisões sobre perfil e personalidade; o controlador fornece, quando solicitado, "informações claras e adequadas a respeito dos critérios" e procedimentos, observado o segredo; se recusar por segredo, "a autoridade nacional poderá realizar auditoria para verificação de aspectos discriminatórios" (§2) [F: brasil2018lgpd, art. 20]. A redação original exigia revisão "por pessoa natural"; a expressão foi retirada pela MP 869/2018 e mantida fora pela Lei 13.853/2019 [F: brasil2018lgpd, art. 20, notas de redação].
+- **LGPD art. 20** (redação da Lei 13.853/2019): o titular pode "solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado" que afetem seus interesses, incluídas decisões sobre perfil e personalidade; o controlador fornece, quando solicitado, "informações claras e adequadas a respeito dos critérios" e procedimentos, observado o segredo; se recusar por segredo, "a autoridade nacional poderá realizar auditoria para verificação de aspectos discriminatórios" (§2) [F: brasil2018lgpd, art. 20]. A redação original de 2018 previa revisão "por pessoa natural"; a MP 869/2018 deu ao caput a redação sem a expressão, e a Lei 13.853/2019, de conversão, fixou esse texto; o §3 incluído pela Lei 13.853/2019 foi vetado [F: brasil2018lgpd, art. 20, notas de redação; F: mpv8692018; F: lei138532019].
 - **GDPR art. 22**, para comparação: direito de não se sujeitar a decisão "based solely on automated processing" com efeitos jurídicos ou similarmente significativos; nas exceções, garantia de "at least the right to obtain human intervention", de manifestar ponto de vista e contestar [F: eu2016gdpr, art. 22(1), 22(3)].
 - **AI Act art. 13**: instruções de uso devem permitir ao deployer "interpret a system's output and use it appropriately", incluindo capacidades "to provide information that is relevant to explain its output", desempenho por grupos de pessoas e as medidas técnicas que facilitam a interpretação [F: eu2024aiact, art. 13(1), 13(3)(b), 13(3)(d)].
 - **AI Act art. 14**: supervisão proporcional a risco, autonomia e contexto, embutida pelo provider ou implementada pelo deployer; o supervisor deve poder entender capacidades e limites, "remain aware of the possible tendency of automatically relying or over-relying on the output" (viés de automação), interpretar corretamente a saída, desconsiderá-la ou revertê-la e interromper o sistema [F: eu2024aiact, art. 14(3), 14(4)]. O deployer atribui a supervisão a pessoas com "competence, training and authority, as well as the necessary support" [F: eu2024aiact, art. 26(2)], e o afetado por decisão baseada em sistema do Anexo III pode obter explicação do papel do sistema e dos "main elements of the decision taken" [F: eu2024aiact, art. 86(1)].
@@ -104,6 +104,8 @@ Depende de `psg.audit.audit-trails` e `psg.access.school-roles`. Complementa `ps
 | Chave | Tipo | Consultado em |
 |---|---|---|
 | brasil2018lgpd | normativo | 2026-10-30 |
+| mpv8692018 | normativo | 2026-10-30 |
+| lei138532019 | normativo | 2026-10-30 |
 | eu2016gdpr | normativo (espelho, art. 22) | 2026-10-30 |
 | eu2024aiact | normativo (espelho consolidado) | 2026-10-30 |
 | pl23382023 | normativo (projeto de lei) | 2026-10-30 |

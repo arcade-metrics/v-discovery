@@ -5,9 +5,9 @@ tipo: conceito
 dominio: privacidade-seguranca-e-governanca
 status: rascunho
 criado: 2026-10-29
-atualizado: 2026-10-29
-consultado_em: 2026-10-29
-fontes: [brasil2018lgpd, lei80691990, lei104062002, anpd2023voto12, decreto997101990, crc2021gc25, eu2016gdpr, cfr16312coppa, ftc2025coppafinalrule, iso291842020]
+atualizado: 2026-10-30
+consultado_em: 2026-10-30
+fontes: [brasil2018lgpd, lei8069eca, lei104062002, anpd2023enunciado1, anpd2023voto12, decreto997101990, crc2021gc25, eu2016gdpr, cfr16312coppa, ftc2025coppafinalrule, iso291842020]
 relacoes:
   - { tipo: depende-de, alvo: psg.legal.lgpd-children }
   - { tipo: complementa, alvo: psg.consent.child-assent }
@@ -23,9 +23,9 @@ termos: [consentimento parental, responsável legal, consentimento específico e
 
 ## Definição e terminologia
 
-Consentimento parental é o consentimento, no sentido da LGPD, dado por um dos pais ou pelo responsável legal em nome de uma criança. A LGPD define consentimento como "manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada" [F: brasil2018lgpd, art. 5, XII] e, no artigo dedicado a crianças e adolescentes, determina que "o tratamento de dados pessoais de crianças deverá ser realizado com o consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal" [F: brasil2018lgpd, art. 14, §1]. A lei não define "criança"; o ECA considera criança "a pessoa até doze anos de idade incompletos, e adolescente aquela entre doze e dezoito anos de idade" [F: lei80691990, art. 2], e é essa a definição que a interpretação corrente da LGPD toma emprestada [I]. A Convenção sobre os Direitos da Criança, promulgada no Brasil pelo Decreto 99.710/1990, usa outro corte: criança é "todo ser humano com menos de dezoito anos de idade, a não ser que [...] a maioridade seja alcançada antes" [F: decreto997101990, art. 1].
+Consentimento parental é o consentimento, no sentido da LGPD, dado por um dos pais ou pelo responsável legal em nome de uma criança. A LGPD define consentimento como "manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada" [F: brasil2018lgpd, art. 5, XII] e, no artigo dedicado a crianças e adolescentes, determina que "o tratamento de dados pessoais de crianças deverá ser realizado com o consentimento específico e em destaque dado por pelo menos um dos pais ou pelo responsável legal" [F: brasil2018lgpd, art. 14, §1]. A lei não define "criança"; o ECA considera criança "a pessoa até doze anos de idade incompletos, e adolescente aquela entre doze e dezoito anos de idade" [F: lei8069eca, art. 2], e é essa a definição que a interpretação corrente da LGPD toma emprestada [I]. A Convenção sobre os Direitos da Criança, promulgada no Brasil pelo Decreto 99.710/1990, usa outro corte: criança é "todo ser humano com menos de dezoito anos de idade, a não ser que [...] a maioridade seja alcançada antes" [F: decreto997101990, art. 1].
 
-Nomes equivalentes em outros regimes: a regra COPPA dos Estados Unidos fala em *verifiable parental consent* [F: cfr16312coppa, §312.5(a)(1)]; o GDPR fala em consentimento "dado ou autorizado pelo titular da responsabilidade parental" (*holder of parental responsibility*) para serviços da sociedade da informação oferecidos diretamente a crianças [F: eu2016gdpr, art. 8(1)].
+Nomes equivalentes em outros regimes: a regra COPPA dos Estados Unidos fala em *verifiable parental consent* [F: cfr16312coppa, §312.5(a)(1)]; este documento leu o §312.5 no eCFR reproduzido pelo LII, já com a emenda de 2025 (`cfr16312coppa`), enquanto psg.legal.gdpr-k-and-coppa leu a Part 312 na edição anual do CFR de 1/1/2025, anterior à emenda (`ftc2025coppa`); o GDPR fala em consentimento "dado ou autorizado pelo titular da responsabilidade parental" (*holder of parental responsibility*) para serviços da sociedade da informação oferecidos diretamente a crianças [F: eu2016gdpr, art. 8(1)].
 
 O que não é: não é o assentimento da própria criança (ver `psg.consent.child-assent`); não é a única base legal possível para dados de crianças e adolescentes (ver abaixo o enunciado da ANPD); e não é uma autorização ampla, pois "as autorizações genéricas para o tratamento de dados pessoais serão nulas" [F: brasil2018lgpd, art. 8, §4].
 
@@ -37,7 +37,7 @@ Crianças não têm capacidade civil para consentir por si: o Código Civil decl
 
 ### Quando é exigido
 
-A redação do art. 14 §1 gerou dúvida sobre se o consentimento parental seria a única base legal para dados de crianças. A ANPD, após estudo preliminar e tomada de subsídios entre 8 de setembro e 7 de outubro de 2022, com 78 contribuições, aprovou por unanimidade no Circuito Deliberativo 11/2023 um enunciado com o texto: "O tratamento de dados pessoais de crianças e adolescentes poderá ser realizado com base nas hipóteses legais previstas no art. 7º ou, no caso de dados sensíveis, no art. 11 da Lei Geral de Proteção de Dados Pessoais (LGPD), desde que observado e prevalecente o seu melhor interesse, a ser avaliado no caso concreto, nos termos do caput do art. 14 da Lei." [F: anpd2023voto12, voto do relator, minuta consolidada e votos dos demais diretores]. O relator registra que essa leitura coincide com enunciado da IX Jornada de Direito Civil do Conselho da Justiça Federal e com a orientação do ICO britânico sobre o GDPR [F: anpd2023voto12, §2.106], e que o tratamento "não deve observar somente o caput do artigo 14, mas sim todos os seus dispositivos" [F: anpd2023voto12, item 4]. A versão publicada do enunciado (Enunciado CD/ANPD nº 1/2023) não foi aberta nesta sessão; ver Lacunas.
+A redação do art. 14 §1 gerou dúvida sobre se o consentimento parental seria a única base legal para dados de crianças. A ANPD, após estudo preliminar e tomada de subsídios entre 8 de setembro e 7 de outubro de 2022, com 78 contribuições, aprovou por unanimidade no Circuito Deliberativo 11/2023 [F: anpd2023voto12] o Enunciado CD/ANPD nº 1, de 22 de maio de 2023, publicado no DOU de 24/05/2023 (edição 98, seção 1, p. 129), com o texto: "O tratamento de dados pessoais de crianças e adolescentes poderá ser realizado com base nas hipóteses legais previstas no art. 7º ou no art. 11 da Lei Geral de Proteção de Dados Pessoais (LGPD), desde que observado e prevalecente o seu melhor interesse, a ser avaliado no caso concreto, nos termos do art. 14 da Lei." [F: anpd2023enunciado1]. A minuta consolidada nos votos tinha redação um pouco mais explícita ("no art. 7º ou, no caso de dados sensíveis, no art. 11 [...] nos termos do caput do art. 14") [F: anpd2023voto12, minuta consolidada]; o texto publicado suprimiu a remissão ao caput, e o próprio relator registra que o tratamento "não deve observar somente o caput do artigo 14, mas sim todos os seus dispositivos" [F: anpd2023voto12, item 4]. O relator registra ainda que essa leitura coincide com enunciado da IX Jornada de Direito Civil do Conselho da Justiça Federal e com a orientação do ICO britânico sobre o GDPR [F: anpd2023voto12, §2.106]. O enunciado em si é tratado em psg.legal.lgpd-children.
 
 Consequência prática [I]: o consentimento parental é exigido quando o controlador escolhe o consentimento como base legal para dados de criança; se escolher outra base dos arts. 7 ou 11, deve documentar a avaliação de melhor interesse no caso concreto, e os demais parágrafos do art. 14 (informação pública, não condicionamento, linguagem acessível) continuam aplicáveis. A lei prevê ainda uma exceção estreita: dados de crianças podem ser coletados sem o consentimento do §1 "quando a coleta for necessária para contatar os pais ou o responsável legal, utilizados uma única vez e sem armazenamento, ou para sua proteção", nunca repassados a terceiro sem esse consentimento [F: brasil2018lgpd, art. 14, §3]. A COPPA tem lista análoga e mais longa de exceções ao consentimento prévio, por exemplo coleta do contato do responsável só para obter o consentimento, com eliminação se ele não vier em prazo razoável [F: cfr16312coppa, §312.5(c)(1)].
 
@@ -80,7 +80,7 @@ O consentimento parental dá ao responsável controle explícito e revogável e 
 | Verificação | "esforços razoáveis", tecnologias disponíveis [F: brasil2018lgpd, art. 14 §5] | "reasonable efforts", tecnologia disponível [F: eu2016gdpr, art. 8(2)] | Lista de métodos aprovados e porto seguro [F: cfr16312coppa, §312.5(b)] |
 | Prova | Ônus do controlador [F: brasil2018lgpd, art. 8 §2] | Controlador deve demonstrar [F: eu2016gdpr, art. 7(1)] | Não tratada no §312.5 |
 | Consentimento separado | Finalidades determinadas; genérico é nulo [F: brasil2018lgpd, art. 8 §4] | Pedido destacado de outras matérias [F: eu2016gdpr, art. 7(2)] | Separado para divulgação a terceiros [F: cfr16312coppa, §312.5(a)(2)] |
-| Exceções ao consentimento | Contato com os pais, uso único, proteção [F: brasil2018lgpd, art. 14 §3]; outras bases dos arts. 7 e 11 [F: anpd2023voto12] | Serviços preventivos ou de aconselhamento não exigem consentimento parental [F: eu2016gdpr, considerando 38] | Nove hipóteses em §312.5(c) [F: cfr16312coppa] |
+| Exceções ao consentimento | Contato com os pais, uso único, proteção [F: brasil2018lgpd, art. 14 §3]; outras bases dos arts. 7 e 11 [F: anpd2023enunciado1] | Serviços preventivos ou de aconselhamento não exigem consentimento parental [F: eu2016gdpr, considerando 38] | Nove hipóteses em §312.5(c) [F: cfr16312coppa] |
 
 Entre métodos de verificação, a escala de robustez descrita pela COPPA vai do e-mail com confirmação (aceito só sem divulgação a terceiros) até documento com reconhecimento facial e revisão humana; o critério de escolha é a proporcionalidade entre o risco do tratamento e o custo e intrusividade do método [I, a partir de cfr16312coppa, §312.5(b)(2)].
 
@@ -105,10 +105,8 @@ Depende de `psg.legal.lgpd-children`, que aprofunda o art. 14, o melhor interess
 
 ## Lacunas e questões abertas
 
-- O texto publicado do Enunciado CD/ANPD nº 1/2023 (Diário Oficial) não foi aberto; o conteúdo aqui citado vem do voto do relator e dos votos de acompanhamento no Circuito Deliberativo 11/2023, documento oficial da ANPD. Fontes secundárias indicam publicação em 24 ou 25 de maio de 2023; data não verificada em fonte primária.
 - Quem consente por adolescentes (12 a 18) na LGPD: a lei não diz; o Código Civil os trata como relativamente incapazes a partir dos 16. Não foi localizada manifestação da ANPD sobre o ponto.
-- A lei de proteção de crianças e adolescentes em ambientes digitais ("ECA Digital") não foi consultada nesta sessão; pode alterar deveres de verificação de idade e de consentimento. Fica para `psg.legal.eca-and-digital-eca`.
-- As definições de "child" e "parent" da COPPA ficam em §312.2, não consultado; a idade de corte da regra deve ser confirmada lá.
+- O efeito do ECA Digital (Lei 15.211/2025) sobre verificação de idade e consentimento não é tratado aqui; a lei está em psg.legal.eca-and-digital-eca. As definições do §312.2 da COPPA (idade de corte) estão em psg.legal.gdpr-k-and-coppa.
 - Não foi encontrada orientação brasileira sobre métodos aceitáveis de verificação do responsável; a lista da COPPA é referência comparativa, não norma aplicável.
 
 ## Fontes
@@ -116,12 +114,13 @@ Depende de `psg.legal.lgpd-children`, que aprofunda o art. 14, o melhor interess
 | Chave | Tipo | Consultado em |
 |---|---|---|
 | brasil2018lgpd | normativo | 2026-10-29 |
-| lei80691990 | normativo | 2026-10-29 |
+| lei8069eca | normativo | 2026-10-29 |
 | lei104062002 | normativo | 2026-10-29 |
 | decreto997101990 | normativo | 2026-10-29 |
+| anpd2023enunciado1 | normativo (DOU, 24/05/2023) | 2026-10-30 |
 | anpd2023voto12 | tecnico (documento oficial da ANPD) | 2026-10-29 |
 | crc2021gc25 | normativo (soft law, Comitê dos Direitos da Criança) | 2026-10-29 |
 | eu2016gdpr | normativo (texto via reprodução gdpr-info.eu) | 2026-10-29 |
-| cfr16312coppa | normativo (eCFR via LII) | 2026-10-29 |
+| cfr16312coppa | normativo (eCFR via LII, §312.5 com a emenda de 2025) | 2026-10-29 |
 | ftc2025coppafinalrule | normativo | 2026-10-29 |
 | iso291842020 | normativo (escopo, sumário e cláusulas 5.1–5.2.4 via amostra) | 2026-10-29 |

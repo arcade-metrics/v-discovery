@@ -101,13 +101,13 @@ Fonte: psg.sec.iso-27001-and-27701.
 
 | Critério | ISO/IEC 27001:2022 (ABNT NBR) | ISO/IEC 27701:2019 | NIST SP 800-53 rev. 5 | Guia ANPD para pequeno porte |
 |---|---|---|---|---|
-| Natureza | requisitos de SGSI + Anexo A (`iso270012022`; `abnt2022nbr27001`) | extensão PIMS da 27001 e 27002 (`iso277012019`) | catálogo de controles em 20 famílias (`nist2020sp80053`) | boas práticas sem efeito vinculante (`anpd2021pequenoporte`) |
+| Natureza | requisitos de SGSI + Anexo A (`iso270012022`; `abnt2022nbr27001`) | extensão PIMS da 27001 e 27002 (`iso277012019`) | catálogo de controles em 20 famílias (`nist2020sp80053r5`) | boas práticas sem efeito vinculante (`anpd2021pequenoporte`) |
 | Certificável | sim | sim, junto com a 27001 | não | não |
-| Cobre privacidade | indiretamente, via controles de PII do Anexo A | sim | sim, família PII Processing and Transparency (`nist2020sp80053`) | sim |
-| Estrutura | seções 4 a 10 obrigatórias, sem exclusão (`abnt2022nbr27001`); 93 controles em 4 temas, segundo fonte secundária (`dqs2023iso27001`) | requisitos e orientações para controladores e operadores (`iso277012019`) | famílias como AC, AU, IR, PT, RA, SC (`nist2020sp80053`) | política simplificada, treinamento, acesso com MFA, backups, cláusulas com fornecedores (`anpd2021pequenoporte`) |
-| Relação com a LGPD [I] | demonstra arts. 46, 49 e 50 | controladores e operadores | sem relação formal; crosswalk com a 27001, não 1:1 (`nist2020sp80053`) | orientação da própria autoridade |
+| Cobre privacidade | indiretamente, via controles de PII do Anexo A | sim | sim, família PII Processing and Transparency (`nist2020sp80053r5`) | sim |
+| Estrutura | seções 4 a 10 obrigatórias, sem exclusão (`abnt2022nbr27001`); 93 controles em 4 temas, segundo fonte secundária (`dqs2023iso27001`) | requisitos e orientações para controladores e operadores (`iso277012019`) | famílias como AC, AU, IR, PT, RA, SC (`nist2020sp80053r5`) | política simplificada, treinamento, acesso com MFA, backups, cláusulas com fornecedores (`anpd2021pequenoporte`) |
+| Relação com a LGPD [I] | demonstra arts. 46, 49 e 50 | controladores e operadores | sem relação formal; crosswalk com a 27001, não 1:1 (`nist2020sp80053r5`) | orientação da própria autoridade |
 | Acesso ao texto | pago; só metadados lidos | pago; só metadados lidos | aberto; só a página oficial lida | aberto; lido |
-| Situação na consulta | vigente, com emenda de 2024 (`iso270012022`) | retirada em 14/10/2025, substituída pela 27701:2025, não avaliada (`iso277012019`) | release 5.2.0 em ago. 2025 (`nist2020sp80053`) | versão 1.0, out. 2021 (`anpd2021pequenoporte`) |
+| Situação na consulta | vigente, com emenda de 2024 (`iso270012022`) | retirada em 14/10/2025, substituída pela 27701:2025, não avaliada (`iso277012019`) | release 5.2.0 em ago. 2025 (`nist2020sp80053r5`) | versão 1.0, out. 2021 (`anpd2021pequenoporte`) |
 
 ## 7. Frameworks de governança de IA: NIST AI RMF, ISO/IEC 42001, UNICEF e UNESCO
 

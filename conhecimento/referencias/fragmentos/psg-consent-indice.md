@@ -2,7 +2,6 @@
 
 | Chave | Título | Tipo | Domínio | URL | Consultado em |
 |---|---|---|---|---|---|
-| lei80691990 | Brasil, Lei n. 8.069/1990 (Estatuto da Criança e do Adolescente), texto compilado | normativo | privacidade-seguranca-e-governanca | https://www.planalto.gov.br/ccivil_03/leis/l8069.htm | 2026-10-29 |
 | lei104062002 | Brasil, Lei n. 10.406/2002 (Código Civil), texto compilado | normativo | privacidade-seguranca-e-governanca | https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm | 2026-10-29 |
 | decreto997101990 | Brasil, Decreto n. 99.710/1990, promulga a Convenção sobre os Direitos da Criança | normativo | privacidade-seguranca-e-governanca | https://www.planalto.gov.br/ccivil_03/decreto/1990-1994/d99710.htm | 2026-10-29 |
 | cns4662012 | Conselho Nacional de Saúde, Resolução n. 466, de 12 de dezembro de 2012 (cópia BVS/MS) | normativo | privacidade-seguranca-e-governanca | https://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html | 2026-10-29 |

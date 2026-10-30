@@ -5,9 +5,9 @@ tipo: conceito
 dominio: privacidade-seguranca-e-governanca
 status: rascunho
 criado: 2026-10-29
-atualizado: 2026-10-29
-consultado_em: 2026-10-29
-fontes: [brasil2018lgpd, lei8069eca, anpd2023enunciado1, anpd2024legitimointeresse]
+atualizado: 2026-10-30
+consultado_em: 2026-10-30
+fontes: [brasil2018lgpd, mpv8692018, lei138532019, lei8069eca, anpd2023enunciado1, anpd2024legitimointeresse]
 relacoes:
   - { tipo: parte-de, alvo: psg.legal.comparison }
   - { tipo: complementa, alvo: psg.legal.eca-and-digital-eca }
@@ -62,7 +62,7 @@ Um laudo, um diagnóstico ou um atributo "aluno com deficiência X" é "dado ref
 
 ### Decisões automatizadas
 
-O art. 20, na redação da Lei 13.853/2019, dá ao titular "direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado" que afetem seus interesses, e o §1 obriga o controlador a fornecer "informações claras e adequadas a respeito dos critérios e dos procedimentos" usados, observado segredo comercial [F: brasil2018lgpd, art. 20]. A redação original e a da MP 869/2018 falavam em revisão "por pessoa natural"; a expressão foi retirada pela Lei 13.853/2019 [F: brasil2018lgpd, art. 20, notas de redação]. O tratamento aprofundado fica em psg.ai.transparency-and-human-oversight.
+O art. 20, na redação da Lei 13.853/2019, dá ao titular "direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado" que afetem seus interesses, e o §1 obriga o controlador a fornecer "informações claras e adequadas a respeito dos critérios e dos procedimentos" usados, observado segredo comercial [F: brasil2018lgpd, art. 20]. A redação original de 2018 previa revisão "por pessoa natural"; a MP 869/2018 deu ao caput a redação sem a expressão, e a Lei 13.853/2019, de conversão, fixou esse texto; o §3 incluído pela Lei 13.853/2019 foi vetado [F: brasil2018lgpd, art. 20, notas de redação; F: mpv8692018; F: lei138532019]. O tratamento aprofundado fica em psg.ai.transparency-and-human-oversight.
 
 ## Requisitos e pressupostos
 
@@ -126,8 +126,8 @@ Parte da comparação psg.legal.comparison. Complementa psg.legal.eca-and-digita
 ## Lacunas e questões abertas
 
 - A ANPD não publicou, até a data de consulta, um guia orientativo abrangente sobre dados de crianças e adolescentes; o que existe é o Enunciado 1/2023, um estudo preliminar de 2022 citado pelo guia de legítimo interesse (não aberto nesta sessão) e a seção do guia de 2024. Notícias de uma tomada de subsídios em 2024 para um projeto regulatório não foram confirmadas em página oficial.
-- A Resolução CD/ANPD 2/2022, que lista dados de menores entre os critérios de alto risco, não foi aberta; a afirmação é citada via guia de 2024.
-- O texto consultado no Planalto apresenta versões sobrepostas de dispositivos alterados por MP 869/2018, Lei 13.853/2019, MP 1.317/2025 e Lei 15.352/2026; a redação vigente dos art. 52 e seguintes deve ser conferida no texto compilado antes de citar sanções.
+- A Resolução CD/ANPD 2/2022, que lista dados de menores entre os critérios de alto risco, é citada aqui via guia de 2024; o texto da resolução foi lido em psg.audit.ripd-dpia.
+- O texto consultado no Planalto apresenta versões sobrepostas de dispositivos alterados por MP 869/2018, Lei 13.853/2019, MP 1.317/2025 e Lei 15.352/2026. O art. 52, II foi conferido no texto compilado em 30/10/2026: multa simples de até 2% do faturamento no Brasil, "limitada, no total, a R$ 50.000.000,00 (cinquenta milhões de reais) por infração", sem nota de alteração [F: brasil2018lgpd, art. 52, II]; os demais incisos e parágrafos do art. 52 não foram reconferidos.
 - Não há posição da ANPD sobre quando a verificação do §5 é "razoável" para uma plataforma escolar; o assunto fica para psg.consent.parental-consent.
 - A escola como controladora, operadora ou controladora conjunta com o fornecedor da plataforma não é tratada aqui; o guia da ANPD sobre agentes de tratamento não foi consultado.
 
@@ -135,7 +135,9 @@ Parte da comparação psg.legal.comparison. Complementa psg.legal.eca-and-digita
 
 | Chave | Tipo | Consultado em |
 |---|---|---|
-| brasil2018lgpd | normativo | 2026-10-29 |
+| brasil2018lgpd | normativo | 2026-10-30 |
+| mpv8692018 | normativo | 2026-10-30 |
+| lei138532019 | normativo | 2026-10-30 |
 | lei8069eca | normativo | 2026-10-29 |
 | anpd2023enunciado1 | normativo | 2026-10-29 |
 | anpd2024legitimointeresse | tecnico | 2026-10-29 |
