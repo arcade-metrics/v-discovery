@@ -12,6 +12,7 @@ produtos/vuoo/
   02-prd.md          jobs, fluxos, requisitos, métricas             (a escrever, skill produto-prd)
   03-mvp.md          corte de escopo, ordem por risco, aceite       (a escrever, skill produto-mvp)
   04-plano.md        arquitetura, dados, marcos, riscos técnicos    (a escrever, skill produto-plano)
+  estilo-aluno/      estilo adaptativo do aluno; decisões D-24 a D-33 (rascunho, 30/10/2026)
   regras/            registro de regras de negócio RN-nn            (reservado)
   padroes/           registro de padrões de desenvolvimento ADR-nn  (reservado)
 ```
