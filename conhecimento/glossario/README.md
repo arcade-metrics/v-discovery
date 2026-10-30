@@ -10,8 +10,8 @@ Cada domínio mantém seu `glossario.md`. Termos usados em mais de um domínio s
 | interoperabilidade | [glossario.md](../interoperabilidade/glossario.md) |
 | learning-analytics-e-avaliacao | [glossario.md](../learning-analytics-e-avaliacao/glossario.md) |
 | lms-e-plataformas | [glossario.md](../lms-e-plataformas/glossario.md) (aponta para o glossário do benchmark Duolingo) |
-| dados-pesquisa-e-eventos | a criar |
+| dados-pesquisa-e-eventos | [glossario.md](../dados-pesquisa-e-eventos/glossario.md) |
 | gamificacao-e-jogos | a criar |
 | fundamentos-pedagogicos | a criar |
-| privacidade-seguranca-e-governanca | a criar |
+| privacidade-seguranca-e-governanca | [glossario.md](../privacidade-seguranca-e-governanca/glossario.md) |
 | acessibilidade-educacao-especial-e-dua | a criar |

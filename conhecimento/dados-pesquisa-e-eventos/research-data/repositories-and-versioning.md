@@ -9,7 +9,7 @@ atualizado: 2026-10-30
 consultado_em: 2026-10-30
 fontes: [zenodo2026policies, zenodo2026aboutrecords, zenodo2026versioning, zenodo2026manageversions, dataverse2026datasetmgmt, dataverse2026collectionmgmt, osf2026embargo, osf2026registrations, dvc2026dataversioning, dvc2026remotes, gitlfs2026home, gitannex2026home, gitannex2026drop, datacite2026schema47, scienceeurope2021rdmguide, fapesp2024faqpgd]
 relacoes:
-  - { tipo: implementado-por, alvo: dat.rd.fair-principles }
+  - { tipo: relacionado-a, alvo: dat.rd.fair-principles }
   - { tipo: complementa, alvo: dat.rd.data-management-plans }
   - { tipo: complementa, alvo: dat.rd.data-documentation }
   - { tipo: complementa, alvo: kg.eng.versioning-and-provenance }
