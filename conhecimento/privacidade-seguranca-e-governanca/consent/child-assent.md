@@ -7,7 +7,7 @@ status: rascunho
 criado: 2026-10-29
 atualizado: 2026-10-29
 consultado_em: 2026-10-29
-fontes: [cns4662012, cns5102016, brasil2018lgpd, lei80691990, decreto997101990, crc2021gc25, eu2016gdpr, iso291842020, thompson2020ethical, peltomaki2025experiences, dunn2024consent, wilson2026easyread, coker2025assent, ward2025assent]
+fontes: [cns4662012, cns5102016, brasil2018lgpd, decreto997101990, crc2021gc25, eu2016gdpr, thompson2020ethical, peltomaki2025experiences, dunn2024consent, wilson2026easyread, coker2025assent, ward2025assent]
 relacoes:
   - { tipo: depende-de, alvo: psg.legal.lgpd-children }
   - { tipo: complementa, alvo: psg.consent.parental-consent }
@@ -109,11 +109,9 @@ Depende de `psg.legal.lgpd-children` para o melhor interesse e o art. 14. Comple
 | cns4662012 | normativo (texto via BVS/MS; não substitui o DOU) | 2026-10-29 |
 | cns5102016 | normativo (texto via BVS/MS; não substitui o DOU) | 2026-10-29 |
 | brasil2018lgpd | normativo | 2026-10-29 |
-| lei80691990 | normativo | 2026-10-29 |
 | decreto997101990 | normativo | 2026-10-29 |
 | crc2021gc25 | normativo (soft law) | 2026-10-29 |
 | eu2016gdpr | normativo (via reprodução gdpr-info.eu) | 2026-10-29 |
-| iso291842020 | normativo (amostra) | 2026-10-29 |
 | thompson2020ethical | tecnico (working paper UNICEF Innocenti) | 2026-10-29 |
 | peltomaki2025experiences | academico | 2026-10-29 |
 | dunn2024consent | academico | 2026-10-29 |
