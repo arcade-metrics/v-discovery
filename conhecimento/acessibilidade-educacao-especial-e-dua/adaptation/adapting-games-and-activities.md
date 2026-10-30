@@ -7,7 +7,7 @@ status: rascunho
 criado: 2026-10-30
 atualizado: 2026-10-30
 consultado_em: 2026-10-30
-fontes: [gag2026fulllist, gag2026timing, gag2026bypass, microsoft2023xag, microsoft2022xag108, microsoft2022xag117, grammenos2009designing, yuan2011game, sireci2003effects, hinkle2024accommodations]
+fontes: [gameaccessibility2026fulllist, gameaccessibility2026timing, gag2026bypass, microsoft2023xag, microsoft2022xag108, microsoft2022xag117, grammenos2009designing, yuan2011game, sireci2003effects, hinkle2024accommodations]
 relacoes:
   - { tipo: especificado-por, alvo: acs.std.game-accessibility-guidelines }
   - { tipo: depende-de, alvo: acs.adapt.accommodation-vs-modification }
@@ -36,17 +36,17 @@ Jogos exigem mais do que aplicações comuns. O resumo de Grammenos, Savidis e S
 
 As diretrizes do fornecedor e da comunidade convergem em seis famílias de técnica.
 
-**Tempo e velocidade.** As GAG pedem "an option to adjust the game speed" (motor e cognitivo, nível básico) e "Do not make precise timing essential to gameplay – offer alternatives, actions that can be carried out while paused" (motor, avançado) [F: gag2026fulllist]. A página dessa diretriz lembra que há jogadores "who find any kind of timing difficult or impossible" e cita como alternativas pausar para planejar ações, remover cronômetros de quebra-cabeças e tornar opcionais os trechos de tempo preciso; reconhece que muitos jogos "are inherently about timing", mas diz que tornar o tempo opcional "can even be possible" mesmo nesses [F: gag2026timing]. A XAG 108 pede que jogos de um jogador sejam "pausable at any time", inclusive em cenas não interativas [F: microsoft2022xag108].
+**Tempo e velocidade.** As GAG pedem "an option to adjust the game speed" (motor e cognitivo, nível básico) e "Do not make precise timing essential to gameplay – offer alternatives, actions that can be carried out while paused" (motor, avançado) [F: gameaccessibility2026fulllist]. A página dessa diretriz lembra que há jogadores "who find any kind of timing difficult or impossible" e cita como alternativas pausar para planejar ações, remover cronômetros de quebra-cabeças e tornar opcionais os trechos de tempo preciso; reconhece que muitos jogos "are inherently about timing", mas diz que tornar o tempo opcional "can even be possible" mesmo nesses [F: gameaccessibility2026timing]. A XAG 108 pede que jogos de um jogador sejam "pausable at any time", inclusive em cenas não interativas [F: microsoft2022xag108].
 
-**Entrada.** "Allow controls to be remapped / reconfigured" (básico); "Avoid repeated inputs (button-mashing/quick time events)" (intermediário); "Provide very simple control schemes that are compatible with assistive technology devices, such as switch or eye tracking" (avançado) [F: gag2026fulllist]. A XAG 108 sugere considerar um modo que permita concluir o jogo inteiro "by using a greatly reduced control scheme" [F: microsoft2022xag108].
+**Entrada.** "Allow controls to be remapped / reconfigured" (básico); "Avoid repeated inputs (button-mashing/quick time events)" (intermediário); "Provide very simple control schemes that are compatible with assistive technology devices, such as switch or eye tracking" (avançado) [F: gameaccessibility2026fulllist]. A XAG 108 sugere considerar um modo que permita concluir o jogo inteiro "by using a greatly reduced control scheme" [F: microsoft2022xag108].
 
-**Dificuldade.** As GAG pedem "a wide choice of difficulty levels", que a dificuldade possa mudar "during gameplay, either through settings or adaptive difficulty", e expor "as many variables as possible" [F: gag2026fulllist]. A XAG 108 recomenda quatro ou mais predefinições, mudança de dificuldade "at any time without losing game progress", um modo de dificuldade ultrabaixa, ajuste separado por mecânica ("Puzzle Difficulty and Combat Difficulty" ou assistências) e nomes de modo que não depreciem o jogador [F: microsoft2022xag108]. O texto dá o caso de quem tem dificuldade motora e quer reduzir o combate sem reduzir os quebra-cabeças, e o inverso para deficiência visual ou cognitiva [F: microsoft2022xag108, Overview].
+**Dificuldade.** As GAG pedem "a wide choice of difficulty levels", que a dificuldade possa mudar "during gameplay, either through settings or adaptive difficulty", e expor "as many variables as possible" [F: gameaccessibility2026fulllist]. A XAG 108 recomenda quatro ou mais predefinições, mudança de dificuldade "at any time without losing game progress", um modo de dificuldade ultrabaixa, ajuste separado por mecânica ("Puzzle Difficulty and Combat Difficulty" ou assistências) e nomes de modo que não depreciem o jogador [F: microsoft2022xag108]. O texto dá o caso de quem tem dificuldade motora e quer reduzir o combate sem reduzir os quebra-cabeças, e o inverso para deficiência visual ou cognitiva [F: microsoft2022xag108, Overview].
 
-**Modos assistidos e atalhos.** "Include assist modes such as auto-aim and assisted steering"; "Offer a means to bypass gameplay elements that aren't part of the core mechanic" [F: gag2026fulllist]. A justificativa é que exigências extras "can add interest, but also exclude unnecessarily" [F: gag2026bypass].
+**Modos assistidos e atalhos.** "Include assist modes such as auto-aim and assisted steering"; "Offer a means to bypass gameplay elements that aren't part of the core mechanic" [F: gameaccessibility2026fulllist]. A justificativa é que exigências extras "can add interest, but also exclude unnecessarily" [F: gag2026bypass].
 
-**Prática e progresso.** "Include a means of practicing without failure, such as a practice level or sandbox mode"; salvamento automático e manual [F: gag2026fulllist; microsoft2022xag108].
+**Prática e progresso.** "Include a means of practicing without failure, such as a practice level or sandbox mode"; salvamento automático e manual [F: gameaccessibility2026fulllist; microsoft2022xag108].
 
-**Estímulos.** Evitar imagens intermitentes e padrões repetitivos; permitir desligar movimento de fundo [F: gag2026fulllist]. A XAG 117 pede meios de pausar, ocultar ou desligar conteúdo que pisca, rola ou se atualiza sozinho, e opções para desligar tremor de câmera e balanço de cabeça, ajustar campo de visão e sensibilidade da câmera [F: microsoft2022xag117].
+**Estímulos.** Evitar imagens intermitentes e padrões repetitivos; permitir desligar movimento de fundo [F: gameaccessibility2026fulllist]. A XAG 117 pede meios de pausar, ocultar ou desligar conteúdo que pisca, rola ou se atualiza sozinho, e opções para desligar tremor de câmera e balanço de cabeça, ajustar campo de visão e sensibilidade da câmera [F: microsoft2022xag117].
 
 ### Desenho universal em vez de modo especial
 
@@ -70,10 +70,10 @@ Ajustes por mecânica preservam o desafio desejado e removem o indesejado; ajust
 
 | Estratégia | Exemplo | Efeito sobre o desafio | Risco para a medida |
 |---|---|---|---|
-| Ajuste de velocidade ou tempo | Velocidade global, pausa ativa [F: gag2026fulllist] | Remove exigência temporal | Alto se o construto é fluência [I] |
-| Remapeamento e simplificação de entrada | Um acionador, rastreamento ocular [F: gag2026fulllist] | Remove exigência motora | Baixo [I] |
+| Ajuste de velocidade ou tempo | Velocidade global, pausa ativa [F: gameaccessibility2026fulllist] | Remove exigência temporal | Alto se o construto é fluência [I] |
+| Remapeamento e simplificação de entrada | Um acionador, rastreamento ocular [F: gameaccessibility2026fulllist] | Remove exigência motora | Baixo [I] |
 | Dificuldade por mecânica | Combate x quebra-cabeça [F: microsoft2022xag108] | Mantém o desafio escolhido | Depende da mecânica ajustada [I] |
-| Modo assistido | Mira automática [F: gag2026fulllist] | Substitui parte da ação | Alto se a ação assistida é o alvo [I] |
+| Modo assistido | Mira automática [F: gameaccessibility2026fulllist] | Substitui parte da ação | Alto se a ação assistida é o alvo [I] |
 | Pular trecho | Fora da mecânica central [F: gag2026bypass] | Remove trecho | Inválido se o trecho é o alvo [I] |
 | Desenho universal | Jogo jogável por todos juntos [F: grammenos2009designing, resumo] | Variável | Exige construto claro desde o desenho [I] |
 
@@ -105,8 +105,8 @@ Especificado por `acs.std.game-accessibility-guidelines`; depende de `acs.adapt.
 
 | Chave | Tipo | Consultado em |
 |---|---|---|
-| gag2026fulllist | fornecedor (diretrizes de comunidade) | 2026-10-30 |
-| gag2026timing | fornecedor | 2026-10-30 |
+| gameaccessibility2026fulllist | fornecedor (diretrizes de comunidade) | 2026-10-30 |
+| gameaccessibility2026timing | fornecedor | 2026-10-30 |
 | gag2026bypass | fornecedor | 2026-10-30 |
 | microsoft2023xag | fornecedor (XAG v3.2) | 2026-10-30 |
 | microsoft2022xag108 | fornecedor | 2026-10-30 |

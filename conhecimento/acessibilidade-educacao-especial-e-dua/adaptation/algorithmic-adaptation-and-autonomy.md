@@ -7,7 +7,7 @@ status: rascunho
 criado: 2026-10-30
 atualizado: 2026-10-30
 consultado_em: 2026-10-30
-fontes: [findlater2004comparison, gajos2008predictability, horvitz1999principles, wobbrock2011ability, vanderheiden2012autopersonalization, imsglobal2021afapnp, gag2026fulllist, microsoft2022xag108]
+fontes: [findlater2004comparison, gajos2008predictability, horvitz1999principles, wobbrock2011ability, vanderheiden2012autopersonalization, imsglobal2021afapnp, gameaccessibility2026fulllist, microsoft2022xag108]
 relacoes:
   - { tipo: depende-de, alvo: acs.part.self-determination }
   - { tipo: complementa, alvo: acs.adapt.preference-profiles }
@@ -53,7 +53,7 @@ Interpretação deste documento a partir das fontes [I]:
 - Ajuda quando compensa barreira de acesso estável e mensurável (por exemplo, ampliar alvos para quem erra o apontamento) e a pessoa vê e pode desfazer a mudança [F: wobbrock2011ability, §5, sobre sistemas que medem desempenho de apontamento e redesenham a interface].
 - Ajuda quando a pessoa não consegue configurar sozinha e a inferência substitui um formulário inacessível, desde que o resultado vire preferência declarada e editável [I].
 - Retira a escolha quando muda o objetivo da atividade (reduz a dificuldade da habilidade-alvo) sem aviso; aí deixa de ser acomodação e vira modificação silenciosa (ver `acs.adapt.accommodation-vs-modification`) [I].
-- Retira a escolha quando a pessoa queria o desafio. As diretrizes de jogos pedem que a dificuldade possa mudar "either through settings or adaptive difficulty" [F: gag2026fulllist] e que o jogador possa mudá-la a qualquer momento [F: microsoft2022xag108]; a adaptação automática é uma opção, não um substituto da configuração.
+- Retira a escolha quando a pessoa queria o desafio. As diretrizes de jogos pedem que a dificuldade possa mudar "either through settings or adaptive difficulty" [F: gameaccessibility2026fulllist] e que o jogador possa mudá-la a qualquer momento [F: microsoft2022xag108]; a adaptação automática é uma opção, não um substituto da configuração.
 
 ### Preferência declarada como limite da inferência
 
@@ -115,5 +115,5 @@ Depende de `acs.part.self-determination`, que define o construto de autonomia, e
 | wobbrock2011ability | academico | 2026-10-30 |
 | vanderheiden2012autopersonalization | academico | 2026-10-30 |
 | imsglobal2021afapnp | normativo | 2026-10-30 |
-| gag2026fulllist | fornecedor | 2026-10-30 |
+| gameaccessibility2026fulllist | fornecedor | 2026-10-30 |
 | microsoft2022xag108 | fornecedor | 2026-10-30 |

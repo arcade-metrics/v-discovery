@@ -14,4 +14,4 @@ Cada domínio mantém seu `glossario.md`. Termos usados em mais de um domínio s
 | gamificacao-e-jogos | a criar |
 | fundamentos-pedagogicos | a criar |
 | privacidade-seguranca-e-governanca | [glossario.md](../privacidade-seguranca-e-governanca/glossario.md) |
-| acessibilidade-educacao-especial-e-dua | a criar |
+| acessibilidade-educacao-especial-e-dua | [glossario.md](../acessibilidade-educacao-especial-e-dua/glossario.md) |

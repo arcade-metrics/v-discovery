@@ -38,7 +38,7 @@ Cada domínio tem um `00-brief.md` com escopo, fontes prioritárias e perguntas 
 | learning-analytics-e-avaliacao | `lae` | primeira versão |
 | fundamentos-pedagogicos | `ped` | brief |
 | privacidade-seguranca-e-governanca | `psg` | primeira versão |
-| acessibilidade-educacao-especial-e-dua | `acs` | brief |
+| acessibilidade-educacao-especial-e-dua | `acs` | primeira versão |
 
 **Espaços reservados (29/10/2026).** Os seis domínios em estado "brief" já têm escopo, estrutura sugerida, fontes prioritárias e perguntas abertas; a pesquisa de cada um é feita depois, com o mesmo método dos cinco domínios em primeira versão. Ordem de execução decidida pela urgência para o produto consumidor: (1) privacidade, segurança e governança; (2) dados de pesquisa e eventos; (3) acessibilidade, educação especial e DUA; (4) gamificação e jogos, incluindo evidence-centered design e stealth assessment em `instrumentation/`, lacuna registrada nos relatórios de aprendizagem adaptativa e de learning analytics; (5) fundamentos pedagógicos; (6) LMS e plataformas. Fronteira já decidida entre (3) e (5): acessibilidade é dona das definições, diretrizes, normas e marco legal; fundamentos pedagógicos trata o uso em sala e a evidência de eficácia, citando ids `acs.*`.
 
