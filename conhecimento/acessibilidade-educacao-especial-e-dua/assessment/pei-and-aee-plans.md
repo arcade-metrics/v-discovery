@@ -7,7 +7,7 @@ status: rascunho
 criado: 2026-10-30
 atualizado: 2026-10-30
 consultado_em: 2026-10-30
-fontes: [cneceb42009, mec2014nt04, lei131462015, decreto126862025, lei142542021, cfr34300320iep, cfr34300324iep, tannusvaladao2018inclusao]
+fontes: [cneceb42009, mec2014nt04, lei131462015, decreto126862025, mecportaria4212026, lei142542021, cfr34300320iep, cfr34300324iep, tannusvaladao2018inclusao]
 relacoes:
   - { tipo: depende-de, alvo: acs.br.pneepei-and-aee }
   - { tipo: depende-de, alvo: acs.asmt.barriers-and-support-needs }
@@ -29,7 +29,9 @@ São documentos pedagógicos que registram, para um estudante específico, o que
 - **Plano de AEE** (ou PAEE, Plano de Atendimento Educacional Especializado): previsto desde a Resolução CNE/CEB 4/2009, que inclui no projeto pedagógico da escola o "plano do AEE: identificação das necessidades educacionais específicas dos alunos, definição dos recursos necessários e das atividades a serem desenvolvidas" [F: cneceb42009, art. 10, IV]. A LBI inclui entre as incumbências do poder público o "planejamento de estudo de caso, de elaboração de plano de atendimento educacional especializado" [F: lei131462015, art. 28, VII].
 - **PEI** (Plano Educacional Individualizado): termo da literatura e de normas locais, que passou a constar de norma federal com o Decreto 12.773/2025, que alterou o Decreto 12.686/2025 [F: decreto126862025, arts. 11 e 12, na redação dada pelo Decreto 12.773/2025].
 
-O que não é: **não é laudo clínico**. A Nota Técnica MEC/SECADI/DPEE 04/2014 afirma que não se pode considerar imprescindível o laudo médico "uma vez que o AEE caracteriza-se por atendimento pedagógico e não clínico"; o laudo, se houver, é "documento anexo ao Plano de AEE", "não se trata de documento obrigatório, mas, complementar" [F: mec2014nt04]. O Decreto 12.686/2025 reforça: a oferta do AEE "não será condicionada à exigência de diagnóstico, laudo, relatório ou qualquer outro documento emitido por profissional de saúde" [F: decreto126862025, art. 11, §7].
+A Portaria MEC 421, de 15/5/2026 (publicada em 18/5/2026 e alterada pela Portaria MEC 550/2026), regulamenta o Decreto 12.686 e distingue os dois: o PAEE "é o documento que faz o registro do estudo de caso"; o PEI "é o documento que contempla o plano de acessibilização curricular" [F: mecportaria4212026, arts. 10 e 11]. As redes podem adotar "documento único que contemple as finalidades do PAEE e do PEI", desde que observados os critérios mínimos da portaria [F: mecportaria4212026, art. 7, §2].
+
+O que não é: **não é laudo clínico**. A Nota Técnica MEC/SECADI/DPEE 04/2014 afirma que não se pode considerar imprescindível o laudo médico "uma vez que o AEE caracteriza-se por atendimento pedagógico e não clínico"; o laudo, se houver, é "documento anexo ao Plano de AEE", "não se trata de documento obrigatório, mas, complementar" [F: mec2014nt04]. O Decreto 12.686/2025 reforça: a oferta do AEE "não será condicionada à exigência de diagnóstico, laudo, relatório ou qualquer outro documento emitido por profissional de saúde" [F: decreto126862025, art. 11, §7]. A Portaria 421/2026 estende a regra à matrícula, à escolarização e à oferta do AEE na educação básica [F: mecportaria4212026, art. 7, §4].
 
 ## Problema que resolve
 
@@ -44,13 +46,15 @@ A Resolução 4/2009 atribui a elaboração e a execução do plano de AEE aos "
 ### Ciclo
 
 1. **Estudo de caso.** Na Nota Técnica 04/2014, é a "primeira etapa da elaboração do Plano de AEE", "de cunho estritamente educacional" e não condicionado a laudo [F: mec2014nt04]. No Decreto 12.686/2025, é "etapa inicial necessária para a identificação de estudante público da educação especial", com quatro etapas: demandas individuais e barreiras; análise das barreiras e do contexto escolar; potencialidades e demandas de apoio; estratégias e recursos de acessibilidade [F: decreto126862025, art. 11, caput e §1]. Os instrumentos que podem apoiar essa análise estão em `acs.asmt.barriers-and-support-needs`.
-2. **Plano.** Na redação vigente: "É obrigatória a realização de documento individualizado de natureza pedagógica, com atualização contínua, como PAEE e o PEI, que derive do estudo de caso" [F: decreto126862025, art. 12, redação do Decreto 12.773/2025]. A institucionalização do PAEE e do PEI compõe o projeto político-pedagógico, e ambos orientam o trabalho na sala comum, no AEE, em atividades colaborativas e na articulação intersetorial [F: decreto126862025, art. 12, §§1 e 2]. O PEI ou "outros instrumentos pedagógicos com finalidades análogas utilizados pelas redes de ensino" devem observar o disposto para o PAEE [F: decreto126862025, art. 12, §3].
+2. **Plano.** Na redação vigente: "É obrigatória a realização de documento individualizado de natureza pedagógica, com atualização contínua, como PAEE e o PEI, que derive do estudo de caso" [F: decreto126862025, art. 12, redação do Decreto 12.773/2025]. A institucionalização do PAEE e do PEI compõe o projeto político-pedagógico, e ambos orientam o trabalho na sala comum, no AEE, em atividades colaborativas e na articulação intersetorial [F: decreto126862025, art. 12, §§1 e 2]. O PEI ou "outros instrumentos pedagógicos com finalidades análogas utilizados pelas redes de ensino" devem observar o disposto para o PAEE [F: decreto126862025, art. 12, §3]. A Portaria 421/2026 fixa o conteúdo mínimo [F: mecportaria4212026, arts. 10 e 11]:
+   - **PAEE**: materiais e recursos para eliminar ou minimizar barreiras; avaliação da necessidade e da capacidade de disponibilizar "recursos de tecnologia assistiva e comunicação aumentativa e alternativa"; avaliação da necessidade de profissional de apoio escolar, intérprete de Libras e guia-intérprete; demandas de formação e de acionamento da rede de proteção social.
+   - **PEI**: atividades em sala de recursos multifuncionais ou outros espaços do AEE e sua articulação com o professor regente; "as medidas de acessibilidade curricular, didático-pedagógica e avaliativa, quando indicadas pelo estudo de caso"; estratégias de acompanhamento e monitoramento; registro das devolutivas às famílias.
 3. **Execução e acompanhamento**, inclusive do profissional de apoio escolar, que atua "em consonância com o PAEE e com o PEI" [F: decreto126862025, art. 14].
-4. **Atualização.** A norma federal fala em "atualização contínua" e não fixa periodicidade [F: decreto126862025, art. 12].
+4. **Atualização.** O decreto fala em "atualização contínua" [F: decreto126862025, art. 12]. A portaria fixa um piso: o PAEE e o PEI "deverão ser revisados anualmente, de modo a compatibilizá-los com a avaliação contínua do estudante" [F: mecportaria4212026, art. 7, §3]. As redes que já tinham documentos análogos têm "até três anos", contados da publicação, para adequá-los [F: mecportaria4212026, art. 37].
 
 ### Formatos
 
-Não há modelo nacional obrigatório. Antes de 2025, Tannús-Valadão e Mendes encontraram em leis estaduais e municipais nomes como plano de desenvolvimento individualizado (PDI) e plano de atendimento individualizado (PAI), e caracterizaram o modelo brasileiro como "restrito ao AEE", elaborado por professores de AEE, centrado em competências e comportamentos [F: tannusvaladao2018inclusao, pp. 11 e 13]. Em 200 planos de AEE de um município paulista (2011 e 2012), havia repetições independentes de série e de deficiência, incoerências e ausências; só um terço dos estudantes tinha o plano formalizado, e não aparecia relação com o ensino na classe comum [F: tannusvaladao2018inclusao, pp. 11 e 12]. As autoras concluíram que o Brasil não tinha dispositivo federal que garantisse PEI e que o plano era "centrado mais nos serviços existentes do que nas necessidades dos alunos" [F: tannusvaladao2018inclusao, resumo]. A inclusão do PEI e da orientação à sala comum no decreto de 2025 responde em parte a essa crítica, mas no plano normativo; não há ainda evidência sobre a prática [I].
+Não há formulário nacional único: a portaria fixa conteúdo mínimo e admite documento único ou instrumentos análogos das redes [F: mecportaria4212026, arts. 7 §2, 10 e 11]. Antes de 2025, Tannús-Valadão e Mendes encontraram em leis estaduais e municipais nomes como plano de desenvolvimento individualizado (PDI) e plano de atendimento individualizado (PAI), e caracterizaram o modelo brasileiro como "restrito ao AEE", elaborado por professores de AEE, centrado em competências e comportamentos [F: tannusvaladao2018inclusao, pp. 11 e 13]. Em 200 planos de AEE de um município paulista (2011 e 2012), havia repetições independentes de série e de deficiência, incoerências e ausências; só um terço dos estudantes tinha o plano formalizado, e não aparecia relação com o ensino na classe comum [F: tannusvaladao2018inclusao, pp. 11 e 12]. As autoras concluíram que o Brasil não tinha dispositivo federal que garantisse PEI e que o plano era "centrado mais nos serviços existentes do que nas necessidades dos alunos" [F: tannusvaladao2018inclusao, resumo]. A inclusão do PEI e da orientação à sala comum no decreto de 2025, e o conteúdo mínimo da portaria de 2026, respondem em parte a essa crítica, mas no plano normativo; não há ainda evidência sobre a prática [I].
 
 ### Lei 14.254/2021
 
@@ -62,17 +66,17 @@ Pelo IDEA, o IEP deve conter níveis atuais de desempenho acadêmico e funcional
 
 ## Vantagens e limitações
 
-Vantagens: transforma a avaliação de barreiras em compromisso verificável; dispensa laudo; integra família e estudante [F: mec2014nt04; decreto126862025]. Limitações: prática documentada como formal e centrada no serviço [F: tannusvaladao2018inclusao]; norma federal sem periodicidade nem conteúdo mínimo detalhado como o do IEP [I]; Tannús-Valadão e Mendes registram que, mesmo nos Estados Unidos, há poucas pesquisas sobre a efetividade do PEI [F: tannusvaladao2018inclusao, p. 14].
+Vantagens: transforma a avaliação de barreiras em compromisso verificável; dispensa laudo; integra família e estudante [F: mec2014nt04; decreto126862025; mecportaria4212026]. Limitações: prática documentada como formal e centrada no serviço [F: tannusvaladao2018inclusao]; a norma federal agora fixa revisão anual e conteúdo mínimo, mas, ao contrário do IEP, não exige metas anuais mensuráveis nem relato periódico de progresso [I, comparando mecportaria4212026, arts. 10 e 11, com cfr34300320iep]; Tannús-Valadão e Mendes registram que, mesmo nos Estados Unidos, há poucas pesquisas sobre a efetividade do PEI [F: tannusvaladao2018inclusao, p. 14].
 
 ## Alternativas e comparações
 
-| Dimensão | Plano de AEE (Res. 4/2009) | PAEE/PEI (Dec. 12.686/2025) | IEP (34 CFR 300) |
+| Dimensão | Plano de AEE (Res. 4/2009) | PAEE/PEI (Dec. 12.686/2025 e Port. MEC 421/2026) | IEP (34 CFR 300) |
 |---|---|---|---|
 | Base | Estudo de caso, sem laudo [F: mec2014nt04] | Estudo de caso, sem laudo [F: decreto126862025, art. 11] | Avaliação inicial ou mais recente [F: cfr34300324iep] |
 | Quem elabora | Professor de AEE, com professores, família e saúde [F: cneceb42009, art. 9] | Escola, com estudante e família [F: decreto126862025, art. 11 §3] | Equipe IEP com pais |
 | Alcance | Atendimento no AEE | AEE, sala comum, colaboração, intersetorial [F: decreto126862025, art. 12 §2] | Currículo geral, serviços, avaliações, transição [F: cfr34300320iep] |
-| Revisão | Não fixada | "Atualização contínua" | Ao menos anual [F: cfr34300324iep] |
-| Metas | Atividades e recursos [F: cneceb42009, art. 10 IV] | Não especificadas | Anuais e mensuráveis [F: cfr34300320iep] |
+| Revisão | Não fixada | "Atualização contínua" [F: decreto126862025, art. 12] e revisão anual [F: mecportaria4212026, art. 7 §3] | Ao menos anual [F: cfr34300324iep] |
+| Conteúdo mínimo e metas | Atividades e recursos [F: cneceb42009, art. 10 IV] | PAEE: recursos, TA e CAA, apoio e intérprete, formação; PEI: atividades do AEE, medidas de acessibilidade curricular e avaliativa, monitoramento, devolutivas; sem metas mensuráveis [F: mecportaria4212026, arts. 10 e 11] | Metas anuais e mensuráveis [F: cfr34300320iep] |
 
 ## Métricas e métodos de avaliação
 
@@ -98,7 +102,7 @@ Depende de `acs.br.pneepei-and-aee` (marco do AEE) e de `acs.asmt.barriers-and-s
 
 ## Lacunas e questões abertas
 
-- O ato do Ministro da Educação previsto no art. 7 do Decreto 12.686/2025, que regulamentará a garantia do AEE, não foi localizado; pode trazer modelo ou periodicidade.
+- O texto da Portaria MEC 550/2026, que alterou a 421/2026, não foi aberto; a Portaria 421 foi lida na visão "vigente" do sistema MECNormas (cópia hospedada pelo IFG), sem conferência no DOU.
 - A página do Planalto exibe as redações original e alterada lado a lado; a redação vigente foi lida pelas notas "Redação dada pelo Decreto nº 12.773, de 2025" e deve ser conferida no DOU.
 - O texto de Glat, Vianna e Redig sobre PEI não foi localizado; a literatura brasileira citada aqui se limita a Tannús-Valadão e Mendes (2018).
 - Não há evidência brasileira sobre efeito do PEI na aprendizagem.
@@ -111,6 +115,7 @@ Depende de `acs.br.pneepei-and-aee` (marco do AEE) e de `acs.asmt.barriers-and-s
 | mec2014nt04 | normativo (nota técnica; cópia hospedada pelo IFF) | 2026-10-30 |
 | lei131462015 | normativo | 2026-10-30 |
 | decreto126862025 | normativo | 2026-10-30 |
+| mecportaria4212026 | normativo (via MECNormas) | 2026-10-30 |
 | lei142542021 | normativo | 2026-10-30 |
 | cfr34300320iep | normativo (eCFR via LII/Cornell) | 2026-10-30 |
 | cfr34300324iep | normativo (eCFR via LII/Cornell) | 2026-10-30 |
