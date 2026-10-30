@@ -64,7 +64,7 @@ Granularidade mínima proposta por construto, síntese deste documento a partir 
 
 | Construto | Evento mínimo | Carimbo | Limite reportado na literatura |
 |---|---|---|---|
-| Tempo de reação | início do estímulo (quadro) e resposta, mesma origem monotônica | `rAF` para estímulo, `Event.timeStamp` para resposta | lag de 25 a 45 ms além do nativo em estudos anteriores; 80 a 100 ms com teclados reais; jitter < 10 ms em boas configurações [F: bridges2020timing; anwyl2021realistic] |
+| Tempo de reação | início do estímulo (quadro) e resposta, mesma origem monotônica | `rAF` para estímulo, `Event.timeStamp` para resposta | teclados USB comuns acrescentam 20 a 40 ms, segundo Neath et al. citados por Bridges; lag médio de 80 ms, até 100 ms, com teclados reais; precisão abaixo de 10 ms na maioria dos pacotes online [F: bridges2020timing, Abstract, Introduction; anwyl2021realistic, Discussion] |
 | Hesitação | amostras de ponteiro desde a exibição até a resposta; foco e visibilidade | idem, por amostra | amostragem de 60 a 75 Hz no MouseTracker [F: freeman2010mousetracker] |
 | Sequência de decisões | cada ação com número de sequência por sessão | monotônico + sequência | ver `dat.qual.clocks-and-ordering` |
 | Padrão de erro | resposta dada, resposta esperada, coordenada final | idem | `We` exige dispersão dos pontos finais [F: mackenzie1992fitts] |
