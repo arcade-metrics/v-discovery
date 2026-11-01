@@ -1,0 +1,104 @@
+{
+  "item": "cereja",
+  "numero": 8,
+  "categoria": "frutas",
+  "nome": "Cereja",
+  "svg": "08-cereja.svg",
+  "png": "08-cereja.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "cereja-talo": {
+      "parte": "talo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        547.8,
+        266.2
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#5E8C31"
+        ]
+      },
+      "familias": []
+    },
+    "cereja-folha": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        547.8,
+        266.2
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "cereja-corpo-1": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C0222B"
+        ],
+        "base": [
+          "#E8343A"
+        ],
+        "brilho": [
+          "#FF7A7E"
+        ]
+      },
+      "familias": [
+        "vermelho-cereja"
+      ]
+    },
+    "cereja-corpo-2": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C0222B"
+        ],
+        "base": [
+          "#E8343A"
+        ],
+        "brilho": [
+          "#FF7A7E"
+        ]
+      },
+      "familias": [
+        "vermelho-cereja"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

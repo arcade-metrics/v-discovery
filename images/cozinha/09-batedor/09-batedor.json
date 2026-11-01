@@ -1,0 +1,69 @@
+{
+  "item": "batedor",
+  "numero": 9,
+  "categoria": "cozinha",
+  "nome": "Batedor de arame",
+  "svg": "09-batedor.svg",
+  "png": "09-batedor.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "batedor-arame": {
+      "parte": "arame",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "batedor-cabo": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        506.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#1EA396"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "turquesa"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,96 @@
+{
+  "item": "assadeira",
+  "numero": 38,
+  "categoria": "cozinha",
+  "nome": "Assadeira",
+  "svg": "38-assadeira.svg",
+  "png": "38-assadeira.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "assadeira-alca-1": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        214.0,
+        584.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "assadeira-alca-2": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        810.0,
+        584.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "assadeira-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468",
+          "#717D95"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

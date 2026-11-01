@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="ameixa-titulo">
+  <title id="ameixa-titulo">Ameixa</title>
+  <defs>
+    <clipPath id="ameixa-corpo-1-recorte">
+      <path d="M158 166 C206 166 228 210 228 254 C228 304 198 334 158 334 C118 334 88 304 88 254 C88 210 110 166 158 166 Z" />
+    </clipPath>
+    <clipPath id="ameixa-corpo-2-recorte">
+      <path d="M248 170 C296 170 318 214 318 258 C318 308 288 338 248 338 C208 338 178 308 178 258 C178 214 200 170 248 170 Z" />
+    </clipPath>
+  </defs>
+  <g id="ameixa" transform="scale(2.56)">
+    <g id="ameixa-talo" data-pivo="522.2,281.6">
+      <path d="M160 168 C168 140 188 124 204 110 M246 172 C238 140 220 124 204 110" fill="none" stroke="#8A5A33" stroke-width="10" stroke-linecap="round" class="base" />
+    </g>
+    <g id="ameixa-folha" transform="translate(204 112) rotate(-20) scale(0.95)" data-pivo="522.2,286.7">
+      <path d="M0 0 C18 -34 58 -46 92 -36 C80 -2 40 16 0 0 Z" fill="#5DBB43" class="base" />
+      <path d="M0 0 L92 -36 C80 -2 40 16 0 0 Z" fill="#469A32" class="sombra" />
+    </g>
+    <g id="ameixa-corpo-1">
+      <path d="M158 166 C206 166 228 210 228 254 C228 304 198 334 158 334 C118 334 88 304 88 254 C88 210 110 166 158 166 Z" fill="#682A6E" class="sombra" />
+      <g clip-path="url(#ameixa-corpo-1-recorte)">
+        <path d="M158 166 C206 166 228 210 228 254 C228 304 198 334 158 334 C118 334 88 304 88 254 C88 210 110 166 158 166 Z" fill="#8A3E8E" transform="translate(-14 -14)" class="base" />
+      </g>
+      <path d="M162 176 C138 210 136 280 156 326" fill="none" stroke="#682A6E" stroke-width="8" stroke-linecap="round" class="marca" />
+      <ellipse cx="112" cy="232" rx="10" ry="24" transform="rotate(15 112 232)" fill="#B672BA" class="brilho" />
+    </g>
+    <g id="ameixa-corpo-2">
+      <path d="M248 170 C296 170 318 214 318 258 C318 308 288 338 248 338 C208 338 178 308 178 258 C178 214 200 170 248 170 Z" fill="#682A6E" class="sombra" />
+      <g clip-path="url(#ameixa-corpo-2-recorte)">
+        <path d="M248 170 C296 170 318 214 318 258 C318 308 288 338 248 338 C208 338 178 308 178 258 C178 214 200 170 248 170 Z" fill="#8A3E8E" transform="translate(-14 -14)" class="base" />
+      </g>
+      <path d="M252 180 C228 214 226 284 246 330" fill="none" stroke="#682A6E" stroke-width="8" stroke-linecap="round" class="marca" />
+      <ellipse cx="204" cy="236" rx="10" ry="24" transform="rotate(15 204 236)" fill="#B672BA" class="brilho" />
+    </g>
+  </g>
+</svg>

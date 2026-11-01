@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="rolo-de-massa-titulo">
+  <title id="rolo-de-massa-titulo">Rolo de massa</title>
+  <defs>
+    <path id="rolo-de-massa-corpo-forma" d="M346 424 L678 424 C706 424 728 446 728 474 L728 550 C728 578 706 600 678 600 L346 600 C318 600 296 578 296 550 L296 474 C296 446 318 424 346 424 Z" />
+    <path id="rolo-de-massa-cabo-1-forma" d="M310 490 L250 490 C246 476 234 466 212 466 L196 466 C170 466 150 486 150 512 C150 538 170 558 196 558 L212 558 C234 558 246 548 250 534 L310 534 Z" />
+    <path id="rolo-de-massa-cabo-2-forma" d="M714 490 L774 490 C778 476 790 466 812 466 L828 466 C854 466 874 486 874 512 C874 538 854 558 828 558 L812 558 C790 558 778 548 774 534 L714 534 Z" />
+    <clipPath id="rolo-de-massa-corpo-recorte">
+      <use href="#rolo-de-massa-corpo-forma" />
+    </clipPath>
+    <clipPath id="rolo-de-massa-cabo-1-recorte">
+      <use href="#rolo-de-massa-cabo-1-forma" />
+    </clipPath>
+    <clipPath id="rolo-de-massa-cabo-2-recorte">
+      <use href="#rolo-de-massa-cabo-2-forma" />
+    </clipPath>
+  </defs>
+  <g id="rolo-de-massa">
+    <g id="rolo-de-massa-cabo-1" data-pivo="300,512">
+      <use href="#rolo-de-massa-cabo-1-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#rolo-de-massa-cabo-1-recorte)">
+        <use href="#rolo-de-massa-cabo-1-forma" transform="translate(-10 -16)" fill="#DDA15E" class="base" />
+      </g>
+      <ellipse cx="184" cy="490" rx="16" ry="9" transform="rotate(-20 184 490)" fill="#F0C68E" class="brilho" />
+    </g>
+    <g id="rolo-de-massa-cabo-2" data-pivo="724,512">
+      <use href="#rolo-de-massa-cabo-2-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#rolo-de-massa-cabo-2-recorte)">
+        <use href="#rolo-de-massa-cabo-2-forma" transform="translate(-10 -16)" fill="#DDA15E" class="base" />
+      </g>
+      <ellipse cx="808" cy="490" rx="16" ry="9" transform="rotate(-20 808 490)" fill="#F0C68E" class="brilho" />
+    </g>
+    <g id="rolo-de-massa-corpo">
+      <use href="#rolo-de-massa-corpo-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#rolo-de-massa-corpo-recorte)">
+        <use href="#rolo-de-massa-corpo-forma" transform="translate(-16 -26)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M346 458 L590 458" fill="none" stroke="#F0C68E" stroke-width="16" stroke-linecap="round" class="brilho" />
+      <circle cx="626" cy="458" r="8" fill="#F0C68E" class="brilho" />
+    </g>
+  </g>
+</svg>

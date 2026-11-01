@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="pano-de-prato-titulo">
+  <title id="pano-de-prato-titulo">Pano de prato</title>
+  <defs>
+    <path id="pano-de-prato-corpo-forma" d="M340 236 L684 236 C700 236 712 248 712 264 L722 822 C723 848 708 864 684 860 C606 846 566 874 512 868 C458 862 418 846 340 860 C316 864 301 848 302 822 L312 264 C312 248 324 236 340 236 Z" />
+    <path id="pano-de-prato-tira-forma" fill-rule="evenodd" d="M466 252 C456 140 568 140 558 252 Z M488 248 C482 176 542 176 536 248 Z" />
+    <clipPath id="pano-de-prato-corpo-recorte">
+      <use href="#pano-de-prato-corpo-forma" />
+    </clipPath>
+    <clipPath id="pano-de-prato-tira-recorte">
+      <use href="#pano-de-prato-tira-forma" />
+    </clipPath>
+  </defs>
+  <g id="pano-de-prato">
+    <g id="pano-de-prato-tira">
+      <use href="#pano-de-prato-tira-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#pano-de-prato-tira-recorte)">
+        <use href="#pano-de-prato-tira-forma" transform="translate(-8 -10)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="pano-de-prato-corpo">
+      <use href="#pano-de-prato-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#pano-de-prato-corpo-recorte)">
+        <use href="#pano-de-prato-corpo-forma" transform="translate(-20 -28)" fill="#EA4A3F" class="base" />
+      </g>
+      <g clip-path="url(#pano-de-prato-corpo-recorte)">
+        <rect x="280" y="712" width="460" height="22" fill="#F4F6FA" class="marca" />
+        <rect x="280" y="756" width="460" height="22" fill="#F4F6FA" class="marca" />
+        <rect x="280" y="290" width="460" height="22" fill="#F4F6FA" class="marca" />
+        <rect x="280" y="334" width="460" height="22" fill="#F4F6FA" class="marca" />
+      </g>
+      <path d="M456 400 C444 480 446 570 462 650" fill="none" stroke="#C93830" stroke-width="12" stroke-linecap="round" class="marca" />
+      <ellipse cx="368" cy="430" rx="22" ry="54" transform="rotate(14 372 370)" fill="#F7867C" class="brilho" />
+    </g>
+  </g>
+</svg>

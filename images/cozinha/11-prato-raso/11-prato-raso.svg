@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="prato-raso-titulo">
+  <title id="prato-raso-titulo">Prato raso</title>
+  <defs>
+    <path id="prato-raso-corpo-forma" d="M 156 494 A 356 128 0 0 1 868 494 L 868 514 A 356 128 0 0 1 156 514 Z" />
+    <clipPath id="prato-raso-corpo-recorte">
+      <use href="#prato-raso-corpo-forma" />
+    </clipPath>
+    <ellipse id="prato-raso-corpo-interior-forma" cx="502" cy="486" rx="270" ry="94" />
+    <clipPath id="prato-raso-corpo-interior-recorte">
+      <use href="#prato-raso-corpo-interior-forma" />
+    </clipPath>
+  </defs>
+  <g id="prato-raso">
+    <g id="prato-raso-corpo">
+      <use href="#prato-raso-corpo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#prato-raso-corpo-recorte)">
+        <use href="#prato-raso-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#prato-raso-corpo-interior-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#prato-raso-corpo-interior-recorte)">
+        <use href="#prato-raso-corpo-interior-forma" transform="translate(10 13)" fill="#F4F6FA" class="base" />
+      </g>
+      <g clip-path="url(#prato-raso-corpo-recorte)">
+        <path d="M 194 488 A 318 113 0 1 1 830 488 A 318 113 0 1 1 194 488 Z" fill="none" stroke="#1EA396" stroke-width="16" class="marca" />
+        <g transform="translate(-20 -28)" clip-path="url(#prato-raso-corpo-recorte)">
+          <path d="M 194 488 A 318 113 0 1 1 830 488 A 318 113 0 1 1 194 488 Z" transform="translate(20 28)" fill="none" stroke="#2EC4B6" stroke-width="16" class="marca" />
+        </g>
+      </g>
+      <ellipse cx="312" cy="512" rx="34" ry="10" transform="rotate(-14 312 512)" fill="#FFFFFF" class="brilho" />
+    </g>
+  </g>
+</svg>

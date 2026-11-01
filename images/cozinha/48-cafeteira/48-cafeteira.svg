@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cafeteira-titulo">
+  <title id="cafeteira-titulo">Cafeteira</title>
+  <defs>
+    <path id="cafeteira-corpo-forma" d="M336 300 H688 Q688 300 688 300 V760 Q688 760 688 760 H336 Q336 760 336 760 V300 Q336 300 336 300 Z"/>
+    <clipPath id="cafeteira-corpo-recorte"><use href="#cafeteira-corpo-forma"/></clipPath>
+    <path id="cafeteira-corpo-forma-2" d="M496 330 H528 A14 14 0 0 1 542 344 V360 A14 14 0 0 1 528 374 H496 A14 14 0 0 1 482 360 V344 A14 14 0 0 1 496 330 Z"/>
+    <clipPath id="cafeteira-corpo-recorte-2"><use href="#cafeteira-corpo-forma-2"/></clipPath>
+    <path id="cafeteira-corpo-forma-3" d="M344 166 H680 A54 54 0 0 1 734 220 V284 A54 54 0 0 1 680 338 H344 A54 54 0 0 1 290 284 V220 A54 54 0 0 1 344 166 Z"/>
+    <clipPath id="cafeteira-corpo-recorte-3"><use href="#cafeteira-corpo-forma-3"/></clipPath>
+    <path id="cafeteira-corpo-forma-4" d="M334 728 H690 A44 44 0 0 1 734 772 V810 A44 44 0 0 1 690 854 H334 A44 44 0 0 1 290 810 V772 A44 44 0 0 1 334 728 Z"/>
+    <clipPath id="cafeteira-corpo-recorte-4"><use href="#cafeteira-corpo-forma-4"/></clipPath>
+    <path id="cafeteira-jarra-liquido-forma" d="M374 566 H650 Q652 580 652 600 V704 Q652 738 618 738 H406 Q372 738 372 704 V600 Q372 580 374 566 Z"/>
+    <clipPath id="cafeteira-jarra-liquido-recorte"><use href="#cafeteira-jarra-liquido-forma"/></clipPath>
+    <path id="cafeteira-jarra-forma" d="M640 466 H704 Q748 466 748 510 V640 Q748 684 704 684 H660 V646 H696 Q710 646 710 632 V518 Q710 504 696 504 H640 Z"/>
+    <clipPath id="cafeteira-jarra-recorte"><use href="#cafeteira-jarra-forma"/></clipPath>
+    <path id="cafeteira-jarra-forma-2" d="M404 446 H620 Q664 510 664 600 V706 Q664 750 620 750 H404 Q360 750 360 706 V600 Q360 510 404 446 Z"/>
+    <clipPath id="cafeteira-jarra-recorte-2"><use href="#cafeteira-jarra-forma-2"/></clipPath>
+    <path id="cafeteira-jarra-forma-3" d="M408 416 H616 A22 22 0 0 1 638 438 V450 A22 22 0 0 1 616 472 H408 A22 22 0 0 1 386 450 V438 A22 22 0 0 1 408 416 Z"/>
+    <clipPath id="cafeteira-jarra-recorte-3"><use href="#cafeteira-jarra-forma-3"/></clipPath>
+    <path id="cafeteira-botao-forma" d="M634 776 H676 A18 18 0 0 1 694 794 V794 A18 18 0 0 1 676 812 H634 A18 18 0 0 1 616 794 V794 A18 18 0 0 1 634 776 Z"/>
+    <clipPath id="cafeteira-botao-recorte"><use href="#cafeteira-botao-forma"/></clipPath>
+  </defs>
+  <g id="cafeteira">
+    <g id="cafeteira-corpo">
+      <use href="#cafeteira-corpo-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#cafeteira-corpo-recorte)"><use href="#cafeteira-corpo-forma" transform="translate(-14 -22)" fill="#4A5468" class="base"/></g>
+      <use href="#cafeteira-corpo-forma-2" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#cafeteira-corpo-recorte-2)"><use href="#cafeteira-corpo-forma-2" transform="translate(-4 -6)" fill="#4A5468" class="base"/></g>
+      <use href="#cafeteira-corpo-forma-3" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#cafeteira-corpo-recorte-3)"><use href="#cafeteira-corpo-forma-3" transform="translate(-20 -28)" fill="#F4F6FA" class="base"/></g>
+      <use href="#cafeteira-corpo-forma-4" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#cafeteira-corpo-recorte-4)"><use href="#cafeteira-corpo-forma-4" transform="translate(-20 -28)" fill="#F4F6FA" class="base"/></g>
+      <ellipse cx="344" cy="214" rx="18" ry="32" transform="rotate(40 344 214)" fill="#FFFFFF" class="brilho"/>
+    </g>
+    <g id="cafeteira-jarra">
+      <use href="#cafeteira-jarra-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#cafeteira-jarra-recorte)"><use href="#cafeteira-jarra-forma" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+      <use href="#cafeteira-jarra-forma-2" fill="#9FD0E4" class="sombra"/>
+      <g clip-path="url(#cafeteira-jarra-recorte-2)"><use href="#cafeteira-jarra-forma-2" transform="translate(-20 -28)" fill="#C8E8F4" class="base"/></g>
+      <use href="#cafeteira-jarra-forma-3" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#cafeteira-jarra-recorte-3)"><use href="#cafeteira-jarra-forma-3" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+      <path d="M386 520 Q376 540 376 570" fill="none" stroke="#EEF9FD" stroke-width="12" stroke-linecap="round" class="brilho"/>
+      <path d="M410 434 H470" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" class="brilho"/>
+      <g id="cafeteira-jarra-liquido">
+        <use href="#cafeteira-jarra-liquido-forma" fill="#5C311B" class="sombra"/>
+        <g clip-path="url(#cafeteira-jarra-liquido-recorte)"><use href="#cafeteira-jarra-liquido-forma" transform="translate(-14 -22)" fill="#7A4426" class="base"/></g>
+        <path d="M398 600 V680" fill="none" stroke="#A0643F" stroke-width="12" stroke-linecap="round" class="brilho"/>
+      </g>
+    </g>
+    <g id="cafeteira-botao">
+      <use href="#cafeteira-botao-forma" fill="#1EA396" class="sombra"/>
+      <g clip-path="url(#cafeteira-botao-recorte)"><use href="#cafeteira-botao-forma" transform="translate(-5 -8)" fill="#2EC4B6" class="base"/></g>
+      <path d="M632 787 H654" fill="none" stroke="#7FE0D6" stroke-width="6" stroke-linecap="round" class="brilho"/>
+    </g>
+  </g>
+</svg>

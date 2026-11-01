@@ -1,0 +1,62 @@
+{
+  "item": "concha",
+  "numero": 5,
+  "categoria": "cozinha",
+  "nome": "Concha",
+  "svg": "05-concha.svg",
+  "png": "05-concha.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "concha-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "concha-concha": {
+      "parte": "concha",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

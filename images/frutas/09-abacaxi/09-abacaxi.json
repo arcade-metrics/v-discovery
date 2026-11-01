@@ -1,0 +1,62 @@
+{
+  "item": "abacaxi",
+  "numero": 9,
+  "categoria": "frutas",
+  "nome": "Abacaxi",
+  "svg": "09-abacaxi.svg",
+  "png": "09-abacaxi.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "abacaxi-coroa": {
+      "parte": "coroa",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#469A32"
+        ],
+        "base": [
+          "#5DBB43"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "abacaxi-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ],
+        "marca": [
+          "#D99316"
+        ],
+        "brilho": [
+          "#FFE07A"
+        ]
+      },
+      "familias": [
+        "amarelo"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

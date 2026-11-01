@@ -1,0 +1,99 @@
+{
+  "item": "timer",
+  "numero": 50,
+  "categoria": "cozinha",
+  "nome": "Timer de cozinha",
+  "svg": "50-timer.svg",
+  "png": "50-timer.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "timer-botao": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396",
+          "#353D4E"
+        ],
+        "base": [
+          "#2EC4B6",
+          "#4A5468"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "turquesa"
+      ]
+    },
+    "timer-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#D3DAE6"
+        ],
+        "base": [
+          "#4A5468",
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite"
+      ]
+    },
+    "timer-ponteiro": {
+      "parte": "ponteiro",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        562.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396",
+          "#353D4E"
+        ],
+        "base": [
+          "#2EC4B6",
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "turquesa"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

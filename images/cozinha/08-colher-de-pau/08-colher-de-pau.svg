@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="colher-de-pau-titulo">
+  <title id="colher-de-pau-titulo">Colher de pau</title>
+  <defs>
+    <path id="colher-de-pau-corpo-forma" d="M512 156 C580 156 618 224 618 304 C618 382 578 432 538 452 C532 456 532 464 532 478 L538 834 C538 862 528 878 512 878 C496 878 486 862 486 834 L492 478 C492 464 492 456 486 452 C446 432 406 382 406 304 C406 224 444 156 512 156 Z" />
+    <clipPath id="colher-de-pau-corpo-recorte">
+      <use href="#colher-de-pau-corpo-forma" />
+    </clipPath>
+    <clipPath id="colher-de-pau-concha-recorte">
+      <ellipse cx="512" cy="296" rx="70" ry="100" />
+    </clipPath>
+  </defs>
+  <g id="colher-de-pau">
+    <g id="colher-de-pau-corpo">
+      <use href="#colher-de-pau-corpo-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#colher-de-pau-corpo-recorte)">
+        <use href="#colher-de-pau-corpo-forma" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M514 600 L516 676 M508 730 L509 776" fill="none" stroke="#BE7F3E" stroke-width="6" stroke-linecap="round" class="marca" />
+      <path d="M497 520 L494 820" fill="none" stroke="#F0C68E" stroke-width="10" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="colher-de-pau-concha">
+      <ellipse cx="512" cy="296" rx="70" ry="100" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#colher-de-pau-concha-recorte)">
+        <ellipse cx="524" cy="314" rx="70" ry="100" fill="#DDA15E" class="base" />
+      </g>
+      <ellipse cx="542" cy="340" rx="14" ry="32" transform="rotate(22 542 340)" fill="#F0C68E" class="brilho" />
+    </g>
+  </g>
+</svg>

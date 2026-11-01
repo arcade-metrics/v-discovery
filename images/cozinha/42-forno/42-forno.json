@@ -1,0 +1,223 @@
+{
+  "item": "forno",
+  "numero": 42,
+  "categoria": "cozinha",
+  "nome": "Forno",
+  "svg": "42-forno.svg",
+  "png": "42-forno.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "forno-pes": {
+      "parte": "pes",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "forno-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#D3DAE6"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "forno-porta": {
+      "parte": "porta",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        448.0,
+        698.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "forno-porta-puxador": {
+      "parte": "puxador",
+      "pai": "forno-porta",
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "forno-porta-visor": {
+      "parte": "visor",
+      "pai": "forno-porta",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "forno-botao-1": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#1EA396"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "turquesa"
+      ]
+    },
+    "forno-botao-2": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "forno-botao-3": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

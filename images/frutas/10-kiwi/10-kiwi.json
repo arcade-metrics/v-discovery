@@ -1,0 +1,73 @@
+{
+  "item": "kiwi",
+  "numero": 10,
+  "categoria": "frutas",
+  "nome": "Kiwi",
+  "svg": "10-kiwi.svg",
+  "png": "10-kiwi.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "kiwi-casca": {
+      "parte": "casca",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ]
+      },
+      "familias": [
+        "marrom"
+      ]
+    },
+    "kiwi-polpa": {
+      "parte": "polpa",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#7CC242"
+        ],
+        "base": [
+          "#94D25A"
+        ],
+        "marca": [
+          "#3A2418"
+        ]
+      },
+      "familias": [
+        "marrom-escuro"
+      ]
+    },
+    "kiwi-miolo": {
+      "parte": "miolo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#F4F0C4"
+        ]
+      },
+      "familias": []
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,70 @@
+{
+  "item": "pimenteiro",
+  "numero": 25,
+  "categoria": "cozinha",
+  "nome": "Pimenteiro",
+  "svg": "25-pimenteiro.svg",
+  "png": "25-pimenteiro.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "pimenteiro-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "pimenteiro-tampa": {
+      "parte": "tampa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        376.9
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

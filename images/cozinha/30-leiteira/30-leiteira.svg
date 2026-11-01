@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="leiteira-titulo">
+  <title id="leiteira-titulo">Leiteira</title>
+  <defs>
+    <path d="M519.5 371 L800.2 334.3 C832.6 331.1 852 347.3 852 366.7 C852 386.1 834.7 401.3 802.3 401.3 L519.5 422.8 Z" id="leiteira-cabo-forma" />
+    <path d="M271.2 289 C228.1 286.8 191.4 273.9 178.4 278.2 C165.5 282.5 174.1 297.6 187 308.4 C206.5 325.7 219.4 347.3 232.4 379.7 Z" id="leiteira-bico-forma" />
+    <path d="M228.1 314.9 L236.7 697 Q238.9 746.7 288.5 746.7 L469.9 746.7 Q519.5 746.7 521.7 697 L530.3 314.9 C530.3 266 228.1 266 228.1 314.9 Z" id="leiteira-corpo-forma" />
+    <path d="M243.2 314.9 C243.2 278.9 515.2 278.9 515.2 314.9 C515.2 350.9 243.2 350.9 243.2 314.9 Z" id="leiteira-corpo-interior-forma" />
+    <clipPath id="leiteira-cabo-recorte">
+      <use href="#leiteira-cabo-forma" />
+    </clipPath>
+    <clipPath id="leiteira-bico-recorte">
+      <use href="#leiteira-bico-forma" />
+    </clipPath>
+    <clipPath id="leiteira-corpo-recorte">
+      <use href="#leiteira-corpo-forma" />
+    </clipPath>
+    <clipPath id="leiteira-corpo-interior-recorte">
+      <use href="#leiteira-corpo-interior-forma" />
+    </clipPath>
+  </defs>
+  <g id="leiteira">
+    <g id="leiteira-cabo" data-pivo="530.3,392.6">
+      <use href="#leiteira-cabo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#leiteira-cabo-recorte)">
+        <use href="#leiteira-cabo-forma" transform="translate(-10 -18)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M605.9 366.7 L789.4 349.4" fill="none" stroke="#717D95" class="brilho" stroke-width="8.6" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="leiteira-bico">
+      <use href="#leiteira-bico-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#leiteira-bico-recorte)">
+        <use href="#leiteira-bico-forma" transform="translate(-10 -18)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="leiteira-corpo">
+      <use href="#leiteira-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#leiteira-corpo-recorte)">
+        <use href="#leiteira-corpo-forma" transform="translate(-20 -28)" fill="#EA4A3F" class="base" />
+      </g>
+      <use href="#leiteira-corpo-interior-forma" fill="#E9E2D2" class="sombra" />
+      <g clip-path="url(#leiteira-corpo-interior-recorte)">
+        <use href="#leiteira-corpo-interior-forma" transform="translate(10 14)" fill="#FBF8F0" class="base" />
+      </g>
+      <path d="M260.4 401.3 L264.8 649.5" fill="none" stroke="#F7867C" class="brilho" stroke-width="17.3" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

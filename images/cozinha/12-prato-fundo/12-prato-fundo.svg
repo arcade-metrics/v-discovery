@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="prato-fundo-titulo">
+  <title id="prato-fundo-titulo">Prato fundo</title>
+  <defs>
+    <path id="prato-fundo-corpo-pe-forma" d="M 282 526 L 742 526 C 738 606 682 652 612 658 L 412 658 C 342 652 286 606 282 526 Z" />
+    <clipPath id="prato-fundo-corpo-pe-recorte">
+      <use href="#prato-fundo-corpo-pe-forma" />
+    </clipPath>
+    <path id="prato-fundo-corpo-forma" d="M 162 466 A 350 122 0 0 1 862 466 L 862 484 A 350 122 0 0 1 162 484 Z" />
+    <clipPath id="prato-fundo-corpo-recorte">
+      <use href="#prato-fundo-corpo-forma" />
+    </clipPath>
+    <ellipse id="prato-fundo-corpo-interior-forma" cx="502" cy="460" rx="232" ry="80" />
+    <clipPath id="prato-fundo-corpo-interior-recorte">
+      <use href="#prato-fundo-corpo-interior-forma" />
+    </clipPath>
+  </defs>
+  <g id="prato-fundo">
+    <g id="prato-fundo-corpo">
+      <use href="#prato-fundo-corpo-pe-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#prato-fundo-corpo-pe-recorte)">
+        <use href="#prato-fundo-corpo-pe-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#prato-fundo-corpo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#prato-fundo-corpo-recorte)">
+        <use href="#prato-fundo-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#prato-fundo-corpo-interior-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#prato-fundo-corpo-interior-recorte)">
+        <use href="#prato-fundo-corpo-interior-forma" transform="translate(34 44)" fill="#F4F6FA" class="base" />
+      </g>
+      <g clip-path="url(#prato-fundo-corpo-recorte)">
+        <path d="M 216 462 A 296 103 0 1 1 808 462 A 296 103 0 1 1 216 462 Z" fill="none" stroke="#1EA396" stroke-width="16" class="marca" />
+        <g transform="translate(-20 -28)" clip-path="url(#prato-fundo-corpo-recorte)">
+          <path d="M 216 462 A 296 103 0 1 1 808 462 A 296 103 0 1 1 216 462 Z" transform="translate(20 28)" fill="none" stroke="#2EC4B6" stroke-width="16" class="marca" />
+        </g>
+      </g>
+      <ellipse cx="318" cy="398" rx="24" ry="7" transform="rotate(-18 318 398)" fill="#FFFFFF" class="brilho" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="colher-de-cha-titulo">
+  <title id="colher-de-cha-titulo">Colher de chá</title>
+  <defs>
+    <path id="colher-de-cha-corpo-forma" d="M512 228 C554 228 578 286 578 334 C578 382 552 410 528 426 C522 431 521 440 521 452 C521 540 525 616 530 676 C542 698 548 726 548 756 C548 788 532 804 512 804 C492 804 476 788 476 756 C476 726 482 698 494 676 C499 616 503 540 503 452 C503 440 502 431 496 426 C472 410 446 382 446 334 C446 286 470 228 512 228 Z" />
+    <clipPath id="colher-de-cha-corpo-recorte">
+      <use href="#colher-de-cha-corpo-forma" />
+    </clipPath>
+    <clipPath id="colher-de-cha-concha-recorte">
+      <ellipse cx="512" cy="330" rx="50" ry="78" />
+    </clipPath>
+  </defs>
+  <g id="colher-de-cha">
+    <g id="colher-de-cha-corpo">
+      <use href="#colher-de-cha-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#colher-de-cha-corpo-recorte)">
+        <use href="#colher-de-cha-corpo-forma" transform="translate(-10 -18)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M508 476 C508 530 507 580 505 626" fill="none" stroke="#DCE5F5" stroke-width="7" stroke-linecap="round" class="brilho" />
+      <ellipse cx="495" cy="744" rx="7" ry="16" fill="#DCE5F5" class="brilho" />
+    </g>
+    <g id="colher-de-cha-concha">
+      <ellipse cx="512" cy="330" rx="50" ry="78" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#colher-de-cha-concha-recorte)">
+        <ellipse cx="524" cy="346" rx="50" ry="78" fill="#AEBEDB" class="base" />
+      </g>
+      <ellipse cx="536" cy="362" rx="11" ry="26" transform="rotate(22 536 362)" fill="#DCE5F5" class="brilho" />
+    </g>
+  </g>
+</svg>

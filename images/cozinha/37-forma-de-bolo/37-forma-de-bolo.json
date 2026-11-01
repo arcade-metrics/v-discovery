@@ -1,0 +1,45 @@
+{
+  "item": "forma-de-bolo",
+  "numero": 37,
+  "categoria": "cozinha",
+  "nome": "Forma de bolo",
+  "svg": "37-forma-de-bolo.svg",
+  "png": "37-forma-de-bolo.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "forma-de-bolo-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#717D95",
+          "#8293B8"
+        ],
+        "base": [
+          "#8293B8",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#717D95",
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

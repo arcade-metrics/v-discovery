@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="banana-titulo">
+  <title id="banana-titulo">Banana</title>
+  <defs>
+    <clipPath id="banana-corpo-recorte">
+      <path d="M274 80 C270 190 205 264 104 276 C88 278 78 290 90 300 C110 320 180 326 238 298 C300 268 322 190 290 80 Z" />
+    </clipPath>
+  </defs>
+  <g id="banana" transform="scale(2.56)">
+    <g id="banana-corpo">
+      <path d="M274 80 C270 190 205 264 104 276 C88 278 78 290 90 300 C110 320 180 326 238 298 C300 268 322 190 290 80 Z" fill="#FFC93C" class="base" />
+      <g clip-path="url(#banana-corpo-recorte)">
+        <path d="M60 300 L100 294 C170 304 230 284 266 248 C296 214 300 160 284 80 L400 70 L400 400 L60 400 Z" fill="#EBA622" class="sombra" />
+        <path d="M284 0 L284 80 C284 200 214 278 108 292 L40 300 L40 0 Z" fill="#FFDE73" class="brilho" />
+        <circle cx="86" cy="294" r="15" fill="#6B4423" class="marca" />
+      </g>
+    </g>
+    <g id="banana-talo" data-pivo="721.9,220.2">
+      <path d="M274 86 L274 62 L290 62 L290 86 Z" fill="#C9932C" class="base" />
+      <path d="M274 66 C274 57 277 52 282 52 C287 52 290 57 290 66 Z" fill="#6B4423" class="marca" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="concha-titulo">
+  <title id="concha-titulo">Concha</title>
+  <defs>
+    <path id="concha-corpo-forma" d="M512 165 C437 165 377 225 377 300 C377 365 424 418 484 432 C494 434 500 440 500 452 L500 790 A52 52 0 0 0 604 790 L604 760 A12 12 0 0 0 580 760 L580 790 A28 28 0 0 1 524 790 L524 452 C524 440 530 434 540 432 C600 418 647 365 647 300 C647 225 587 165 512 165 Z" />
+    <clipPath id="concha-corpo-recorte">
+      <use href="#concha-corpo-forma" />
+    </clipPath>
+    <clipPath id="concha-concha-recorte">
+      <ellipse cx="512" cy="296" rx="110" ry="106" />
+    </clipPath>
+  </defs>
+  <g id="concha">
+    <g id="concha-corpo">
+      <use href="#concha-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#concha-corpo-recorte)">
+        <use href="#concha-corpo-forma" transform="translate(-10 -18)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M505 480 L505 770" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="concha-concha">
+      <ellipse cx="512" cy="296" rx="110" ry="106" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#concha-concha-recorte)">
+        <ellipse cx="530" cy="320" rx="110" ry="106" fill="#AEBEDB" class="base" />
+      </g>
+      <ellipse cx="566" cy="352" rx="20" ry="40" transform="rotate(40 566 352)" fill="#DCE5F5" class="brilho" />
+    </g>
+  </g>
+</svg>

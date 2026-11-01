@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="manga-titulo">
+  <title id="manga-titulo">Manga</title>
+  <defs>
+    <clipPath id="manga-corpo-recorte">
+      <path d="M150 120 C210 90 300 140 300 230 C300 300 250 345 190 340 C130 336 100 296 110 250 C118 210 150 200 156 170 C160 150 140 132 150 120 Z" />
+    </clipPath>
+  </defs>
+  <g id="manga" transform="scale(2.56)">
+    <g id="manga-talo" data-pivo="409.6,312.3">
+      <path d="M160 122 L154 92" fill="none" stroke="#8A5A33" stroke-width="14" stroke-linecap="round" class="base" />
+    </g>
+    <g id="manga-folha" transform="translate(156 104) rotate(-28) scale(1.0)" data-pivo="399.4,266.2">
+      <path d="M0 0 C18 -34 58 -46 92 -36 C80 -2 40 16 0 0 Z" fill="#5DBB43" class="base" />
+      <path d="M0 0 L92 -36 C80 -2 40 16 0 0 Z" fill="#469A32" class="sombra" />
+    </g>
+    <g id="manga-corpo">
+      <path d="M150 120 C210 90 300 140 300 230 C300 300 250 345 190 340 C130 336 100 296 110 250 C118 210 150 200 156 170 C160 150 140 132 150 120 Z" fill="#F08F18" class="sombra" />
+      <g clip-path="url(#manga-corpo-recorte)">
+        <path d="M150 120 C210 90 300 140 300 230 C300 300 250 345 190 340 C130 336 100 296 110 250 C118 210 150 200 156 170 C160 150 140 132 150 120 Z" fill="#FFB632" transform="translate(-14 -14)" class="base" />
+      </g>
+      <ellipse cx="142" cy="262" rx="12" ry="28" transform="rotate(15 142 262)" fill="#FFD983" class="brilho" />
+    </g>
+  </g>
+</svg>

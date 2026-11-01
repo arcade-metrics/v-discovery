@@ -1,0 +1,1087 @@
+{
+  "gerado_por": "ferramentas/validar.py; não edite à mão",
+  "itens": [
+    {
+      "item": "colher",
+      "numero": 1,
+      "categoria": "cozinha",
+      "nome": "Colher",
+      "svg": "cozinha/01-colher/01-colher.svg",
+      "json": "cozinha/01-colher/01-colher.json",
+      "png": "cozinha/01-colher/01-colher.png",
+      "partes": [
+        "colher-corpo",
+        "colher-concha"
+      ]
+    },
+    {
+      "item": "garfo",
+      "numero": 2,
+      "categoria": "cozinha",
+      "nome": "Garfo",
+      "svg": "cozinha/02-garfo/02-garfo.svg",
+      "json": "cozinha/02-garfo/02-garfo.json",
+      "png": "cozinha/02-garfo/02-garfo.png",
+      "partes": [
+        "garfo-dentes",
+        "garfo-corpo"
+      ]
+    },
+    {
+      "item": "faca",
+      "numero": 3,
+      "categoria": "cozinha",
+      "nome": "Faca",
+      "svg": "cozinha/03-faca/03-faca.svg",
+      "json": "cozinha/03-faca/03-faca.json",
+      "png": "cozinha/03-faca/03-faca.png",
+      "partes": [
+        "faca-lamina",
+        "faca-cabo"
+      ]
+    },
+    {
+      "item": "colher-de-cha",
+      "numero": 4,
+      "categoria": "cozinha",
+      "nome": "Colher de chá",
+      "svg": "cozinha/04-colher-de-cha/04-colher-de-cha.svg",
+      "json": "cozinha/04-colher-de-cha/04-colher-de-cha.json",
+      "png": "cozinha/04-colher-de-cha/04-colher-de-cha.png",
+      "partes": [
+        "colher-de-cha-corpo",
+        "colher-de-cha-concha"
+      ]
+    },
+    {
+      "item": "concha",
+      "numero": 5,
+      "categoria": "cozinha",
+      "nome": "Concha",
+      "svg": "cozinha/05-concha/05-concha.svg",
+      "json": "cozinha/05-concha/05-concha.json",
+      "png": "cozinha/05-concha/05-concha.png",
+      "partes": [
+        "concha-corpo",
+        "concha-concha"
+      ]
+    },
+    {
+      "item": "escumadeira",
+      "numero": 6,
+      "categoria": "cozinha",
+      "nome": "Escumadeira",
+      "svg": "cozinha/06-escumadeira/06-escumadeira.svg",
+      "json": "cozinha/06-escumadeira/06-escumadeira.json",
+      "png": "cozinha/06-escumadeira/06-escumadeira.png",
+      "partes": [
+        "escumadeira-corpo",
+        "escumadeira-pa"
+      ]
+    },
+    {
+      "item": "espatula",
+      "numero": 7,
+      "categoria": "cozinha",
+      "nome": "Espátula",
+      "svg": "cozinha/07-espatula/07-espatula.svg",
+      "json": "cozinha/07-espatula/07-espatula.json",
+      "png": "cozinha/07-espatula/07-espatula.png",
+      "partes": [
+        "espatula-pa",
+        "espatula-cabo"
+      ]
+    },
+    {
+      "item": "colher-de-pau",
+      "numero": 8,
+      "categoria": "cozinha",
+      "nome": "Colher de pau",
+      "svg": "cozinha/08-colher-de-pau/08-colher-de-pau.svg",
+      "json": "cozinha/08-colher-de-pau/08-colher-de-pau.json",
+      "png": "cozinha/08-colher-de-pau/08-colher-de-pau.png",
+      "partes": [
+        "colher-de-pau-corpo",
+        "colher-de-pau-concha"
+      ]
+    },
+    {
+      "item": "batedor",
+      "numero": 9,
+      "categoria": "cozinha",
+      "nome": "Batedor de arame",
+      "svg": "cozinha/09-batedor/09-batedor.svg",
+      "json": "cozinha/09-batedor/09-batedor.json",
+      "png": "cozinha/09-batedor/09-batedor.png",
+      "partes": [
+        "batedor-arame",
+        "batedor-cabo"
+      ]
+    },
+    {
+      "item": "pegador",
+      "numero": 10,
+      "categoria": "cozinha",
+      "nome": "Pegador",
+      "svg": "cozinha/10-pegador/10-pegador.svg",
+      "json": "cozinha/10-pegador/10-pegador.json",
+      "png": "cozinha/10-pegador/10-pegador.png",
+      "partes": [
+        "pegador-braco-1",
+        "pegador-braco-2",
+        "pegador-corpo"
+      ]
+    },
+    {
+      "item": "prato-raso",
+      "numero": 11,
+      "categoria": "cozinha",
+      "nome": "Prato raso",
+      "svg": "cozinha/11-prato-raso/11-prato-raso.svg",
+      "json": "cozinha/11-prato-raso/11-prato-raso.json",
+      "png": "cozinha/11-prato-raso/11-prato-raso.png",
+      "partes": [
+        "prato-raso-corpo"
+      ]
+    },
+    {
+      "item": "prato-fundo",
+      "numero": 12,
+      "categoria": "cozinha",
+      "nome": "Prato fundo",
+      "svg": "cozinha/12-prato-fundo/12-prato-fundo.svg",
+      "json": "cozinha/12-prato-fundo/12-prato-fundo.json",
+      "png": "cozinha/12-prato-fundo/12-prato-fundo.png",
+      "partes": [
+        "prato-fundo-corpo"
+      ]
+    },
+    {
+      "item": "tigela",
+      "numero": 13,
+      "categoria": "cozinha",
+      "nome": "Tigela",
+      "svg": "cozinha/13-tigela/13-tigela.svg",
+      "json": "cozinha/13-tigela/13-tigela.json",
+      "png": "cozinha/13-tigela/13-tigela.png",
+      "partes": [
+        "tigela-corpo"
+      ]
+    },
+    {
+      "item": "copo",
+      "numero": 14,
+      "categoria": "cozinha",
+      "nome": "Copo",
+      "svg": "cozinha/14-copo/14-copo.svg",
+      "json": "cozinha/14-copo/14-copo.json",
+      "png": "cozinha/14-copo/14-copo.png",
+      "partes": [
+        "copo-corpo",
+        "copo-liquido"
+      ]
+    },
+    {
+      "item": "caneca",
+      "numero": 15,
+      "categoria": "cozinha",
+      "nome": "Caneca",
+      "svg": "cozinha/15-caneca/15-caneca.svg",
+      "json": "cozinha/15-caneca/15-caneca.json",
+      "png": "cozinha/15-caneca/15-caneca.png",
+      "partes": [
+        "caneca-alca",
+        "caneca-corpo"
+      ]
+    },
+    {
+      "item": "xicara",
+      "numero": 16,
+      "categoria": "cozinha",
+      "nome": "Xícara",
+      "svg": "cozinha/16-xicara/16-xicara.svg",
+      "json": "cozinha/16-xicara/16-xicara.json",
+      "png": "cozinha/16-xicara/16-xicara.png",
+      "partes": [
+        "xicara-alca",
+        "xicara-corpo",
+        "xicara-liquido"
+      ]
+    },
+    {
+      "item": "pires",
+      "numero": 17,
+      "categoria": "cozinha",
+      "nome": "Pires",
+      "svg": "cozinha/17-pires/17-pires.svg",
+      "json": "cozinha/17-pires/17-pires.json",
+      "png": "cozinha/17-pires/17-pires.png",
+      "partes": [
+        "pires-corpo"
+      ]
+    },
+    {
+      "item": "xicara-com-pires",
+      "numero": 18,
+      "categoria": "cozinha",
+      "nome": "Xícara com pires",
+      "svg": "cozinha/18-xicara-com-pires/18-xicara-com-pires.svg",
+      "json": "cozinha/18-xicara-com-pires/18-xicara-com-pires.json",
+      "png": "cozinha/18-xicara-com-pires/18-xicara-com-pires.png",
+      "partes": [
+        "xicara-com-pires-pires",
+        "xicara-com-pires-alca",
+        "xicara-com-pires-corpo",
+        "xicara-com-pires-liquido"
+      ]
+    },
+    {
+      "item": "taca",
+      "numero": 19,
+      "categoria": "cozinha",
+      "nome": "Taça",
+      "svg": "cozinha/19-taca/19-taca.svg",
+      "json": "cozinha/19-taca/19-taca.json",
+      "png": "cozinha/19-taca/19-taca.png",
+      "partes": [
+        "taca-corpo",
+        "taca-liquido",
+        "taca-haste",
+        "taca-pes"
+      ]
+    },
+    {
+      "item": "jarra",
+      "numero": 20,
+      "categoria": "cozinha",
+      "nome": "Jarra",
+      "svg": "cozinha/20-jarra/20-jarra.svg",
+      "json": "cozinha/20-jarra/20-jarra.json",
+      "png": "cozinha/20-jarra/20-jarra.png",
+      "partes": [
+        "jarra-alca",
+        "jarra-bico",
+        "jarra-corpo",
+        "jarra-liquido"
+      ]
+    },
+    {
+      "item": "garrafa",
+      "numero": 21,
+      "categoria": "cozinha",
+      "nome": "Garrafa",
+      "svg": "cozinha/21-garrafa/21-garrafa.svg",
+      "json": "cozinha/21-garrafa/21-garrafa.json",
+      "png": "cozinha/21-garrafa/21-garrafa.png",
+      "partes": [
+        "garrafa-gargalo",
+        "garrafa-corpo",
+        "garrafa-rotulo",
+        "garrafa-tampa"
+      ]
+    },
+    {
+      "item": "bule",
+      "numero": 22,
+      "categoria": "cozinha",
+      "nome": "Bule",
+      "svg": "cozinha/22-bule/22-bule.svg",
+      "json": "cozinha/22-bule/22-bule.json",
+      "png": "cozinha/22-bule/22-bule.png",
+      "partes": [
+        "bule-bico",
+        "bule-alca",
+        "bule-pes",
+        "bule-corpo",
+        "bule-tampa",
+        "bule-tampa-puxador"
+      ]
+    },
+    {
+      "item": "acucareiro",
+      "numero": 23,
+      "categoria": "cozinha",
+      "nome": "Açucareiro",
+      "svg": "cozinha/23-acucareiro/23-acucareiro.svg",
+      "json": "cozinha/23-acucareiro/23-acucareiro.json",
+      "png": "cozinha/23-acucareiro/23-acucareiro.png",
+      "partes": [
+        "acucareiro-alca-1",
+        "acucareiro-alca-2",
+        "acucareiro-pes",
+        "acucareiro-corpo",
+        "acucareiro-tampa",
+        "acucareiro-tampa-puxador"
+      ]
+    },
+    {
+      "item": "saleiro",
+      "numero": 24,
+      "categoria": "cozinha",
+      "nome": "Saleiro",
+      "svg": "cozinha/24-saleiro/24-saleiro.svg",
+      "json": "cozinha/24-saleiro/24-saleiro.json",
+      "png": "cozinha/24-saleiro/24-saleiro.png",
+      "partes": [
+        "saleiro-corpo",
+        "saleiro-tampa"
+      ]
+    },
+    {
+      "item": "pimenteiro",
+      "numero": 25,
+      "categoria": "cozinha",
+      "nome": "Pimenteiro",
+      "svg": "cozinha/25-pimenteiro/25-pimenteiro.svg",
+      "json": "cozinha/25-pimenteiro/25-pimenteiro.json",
+      "png": "cozinha/25-pimenteiro/25-pimenteiro.png",
+      "partes": [
+        "pimenteiro-corpo",
+        "pimenteiro-tampa"
+      ]
+    },
+    {
+      "item": "panela",
+      "numero": 26,
+      "categoria": "cozinha",
+      "nome": "Panela",
+      "svg": "cozinha/26-panela/26-panela.svg",
+      "json": "cozinha/26-panela/26-panela.json",
+      "png": "cozinha/26-panela/26-panela.png",
+      "partes": [
+        "panela-alca-1",
+        "panela-alca-2",
+        "panela-corpo"
+      ]
+    },
+    {
+      "item": "frigideira",
+      "numero": 27,
+      "categoria": "cozinha",
+      "nome": "Frigideira",
+      "svg": "cozinha/27-frigideira/27-frigideira.svg",
+      "json": "cozinha/27-frigideira/27-frigideira.json",
+      "png": "cozinha/27-frigideira/27-frigideira.png",
+      "partes": [
+        "frigideira-cabo",
+        "frigideira-corpo"
+      ]
+    },
+    {
+      "item": "cacarola",
+      "numero": 28,
+      "categoria": "cozinha",
+      "nome": "Caçarola com tampa",
+      "svg": "cozinha/28-cacarola/28-cacarola.svg",
+      "json": "cozinha/28-cacarola/28-cacarola.json",
+      "png": "cozinha/28-cacarola/28-cacarola.png",
+      "partes": [
+        "cacarola-alca-1",
+        "cacarola-alca-2",
+        "cacarola-corpo",
+        "cacarola-tampa",
+        "cacarola-tampa-puxador"
+      ]
+    },
+    {
+      "item": "chaleira",
+      "numero": 29,
+      "categoria": "cozinha",
+      "nome": "Chaleira",
+      "svg": "cozinha/29-chaleira/29-chaleira.svg",
+      "json": "cozinha/29-chaleira/29-chaleira.json",
+      "png": "cozinha/29-chaleira/29-chaleira.png",
+      "partes": [
+        "chaleira-bico",
+        "chaleira-alca",
+        "chaleira-corpo",
+        "chaleira-tampa",
+        "chaleira-tampa-puxador"
+      ]
+    },
+    {
+      "item": "leiteira",
+      "numero": 30,
+      "categoria": "cozinha",
+      "nome": "Leiteira",
+      "svg": "cozinha/30-leiteira/30-leiteira.svg",
+      "json": "cozinha/30-leiteira/30-leiteira.json",
+      "png": "cozinha/30-leiteira/30-leiteira.png",
+      "partes": [
+        "leiteira-cabo",
+        "leiteira-bico",
+        "leiteira-corpo"
+      ]
+    },
+    {
+      "item": "tabua-de-corte",
+      "numero": 31,
+      "categoria": "cozinha",
+      "nome": "Tábua de corte",
+      "svg": "cozinha/31-tabua-de-corte/31-tabua-de-corte.svg",
+      "json": "cozinha/31-tabua-de-corte/31-tabua-de-corte.json",
+      "png": "cozinha/31-tabua-de-corte/31-tabua-de-corte.png",
+      "partes": [
+        "tabua-de-corte-corpo"
+      ]
+    },
+    {
+      "item": "rolo-de-massa",
+      "numero": 32,
+      "categoria": "cozinha",
+      "nome": "Rolo de massa",
+      "svg": "cozinha/32-rolo-de-massa/32-rolo-de-massa.svg",
+      "json": "cozinha/32-rolo-de-massa/32-rolo-de-massa.json",
+      "png": "cozinha/32-rolo-de-massa/32-rolo-de-massa.png",
+      "partes": [
+        "rolo-de-massa-cabo-1",
+        "rolo-de-massa-cabo-2",
+        "rolo-de-massa-corpo"
+      ]
+    },
+    {
+      "item": "ralador",
+      "numero": 33,
+      "categoria": "cozinha",
+      "nome": "Ralador",
+      "svg": "cozinha/33-ralador/33-ralador.svg",
+      "json": "cozinha/33-ralador/33-ralador.json",
+      "png": "cozinha/33-ralador/33-ralador.png",
+      "partes": [
+        "ralador-alca",
+        "ralador-corpo"
+      ]
+    },
+    {
+      "item": "escorredor",
+      "numero": 34,
+      "categoria": "cozinha",
+      "nome": "Escorredor",
+      "svg": "cozinha/34-escorredor/34-escorredor.svg",
+      "json": "cozinha/34-escorredor/34-escorredor.json",
+      "png": "cozinha/34-escorredor/34-escorredor.png",
+      "partes": [
+        "escorredor-pes",
+        "escorredor-alca-1",
+        "escorredor-alca-2",
+        "escorredor-corpo"
+      ]
+    },
+    {
+      "item": "peneira",
+      "numero": 35,
+      "categoria": "cozinha",
+      "nome": "Peneira",
+      "svg": "cozinha/35-peneira/35-peneira.svg",
+      "json": "cozinha/35-peneira/35-peneira.json",
+      "png": "cozinha/35-peneira/35-peneira.png",
+      "partes": [
+        "peneira-cabo",
+        "peneira-tela",
+        "peneira-aro"
+      ]
+    },
+    {
+      "item": "tigela-de-misturar",
+      "numero": 36,
+      "categoria": "cozinha",
+      "nome": "Tigela de misturar",
+      "svg": "cozinha/36-tigela-de-misturar/36-tigela-de-misturar.svg",
+      "json": "cozinha/36-tigela-de-misturar/36-tigela-de-misturar.json",
+      "png": "cozinha/36-tigela-de-misturar/36-tigela-de-misturar.png",
+      "partes": [
+        "tigela-de-misturar-pes",
+        "tigela-de-misturar-corpo"
+      ]
+    },
+    {
+      "item": "forma-de-bolo",
+      "numero": 37,
+      "categoria": "cozinha",
+      "nome": "Forma de bolo",
+      "svg": "cozinha/37-forma-de-bolo/37-forma-de-bolo.svg",
+      "json": "cozinha/37-forma-de-bolo/37-forma-de-bolo.json",
+      "png": "cozinha/37-forma-de-bolo/37-forma-de-bolo.png",
+      "partes": [
+        "forma-de-bolo-corpo"
+      ]
+    },
+    {
+      "item": "assadeira",
+      "numero": 38,
+      "categoria": "cozinha",
+      "nome": "Assadeira",
+      "svg": "cozinha/38-assadeira/38-assadeira.svg",
+      "json": "cozinha/38-assadeira/38-assadeira.json",
+      "png": "cozinha/38-assadeira/38-assadeira.png",
+      "partes": [
+        "assadeira-alca-1",
+        "assadeira-alca-2",
+        "assadeira-corpo"
+      ]
+    },
+    {
+      "item": "abridor-de-latas",
+      "numero": 39,
+      "categoria": "cozinha",
+      "nome": "Abridor de latas",
+      "svg": "cozinha/39-abridor-de-latas/39-abridor-de-latas.svg",
+      "json": "cozinha/39-abridor-de-latas/39-abridor-de-latas.json",
+      "png": "cozinha/39-abridor-de-latas/39-abridor-de-latas.png",
+      "partes": [
+        "abridor-de-latas-cabo-1",
+        "abridor-de-latas-cabo-2",
+        "abridor-de-latas-manivela",
+        "abridor-de-latas-corpo"
+      ]
+    },
+    {
+      "item": "saca-rolhas",
+      "numero": 40,
+      "categoria": "cozinha",
+      "nome": "Saca-rolhas",
+      "svg": "cozinha/40-saca-rolhas/40-saca-rolhas.svg",
+      "json": "cozinha/40-saca-rolhas/40-saca-rolhas.json",
+      "png": "cozinha/40-saca-rolhas/40-saca-rolhas.png",
+      "partes": [
+        "saca-rolhas-espiral",
+        "saca-rolhas-corpo",
+        "saca-rolhas-braco-1",
+        "saca-rolhas-braco-2",
+        "saca-rolhas-manivela"
+      ]
+    },
+    {
+      "item": "fogao",
+      "numero": 41,
+      "categoria": "cozinha",
+      "nome": "Fogão",
+      "svg": "cozinha/41-fogao/41-fogao.svg",
+      "json": "cozinha/41-fogao/41-fogao.json",
+      "png": "cozinha/41-fogao/41-fogao.png",
+      "partes": [
+        "fogao-pes",
+        "fogao-corpo",
+        "fogao-boca-1",
+        "fogao-boca-2",
+        "fogao-boca-3",
+        "fogao-boca-4",
+        "fogao-painel",
+        "fogao-botao-1",
+        "fogao-botao-2",
+        "fogao-botao-3",
+        "fogao-botao-4",
+        "fogao-porta",
+        "fogao-porta-puxador",
+        "fogao-porta-visor"
+      ]
+    },
+    {
+      "item": "forno",
+      "numero": 42,
+      "categoria": "cozinha",
+      "nome": "Forno",
+      "svg": "cozinha/42-forno/42-forno.svg",
+      "json": "cozinha/42-forno/42-forno.json",
+      "png": "cozinha/42-forno/42-forno.png",
+      "partes": [
+        "forno-pes",
+        "forno-corpo",
+        "forno-porta",
+        "forno-porta-puxador",
+        "forno-porta-visor",
+        "forno-botao-1",
+        "forno-botao-2",
+        "forno-botao-3"
+      ]
+    },
+    {
+      "item": "micro-ondas",
+      "numero": 43,
+      "categoria": "cozinha",
+      "nome": "Micro-ondas",
+      "svg": "cozinha/43-micro-ondas/43-micro-ondas.svg",
+      "json": "cozinha/43-micro-ondas/43-micro-ondas.json",
+      "png": "cozinha/43-micro-ondas/43-micro-ondas.png",
+      "partes": [
+        "micro-ondas-corpo",
+        "micro-ondas-porta",
+        "micro-ondas-porta-puxador",
+        "micro-ondas-porta-visor",
+        "micro-ondas-painel",
+        "micro-ondas-painel-visor",
+        "micro-ondas-botao-1"
+      ]
+    },
+    {
+      "item": "geladeira",
+      "numero": 44,
+      "categoria": "cozinha",
+      "nome": "Geladeira",
+      "svg": "cozinha/44-geladeira/44-geladeira.svg",
+      "json": "cozinha/44-geladeira/44-geladeira.json",
+      "png": "cozinha/44-geladeira/44-geladeira.png",
+      "partes": [
+        "geladeira-pes",
+        "geladeira-corpo",
+        "geladeira-porta-1",
+        "geladeira-porta-1-puxador",
+        "geladeira-porta-2",
+        "geladeira-porta-2-puxador",
+        "geladeira-porta-2-painel"
+      ]
+    },
+    {
+      "item": "liquidificador",
+      "numero": 45,
+      "categoria": "cozinha",
+      "nome": "Liquidificador",
+      "svg": "cozinha/45-liquidificador/45-liquidificador.svg",
+      "json": "cozinha/45-liquidificador/45-liquidificador.json",
+      "png": "cozinha/45-liquidificador/45-liquidificador.png",
+      "partes": [
+        "liquidificador-motor",
+        "liquidificador-botao",
+        "liquidificador-copo",
+        "liquidificador-copo-liquido",
+        "liquidificador-copo-lamina",
+        "liquidificador-tampa"
+      ]
+    },
+    {
+      "item": "batedeira",
+      "numero": 46,
+      "categoria": "cozinha",
+      "nome": "Batedeira",
+      "svg": "cozinha/46-batedeira/46-batedeira.svg",
+      "json": "cozinha/46-batedeira/46-batedeira.json",
+      "png": "cozinha/46-batedeira/46-batedeira.png",
+      "partes": [
+        "batedeira-corpo",
+        "batedeira-batedor",
+        "batedeira-tigela",
+        "batedeira-cabeca",
+        "batedeira-botao"
+      ]
+    },
+    {
+      "item": "torradeira",
+      "numero": 47,
+      "categoria": "cozinha",
+      "nome": "Torradeira",
+      "svg": "cozinha/47-torradeira/47-torradeira.svg",
+      "json": "cozinha/47-torradeira/47-torradeira.json",
+      "png": "cozinha/47-torradeira/47-torradeira.png",
+      "partes": [
+        "torradeira-torrada-1",
+        "torradeira-torrada-2",
+        "torradeira-alavanca",
+        "torradeira-pes",
+        "torradeira-corpo",
+        "torradeira-botao"
+      ]
+    },
+    {
+      "item": "cafeteira",
+      "numero": 48,
+      "categoria": "cozinha",
+      "nome": "Cafeteira",
+      "svg": "cozinha/48-cafeteira/48-cafeteira.svg",
+      "json": "cozinha/48-cafeteira/48-cafeteira.json",
+      "png": "cozinha/48-cafeteira/48-cafeteira.png",
+      "partes": [
+        "cafeteira-corpo",
+        "cafeteira-jarra",
+        "cafeteira-jarra-liquido",
+        "cafeteira-botao"
+      ]
+    },
+    {
+      "item": "balanca",
+      "numero": 49,
+      "categoria": "cozinha",
+      "nome": "Balança de cozinha",
+      "svg": "cozinha/49-balanca/49-balanca.svg",
+      "json": "cozinha/49-balanca/49-balanca.json",
+      "png": "cozinha/49-balanca/49-balanca.png",
+      "partes": [
+        "balanca-corpo",
+        "balanca-prato",
+        "balanca-visor",
+        "balanca-ponteiro"
+      ]
+    },
+    {
+      "item": "timer",
+      "numero": 50,
+      "categoria": "cozinha",
+      "nome": "Timer de cozinha",
+      "svg": "cozinha/50-timer/50-timer.svg",
+      "json": "cozinha/50-timer/50-timer.json",
+      "png": "cozinha/50-timer/50-timer.png",
+      "partes": [
+        "timer-botao",
+        "timer-corpo",
+        "timer-ponteiro"
+      ]
+    },
+    {
+      "item": "luva-de-forno",
+      "numero": 51,
+      "categoria": "cozinha",
+      "nome": "Luva de forno",
+      "svg": "cozinha/51-luva-de-forno/51-luva-de-forno.svg",
+      "json": "cozinha/51-luva-de-forno/51-luva-de-forno.json",
+      "png": "cozinha/51-luva-de-forno/51-luva-de-forno.png",
+      "partes": [
+        "luva-de-forno-corpo",
+        "luva-de-forno-punho"
+      ]
+    },
+    {
+      "item": "pano-de-prato",
+      "numero": 52,
+      "categoria": "cozinha",
+      "nome": "Pano de prato",
+      "svg": "cozinha/52-pano-de-prato/52-pano-de-prato.svg",
+      "json": "cozinha/52-pano-de-prato/52-pano-de-prato.json",
+      "png": "cozinha/52-pano-de-prato/52-pano-de-prato.png",
+      "partes": [
+        "pano-de-prato-tira",
+        "pano-de-prato-corpo"
+      ]
+    },
+    {
+      "item": "avental",
+      "numero": 53,
+      "categoria": "cozinha",
+      "nome": "Avental",
+      "svg": "cozinha/53-avental/53-avental.svg",
+      "json": "cozinha/53-avental/53-avental.json",
+      "png": "cozinha/53-avental/53-avental.png",
+      "partes": [
+        "avental-tira-1",
+        "avental-tira-2",
+        "avental-corpo",
+        "avental-bolso"
+      ]
+    },
+    {
+      "item": "pote",
+      "numero": 54,
+      "categoria": "cozinha",
+      "nome": "Pote com tampa",
+      "svg": "cozinha/54-pote/54-pote.svg",
+      "json": "cozinha/54-pote/54-pote.json",
+      "png": "cozinha/54-pote/54-pote.png",
+      "partes": [
+        "pote-corpo",
+        "pote-tampa"
+      ]
+    },
+    {
+      "item": "lixeira",
+      "numero": 55,
+      "categoria": "cozinha",
+      "nome": "Lixeira",
+      "svg": "cozinha/55-lixeira/55-lixeira.svg",
+      "json": "cozinha/55-lixeira/55-lixeira.json",
+      "png": "cozinha/55-lixeira/55-lixeira.png",
+      "partes": [
+        "lixeira-corpo",
+        "lixeira-tampa",
+        "lixeira-pedal"
+      ]
+    },
+    {
+      "item": "maca",
+      "numero": 1,
+      "categoria": "frutas",
+      "nome": "Maçã",
+      "svg": "frutas/01-maca/01-maca.svg",
+      "json": "frutas/01-maca/01-maca.json",
+      "png": "frutas/01-maca/01-maca.png",
+      "partes": [
+        "maca-talo",
+        "maca-folha",
+        "maca-corpo"
+      ]
+    },
+    {
+      "item": "banana",
+      "numero": 2,
+      "categoria": "frutas",
+      "nome": "Banana",
+      "svg": "frutas/02-banana/02-banana.svg",
+      "json": "frutas/02-banana/02-banana.json",
+      "png": "frutas/02-banana/02-banana.png",
+      "partes": [
+        "banana-corpo",
+        "banana-talo"
+      ]
+    },
+    {
+      "item": "uva",
+      "numero": 3,
+      "categoria": "frutas",
+      "nome": "Uva",
+      "svg": "frutas/03-uva/03-uva.svg",
+      "json": "frutas/03-uva/03-uva.json",
+      "png": "frutas/03-uva/03-uva.png",
+      "partes": [
+        "uva-talo",
+        "uva-folha",
+        "uva-corpo-1",
+        "uva-corpo-2",
+        "uva-corpo-3",
+        "uva-corpo-4",
+        "uva-corpo-5",
+        "uva-corpo-6",
+        "uva-corpo-7",
+        "uva-corpo-8",
+        "uva-corpo-9",
+        "uva-corpo-10",
+        "uva-corpo-11",
+        "uva-corpo-12",
+        "uva-corpo-13"
+      ]
+    },
+    {
+      "item": "laranja",
+      "numero": 4,
+      "categoria": "frutas",
+      "nome": "Laranja",
+      "svg": "frutas/04-laranja/04-laranja.svg",
+      "json": "frutas/04-laranja/04-laranja.json",
+      "png": "frutas/04-laranja/04-laranja.png",
+      "partes": [
+        "laranja-talo",
+        "laranja-folha",
+        "laranja-corpo"
+      ]
+    },
+    {
+      "item": "morango",
+      "numero": 5,
+      "categoria": "frutas",
+      "nome": "Morango",
+      "svg": "frutas/05-morango/05-morango.svg",
+      "json": "frutas/05-morango/05-morango.json",
+      "png": "frutas/05-morango/05-morango.png",
+      "partes": [
+        "morango-corpo",
+        "morango-coroa",
+        "morango-talo"
+      ]
+    },
+    {
+      "item": "limao",
+      "numero": 6,
+      "categoria": "frutas",
+      "nome": "Limão",
+      "svg": "frutas/06-limao/06-limao.svg",
+      "json": "frutas/06-limao/06-limao.json",
+      "png": "frutas/06-limao/06-limao.png",
+      "partes": [
+        "limao-folha",
+        "limao-corpo"
+      ]
+    },
+    {
+      "item": "melancia",
+      "numero": 7,
+      "categoria": "frutas",
+      "nome": "Melancia",
+      "svg": "frutas/07-melancia/07-melancia.svg",
+      "json": "frutas/07-melancia/07-melancia.json",
+      "png": "frutas/07-melancia/07-melancia.png",
+      "partes": [
+        "melancia-casca",
+        "melancia-polpa"
+      ]
+    },
+    {
+      "item": "cereja",
+      "numero": 8,
+      "categoria": "frutas",
+      "nome": "Cereja",
+      "svg": "frutas/08-cereja/08-cereja.svg",
+      "json": "frutas/08-cereja/08-cereja.json",
+      "png": "frutas/08-cereja/08-cereja.png",
+      "partes": [
+        "cereja-talo",
+        "cereja-folha",
+        "cereja-corpo-1",
+        "cereja-corpo-2"
+      ]
+    },
+    {
+      "item": "abacaxi",
+      "numero": 9,
+      "categoria": "frutas",
+      "nome": "Abacaxi",
+      "svg": "frutas/09-abacaxi/09-abacaxi.svg",
+      "json": "frutas/09-abacaxi/09-abacaxi.json",
+      "png": "frutas/09-abacaxi/09-abacaxi.png",
+      "partes": [
+        "abacaxi-coroa",
+        "abacaxi-corpo"
+      ]
+    },
+    {
+      "item": "kiwi",
+      "numero": 10,
+      "categoria": "frutas",
+      "nome": "Kiwi",
+      "svg": "frutas/10-kiwi/10-kiwi.svg",
+      "json": "frutas/10-kiwi/10-kiwi.json",
+      "png": "frutas/10-kiwi/10-kiwi.png",
+      "partes": [
+        "kiwi-casca",
+        "kiwi-polpa",
+        "kiwi-miolo"
+      ]
+    },
+    {
+      "item": "pessego",
+      "numero": 11,
+      "categoria": "frutas",
+      "nome": "Pêssego",
+      "svg": "frutas/11-pessego/11-pessego.svg",
+      "json": "frutas/11-pessego/11-pessego.json",
+      "png": "frutas/11-pessego/11-pessego.png",
+      "partes": [
+        "pessego-talo",
+        "pessego-folha",
+        "pessego-corpo"
+      ]
+    },
+    {
+      "item": "abacate",
+      "numero": 12,
+      "categoria": "frutas",
+      "nome": "Abacate",
+      "svg": "frutas/12-abacate/12-abacate.svg",
+      "json": "frutas/12-abacate/12-abacate.json",
+      "png": "frutas/12-abacate/12-abacate.png",
+      "partes": [
+        "abacate-casca",
+        "abacate-polpa",
+        "abacate-semente"
+      ]
+    },
+    {
+      "item": "mamao",
+      "numero": 13,
+      "categoria": "frutas",
+      "nome": "Mamão",
+      "svg": "frutas/13-mamao/13-mamao.svg",
+      "json": "frutas/13-mamao/13-mamao.json",
+      "png": "frutas/13-mamao/13-mamao.png",
+      "partes": [
+        "mamao-casca",
+        "mamao-polpa",
+        "mamao-miolo"
+      ]
+    },
+    {
+      "item": "manga",
+      "numero": 14,
+      "categoria": "frutas",
+      "nome": "Manga",
+      "svg": "frutas/14-manga/14-manga.svg",
+      "json": "frutas/14-manga/14-manga.json",
+      "png": "frutas/14-manga/14-manga.png",
+      "partes": [
+        "manga-talo",
+        "manga-folha",
+        "manga-corpo"
+      ]
+    },
+    {
+      "item": "mirtilo",
+      "numero": 15,
+      "categoria": "frutas",
+      "nome": "Mirtilo",
+      "svg": "frutas/15-mirtilo/15-mirtilo.svg",
+      "json": "frutas/15-mirtilo/15-mirtilo.json",
+      "png": "frutas/15-mirtilo/15-mirtilo.png",
+      "partes": [
+        "mirtilo-folha-1",
+        "mirtilo-folha-2",
+        "mirtilo-corpo-1",
+        "mirtilo-corpo-2",
+        "mirtilo-corpo-3"
+      ]
+    },
+    {
+      "item": "coco",
+      "numero": 16,
+      "categoria": "frutas",
+      "nome": "Coco",
+      "svg": "frutas/16-coco/16-coco.svg",
+      "json": "frutas/16-coco/16-coco.json",
+      "png": "frutas/16-coco/16-coco.png",
+      "partes": [
+        "coco-casca",
+        "coco-polpa"
+      ]
+    },
+    {
+      "item": "roma",
+      "numero": 17,
+      "categoria": "frutas",
+      "nome": "Romã",
+      "svg": "frutas/17-roma/17-roma.svg",
+      "json": "frutas/17-roma/17-roma.json",
+      "png": "frutas/17-roma/17-roma.png",
+      "partes": [
+        "roma-coroa",
+        "roma-corpo"
+      ]
+    },
+    {
+      "item": "pera",
+      "numero": 18,
+      "categoria": "frutas",
+      "nome": "Pera",
+      "svg": "frutas/18-pera/18-pera.svg",
+      "json": "frutas/18-pera/18-pera.json",
+      "png": "frutas/18-pera/18-pera.png",
+      "partes": [
+        "pera-talo",
+        "pera-folha",
+        "pera-corpo"
+      ]
+    },
+    {
+      "item": "ameixa",
+      "numero": 19,
+      "categoria": "frutas",
+      "nome": "Ameixa",
+      "svg": "frutas/19-ameixa/19-ameixa.svg",
+      "json": "frutas/19-ameixa/19-ameixa.json",
+      "png": "frutas/19-ameixa/19-ameixa.png",
+      "partes": [
+        "ameixa-talo",
+        "ameixa-folha",
+        "ameixa-corpo-1",
+        "ameixa-corpo-2"
+      ]
+    },
+    {
+      "item": "pitaya",
+      "numero": 20,
+      "categoria": "frutas",
+      "nome": "Pitaya",
+      "svg": "frutas/20-pitaya/20-pitaya.svg",
+      "json": "frutas/20-pitaya/20-pitaya.json",
+      "png": "frutas/20-pitaya/20-pitaya.png",
+      "partes": [
+        "pitaya-escama",
+        "pitaya-casca",
+        "pitaya-polpa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="avental-titulo">
+  <title id="avental-titulo">Avental</title>
+  <defs>
+    <path id="avental-corpo-forma" d="M432 280 L592 280 C606 280 614 288 614 302 L618 412 C620 446 642 470 680 478 C702 483 708 500 708 524 L716 826 C716 852 702 866 676 866 L348 866 C322 866 308 852 308 826 L316 524 C316 500 322 483 344 478 C382 470 404 446 406 412 L410 302 C410 288 418 280 432 280 Z" />
+    <path id="avental-bolso-forma" d="M458 598 L566 598 C580 598 588 606 588 620 L588 702 C588 716 580 724 566 724 L458 724 C444 724 436 716 436 702 L436 620 C436 606 444 598 458 598 Z" />
+    <path id="avental-tira-1-forma" fill-rule="evenodd" d="M416 300 C404 112 620 112 608 300 Z M440 300 C432 146 592 146 584 300 Z" />
+    <path id="avental-tira-2-forma" d="M334 486 C298 486 254 494 228 516 C210 532 204 562 206 604 C207 622 230 622 231 604 C233 570 240 550 254 540 C276 526 308 526 334 528 Z M690 486 C726 486 770 494 796 516 C814 532 820 562 818 604 C817 622 794 622 793 604 C791 570 784 550 770 540 C748 526 716 526 690 528 Z" />
+    <clipPath id="avental-corpo-recorte">
+      <use href="#avental-corpo-forma" />
+    </clipPath>
+    <clipPath id="avental-bolso-recorte">
+      <use href="#avental-bolso-forma" />
+    </clipPath>
+    <clipPath id="avental-tira-1-recorte">
+      <use href="#avental-tira-1-forma" />
+    </clipPath>
+    <clipPath id="avental-tira-2-recorte">
+      <use href="#avental-tira-2-forma" />
+    </clipPath>
+  </defs>
+  <g id="avental">
+    <g id="avental-tira-1">
+      <use href="#avental-tira-1-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#avental-tira-1-recorte)">
+        <use href="#avental-tira-1-forma" transform="translate(-8 -10)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="avental-tira-2">
+      <use href="#avental-tira-2-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#avental-tira-2-recorte)">
+        <use href="#avental-tira-2-forma" transform="translate(-6 -10)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="avental-corpo">
+      <use href="#avental-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#avental-corpo-recorte)">
+        <use href="#avental-corpo-forma" transform="translate(-20 -28)" fill="#EA4A3F" class="base" />
+      </g>
+      <g clip-path="url(#avental-corpo-recorte)">
+        <rect x="280" y="780" width="460" height="22" fill="#F4F6FA" class="marca" />
+        <rect x="280" y="822" width="460" height="22" fill="#F4F6FA" class="marca" />
+      </g>
+      <path d="M640 560 C652 620 656 680 650 740" fill="none" stroke="#C93830" stroke-width="12" stroke-linecap="round" class="marca" />
+      <ellipse cx="452" cy="340" rx="18" ry="40" transform="rotate(16 452 340)" fill="#F7867C" class="brilho" />
+    </g>
+    <g id="avental-bolso">
+      <use href="#avental-bolso-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#avental-bolso-recorte)">
+        <use href="#avental-bolso-forma" transform="translate(-10 -16)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

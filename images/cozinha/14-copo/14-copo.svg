@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="copo-titulo">
+  <title id="copo-titulo">Copo</title>
+  <defs>
+    <path id="copo-corpo-forma" d="M 348 226 A 164 32 0 0 1 676 226 L 646 798 A 134 26 0 0 1 378 798 Z" />
+    <clipPath id="copo-corpo-recorte">
+      <use href="#copo-corpo-forma" />
+    </clipPath>
+    <ellipse id="copo-corpo-interior-forma" cx="512" cy="226" rx="150" ry="24" />
+    <clipPath id="copo-corpo-interior-recorte">
+      <use href="#copo-corpo-interior-forma" />
+    </clipPath>
+    <path id="copo-liquido-forma" d="M 370 422 A 142 26 0 0 1 654 422 L 630 754 A 118 22 0 0 1 394 754 Z" />
+    <clipPath id="copo-liquido-recorte">
+      <use href="#copo-liquido-forma" />
+    </clipPath>
+  </defs>
+  <g id="copo">
+    <g id="copo-corpo">
+      <use href="#copo-corpo-forma" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#copo-corpo-recorte)">
+        <use href="#copo-corpo-forma" transform="translate(-20 -28)" fill="#C8E8F4" class="base" />
+      </g>
+      <use href="#copo-corpo-interior-forma" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#copo-corpo-interior-recorte)">
+        <use href="#copo-corpo-interior-forma" transform="translate(10 12)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M 378 290 L 384 386" fill="none" stroke="#EEF9FD" stroke-width="16" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="copo-liquido">
+      <use href="#copo-liquido-forma" fill="#2F97CF" class="sombra" />
+      <g clip-path="url(#copo-liquido-recorte)">
+        <use href="#copo-liquido-forma" transform="translate(-14 -22)" fill="#4FB8EA" class="base" />
+      </g>
+      <ellipse cx="512" cy="422" rx="142" ry="26" fill="#93D6F5" class="brilho" />
+      <path d="M 408 488 L 422 696" fill="none" stroke="#93D6F5" stroke-width="16" stroke-linecap="round" class="brilho" />
+    </g>
+  </g>
+</svg>

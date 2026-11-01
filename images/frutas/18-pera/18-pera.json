@@ -1,0 +1,81 @@
+{
+  "item": "pera",
+  "numero": 18,
+  "categoria": "frutas",
+  "nome": "Pera",
+  "svg": "18-pera.svg",
+  "png": "18-pera.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "pera-talo": {
+      "parte": "talo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        256.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#8A5A33"
+        ]
+      },
+      "familias": [
+        "marrom"
+      ]
+    },
+    "pera-folha": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        527.4,
+        209.9
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "pera-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8AAE28"
+        ],
+        "base": [
+          "#A8CC3C"
+        ],
+        "brilho": [
+          "#D2E87C"
+        ]
+      },
+      "familias": [
+        "verde-claro"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

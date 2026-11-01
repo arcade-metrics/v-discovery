@@ -1,61 +1,83 @@
 texto             fundo               razão   meta  resultado  uso
-tinta             papel               13.69    4.5  ok AAA      texto principal sobre fundo
-tinta             superficie          14.96    4.5  ok AAA      texto principal em cartão
-tinta-suave       papel                6.67    4.5  ok AA       texto secundário
-tinta-suave       superficie           7.29    4.5  ok AAA      texto secundário em cartão
-superficie        ceu                  6.03    4.5  ok AA       rótulo de botão primário
-superficie        ceu-profundo         9.19    4.5  ok AAA      rótulo de botão pressionado
-ceu-profundo      ceu-claro            7.33    4.5  ok AAA      texto em área de destaque
-ceu               papel                5.52    3.0  ok AA       anel de foco e ícone ativo (UI)
-contorno          superficie           3.52    3.0  ok AA-grande borda de alvo e de componente (UI)
-contorno          papel                3.22    3.0  ok AA-grande borda de alvo sobre fundo (UI)
-contorno          casco                3.16    3.0  ok AA-grande traço do casco do Bot (UI)
-sol-tinta         sol-claro            7.12    4.5  ok AAA      texto em selo de peça
-sol               visor                6.70    3.0  ok AA       estrela do Céu sobre fundo escuro (UI)
-ceu-texto-noite   visor                9.86    4.5  ok AAA      texto do Céu da turma
-sol-icone         papel                3.40    3.0  ok AA-grande pena, próximo voo, estrela offline (UI)
-sol-icone         superficie           3.72    3.0  ok AA-grande pena sobre cartão (UI)
-tinta             sol                  6.70    4.5  ok AA       rótulo sobre âmbar
-folha-tinta       folha-claro          7.49    4.5  ok AAA      texto de concluído
-superficie        folha                4.82    4.5  ok AA       rótulo em botão de concluído
-folha             superficie           4.82    3.0  ok AA       visto de concluído (UI)
-lavanda-tinta     lavanda-claro        8.45    4.5  ok AAA      texto de ajuda e pista
-lavanda-tinta     superficie          10.35    3.0  ok AAA      contorno de pista no treino (UI)
-tinta             lavanda              5.55    4.5  ok AA       rótulo em botão de ajuda
-olho              visor                9.97    3.0  ok AAA      olhos e boca do Bot (UI)
-tinta             casco               13.40    4.5  ok AAA      texto sobre corpo do Bot
-superficie        suave-ceu            5.25    4.5  ok AA       botão primário no Modo suave
-superficie        suave-ceu-profundo   7.87    4.5  ok AAA      botão pressionado no Modo suave
-tinta             suave-papel         13.10    4.5  ok AAA      texto no Modo suave
-tinta             suave-sol            5.33    4.5  ok AA       rótulo sobre âmbar no Modo suave
-suave-sol-icone   suave-papel          3.30    3.0  ok AA-grande pena no Modo suave (UI)
-superficie        suave-folha          4.82    4.5  ok AA       botão concluído no Modo suave
-tinta             suave-lavanda        6.79    4.5  ok AA       botão de ajuda no Modo suave
-suave-ceu         suave-papel          4.60    3.0  ok AA       anel de foco no Modo suave (UI)
-suave-olho        visor                9.27    3.0  ok AAA      olhos do Bot no Modo suave (UI)
+tinta             papel               12.27    4.5  ok AAA      texto principal sobre fundo
+tinta             superficie          13.49    4.5  ok AAA      texto principal em cartão
+tinta-suave       papel                4.94    4.5  ok AA       texto secundário
+tinta-suave       superficie           5.43    4.5  ok AA       texto secundário em cartão
+superficie        ceu                  5.19    4.5  ok AA       rótulo de botão primário
+superficie        ceu-profundo         8.34    4.5  ok AAA      rótulo de botão pressionado
+ceu-profundo      ceu-claro            6.16    4.5  ok AA       texto em área de destaque
+ceu               papel                4.72    3.0  ok AA       anel de foco e ícone ativo (UI)
+contorno          superficie           3.57    3.0  ok AA-grande borda de alvo e de componente (UI)
+contorno          papel                3.25    3.0  ok AA-grande borda de alvo sobre fundo (UI)
+contorno          casco                3.42    3.0  ok AA-grande traço do casco do Bot (UI)
+sol-tinta         sol-claro            6.84    4.5  ok AA       texto em aviso suave (tentar de novo)
+sol-tinta         superficie           8.39    3.0  ok AAA      contorno de pista no treino (UI)
+tinta             sol                  5.99    4.5  ok AA       rótulo sobre laranja
+flor              visor                4.41    3.0  ok AA-grande Bot contente, estrela do Céu sobre fundo escuro (UI)
+ceu-texto-noite   visor               10.52    4.5  ok AAA      texto do Céu da turma
+folha-tinta       folha-claro          6.65    4.5  ok AA       texto de concluído
+superficie        folha-profundo       5.07    4.5  ok AA       rótulo em botão de concluído
+folha             superficie           3.42    3.0  ok AA-grande visto de concluído (UI)
+lavanda-tinta     lavanda-claro        6.43    4.5  ok AA       texto de ajuda e Ninho
+tinta             lavanda              4.81    4.5  ok AA       rótulo em botão de ajuda
+flor-tinta        flor-claro           6.32    4.5  ok AA       texto de selo de recompensa
+flor-icone        papel                3.74    3.0  ok AA-grande pena, próximo voo, estrela offline (UI)
+flor-icone        superficie           4.11    3.0  ok AA-grande pena sobre cartão (UI)
+olho              visor                8.99    3.0  ok AAA      olhos e boca do Bot (UI)
+tinta             casco               12.92    4.5  ok AAA      texto sobre corpo do Bot
+superficie        suave-ceu            4.74    4.5  ok AA       botão primário no Modo suave
+superficie        suave-ceu-profundo   6.37    4.5  ok AA       botão pressionado no Modo suave
+tinta             suave-papel         11.00    4.5  ok AAA      texto no Modo suave
+tinta             suave-sol            5.20    4.5  ok AA       rótulo sobre laranja no Modo suave
+suave-sol-tinta   suave-sol-claro      4.78    4.5  ok AA       texto de aviso no Modo suave
+superficie        suave-folha-profundo   4.66    4.5  ok AA       botão concluído no Modo suave
+tinta             suave-lavanda        4.53    4.5  ok AA       botão de ajuda no Modo suave
+suave-lavanda-tintasuave-lavanda-claro   4.53    4.5  ok AA       texto de ajuda no Modo suave
+suave-flor-tinta  suave-flor-claro     5.00    4.5  ok AA       texto de selo no Modo suave
+suave-ceu         suave-papel          3.86    3.0  ok AA-grande anel de foco no Modo suave (UI)
+suave-olho        visor                7.46    3.0  ok AAA      olhos do Bot no Modo suave (UI)
 ac-tinta          ac-papel            21.00    7.0  ok AAA      texto em alto contraste
-ac-papel          ac-ceu              11.09    7.0  ok AAA      botão primário em alto contraste
-ac-contorno       ac-papel            14.96    7.0  ok AAA      borda em alto contraste (UI)
-ac-sol-icone      ac-papel             6.92    4.5  ok AA       pena em alto contraste (UI)
-ac-papel          ac-folha             9.46    7.0  ok AAA      botão concluído em alto contraste
-ac-lavanda-tinta  ac-papel            13.86    7.0  ok AAA      pista em alto contraste
+ac-papel          ac-ceu               8.34    7.0  ok AAA      botão primário em alto contraste
+ac-contorno       ac-papel            13.49    7.0  ok AAA      borda em alto contraste (UI)
+ac-sol            ac-papel             8.39    7.0  ok AAA      texto/ícone de aviso em alto contraste
+ac-papel          ac-folha             7.71    7.0  ok AAA      botão concluído em alto contraste
+ac-lavanda        ac-papel             7.91    7.0  ok AAA      texto de ajuda em alto contraste
+ac-flor           ac-papel             7.94    7.0  ok AAA      pena/selo em alto contraste
+tinta             il-mato              6.34    3.0  ok AA       olhos e boca de personagem sobre mato (ilustração)
+tinta             il-ipe               8.54    3.0  ok AAA      olhos e boca de personagem sobre ipe (ilustração)
+tinta             il-laranja           5.44    3.0  ok AA       olhos e boca de personagem sobre laranja (ilustração)
+tinta             il-fruta             3.61    3.0  ok AA-grande olhos e boca de personagem sobre fruta (ilustração)
+tinta             il-ipe-roxo          4.20    3.0  ok AA-grande olhos e boca de personagem sobre ipe-roxo (ilustração)
+tinta             il-rio               7.03    3.0  ok AAA      olhos e boca de personagem sobre rio (ilustração)
+tinta             il-terra             4.98    3.0  ok AA       olhos e boca de personagem sobre terra (ilustração)
+tinta             il-pedra             6.10    3.0  ok AA       olhos e boca de personagem sobre pedra (ilustração)
+tinta             il-casca            11.73    3.0  ok AAA      olhos e boca de personagem sobre casca (ilustração)
+tinta             il-pele-1            9.17    3.0  ok AAA      olhos e boca de personagem sobre pele-1 (ilustração)
+tinta             il-pele-2            7.28    3.0  ok AAA      olhos e boca de personagem sobre pele-2 (ilustração)
+tinta             il-pele-3            5.51    3.0  ok AA       olhos e boca de personagem sobre pele-3 (ilustração)
+tinta             il-pele-4            3.20    3.0  ok AA-grande olhos e boca de personagem sobre pele-4 (ilustração)
+superficie        il-pele-5            6.95    3.0  ok AA       esclera do olho sobre pele-5 (ilustração)
+superficie        il-pele-6           10.57    3.0  ok AAA      esclera do olho sobre pele-6 (ilustração)
+il-casca          il-terra-tom         4.80    3.0  ok AA       objeto branco sobre palco escuro (ilustração)
+il-ipe            il-terra-tom         3.49    3.0  ok AA-grande objeto amarelo sobre palco escuro (ilustração)
+il-casca          il-rio-tom           3.20    3.0  ok AA-grande objeto branco sobre palco azul (ilustração)
 
-Distinção sob daltonismo: ceu, sol, folha, lavanda
-  visão típica  menor ΔE:  32.4 (ceu x lavanda)
-  protanopia    menor ΔE:  21.8 (ceu x lavanda)
-  deuteranopia  menor ΔE:  24.8 (ceu x lavanda)
-  tritanopia    menor ΔE:  10.6 (ceu x folha)
+Distinção sob daltonismo: ceu, sol, folha, lavanda, flor
+  visão típica  menor ΔE:  24.4 (ceu x lavanda)
+  protanopia    menor ΔE:  16.0 (ceu x lavanda)
+  deuteranopia  menor ΔE:  18.1 (folha x flor)
+  tritanopia    menor ΔE:  16.5 (ceu x folha)
 
-Distinção sob daltonismo: ceu, sol-icone, folha, lavanda-tinta
-  visão típica  menor ΔE:  29.7 (ceu x lavanda-tinta)
-  protanopia    menor ΔE:  17.5 (ceu x lavanda-tinta)
-  deuteranopia  menor ΔE:  13.9 (ceu x lavanda-tinta)
-  tritanopia    menor ΔE:  10.6 (ceu x folha)
+Distinção sob daltonismo: ceu-claro, sol-claro, folha-claro, lavanda-claro, flor-claro
+  visão típica  menor ΔE:   7.2 (ceu-claro x lavanda-claro)  << confundíveis
+  protanopia    menor ΔE:   3.6 (ceu-claro x flor-claro)  << confundíveis
+  deuteranopia  menor ΔE:   2.1 (folha-claro x flor-claro)  << confundíveis
+  tritanopia    menor ΔE:   3.2 (sol-claro x flor-claro)  << confundíveis
 
-Distinção sob daltonismo: ceu-claro, sol-claro, folha-claro, lavanda-claro
-  visão típica  menor ΔE:   5.7 (ceu-claro x lavanda-claro)  << confundíveis
-  protanopia    menor ΔE:   1.1 (ceu-claro x lavanda-claro)  << confundíveis
-  deuteranopia  menor ΔE:   1.2 (ceu-claro x lavanda-claro)  << confundíveis
-  tritanopia    menor ΔE:   3.2 (ceu-claro x folha-claro)  << confundíveis
+Distinção sob daltonismo: il-mato, il-ipe, il-laranja, il-fruta, il-ipe-roxo, il-rio, il-terra, il-pedra, il-casca
+  visão típica  menor ΔE:  23.3 (il-pedra x il-casca)
+  protanopia    menor ΔE:  12.0 (il-mato x il-laranja)
+  deuteranopia  menor ΔE:  11.1 (il-fruta x il-terra)
+  tritanopia    menor ΔE:  17.2 (il-ipe x il-terra)
 
 0 par(es) abaixo da meta

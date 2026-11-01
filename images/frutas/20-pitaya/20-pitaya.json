@@ -1,0 +1,75 @@
+{
+  "item": "pitaya",
+  "numero": 20,
+  "categoria": "frutas",
+  "nome": "Pitaya",
+  "svg": "20-pitaya.svg",
+  "png": "20-pitaya.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "pitaya-escama": {
+      "parte": "escama",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#F0457A"
+        ],
+        "marca": [
+          "#7CC242"
+        ]
+      },
+      "familias": [
+        "rosa"
+      ]
+    },
+    "pitaya-casca": {
+      "parte": "casca",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C92E5E"
+        ],
+        "base": [
+          "#F0457A"
+        ]
+      },
+      "familias": [
+        "rosa"
+      ]
+    },
+    "pitaya-polpa": {
+      "parte": "polpa",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#FBF7F2"
+        ],
+        "marca": [
+          "#3A2418"
+        ]
+      },
+      "familias": [
+        "marrom-escuro"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

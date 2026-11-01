@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="espatula-titulo">
+  <title id="espatula-titulo">Espátula</title>
+  <defs>
+    <path id="espatula-pa-forma" d="M420 168 L604 168 C618 168 627 179 625 193 L592 418 C589 438 576 450 558 456 L534 468 C527 472 524 480 524 490 L524 560 L500 560 L500 490 C500 480 497 472 490 468 L466 456 C448 450 435 438 432 418 L399 193 C397 179 406 168 420 168 Z" />
+    <path id="espatula-cabo-forma" d="M490 534 L534 534 C541 534 545 540 545 548 L552 826 C552 856 534 876 512 876 C490 876 472 856 472 826 L479 548 C479 540 483 534 490 534 Z" />
+    <clipPath id="espatula-pa-recorte">
+      <use href="#espatula-pa-forma" />
+    </clipPath>
+    <clipPath id="espatula-cabo-recorte">
+      <use href="#espatula-cabo-forma" />
+    </clipPath>
+  </defs>
+  <g id="espatula">
+    <g id="espatula-pa">
+      <use href="#espatula-pa-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#espatula-pa-recorte)">
+        <use href="#espatula-pa-forma" transform="translate(-16 -24)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M466 226 L476 384 M512 226 L512 384 M558 226 L548 384" fill="none" stroke="#8293B8" stroke-width="18" stroke-linecap="round" class="marca" />
+      <path d="M424 196 L440 300" fill="none" stroke="#DCE5F5" stroke-width="12" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="espatula-cabo" data-pivo="512,540">
+      <use href="#espatula-cabo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#espatula-cabo-recorte)">
+        <use href="#espatula-cabo-forma" transform="translate(-12 -20)" fill="#4A5468" class="base" />
+      </g>
+      <ellipse cx="506" cy="818" rx="9" ry="16" fill="#353D4E" class="marca" />
+      <path d="M492 572 L488 770" fill="none" stroke="#717D95" stroke-width="10" stroke-linecap="round" class="brilho" />
+    </g>
+  </g>
+</svg>

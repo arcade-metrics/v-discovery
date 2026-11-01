@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="forno-titulo">
+  <title id="forno-titulo">Forno</title>
+  <defs>
+    <path id="forno-pes-forma" d="M256 700 H300 Q320 700 320 720 V750 Q320 770 300 770 H256 Q236 770 236 750 V720 Q236 700 256 700 Z"/>
+    <clipPath id="forno-pes-recorte"><use href="#forno-pes-forma"/></clipPath>
+    <path id="forno-pes-forma-2" d="M724 700 H768 Q788 700 788 720 V750 Q788 770 768 770 H724 Q704 770 704 750 V720 Q704 700 724 700 Z"/>
+    <clipPath id="forno-pes-recorte-2"><use href="#forno-pes-forma-2"/></clipPath>
+    <path id="forno-corpo-forma" d="M228 290 H796 A56 56 0 0 1 852 346 V684 A56 56 0 0 1 796 740 H228 A56 56 0 0 1 172 684 V346 A56 56 0 0 1 228 290 Z"/>
+    <clipPath id="forno-corpo-recorte"><use href="#forno-corpo-forma"/></clipPath>
+    <path id="forno-porta-puxador-forma" d="M265 356 H631 A15 15 0 0 1 646 371 V371 A15 15 0 0 1 631 386 H265 A15 15 0 0 1 250 371 V371 A15 15 0 0 1 265 356 Z"/>
+    <clipPath id="forno-porta-puxador-recorte"><use href="#forno-porta-puxador-forma"/></clipPath>
+    <path id="forno-porta-visor-forma" d="M278 410 H618 A28 28 0 0 1 646 438 V636 A28 28 0 0 1 618 664 H278 A28 28 0 0 1 250 636 V438 A28 28 0 0 1 278 410 Z"/>
+    <clipPath id="forno-porta-visor-recorte"><use href="#forno-porta-visor-forma"/></clipPath>
+    <path id="forno-porta-forma" d="M246 326 H650 A34 34 0 0 1 684 360 V664 A34 34 0 0 1 650 698 H246 A34 34 0 0 1 212 664 V360 A34 34 0 0 1 246 326 Z"/>
+    <clipPath id="forno-porta-recorte"><use href="#forno-porta-forma"/></clipPath>
+    <circle id="forno-botao-1-forma" cx="764" cy="424" r="40"/>
+    <clipPath id="forno-botao-1-recorte"><use href="#forno-botao-1-forma"/></clipPath>
+    <circle id="forno-botao-2-forma" cx="764" cy="540" r="34"/>
+    <clipPath id="forno-botao-2-recorte"><use href="#forno-botao-2-forma"/></clipPath>
+    <circle id="forno-botao-3-forma" cx="764" cy="640" r="34"/>
+    <clipPath id="forno-botao-3-recorte"><use href="#forno-botao-3-forma"/></clipPath>
+  </defs>
+  <g id="forno">
+    <g id="forno-pes">
+      <use href="#forno-pes-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#forno-pes-recorte)"><use href="#forno-pes-forma" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+      <use href="#forno-pes-forma-2" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#forno-pes-recorte-2)"><use href="#forno-pes-forma-2" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+    </g>
+    <g id="forno-corpo">
+      <use href="#forno-corpo-forma" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#forno-corpo-recorte)"><use href="#forno-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base"/></g>
+      <path d="M731 318 H797 A7 7 0 0 1 804 325 V325 A7 7 0 0 1 797 332 H731 A7 7 0 0 1 724 325 V325 A7 7 0 0 1 731 318 Z" fill="#D3DAE6" class="marca"/>
+      <path d="M731 342 H797 A7 7 0 0 1 804 349 V349 A7 7 0 0 1 797 356 H731 A7 7 0 0 1 724 349 V349 A7 7 0 0 1 731 342 Z" fill="#D3DAE6" class="marca"/>
+    </g>
+    <g id="forno-porta" data-pivo="448,698">
+      <use href="#forno-porta-forma" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#forno-porta-recorte)"><use href="#forno-porta-forma" transform="translate(-14 -22)" fill="#F4F6FA" class="base"/></g>
+      <g id="forno-porta-puxador">
+        <use href="#forno-porta-puxador-forma" fill="#353D4E" class="sombra"/>
+        <g clip-path="url(#forno-porta-puxador-recorte)"><use href="#forno-porta-puxador-forma" transform="translate(-6 -10)" fill="#4A5468" class="base"/></g>
+        <path d="M270 366 H360" fill="none" stroke="#717D95" stroke-width="7" stroke-linecap="round" class="brilho"/>
+      </g>
+      <g id="forno-porta-visor">
+        <use href="#forno-porta-visor-forma" fill="#353D4E" class="sombra"/>
+        <g clip-path="url(#forno-porta-visor-recorte)"><use href="#forno-porta-visor-forma" transform="translate(-14 -22)" fill="#4A5468" class="base"/></g>
+        <path d="M282 556 H614 M282 610 H614" fill="none" stroke="#353D4E" stroke-width="12" stroke-linecap="round" class="marca"/>
+        <path d="M290 520 L346 446" fill="none" stroke="#717D95" stroke-width="16" stroke-linecap="round" class="brilho"/>
+        <path d="M340 524 L370 484" fill="none" stroke="#717D95" stroke-width="10" stroke-linecap="round" class="brilho"/>
+      </g>
+    </g>
+    <g id="forno-botao-1">
+      <use href="#forno-botao-1-forma" fill="#1EA396" class="sombra"/>
+      <g clip-path="url(#forno-botao-1-recorte)"><use href="#forno-botao-1-forma" transform="translate(-8 -11)" fill="#2EC4B6" class="base"/></g>
+      <path d="M764 392 H764 A6 6 0 0 1 770 398 V422 A6 6 0 0 1 764 428 H764 A6 6 0 0 1 758 422 V398 A6 6 0 0 1 764 392 Z" fill="#1EA396" class="marca"/>
+      <ellipse cx="744.0" cy="410.0" rx="6.4" ry="12.0" transform="rotate(30 744.0 410.0)" fill="#7FE0D6" class="brilho"/>
+    </g>
+    <g id="forno-botao-2">
+      <use href="#forno-botao-2-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#forno-botao-2-recorte)"><use href="#forno-botao-2-forma" transform="translate(-8 -11)" fill="#4A5468" class="base"/></g>
+      <path d="M764 514 H764 A6 6 0 0 1 770 520 V538 A6 6 0 0 1 764 544 H764 A6 6 0 0 1 758 538 V520 A6 6 0 0 1 764 514 Z" fill="#353D4E" class="marca"/>
+      <ellipse cx="747.0" cy="528.1" rx="5.44" ry="10.2" transform="rotate(30 747.0 528.1)" fill="#717D95" class="brilho"/>
+    </g>
+    <g id="forno-botao-3">
+      <use href="#forno-botao-3-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#forno-botao-3-recorte)"><use href="#forno-botao-3-forma" transform="translate(-8 -11)" fill="#4A5468" class="base"/></g>
+      <path d="M764 614 H764 A6 6 0 0 1 770 620 V638 A6 6 0 0 1 764 644 H764 A6 6 0 0 1 758 638 V620 A6 6 0 0 1 764 614 Z" fill="#353D4E" class="marca"/>
+      <ellipse cx="747.0" cy="628.1" rx="5.44" ry="10.2" transform="rotate(30 747.0 628.1)" fill="#717D95" class="brilho"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "item": "frigideira",
+  "numero": 27,
+  "categoria": "cozinha",
+  "nome": "Frigideira",
+  "svg": "27-frigideira.svg",
+  "png": "27-frigideira.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "frigideira-cabo": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        633.8,
+        523.4
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "frigideira-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#C93830"
+        ],
+        "base": [
+          "#4A5468",
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

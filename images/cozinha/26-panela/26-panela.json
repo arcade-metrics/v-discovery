@@ -1,0 +1,88 @@
+{
+  "item": "panela",
+  "numero": 26,
+  "categoria": "cozinha",
+  "nome": "Panela",
+  "svg": "26-panela.svg",
+  "png": "26-panela.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "panela-alca-1": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        274.0,
+        370.3
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "panela-alca-2": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        750.0,
+        370.3
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "panela-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830",
+          "#E9E2D2"
+        ],
+        "base": [
+          "#EA4A3F",
+          "#FBF8F0"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "creme",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

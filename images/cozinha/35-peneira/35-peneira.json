@@ -1,0 +1,101 @@
+{
+  "item": "peneira",
+  "numero": 35,
+  "categoria": "cozinha",
+  "nome": "Peneira",
+  "svg": "35-peneira.svg",
+  "png": "35-peneira.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "peneira-cabo": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        536.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8",
+          "#BE7F3E"
+        ],
+        "base": [
+          "#AEBEDB",
+          "#DDA15E"
+        ],
+        "marca": [
+          "#BE7F3E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira",
+        "metal"
+      ]
+    },
+    "peneira-tela": {
+      "parte": "tela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "peneira-aro": {
+      "parte": "aro",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}
