@@ -1,0 +1,41 @@
+{
+  "item": "tabua-de-corte",
+  "numero": 31,
+  "categoria": "cozinha",
+  "nome": "Tábua de corte",
+  "svg": "31-tabua-de-corte.svg",
+  "png": "31-tabua-de-corte.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "tabua-de-corte-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#BE7F3E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

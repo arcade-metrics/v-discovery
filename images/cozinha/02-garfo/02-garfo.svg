@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="garfo-titulo">
+  <title id="garfo-titulo">Garfo</title>
+  <defs>
+    <path id="garfo-corpo-forma" d="M436 322 L588 322 C588 400 562 440 532 464 C525 470 524 480 524 496 C524 590 538 736 543 808 C546 852 534 876 512 876 C490 876 478 852 481 808 C486 736 500 590 500 496 C500 480 499 470 492 464 C462 440 436 400 436 322 Z" />
+    <path id="garfo-dentes-forma" d="M436 334 L436 189 A13 13 0 0 1 462 189 L462 334 Z M478 334 L478 189 A13 13 0 0 1 504 189 L504 334 Z M520 334 L520 189 A13 13 0 0 1 546 189 L546 334 Z M562 334 L562 189 A13 13 0 0 1 588 189 L588 334 Z" />
+    <clipPath id="garfo-corpo-recorte">
+      <use href="#garfo-corpo-forma" />
+    </clipPath>
+    <clipPath id="garfo-dentes-recorte">
+      <use href="#garfo-dentes-forma" />
+    </clipPath>
+  </defs>
+  <g id="garfo">
+    <g id="garfo-dentes">
+      <use href="#garfo-dentes-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#garfo-dentes-recorte)">
+        <use href="#garfo-dentes-forma" transform="translate(-9 -8)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M445 204 L445 292" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="garfo-corpo">
+      <use href="#garfo-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#garfo-corpo-recorte)">
+        <use href="#garfo-corpo-forma" transform="translate(-13 -22)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M450 340 C451 372 460 396 474 414" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" class="brilho" />
+      <path d="M501 566 C498 650 492 736 489 796" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" class="brilho" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="pitaya-titulo">
+  <title id="pitaya-titulo">Pitaya</title>
+  <g id="pitaya" transform="scale(2.56)">
+    <g id="pitaya-escama">
+      <path d="M105.1 209.3 L83.1 153.4 L119.4 162.5 Z" fill="#F0457A" class="base" />
+      <path d="M135.2 140.0 L148.5 80.3 L171.4 115.1 Z" fill="#F0457A" class="base" />
+      <path d="M195.7 110.0 L238.0 74.5 L236.8 118.7 Z" fill="#F0457A" class="base" />
+      <path d="M258.1 133.4 L309.7 138.6 L285.0 171.5 Z" fill="#F0457A" class="base" />
+      <path d="M293.4 199.1 L330.1 242.7 L293.4 248.9 Z" fill="#F0457A" class="base" />
+      <path d="M285.0 276.5 L289.6 338.0 L258.1 314.6 Z" fill="#F0457A" class="base" />
+      <path d="M236.8 329.3 L207.1 380.0 L195.7 338.0 Z" fill="#F0457A" class="base" />
+      <path d="M171.4 332.9 L121.4 349.0 L135.2 308.0 Z" fill="#F0457A" class="base" />
+      <path d="M119.4 285.5 L72.4 259.5 L105.1 238.7 Z" fill="#F0457A" class="base" />
+      <path d="M91.4 173.9 L83.1 153.4 L102.4 152.8 Z" fill="#7CC242" class="marca" />
+      <path d="M143.8 102.4 L148.5 80.3 L163.6 94.7 Z" fill="#7CC242" class="marca" />
+      <path d="M222.5 87.7 L238.0 74.5 L241.9 97.1 Z" fill="#7CC242" class="marca" />
+      <path d="M290.7 136.9 L309.7 138.6 L300.5 158.8 Z" fill="#7CC242" class="marca" />
+      <path d="M316.5 226.8 L330.1 242.7 L312.1 251.1 Z" fill="#7CC242" class="marca" />
+      <path d="M287.7 315.4 L289.6 338.0 L271.3 330.7 Z" fill="#7CC242" class="marca" />
+      <path d="M217.9 361.2 L207.1 380.0 L197.1 360.4 Z" fill="#7CC242" class="marca" />
+      <path d="M139.8 342.9 L121.4 349.0 L124.3 326.2 Z" fill="#7CC242" class="marca" />
+      <path d="M89.8 268.9 L72.4 259.5 L86.9 244.3 Z" fill="#7CC242" class="marca" />
+    </g>
+    <g id="pitaya-casca">
+      <ellipse cx="208" cy="232" rx="104" ry="124" transform="rotate(0 208 232)" fill="#C92E5E" class="sombra" />
+      <ellipse cx="200" cy="224" rx="104" ry="124" transform="rotate(0 200 224)" fill="#F0457A" class="base" />
+    </g>
+    <g id="pitaya-polpa">
+      <ellipse cx="200" cy="224" rx="86" ry="106" transform="rotate(0 200 224)" fill="#FBF7F2" class="base" />
+      <circle cx="183.4" cy="155.0" r="3" fill="#3A2418" class="marca" />
+      <circle cx="130.6" cy="204.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="242.4" cy="168.4" r="3" fill="#3A2418" class="marca" />
+      <circle cx="205.9" cy="179.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="252.6" cy="285.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="248.1" cy="162.7" r="3" fill="#3A2418" class="marca" />
+      <circle cx="169.6" cy="249.4" r="3" fill="#3A2418" class="marca" />
+      <circle cx="237.1" cy="294.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="216.9" cy="258.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="201.0" cy="159.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="195.8" cy="141.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="207.6" cy="184.0" r="3" fill="#3A2418" class="marca" />
+      <circle cx="265.4" cy="238.5" r="3" fill="#3A2418" class="marca" />
+      <circle cx="201.3" cy="206.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="215.8" cy="210.2" r="3" fill="#3A2418" class="marca" />
+      <circle cx="145.8" cy="185.0" r="3" fill="#3A2418" class="marca" />
+      <circle cx="127.4" cy="249.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="164.9" cy="230.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="195.4" cy="192.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="186.0" cy="164.5" r="3" fill="#3A2418" class="marca" />
+      <circle cx="221.2" cy="179.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="176.9" cy="273.4" r="3" fill="#3A2418" class="marca" />
+      <circle cx="171.3" cy="235.7" r="3" fill="#3A2418" class="marca" />
+      <circle cx="242.4" cy="247.1" r="3" fill="#3A2418" class="marca" />
+      <circle cx="158.0" cy="190.2" r="3" fill="#3A2418" class="marca" />
+      <circle cx="148.4" cy="215.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="185.7" cy="312.7" r="3" fill="#3A2418" class="marca" />
+      <circle cx="219.3" cy="287.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="166.9" cy="162.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="191.1" cy="151.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="245.4" cy="196.5" r="3" fill="#3A2418" class="marca" />
+      <circle cx="166.5" cy="143.4" r="3" fill="#3A2418" class="marca" />
+      <circle cx="228.3" cy="153.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="126.5" cy="222.1" r="3" fill="#3A2418" class="marca" />
+      <circle cx="139.6" cy="229.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="243.8" cy="205.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="158.7" cy="206.1" r="3" fill="#3A2418" class="marca" />
+      <circle cx="125.9" cy="208.2" r="3" fill="#3A2418" class="marca" />
+      <circle cx="159.8" cy="301.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="253.0" cy="223.7" r="3" fill="#3A2418" class="marca" />
+      <circle cx="158.8" cy="165.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="157.0" cy="297.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="268.5" cy="237.1" r="3" fill="#3A2418" class="marca" />
+      <circle cx="264.2" cy="254.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="246.5" cy="272.9" r="3" fill="#3A2418" class="marca" />
+      <circle cx="199.1" cy="142.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="153.7" cy="298.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="173.9" cy="255.4" r="3" fill="#3A2418" class="marca" />
+      <circle cx="247.9" cy="252.5" r="3" fill="#3A2418" class="marca" />
+      <circle cx="250.4" cy="229.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="224.8" cy="261.2" r="3" fill="#3A2418" class="marca" />
+      <circle cx="221.6" cy="237.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="249.6" cy="280.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="260.5" cy="234.1" r="3" fill="#3A2418" class="marca" />
+      <circle cx="227.4" cy="190.1" r="3" fill="#3A2418" class="marca" />
+      <circle cx="195.4" cy="229.3" r="3" fill="#3A2418" class="marca" />
+      <circle cx="215.1" cy="221.8" r="3" fill="#3A2418" class="marca" />
+      <circle cx="258.4" cy="245.6" r="3" fill="#3A2418" class="marca" />
+      <circle cx="142.2" cy="196.5" r="3" fill="#3A2418" class="marca" />
+      <circle cx="242.8" cy="228.6" r="3" fill="#3A2418" class="marca" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+{
+  "item": "manga",
+  "numero": 14,
+  "categoria": "frutas",
+  "nome": "Manga",
+  "svg": "14-manga.svg",
+  "png": "14-manga.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "manga-talo": {
+      "parte": "talo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        409.6,
+        312.3
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#8A5A33"
+        ]
+      },
+      "familias": [
+        "marrom"
+      ]
+    },
+    "manga-folha": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        399.4,
+        266.2
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "manga-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "brilho": [
+          "#FFD983"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,147 @@
+{
+  "item": "mirtilo",
+  "numero": 15,
+  "categoria": "frutas",
+  "nome": "Mirtilo",
+  "svg": "15-mirtilo.svg",
+  "png": "15-mirtilo.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "mirtilo-folha-1": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        522.2,
+        307.2
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "mirtilo-folha-2": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        522.2,
+        307.2
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "mirtilo-corpo-1": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "brilho": [
+          "#8296E4"
+        ],
+        "marca": [
+          "#232F6A"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    },
+    "mirtilo-corpo-2": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "brilho": [
+          "#8296E4"
+        ],
+        "marca": [
+          "#232F6A"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    },
+    "mirtilo-corpo-3": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "brilho": [
+          "#8296E4"
+        ],
+        "marca": [
+          "#232F6A"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

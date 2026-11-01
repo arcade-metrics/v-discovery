@@ -1,0 +1,126 @@
+{
+  "item": "balanca",
+  "numero": 49,
+  "categoria": "cozinha",
+  "nome": "Balança de cozinha",
+  "svg": "49-balanca.svg",
+  "png": "49-balanca.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "balanca-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#D3DAE6"
+        ],
+        "base": [
+          "#4A5468",
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite"
+      ]
+    },
+    "balanca-prato": {
+      "parte": "prato",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "balanca-visor": {
+      "parte": "visor",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396",
+          "#D3DAE6"
+        ],
+        "base": [
+          "#2EC4B6",
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "turquesa"
+      ]
+    },
+    "balanca-ponteiro": {
+      "parte": "ponteiro",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        640.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

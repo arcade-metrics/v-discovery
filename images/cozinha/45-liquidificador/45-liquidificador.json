@@ -1,0 +1,172 @@
+{
+  "item": "liquidificador",
+  "numero": 45,
+  "categoria": "cozinha",
+  "nome": "Liquidificador",
+  "svg": "45-liquidificador.svg",
+  "png": "45-liquidificador.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "liquidificador-motor": {
+      "parte": "motor",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "liquidificador-botao": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#1EA396"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "turquesa"
+      ]
+    },
+    "liquidificador-copo": {
+      "parte": "copo",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#9FD0E4"
+        ],
+        "base": [
+          "#4A5468",
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "vidro"
+      ]
+    },
+    "liquidificador-copo-liquido": {
+      "parte": "liquido",
+      "pai": "liquidificador-copo",
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "liquidificador-copo-lamina": {
+      "parte": "lamina",
+      "pai": "liquidificador-copo",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "liquidificador-tampa": {
+      "parte": "tampa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        346.0,
+        220.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

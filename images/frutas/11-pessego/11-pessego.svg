@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="pessego-titulo">
+  <title id="pessego-titulo">Pêssego</title>
+  <defs>
+    <clipPath id="pessego-corpo-recorte">
+      <path d="M80 226 A120 120 0 1 1 320 226 A120 120 0 1 1 80 226 Z" />
+    </clipPath>
+  </defs>
+  <g id="pessego" transform="scale(2.56)">
+    <g id="pessego-talo" data-pivo="517.1,276.5">
+      <path d="M202 108 L192 82" fill="none" stroke="#8A5A33" stroke-width="16" stroke-linecap="round" class="base" />
+    </g>
+    <g id="pessego-folha" transform="translate(196 94) rotate(-30) scale(1.0)" data-pivo="501.8,240.6">
+      <path d="M0 0 C18 -34 58 -46 92 -36 C80 -2 40 16 0 0 Z" fill="#5DBB43" class="base" />
+      <path d="M0 0 L92 -36 C80 -2 40 16 0 0 Z" fill="#469A32" class="sombra" />
+    </g>
+    <g id="pessego-corpo">
+      <path d="M80 226 A120 120 0 1 1 320 226 A120 120 0 1 1 80 226 Z" fill="#EE7C4C" class="sombra" />
+      <g clip-path="url(#pessego-corpo-recorte)">
+        <path d="M80 226 A120 120 0 1 1 320 226 A120 120 0 1 1 80 226 Z" fill="#FF9E6E" transform="translate(-14 -14)" class="base" />
+      </g>
+      <path d="M204 110 C160 160 156 260 196 338" fill="none" stroke="#EE7C4C" stroke-width="9" stroke-linecap="round" class="marca" />
+      <ellipse cx="130" cy="206" rx="14" ry="32" transform="rotate(22 130 206)" fill="#FFC6A6" class="brilho" />
+    </g>
+  </g>
+</svg>

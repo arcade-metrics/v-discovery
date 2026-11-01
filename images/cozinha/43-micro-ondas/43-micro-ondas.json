@@ -1,0 +1,178 @@
+{
+  "item": "micro-ondas",
+  "numero": 43,
+  "categoria": "cozinha",
+  "nome": "Micro-ondas",
+  "svg": "43-micro-ondas.svg",
+  "png": "43-micro-ondas.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "micro-ondas-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "micro-ondas-porta": {
+      "parte": "porta",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        198.0,
+        512.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "micro-ondas-porta-puxador": {
+      "parte": "puxador",
+      "pai": "micro-ondas-porta",
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "micro-ondas-porta-visor": {
+      "parte": "visor",
+      "pai": "micro-ondas-porta",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "micro-ondas-painel": {
+      "parte": "painel",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "micro-ondas-painel-visor": {
+      "parte": "visor",
+      "pai": "micro-ondas-painel",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "turquesa"
+      ]
+    },
+    "micro-ondas-botao-1": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

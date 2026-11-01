@@ -1,97 +1,495 @@
 {
   "tokens": {
-    "papel": "#F3F5F7",
+    "papel": "#F7F4EC",
     "superficie": "#FFFFFF",
-    "nevoa": "#DDE3EA",
-    "contorno": "#7D8A98",
-    "tinta": "#1D2833",
-    "tinta-suave": "#4A5866",
-    "ceu": "#2F6699",
-    "ceu-profundo": "#1F4A73",
-    "ceu-claro": "#DCE7F2",
-    "sol": "#E0A23A",
-    "sol-icone": "#B07A1C",
-    "sol-claro": "#FBEED3",
-    "sol-tinta": "#6E4708",
-    "folha": "#3B7F57",
-    "folha-claro": "#DCEEE2",
-    "folha-tinta": "#1F5236",
-    "lavanda": "#A593DB",
-    "lavanda-claro": "#EAE6F5",
-    "lavanda-tinta": "#43357A",
-    "casco": "#F6F2EA",
-    "visor": "#1D2833",
+    "nevoa": "#E6E2D8",
+    "contorno": "#87878E",
+    "tinta": "#2B2D42",
+    "tinta-suave": "#686975",
+    "ceu": "#0072B2",
+    "ceu-profundo": "#005280",
+    "ceu-claro": "#D2E0E3",
+    "brisa": "#56B4E9",
+    "sol": "#E69F00",
+    "sol-tinta": "#674800",
+    "sol-claro": "#F4E7C9",
+    "folha": "#009E73",
+    "folha-profundo": "#007E5C",
+    "folha-tinta": "#00573F",
+    "folha-claro": "#D2E7DA",
+    "lavanda": "#8E96D6",
+    "lavanda-tinta": "#454E80",
+    "lavanda-claro": "#E6E7F2",
+    "flor": "#CC79A7",
+    "flor-icone": "#AD678E",
+    "flor-tinta": "#70435C",
+    "flor-claro": "#F1E2E2",
+    "casco": "#FBFAF6",
+    "visor": "#2B2D42",
     "olho": "#8BE0EE",
-    "ceu-texto-noite": "#C9D3DC",
-
-    "suave-papel": "#EEF0F2",
-    "suave-ceu": "#4F6F8E",
-    "suave-ceu-profundo": "#3A546D",
-    "suave-ceu-claro": "#E2E8EE",
-    "suave-sol": "#B89559",
-    "suave-sol-icone": "#97814F",
-    "suave-sol-claro": "#F3EDE2",
-    "suave-folha": "#557A64",
-    "suave-folha-claro": "#E3ECE6",
-    "suave-lavanda": "#B3AACB",
-    "suave-lavanda-claro": "#EEECF3",
-    "suave-olho": "#A9D3DA",
-
+    "ceu-texto-noite": "#B9ECF5",
+    "suave-papel": "#EAE8E0",
+    "suave-ceu": "#2D7AA4",
+    "suave-ceu-profundo": "#2D6582",
+    "suave-ceu-claro": "#C6D1D2",
+    "suave-brisa": "#68A7C9",
+    "suave-sol": "#CA992B",
+    "suave-sol-tinta": "#70571D",
+    "suave-sol-claro": "#E2D7BD",
+    "suave-folha": "#2D9879",
+    "suave-folha-profundo": "#2D8269",
+    "suave-folha-tinta": "#1F634F",
+    "suave-folha-claro": "#C6D7CB",
+    "suave-lavanda": "#8E93BC",
+    "suave-lavanda-tinta": "#555C81",
+    "suave-lavanda-claro": "#D6D7DF",
+    "suave-flor": "#B87F9C",
+    "suave-flor-tinta": "#734A60",
+    "suave-flor-claro": "#DFD3D1",
+    "suave-olho": "#8CCBD4",
     "ac-papel": "#FFFFFF",
     "ac-tinta": "#000000",
-    "ac-contorno": "#1D2833",
-    "ac-ceu": "#0B3D6B",
-    "ac-sol-icone": "#7A5200",
-    "ac-folha": "#16502E",
-    "ac-lavanda-tinta": "#2E2066"
+    "ac-contorno": "#2B2D42",
+    "ac-ceu": "#005280",
+    "ac-sol": "#674800",
+    "ac-folha": "#005F45",
+    "ac-lavanda": "#454E80",
+    "ac-flor": "#70435C",
+    "il-mato-luz": "#C4E39A",
+    "il-mato": "#8CC152",
+    "il-mato-tom": "#5E8F32",
+    "il-ipe-luz": "#FFE89A",
+    "il-ipe": "#F5C93A",
+    "il-ipe-tom": "#C99A1C",
+    "il-laranja-luz": "#FFC796",
+    "il-laranja": "#F28A3C",
+    "il-laranja-tom": "#BF5F1C",
+    "il-fruta-luz": "#FFA79C",
+    "il-fruta": "#E25545",
+    "il-fruta-tom": "#A8352B",
+    "il-ipe-roxo-luz": "#E6C2EE",
+    "il-ipe-roxo": "#B07CC6",
+    "il-ipe-roxo-tom": "#7E4F96",
+    "il-rio-luz": "#CBEAF7",
+    "il-rio": "#7FC4E6",
+    "il-rio-tom": "#3F8DB8",
+    "il-terra-luz": "#ECD3AE",
+    "il-terra": "#C49462",
+    "il-terra-tom": "#8C5F38",
+    "il-pedra-luz": "#E3E0D8",
+    "il-pedra": "#B3AEA3",
+    "il-pedra-tom": "#7C776D",
+    "il-casca-luz": "#FFFFFF",
+    "il-casca": "#F2EFE6",
+    "il-casca-tom": "#D8D3C6",
+    "il-pele-1-luz": "#FCE3D3",
+    "il-pele-1": "#F5CDB4",
+    "il-pele-1-tom": "#DDA88A",
+    "il-pele-2-luz": "#F6D2B0",
+    "il-pele-2": "#E8B48A",
+    "il-pele-2-tom": "#C98E66",
+    "il-pele-3-luz": "#E8B88E",
+    "il-pele-3": "#D29A6A",
+    "il-pele-3-tom": "#AE7648",
+    "il-pele-4-luz": "#C99068",
+    "il-pele-4": "#A86E48",
+    "il-pele-4-tom": "#84522F",
+    "il-pele-5-luz": "#9C6644",
+    "il-pele-5": "#7E4E30",
+    "il-pele-5-tom": "#5E3720",
+    "il-pele-6-luz": "#7A4B32",
+    "il-pele-6": "#5C3522",
+    "il-pele-6-tom": "#422416",
+    "il-cabelo-preto-luz": "#4A3F3A",
+    "il-cabelo-preto": "#2E2622",
+    "il-cabelo-preto-tom": "#1C1614",
+    "il-cabelo-castanho-luz": "#8A5A3C",
+    "il-cabelo-castanho": "#6B4229",
+    "il-cabelo-castanho-tom": "#4C2D1A",
+    "il-cabelo-loiro-luz": "#F2D58C",
+    "il-cabelo-loiro": "#DDB55E",
+    "il-cabelo-loiro-tom": "#B98E3A",
+    "il-cabelo-ruivo-luz": "#E08A4E",
+    "il-cabelo-ruivo": "#C2652C",
+    "il-cabelo-ruivo-tom": "#94481B",
+    "il-cabelo-grisalho-luz": "#E6E4E0",
+    "il-cabelo-grisalho": "#BDBAB4",
+    "il-cabelo-grisalho-tom": "#94918A"
   },
   "pares": [
-    ["tinta", "papel", "texto principal sobre fundo"],
-    ["tinta", "superficie", "texto principal em cartão"],
-    ["tinta-suave", "papel", "texto secundário"],
-    ["tinta-suave", "superficie", "texto secundário em cartão"],
-    ["superficie", "ceu", "rótulo de botão primário"],
-    ["superficie", "ceu-profundo", "rótulo de botão pressionado"],
-    ["ceu-profundo", "ceu-claro", "texto em área de destaque"],
-    ["ceu", "papel", "anel de foco e ícone ativo (UI)", 3],
-    ["contorno", "superficie", "borda de alvo e de componente (UI)", 3],
-    ["contorno", "papel", "borda de alvo sobre fundo (UI)", 3],
-    ["contorno", "casco", "traço do casco do Bot (UI)", 3],
-    ["sol-tinta", "sol-claro", "texto em selo de peça"],
-    ["sol", "visor", "estrela do Céu sobre fundo escuro (UI)", 3],
-    ["ceu-texto-noite", "visor", "texto do Céu da turma"],
-    ["sol-icone", "papel", "pena, próximo voo, estrela offline (UI)", 3],
-    ["sol-icone", "superficie", "pena sobre cartão (UI)", 3],
-    ["tinta", "sol", "rótulo sobre âmbar"],
-    ["folha-tinta", "folha-claro", "texto de concluído"],
-    ["superficie", "folha", "rótulo em botão de concluído"],
-    ["folha", "superficie", "visto de concluído (UI)", 3],
-    ["lavanda-tinta", "lavanda-claro", "texto de ajuda e pista"],
-    ["lavanda-tinta", "superficie", "contorno de pista no treino (UI)", 3],
-    ["tinta", "lavanda", "rótulo em botão de ajuda"],
-    ["olho", "visor", "olhos e boca do Bot (UI)", 3],
-    ["tinta", "casco", "texto sobre corpo do Bot"],
-
-    ["superficie", "suave-ceu", "botão primário no Modo suave"],
-    ["superficie", "suave-ceu-profundo", "botão pressionado no Modo suave"],
-    ["tinta", "suave-papel", "texto no Modo suave"],
-    ["tinta", "suave-sol", "rótulo sobre âmbar no Modo suave"],
-    ["suave-sol-icone", "suave-papel", "pena no Modo suave (UI)", 3],
-    ["superficie", "suave-folha", "botão concluído no Modo suave"],
-    ["tinta", "suave-lavanda", "botão de ajuda no Modo suave"],
-    ["suave-ceu", "suave-papel", "anel de foco no Modo suave (UI)", 3],
-    ["suave-olho", "visor", "olhos do Bot no Modo suave (UI)", 3],
-
-    ["ac-tinta", "ac-papel", "texto em alto contraste", 7],
-    ["ac-papel", "ac-ceu", "botão primário em alto contraste", 7],
-    ["ac-contorno", "ac-papel", "borda em alto contraste (UI)", 7],
-    ["ac-sol-icone", "ac-papel", "pena em alto contraste (UI)", 4.5],
-    ["ac-papel", "ac-folha", "botão concluído em alto contraste", 7],
-    ["ac-lavanda-tinta", "ac-papel", "pista em alto contraste", 7]
+    [
+      "tinta",
+      "papel",
+      "texto principal sobre fundo"
+    ],
+    [
+      "tinta",
+      "superficie",
+      "texto principal em cartão"
+    ],
+    [
+      "tinta-suave",
+      "papel",
+      "texto secundário"
+    ],
+    [
+      "tinta-suave",
+      "superficie",
+      "texto secundário em cartão"
+    ],
+    [
+      "superficie",
+      "ceu",
+      "rótulo de botão primário"
+    ],
+    [
+      "superficie",
+      "ceu-profundo",
+      "rótulo de botão pressionado"
+    ],
+    [
+      "ceu-profundo",
+      "ceu-claro",
+      "texto em área de destaque"
+    ],
+    [
+      "ceu",
+      "papel",
+      "anel de foco e ícone ativo (UI)",
+      3
+    ],
+    [
+      "contorno",
+      "superficie",
+      "borda de alvo e de componente (UI)",
+      3
+    ],
+    [
+      "contorno",
+      "papel",
+      "borda de alvo sobre fundo (UI)",
+      3
+    ],
+    [
+      "contorno",
+      "casco",
+      "traço do casco do Bot (UI)",
+      3
+    ],
+    [
+      "sol-tinta",
+      "sol-claro",
+      "texto em aviso suave (tentar de novo)"
+    ],
+    [
+      "sol-tinta",
+      "superficie",
+      "contorno de pista no treino (UI)",
+      3
+    ],
+    [
+      "tinta",
+      "sol",
+      "rótulo sobre laranja"
+    ],
+    [
+      "flor",
+      "visor",
+      "Bot contente, estrela do Céu sobre fundo escuro (UI)",
+      3
+    ],
+    [
+      "ceu-texto-noite",
+      "visor",
+      "texto do Céu da turma"
+    ],
+    [
+      "folha-tinta",
+      "folha-claro",
+      "texto de concluído"
+    ],
+    [
+      "superficie",
+      "folha-profundo",
+      "rótulo em botão de concluído"
+    ],
+    [
+      "folha",
+      "superficie",
+      "visto de concluído (UI)",
+      3
+    ],
+    [
+      "lavanda-tinta",
+      "lavanda-claro",
+      "texto de ajuda e Ninho"
+    ],
+    [
+      "tinta",
+      "lavanda",
+      "rótulo em botão de ajuda"
+    ],
+    [
+      "flor-tinta",
+      "flor-claro",
+      "texto de selo de recompensa"
+    ],
+    [
+      "flor-icone",
+      "papel",
+      "pena, próximo voo, estrela offline (UI)",
+      3
+    ],
+    [
+      "flor-icone",
+      "superficie",
+      "pena sobre cartão (UI)",
+      3
+    ],
+    [
+      "olho",
+      "visor",
+      "olhos e boca do Bot (UI)",
+      3
+    ],
+    [
+      "tinta",
+      "casco",
+      "texto sobre corpo do Bot"
+    ],
+    [
+      "superficie",
+      "suave-ceu",
+      "botão primário no Modo suave"
+    ],
+    [
+      "superficie",
+      "suave-ceu-profundo",
+      "botão pressionado no Modo suave"
+    ],
+    [
+      "tinta",
+      "suave-papel",
+      "texto no Modo suave"
+    ],
+    [
+      "tinta",
+      "suave-sol",
+      "rótulo sobre laranja no Modo suave"
+    ],
+    [
+      "suave-sol-tinta",
+      "suave-sol-claro",
+      "texto de aviso no Modo suave"
+    ],
+    [
+      "superficie",
+      "suave-folha-profundo",
+      "botão concluído no Modo suave"
+    ],
+    [
+      "tinta",
+      "suave-lavanda",
+      "botão de ajuda no Modo suave"
+    ],
+    [
+      "suave-lavanda-tinta",
+      "suave-lavanda-claro",
+      "texto de ajuda no Modo suave"
+    ],
+    [
+      "suave-flor-tinta",
+      "suave-flor-claro",
+      "texto de selo no Modo suave"
+    ],
+    [
+      "suave-ceu",
+      "suave-papel",
+      "anel de foco no Modo suave (UI)",
+      3
+    ],
+    [
+      "suave-olho",
+      "visor",
+      "olhos do Bot no Modo suave (UI)",
+      3
+    ],
+    [
+      "ac-tinta",
+      "ac-papel",
+      "texto em alto contraste",
+      7
+    ],
+    [
+      "ac-papel",
+      "ac-ceu",
+      "botão primário em alto contraste",
+      7
+    ],
+    [
+      "ac-contorno",
+      "ac-papel",
+      "borda em alto contraste (UI)",
+      7
+    ],
+    [
+      "ac-sol",
+      "ac-papel",
+      "texto/ícone de aviso em alto contraste",
+      7
+    ],
+    [
+      "ac-papel",
+      "ac-folha",
+      "botão concluído em alto contraste",
+      7
+    ],
+    [
+      "ac-lavanda",
+      "ac-papel",
+      "texto de ajuda em alto contraste",
+      7
+    ],
+    [
+      "ac-flor",
+      "ac-papel",
+      "pena/selo em alto contraste",
+      7
+    ],
+    [
+      "tinta",
+      "il-mato",
+      "olhos e boca de personagem sobre mato (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-ipe",
+      "olhos e boca de personagem sobre ipe (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-laranja",
+      "olhos e boca de personagem sobre laranja (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-fruta",
+      "olhos e boca de personagem sobre fruta (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-ipe-roxo",
+      "olhos e boca de personagem sobre ipe-roxo (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-rio",
+      "olhos e boca de personagem sobre rio (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-terra",
+      "olhos e boca de personagem sobre terra (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-pedra",
+      "olhos e boca de personagem sobre pedra (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-casca",
+      "olhos e boca de personagem sobre casca (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-pele-1",
+      "olhos e boca de personagem sobre pele-1 (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-pele-2",
+      "olhos e boca de personagem sobre pele-2 (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-pele-3",
+      "olhos e boca de personagem sobre pele-3 (ilustração)",
+      3
+    ],
+    [
+      "tinta",
+      "il-pele-4",
+      "olhos e boca de personagem sobre pele-4 (ilustração)",
+      3
+    ],
+    [
+      "superficie",
+      "il-pele-5",
+      "esclera do olho sobre pele-5 (ilustração)",
+      3
+    ],
+    [
+      "superficie",
+      "il-pele-6",
+      "esclera do olho sobre pele-6 (ilustração)",
+      3
+    ],
+    [
+      "il-casca",
+      "il-terra-tom",
+      "objeto branco sobre palco escuro (ilustração)",
+      3
+    ],
+    [
+      "il-ipe",
+      "il-terra-tom",
+      "objeto amarelo sobre palco escuro (ilustração)",
+      3
+    ],
+    [
+      "il-casca",
+      "il-rio-tom",
+      "objeto branco sobre palco azul (ilustração)",
+      3
+    ]
   ],
   "distinguir": [
-    ["ceu", "sol", "folha", "lavanda"],
-    ["ceu", "sol-icone", "folha", "lavanda-tinta"],
-    ["ceu-claro", "sol-claro", "folha-claro", "lavanda-claro"]
+    [
+      "ceu",
+      "sol",
+      "folha",
+      "lavanda",
+      "flor"
+    ],
+    [
+      "ceu-claro",
+      "sol-claro",
+      "folha-claro",
+      "lavanda-claro",
+      "flor-claro"
+    ],
+    [
+      "il-mato",
+      "il-ipe",
+      "il-laranja",
+      "il-fruta",
+      "il-ipe-roxo",
+      "il-rio",
+      "il-terra",
+      "il-pedra",
+      "il-casca"
+    ]
   ]
 }

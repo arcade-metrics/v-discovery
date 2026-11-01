@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="timer-titulo">
+  <title id="timer-titulo">Timer de cozinha</title>
+  <defs>
+    <path id="timer-botao-forma" d="M492 228 H532 Q538 228 538 234 V282 Q538 288 532 288 H492 Q486 288 486 282 V234 Q486 228 492 228 Z"/>
+    <clipPath id="timer-botao-recorte"><use href="#timer-botao-forma"/></clipPath>
+    <path id="timer-botao-forma-2" d="M464 184 H560 A28 28 0 0 1 588 212 V212 A28 28 0 0 1 560 240 H464 A28 28 0 0 1 436 212 V212 A28 28 0 0 1 464 184 Z"/>
+    <clipPath id="timer-botao-recorte-2"><use href="#timer-botao-forma-2"/></clipPath>
+    <circle id="timer-corpo-forma" cx="512" cy="562" r="300"/>
+    <clipPath id="timer-corpo-recorte"><use href="#timer-corpo-forma"/></clipPath>
+    <circle id="timer-corpo-forma-2" cx="512" cy="562" r="248"/>
+    <clipPath id="timer-corpo-recorte-2"><use href="#timer-corpo-forma-2"/></clipPath>
+    <circle id="timer-corpo-forma-3" cx="512" cy="562" r="226"/>
+    <clipPath id="timer-corpo-recorte-3"><use href="#timer-corpo-forma-3"/></clipPath>
+    <path id="timer-ponteiro-forma" d="M501 562 L616 440 Q632 428 626 450 L524 574 Z"/>
+    <clipPath id="timer-ponteiro-recorte"><use href="#timer-ponteiro-forma"/></clipPath>
+    <circle id="timer-ponteiro-forma-2" cx="512" cy="562" r="28"/>
+    <clipPath id="timer-ponteiro-recorte-2"><use href="#timer-ponteiro-forma-2"/></clipPath>
+  </defs>
+  <g id="timer">
+    <g id="timer-botao">
+      <use href="#timer-botao-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#timer-botao-recorte)"><use href="#timer-botao-forma" transform="translate(-5 -8)" fill="#4A5468" class="base"/></g>
+      <use href="#timer-botao-forma-2" fill="#1EA396" class="sombra"/>
+      <g clip-path="url(#timer-botao-recorte-2)"><use href="#timer-botao-forma-2" transform="translate(-6 -10)" fill="#2EC4B6" class="base"/></g>
+      <path d="M458 202 H500" fill="none" stroke="#7FE0D6" stroke-width="8" stroke-linecap="round" class="brilho"/>
+    </g>
+    <g id="timer-corpo">
+      <use href="#timer-corpo-forma" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#timer-corpo-recorte)"><use href="#timer-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base"/></g>
+      <use href="#timer-corpo-forma-2" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#timer-corpo-recorte-2)"><use href="#timer-corpo-forma-2" transform="translate(-14 -22)" fill="#4A5468" class="base"/></g>
+      <use href="#timer-corpo-forma-3" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#timer-corpo-recorte-3)"><use href="#timer-corpo-forma-3" transform="translate(-14 -22)" fill="#F4F6FA" class="base"/></g>
+      <path d="M512 394 L512 354 M605 401 L616 382 M673 469 L692 458 M680 562 L720 562 M673 655 L692 666 M605 723 L616 742 M512 730 L512 770 M419 723 L408 742 M351 655 L332 666 M344 562 L304 562 M351 469 L332 458 M419 401 L408 382" fill="none" stroke="#4A5468" stroke-width="14" stroke-linecap="round" class="marca"/>
+      <ellipse cx="318" cy="368" rx="13" ry="40" transform="rotate(45 318 368)" fill="#FFFFFF" class="brilho"/>
+    </g>
+    <g id="timer-ponteiro" data-pivo="512,562">
+      <use href="#timer-ponteiro-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#timer-ponteiro-recorte)"><use href="#timer-ponteiro-forma" transform="translate(-4 -6)" fill="#4A5468" class="base"/></g>
+      <use href="#timer-ponteiro-forma-2" fill="#1EA396" class="sombra"/>
+      <g clip-path="url(#timer-ponteiro-recorte-2)"><use href="#timer-ponteiro-forma-2" transform="translate(-5 -7)" fill="#2EC4B6" class="base"/></g>
+    </g>
+  </g>
+</svg>

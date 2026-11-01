@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="balanca-titulo">
+  <title id="balanca-titulo">Balança de cozinha</title>
+  <defs>
+    <path id="balanca-corpo-forma" d="M470 380 H554 Q562 380 562 388 V432 Q562 440 554 440 H470 Q462 440 462 432 V388 Q462 380 470 380 Z"/>
+    <clipPath id="balanca-corpo-recorte"><use href="#balanca-corpo-forma"/></clipPath>
+    <path id="balanca-corpo-forma-2" d="M372 420 H652 Q704 420 712 470 L752 788 Q758 846 700 846 H324 Q266 846 272 788 L312 470 Q320 420 372 420 Z"/>
+    <clipPath id="balanca-corpo-recorte-2"><use href="#balanca-corpo-forma-2"/></clipPath>
+    <path id="balanca-prato-forma" d="M212 300 H812 Q816 300 812 314 Q770 420 600 420 H424 Q254 420 212 314 Q208 300 212 300 Z"/>
+    <clipPath id="balanca-prato-recorte"><use href="#balanca-prato-forma"/></clipPath>
+    <circle id="balanca-visor-forma" cx="512" cy="640" r="158"/>
+    <clipPath id="balanca-visor-recorte"><use href="#balanca-visor-forma"/></clipPath>
+    <circle id="balanca-visor-forma-2" cx="512" cy="640" r="130"/>
+    <clipPath id="balanca-visor-recorte-2"><use href="#balanca-visor-forma-2"/></clipPath>
+    <path id="balanca-ponteiro-forma" d="M498 636 L542 548 Q552 532 554 552 L526 646 Z"/>
+    <clipPath id="balanca-ponteiro-recorte"><use href="#balanca-ponteiro-forma"/></clipPath>
+    <circle id="balanca-ponteiro-forma-2" cx="512" cy="640" r="22"/>
+    <clipPath id="balanca-ponteiro-recorte-2"><use href="#balanca-ponteiro-forma-2"/></clipPath>
+  </defs>
+  <g id="balanca">
+    <g id="balanca-corpo">
+      <use href="#balanca-corpo-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#balanca-corpo-recorte)"><use href="#balanca-corpo-forma" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+      <use href="#balanca-corpo-forma-2" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#balanca-corpo-recorte-2)"><use href="#balanca-corpo-forma-2" transform="translate(-20 -28)" fill="#F4F6FA" class="base"/></g>
+      <path d="M326 490 L306 650" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" class="brilho"/>
+    </g>
+    <g id="balanca-prato">
+      <use href="#balanca-prato-forma" fill="#8293B8" class="sombra"/>
+      <g clip-path="url(#balanca-prato-recorte)"><use href="#balanca-prato-forma" transform="translate(-20 -28)" fill="#AEBEDB" class="base"/></g>
+      <path d="M213 284 H811 A17 17 0 0 1 828 301 V301 A17 17 0 0 1 811 318 H213 A17 17 0 0 1 196 301 V301 A17 17 0 0 1 213 284 Z" fill="#8293B8" class="marca"/>
+      <path d="M270 336 Q310 380 380 396" fill="none" stroke="#DCE5F5" stroke-width="14" stroke-linecap="round" class="brilho"/>
+    </g>
+    <g id="balanca-visor">
+      <use href="#balanca-visor-forma" fill="#1EA396" class="sombra"/>
+      <g clip-path="url(#balanca-visor-recorte)"><use href="#balanca-visor-forma" transform="translate(-14 -22)" fill="#2EC4B6" class="base"/></g>
+      <use href="#balanca-visor-forma-2" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#balanca-visor-recorte-2)"><use href="#balanca-visor-forma-2" transform="translate(-10 -14)" fill="#F4F6FA" class="base"/></g>
+      <path d="M464 723 L454 740 M423 677 L405 684 M419 615 L400 610 M454 564 L441 548 M512 544 L512 524 M570 564 L583 548 M605 615 L624 610 M601 677 L619 684 M560 723 L570 740" fill="none" stroke="#4A5468" stroke-width="12" stroke-linecap="round" class="marca"/>
+      <ellipse cx="408" cy="520" rx="14" ry="30" transform="rotate(40 408 520)" fill="#7FE0D6" class="brilho"/>
+    </g>
+    <g id="balanca-ponteiro" data-pivo="512,640">
+      <use href="#balanca-ponteiro-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#balanca-ponteiro-recorte)"><use href="#balanca-ponteiro-forma" transform="translate(-4 -6)" fill="#4A5468" class="base"/></g>
+      <use href="#balanca-ponteiro-forma-2" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#balanca-ponteiro-recorte-2)"><use href="#balanca-ponteiro-forma-2" transform="translate(-5 -7)" fill="#4A5468" class="base"/></g>
+    </g>
+  </g>
+</svg>

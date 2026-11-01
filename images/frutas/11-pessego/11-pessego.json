@@ -1,0 +1,85 @@
+{
+  "item": "pessego",
+  "numero": 11,
+  "categoria": "frutas",
+  "nome": "Pêssego",
+  "svg": "11-pessego.svg",
+  "png": "11-pessego.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "pessego-talo": {
+      "parte": "talo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        517.1,
+        276.5
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#8A5A33"
+        ]
+      },
+      "familias": [
+        "marrom"
+      ]
+    },
+    "pessego-folha": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        501.8,
+        240.6
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "pessego-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EE7C4C"
+        ],
+        "base": [
+          "#FF9E6E"
+        ],
+        "marca": [
+          "#EE7C4C"
+        ],
+        "brilho": [
+          "#FFC6A6"
+        ]
+      },
+      "familias": [
+        "pessego"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="assadeira-titulo">
+  <title id="assadeira-titulo">Assadeira</title>
+  <defs>
+    <path id="assadeira-corpo-forma" d="M290 358 L734 358 C754 358 766 366 772 380 L822 528 C826 540 826 552 822 562 L796 660 C792 672 782 680 768 680 L256 680 C242 680 232 672 228 660 L202 562 C198 552 198 540 202 528 L252 380 C258 366 270 358 290 358 Z" />
+    <path id="assadeira-corpo-fundo-forma" d="M306 380 L718 380 C732 380 740 386 744 396 L786 516 C790 526 784 532 772 532 L252 532 C240 532 234 526 238 516 L280 396 C284 386 292 380 306 380 Z" />
+    <path id="assadeira-alca-1-forma" d="M230 552 L182 552 C164 552 152 566 152 584 C152 602 164 616 182 616 L230 616 Z" />
+    <path id="assadeira-alca-2-forma" d="M794 552 L842 552 C860 552 872 566 872 584 C872 602 860 616 842 616 L794 616 Z" />
+    <clipPath id="assadeira-corpo-recorte">
+      <use href="#assadeira-corpo-forma" />
+    </clipPath>
+    <clipPath id="assadeira-corpo-fundo-recorte">
+      <use href="#assadeira-corpo-fundo-forma" />
+    </clipPath>
+    <clipPath id="assadeira-alca-1-recorte">
+      <use href="#assadeira-alca-1-forma" />
+    </clipPath>
+    <clipPath id="assadeira-alca-2-recorte">
+      <use href="#assadeira-alca-2-forma" />
+    </clipPath>
+  </defs>
+  <g id="assadeira">
+    <g id="assadeira-alca-1" data-pivo="214,584">
+      <use href="#assadeira-alca-1-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#assadeira-alca-1-recorte)">
+        <use href="#assadeira-alca-1-forma" transform="translate(-8 -14)" fill="#AEBEDB" class="base" />
+      </g>
+      <ellipse cx="184" cy="580" rx="14" ry="9" fill="#717D95" class="marca" />
+    </g>
+    <g id="assadeira-alca-2" data-pivo="810,584">
+      <use href="#assadeira-alca-2-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#assadeira-alca-2-recorte)">
+        <use href="#assadeira-alca-2-forma" transform="translate(-8 -14)" fill="#AEBEDB" class="base" />
+      </g>
+      <ellipse cx="840" cy="580" rx="14" ry="9" fill="#717D95" class="marca" />
+    </g>
+    <g id="assadeira-corpo">
+      <use href="#assadeira-corpo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#assadeira-corpo-recorte)">
+        <use href="#assadeira-corpo-forma" transform="translate(-18 -26)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M290 358 L734 358 C754 358 766 366 772 380 L822 528 C826 540 818 552 804 552 L220 552 C206 552 198 540 202 528 L252 380 C258 366 270 358 290 358 Z" fill="#717D95" class="base" />
+      <use href="#assadeira-corpo-fundo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#assadeira-corpo-fundo-recorte)">
+        <use href="#assadeira-corpo-fundo-forma" transform="translate(20 18)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M244 596 L400 596" fill="none" stroke="#717D95" stroke-width="14" stroke-linecap="round" class="brilho" />
+      <circle cx="436" cy="596" r="7" fill="#717D95" class="brilho" />
+    </g>
+  </g>
+</svg>

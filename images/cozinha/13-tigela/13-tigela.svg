@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="tigela-titulo">
+  <title id="tigela-titulo">Tigela</title>
+  <defs>
+    <path id="tigela-corpo-pe-forma" d="M 412 660 L 612 660 L 632 732 A 120 22 0 0 1 392 732 Z" />
+    <clipPath id="tigela-corpo-pe-recorte">
+      <use href="#tigela-corpo-pe-forma" />
+    </clipPath>
+    <path id="tigela-corpo-forma" d="M 186 340 A 326 98 0 0 1 838 340 C 838 530 712 692 512 700 C 312 692 186 530 186 340 Z" />
+    <clipPath id="tigela-corpo-recorte">
+      <use href="#tigela-corpo-forma" />
+    </clipPath>
+    <ellipse id="tigela-corpo-interior-forma" cx="512" cy="340" rx="306" ry="84" />
+    <clipPath id="tigela-corpo-interior-recorte">
+      <use href="#tigela-corpo-interior-forma" />
+    </clipPath>
+  </defs>
+  <g id="tigela">
+    <g id="tigela-corpo">
+      <use href="#tigela-corpo-pe-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#tigela-corpo-pe-recorte)">
+        <use href="#tigela-corpo-pe-forma" transform="translate(-14 -12)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#tigela-corpo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#tigela-corpo-recorte)">
+        <use href="#tigela-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#tigela-corpo-interior-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#tigela-corpo-interior-recorte)">
+        <use href="#tigela-corpo-interior-forma" transform="translate(36 46)" fill="#F4F6FA" class="base" />
+      </g>
+      <g clip-path="url(#tigela-corpo-recorte)">
+        <path d="M 172 406 A 340 102 0 0 0 852 406" fill="none" stroke="#1EA396" stroke-width="30" class="marca" />
+        <g transform="translate(-20 -28)" clip-path="url(#tigela-corpo-recorte)">
+          <path d="M 172 406 A 340 102 0 0 0 852 406" transform="translate(20 28)" fill="none" stroke="#2EC4B6" stroke-width="30" class="marca" />
+        </g>
+      </g>
+      <path d="M 254 502 C 278 564 318 610 370 638" fill="none" stroke="#FFFFFF" stroke-width="20" stroke-linecap="round" class="brilho" />
+    </g>
+  </g>
+</svg>

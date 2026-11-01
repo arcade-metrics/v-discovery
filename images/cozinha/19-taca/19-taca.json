@@ -1,0 +1,120 @@
+{
+  "item": "taca",
+  "numero": 19,
+  "categoria": "cozinha",
+  "nome": "Taça",
+  "svg": "19-taca.svg",
+  "png": "19-taca.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "taca-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "marca": [
+          "#9FD0E4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "taca-liquido": {
+      "parte": "liquido",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#A6242E"
+        ],
+        "base": [
+          "#D0343E"
+        ],
+        "marca": [
+          "#EE7078"
+        ],
+        "brilho": [
+          "#EE7078"
+        ]
+      },
+      "familias": [
+        "vermelho-fundo"
+      ]
+    },
+    "taca-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "taca-pes": {
+      "parte": "pes",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,162 @@
+{
+  "item": "torradeira",
+  "numero": 47,
+  "categoria": "cozinha",
+  "nome": "Torradeira",
+  "svg": "47-torradeira.svg",
+  "png": "47-torradeira.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "torradeira-torrada-1": {
+      "parte": "torrada",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "torradeira-torrada-2": {
+      "parte": "torrada",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "torradeira-alavanca": {
+      "parte": "alavanca",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "torradeira-pes": {
+      "parte": "pes",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "torradeira-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#D3DAE6"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "torradeira-botao": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#1EA396"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "turquesa"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

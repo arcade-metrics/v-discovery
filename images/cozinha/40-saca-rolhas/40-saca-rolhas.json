@@ -1,0 +1,154 @@
+{
+  "item": "saca-rolhas",
+  "numero": 40,
+  "categoria": "cozinha",
+  "nome": "Saca-rolhas",
+  "svg": "40-saca-rolhas.svg",
+  "png": "40-saca-rolhas.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "saca-rolhas-espiral": {
+      "parte": "espiral",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "saca-rolhas-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "saca-rolhas-braco-1": {
+      "parte": "braco",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        470.0,
+        470.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "saca-rolhas-braco-2": {
+      "parte": "braco",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        554.0,
+        470.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "saca-rolhas-manivela": {
+      "parte": "manivela",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        200.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="colher-titulo">
+  <title id="colher-titulo">Colher</title>
+  <defs>
+    <path id="colher-corpo-forma" d="M512 164 C586 164 630 232 630 312 C630 392 586 448 540 478 C528 487 525 498 525 516 C525 604 539 736 544 808 C547 852 535 876 512 876 C489 876 477 852 480 808 C485 736 499 604 499 516 C499 498 496 487 484 478 C438 448 394 392 394 312 C394 232 438 164 512 164 Z" />
+    <clipPath id="colher-corpo-recorte">
+      <use href="#colher-corpo-forma" />
+    </clipPath>
+    <clipPath id="colher-concha-recorte">
+      <ellipse cx="512" cy="308" rx="88" ry="116" />
+    </clipPath>
+  </defs>
+  <g id="colher">
+    <g id="colher-corpo">
+      <use href="#colher-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#colher-corpo-recorte)">
+        <use href="#colher-corpo-forma" transform="translate(-13 -22)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M501 566 C498 650 492 736 489 796" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="colher-concha">
+      <ellipse cx="512" cy="308" rx="88" ry="116" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#colher-concha-recorte)">
+        <ellipse cx="530" cy="330" rx="88" ry="116" fill="#AEBEDB" class="base" />
+      </g>
+      <ellipse cx="548" cy="356" rx="18" ry="40" transform="rotate(22 548 356)" fill="#DCE5F5" class="brilho" />
+    </g>
+  </g>
+</svg>

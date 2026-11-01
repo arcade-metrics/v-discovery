@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="escumadeira-titulo">
+  <title id="escumadeira-titulo">Escumadeira</title>
+  <defs>
+    <path id="escumadeira-corpo-forma" d="M466 392 L558 392 C534 410 524 424 524 446 C524 560 538 736 543 808 C546 852 534 876 512 876 C490 876 478 852 481 808 C486 736 500 560 500 446 C500 424 490 410 466 392 Z" />
+    <clipPath id="escumadeira-corpo-recorte">
+      <use href="#escumadeira-corpo-forma" />
+    </clipPath>
+    <clipPath id="escumadeira-pa-recorte">
+      <circle cx="512" cy="290" r="126" />
+    </clipPath>
+  </defs>
+  <g id="escumadeira">
+    <g id="escumadeira-corpo">
+      <use href="#escumadeira-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#escumadeira-corpo-recorte)">
+        <use href="#escumadeira-corpo-forma" transform="translate(-13 -22)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M501 566 C498 650 492 736 489 796" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="escumadeira-pa">
+      <circle cx="512" cy="290" r="126" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#escumadeira-pa-recorte)">
+        <circle cx="496" cy="268" r="126" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="506" cy="282" r="10" fill="#8293B8" class="marca" />
+      <circle cx="506" cy="240" r="10" fill="#8293B8" class="marca" />
+      <circle cx="542" cy="261" r="10" fill="#8293B8" class="marca" />
+      <circle cx="542" cy="303" r="10" fill="#8293B8" class="marca" />
+      <circle cx="506" cy="324" r="10" fill="#8293B8" class="marca" />
+      <circle cx="470" cy="303" r="10" fill="#8293B8" class="marca" />
+      <circle cx="470" cy="261" r="10" fill="#8293B8" class="marca" />
+      <circle cx="506" cy="200" r="10" fill="#8293B8" class="marca" />
+      <circle cx="554" cy="216" r="10" fill="#8293B8" class="marca" />
+      <circle cx="584" cy="257" r="10" fill="#8293B8" class="marca" />
+      <circle cx="584" cy="307" r="10" fill="#8293B8" class="marca" />
+      <circle cx="554" cy="348" r="10" fill="#8293B8" class="marca" />
+      <circle cx="506" cy="364" r="10" fill="#8293B8" class="marca" />
+      <circle cx="458" cy="348" r="10" fill="#8293B8" class="marca" />
+      <circle cx="428" cy="307" r="10" fill="#8293B8" class="marca" />
+      <circle cx="428" cy="257" r="10" fill="#8293B8" class="marca" />
+      <ellipse cx="452" cy="218" rx="13" ry="28" transform="rotate(42 452 218)" fill="#DCE5F5" class="brilho" />
+    </g>
+  </g>
+</svg>

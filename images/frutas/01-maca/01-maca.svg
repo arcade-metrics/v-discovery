@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="maca-titulo">
+  <title id="maca-titulo">Maçã</title>
+  <defs>
+    <clipPath id="maca-corpo-recorte">
+      <path d="M200 128 C178 112 140 104 112 118 C74 138 62 190 70 236 C78 286 108 334 146 346 C166 352 182 344 200 340 C218 344 234 352 254 346 C292 334 322 286 330 236 C338 190 326 138 288 118 C260 104 222 112 200 128 Z" />
+    </clipPath>
+  </defs>
+  <g id="maca" transform="scale(2.56)">
+    <g id="maca-talo" data-pivo="512,337.9">
+      <path d="M200 132 Q197 100 212 74" fill="none" stroke="#8A5A33" stroke-width="16" stroke-linecap="round" class="base" />
+    </g>
+    <g id="maca-folha" data-pivo="532.5,250.9">
+      <path d="M208 98 C226 64 266 52 300 62 C288 96 248 114 208 98 Z" fill="#5DBB43" class="base" />
+      <path d="M208 98 L300 62 C288 96 248 114 208 98 Z" fill="#469A32" class="sombra" />
+    </g>
+    <g id="maca-corpo">
+      <path d="M200 128 C178 112 140 104 112 118 C74 138 62 190 70 236 C78 286 108 334 146 346 C166 352 182 344 200 340 C218 344 234 352 254 346 C292 334 322 286 330 236 C338 190 326 138 288 118 C260 104 222 112 200 128 Z" fill="#EA4A3F" class="base" />
+      <g clip-path="url(#maca-corpo-recorte)">
+        <path d="M296 104 C352 176 336 300 236 366 L370 366 L370 104 Z" fill="#C93830" class="sombra" />
+        <path d="M60 300 C110 352 190 360 250 346 L250 370 L60 370 Z" fill="#C93830" class="sombra" />
+      </g>
+      <ellipse cx="124" cy="182" rx="15" ry="36" transform="rotate(22 124 182)" fill="#F7867C" class="brilho" />
+      <circle cx="146" cy="138" r="9" fill="#F7867C" class="brilho" />
+    </g>
+  </g>
+</svg>

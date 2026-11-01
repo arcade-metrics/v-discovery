@@ -1,0 +1,386 @@
+{
+  "item": "uva",
+  "numero": 3,
+  "categoria": "frutas",
+  "nome": "Uva",
+  "svg": "03-uva.svg",
+  "png": "03-uva.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "uva-talo": {
+      "parte": "talo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        286.7
+      ],
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#8A5A33"
+        ],
+        "marca": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "marrom",
+        "verde-folha"
+      ]
+    },
+    "uva-folha": {
+      "parte": "folha",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        542.7,
+        225.3
+      ],
+      "tons": [
+        "base",
+        "sombra"
+      ],
+      "cores": {
+        "base": [
+          "#5DBB43"
+        ],
+        "sombra": [
+          "#469A32"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    },
+    "uva-corpo-1": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-2": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-3": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-4": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-5": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-6": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-7": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-8": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-9": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-10": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-11": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-12": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "uva-corpo-13": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

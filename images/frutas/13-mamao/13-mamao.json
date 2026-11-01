@@ -1,0 +1,75 @@
+{
+  "item": "mamao",
+  "numero": 13,
+  "categoria": "frutas",
+  "nome": "Mamão",
+  "svg": "13-mamao.svg",
+  "png": "13-mamao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "mamao-casca": {
+      "parte": "casca",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#3E8E3A"
+        ],
+        "base": [
+          "#5DAA3A"
+        ]
+      },
+      "familias": [
+        "verde-escuro"
+      ]
+    },
+    "mamao-polpa": {
+      "parte": "polpa",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "base": [
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "mamao-miolo": {
+      "parte": "miolo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#F07018"
+        ],
+        "marca": [
+          "#3A2418"
+        ]
+      },
+      "familias": [
+        "marrom-escuro"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

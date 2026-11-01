@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="torradeira-titulo">
+  <title id="torradeira-titulo">Torradeira</title>
+  <defs>
+    <path id="torradeira-torrada-1-forma" d="M328 560 V310 Q310 298 314 262 Q322 214 401.0 214 Q480 214 488 262 Q492 298 474 310 V560 Z"/>
+    <clipPath id="torradeira-torrada-1-recorte"><use href="#torradeira-torrada-1-forma"/></clipPath>
+    <path id="torradeira-torrada-2-forma" d="M550 560 V332 Q532 320 536 284 Q544 236 623.0 236 Q702 236 710 284 Q714 320 696 332 V560 Z"/>
+    <clipPath id="torradeira-torrada-2-recorte"><use href="#torradeira-torrada-2-forma"/></clipPath>
+    <path id="torradeira-alavanca-forma" d="M812 470 H850 A22 22 0 0 1 872 492 V492 A22 22 0 0 1 850 514 H812 A22 22 0 0 1 790 492 V492 A22 22 0 0 1 812 470 Z"/>
+    <clipPath id="torradeira-alavanca-recorte"><use href="#torradeira-alavanca-forma"/></clipPath>
+    <path id="torradeira-pes-forma" d="M282 780 H336 Q354 780 354 798 V814 Q354 832 336 832 H282 Q264 832 264 814 V798 Q264 780 282 780 Z"/>
+    <clipPath id="torradeira-pes-recorte"><use href="#torradeira-pes-forma"/></clipPath>
+    <path id="torradeira-pes-forma-2" d="M688 780 H742 Q760 780 760 798 V814 Q760 832 742 832 H688 Q670 832 670 814 V798 Q670 780 688 780 Z"/>
+    <clipPath id="torradeira-pes-recorte-2"><use href="#torradeira-pes-forma-2"/></clipPath>
+    <path id="torradeira-corpo-forma" d="M308 382 H716 A112 112 0 0 1 828 494 V692 A112 112 0 0 1 716 804 H308 A112 112 0 0 1 196 692 V494 A112 112 0 0 1 308 382 Z"/>
+    <clipPath id="torradeira-corpo-recorte"><use href="#torradeira-corpo-forma"/></clipPath>
+    <circle id="torradeira-botao-forma" cx="512" cy="590" r="44"/>
+    <clipPath id="torradeira-botao-recorte"><use href="#torradeira-botao-forma"/></clipPath>
+  </defs>
+  <g id="torradeira">
+    <g id="torradeira-torrada-1">
+      <use href="#torradeira-torrada-1-forma" fill="#BE7F3E" class="sombra"/>
+      <g clip-path="url(#torradeira-torrada-1-recorte)"><use href="#torradeira-torrada-1-forma" transform="translate(-14 -22)" fill="#DDA15E" class="base"/></g>
+      <ellipse cx="360" cy="260" rx="14" ry="26" transform="rotate(35 360 260)" fill="#F0C68E" class="brilho"/>
+    </g>
+    <g id="torradeira-torrada-2">
+      <use href="#torradeira-torrada-2-forma" fill="#BE7F3E" class="sombra"/>
+      <g clip-path="url(#torradeira-torrada-2-recorte)"><use href="#torradeira-torrada-2-forma" transform="translate(-14 -22)" fill="#DDA15E" class="base"/></g>
+      <ellipse cx="582" cy="282" rx="14" ry="26" transform="rotate(35 582 282)" fill="#F0C68E" class="brilho"/>
+    </g>
+    <g id="torradeira-alavanca">
+      <use href="#torradeira-alavanca-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#torradeira-alavanca-recorte)"><use href="#torradeira-alavanca-forma" transform="translate(-5 -8)" fill="#4A5468" class="base"/></g>
+    </g>
+    <g id="torradeira-pes">
+      <use href="#torradeira-pes-forma" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#torradeira-pes-recorte)"><use href="#torradeira-pes-forma" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+      <use href="#torradeira-pes-forma-2" fill="#353D4E" class="sombra"/>
+      <g clip-path="url(#torradeira-pes-recorte-2)"><use href="#torradeira-pes-forma-2" transform="translate(-10 -18)" fill="#4A5468" class="base"/></g>
+    </g>
+    <g id="torradeira-corpo">
+      <use href="#torradeira-corpo-forma" fill="#D3DAE6" class="sombra"/>
+      <g clip-path="url(#torradeira-corpo-recorte)"><use href="#torradeira-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base"/></g>
+      <g clip-path="url(#torradeira-corpo-recorte)"><path d="M196 700 H828 Q828 700 828 700 V726 Q828 726 828 726 H196 Q196 726 196 726 V700 Q196 700 196 700 Z" fill="#D3DAE6" class="marca"/></g>
+      <path d="M240 520 Q236 470 270 432" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" class="brilho"/>
+    </g>
+    <g id="torradeira-botao">
+      <use href="#torradeira-botao-forma" fill="#1EA396" class="sombra"/>
+      <g clip-path="url(#torradeira-botao-recorte)"><use href="#torradeira-botao-forma" transform="translate(-8 -11)" fill="#2EC4B6" class="base"/></g>
+      <path d="M512 554 H512 A7 7 0 0 1 519 561 V585 A7 7 0 0 1 512 592 H512 A7 7 0 0 1 505 585 V561 A7 7 0 0 1 512 554 Z" fill="#1EA396" class="marca"/>
+      <ellipse cx="492" cy="572" rx="8" ry="14" transform="rotate(30 492 572)" fill="#7FE0D6" class="brilho"/>
+    </g>
+  </g>
+</svg>

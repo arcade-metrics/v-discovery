@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="garrafa-titulo">
+  <title id="garrafa-titulo">Garrafa</title>
+  <defs>
+    <path d="M480.6 368.5 L480.6 225.1 L543.4 225.1 L543.4 368.5 Z" id="garrafa-gargalo-forma" />
+    <path d="M470.7 232.9 Q470.7 221.1 482.5 221.1 L541.5 221.1 Q553.3 221.1 553.3 232.9 L553.3 244.7 Q553.3 256.5 541.5 256.5 L482.5 256.5 Q470.7 256.5 470.7 244.7 Z" id="garrafa-gargalo-anel-forma" />
+    <path d="M400 486.5 C400 411.8 470.7 392.1 480.6 329.2 L543.4 329.2 C553.3 392.1 624 411.8 624 486.5 L624 808.8 Q624 852 580.8 852 L443.2 852 Q400 852 400 808.8 Z" id="garrafa-corpo-forma" />
+    <path d="M400 580.8 Q512 600.4 624 580.8 L624 702.6 Q512 722.3 400 702.6 Z" id="garrafa-rotulo-forma" />
+    <path d="M466.8 223.1 L466.8 185.8 Q466.8 172 480.6 172 L543.4 172 Q557.2 172 557.2 185.8 L557.2 223.1 Z" id="garrafa-tampa-forma" />
+    <clipPath id="garrafa-gargalo-recorte">
+      <use href="#garrafa-gargalo-forma" />
+    </clipPath>
+    <clipPath id="garrafa-gargalo-anel-recorte">
+      <use href="#garrafa-gargalo-anel-forma" />
+    </clipPath>
+    <clipPath id="garrafa-corpo-recorte">
+      <use href="#garrafa-corpo-forma" />
+    </clipPath>
+    <clipPath id="garrafa-rotulo-recorte">
+      <use href="#garrafa-rotulo-forma" />
+    </clipPath>
+    <clipPath id="garrafa-tampa-recorte">
+      <use href="#garrafa-tampa-forma" />
+    </clipPath>
+  </defs>
+  <g id="garrafa">
+    <g id="garrafa-gargalo">
+      <use href="#garrafa-gargalo-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#garrafa-gargalo-recorte)">
+        <use href="#garrafa-gargalo-forma" transform="translate(-10 -18)" fill="#2EC4B6" class="base" />
+      </g>
+      <use href="#garrafa-gargalo-anel-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#garrafa-gargalo-anel-recorte)">
+        <use href="#garrafa-gargalo-anel-forma" transform="translate(-6 -10)" fill="#2EC4B6" class="base" />
+      </g>
+      <path d="M494.3 272.2 L494.3 321.4" fill="none" stroke="#7FE0D6" class="brilho" stroke-width="8.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="garrafa-corpo">
+      <use href="#garrafa-corpo-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#garrafa-corpo-recorte)">
+        <use href="#garrafa-corpo-forma" transform="translate(-20 -28)" fill="#2EC4B6" class="base" />
+      </g>
+      <path d="M427.5 476.6 C429.5 447.1 445.2 431.4 462.9 419.6" fill="none" stroke="#7FE0D6" class="brilho" stroke-width="13.8" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M429.5 525.8 L429.5 553.3" fill="none" stroke="#7FE0D6" class="brilho" stroke-width="13.8" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M429.5 730.2 L429.5 791.1" fill="none" stroke="#7FE0D6" class="brilho" stroke-width="13.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="garrafa-rotulo">
+      <use href="#garrafa-rotulo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#garrafa-rotulo-recorte)">
+        <use href="#garrafa-rotulo-forma" transform="translate(-14 -22)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+    <g id="garrafa-tampa" data-pivo="512,223.1">
+      <use href="#garrafa-tampa-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#garrafa-tampa-recorte)">
+        <use href="#garrafa-tampa-forma" transform="translate(-6 -10)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M480.6 187.7 L480.6 207.4" fill="none" stroke="#DCE5F5" class="brilho" stroke-width="6.9" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>

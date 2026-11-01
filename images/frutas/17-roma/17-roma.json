@@ -1,0 +1,54 @@
+{
+  "item": "roma",
+  "numero": 17,
+  "categoria": "frutas",
+  "nome": "Romã",
+  "svg": "17-roma.svg",
+  "png": "17-roma.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "roma-coroa": {
+      "parte": "coroa",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#A6242E"
+        ]
+      },
+      "familias": [
+        "vermelho-fundo"
+      ]
+    },
+    "roma-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#A6242E"
+        ],
+        "base": [
+          "#D0343E"
+        ],
+        "brilho": [
+          "#EE7078"
+        ]
+      },
+      "familias": [
+        "vermelho-fundo"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

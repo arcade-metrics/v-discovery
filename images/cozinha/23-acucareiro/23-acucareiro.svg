@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="acucareiro-titulo">
+  <title id="acucareiro-titulo">Açucareiro</title>
+  <defs>
+    <path d="M311.1 475.8 C236.4 459.4 189.7 499.2 192 552.9 C194.3 608.9 245.7 639.3 329.8 627.6 L327.5 583.2 C271.4 590.2 241.1 576.2 241.1 550.5 C241.1 522.5 269.1 513.2 313.5 524.8 Z" id="acucareiro-alca-1-forma" />
+    <path d="M712.9 475.8 C787.6 459.4 834.3 499.2 832 552.9 C829.7 608.9 778.3 639.3 694.2 627.6 L696.5 583.2 C752.6 590.2 782.9 576.2 782.9 550.5 C782.9 522.5 754.9 513.2 710.5 524.8 Z" id="acucareiro-alca-2-forma" />
+    <path d="M392.9 721.1 L631.1 721.1 L621.8 767.8 Q619.4 779.4 607.8 779.4 L416.2 779.4 Q404.6 779.4 402.2 767.8 Z" id="acucareiro-pes-forma" />
+    <path d="M283.1 417.4 L740.9 417.4 C740.9 615.9 661.5 744.4 544.7 749.1 L479.3 749.1 C362.5 744.4 283.1 615.9 283.1 417.4 Z" id="acucareiro-corpo-forma" />
+    <path d="M264.4 431.4 C264.4 347.3 376.5 312.3 512 312.3 C647.5 312.3 759.6 347.3 759.6 431.4 Q512 459.4 264.4 431.4 Z" id="acucareiro-tampa-forma" />
+    <path d="M512 244.6 C537.7 244.6 554 263.2 554 284.3 C554 300.6 542.4 310 530.7 314.6 L493.3 314.6 C481.6 310 470 300.6 470 284.3 C470 263.2 486.3 244.6 512 244.6 Z" id="acucareiro-tampa-puxador-forma" />
+    <clipPath id="acucareiro-alca-1-recorte">
+      <use href="#acucareiro-alca-1-forma" />
+    </clipPath>
+    <clipPath id="acucareiro-alca-2-recorte">
+      <use href="#acucareiro-alca-2-forma" />
+    </clipPath>
+    <clipPath id="acucareiro-pes-recorte">
+      <use href="#acucareiro-pes-forma" />
+    </clipPath>
+    <clipPath id="acucareiro-corpo-recorte">
+      <use href="#acucareiro-corpo-forma" />
+    </clipPath>
+    <clipPath id="acucareiro-tampa-recorte">
+      <use href="#acucareiro-tampa-forma" />
+    </clipPath>
+    <clipPath id="acucareiro-tampa-puxador-recorte">
+      <use href="#acucareiro-tampa-puxador-forma" />
+    </clipPath>
+    <clipPath id="acucareiro-corpo-luz-recorte">
+      <use href="#acucareiro-corpo-forma" transform="translate(-20 -28)" />
+    </clipPath>
+  </defs>
+  <g id="acucareiro">
+    <g id="acucareiro-alca-1" data-pivo="304.1,499.2">
+      <use href="#acucareiro-alca-1-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#acucareiro-alca-1-recorte)">
+        <use href="#acucareiro-alca-1-forma" transform="translate(-14 -22)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+    <g id="acucareiro-alca-2" data-pivo="719.9,499.2">
+      <use href="#acucareiro-alca-2-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#acucareiro-alca-2-recorte)">
+        <use href="#acucareiro-alca-2-forma" transform="translate(-14 -22)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+    <g id="acucareiro-pes">
+      <use href="#acucareiro-pes-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#acucareiro-pes-recorte)">
+        <use href="#acucareiro-pes-forma" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+    <g id="acucareiro-corpo">
+      <use href="#acucareiro-corpo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#acucareiro-corpo-recorte)">
+        <use href="#acucareiro-corpo-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base" />
+      </g>
+      <g clip-path="url(#acucareiro-corpo-recorte)">
+        <path d="M264.4 529.5 Q512 587.9 759.6 529.5 L759.6 571.6 Q512 630 264.4 571.6 Z" fill="#33479C" class="marca" />
+      </g>
+      <g clip-path="url(#acucareiro-corpo-recorte)">
+        <g clip-path="url(#acucareiro-corpo-luz-recorte)">
+          <path d="M264.4 529.5 Q512 587.9 759.6 529.5 L759.6 571.6 Q512 630 264.4 571.6 Z" fill="#4A62C8" class="marca" />
+        </g>
+      </g>
+      <ellipse cx="348.5" cy="487.5" rx="21" ry="42" transform="rotate(25 348.5 487.5)" fill="#FFFFFF" class="brilho" />
+    </g>
+    <g id="acucareiro-tampa" data-pivo="278.4,424.4">
+      <use href="#acucareiro-tampa-forma" fill="#33479C" class="sombra" />
+      <g clip-path="url(#acucareiro-tampa-recorte)">
+        <use href="#acucareiro-tampa-forma" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <ellipse cx="381.2" cy="352" rx="39.7" ry="12.8" transform="rotate(-12 381.2 352)" fill="#8296E4" class="brilho" />
+      <g id="acucareiro-tampa-puxador">
+        <use href="#acucareiro-tampa-puxador-forma" fill="#33479C" class="sombra" />
+        <g clip-path="url(#acucareiro-tampa-puxador-recorte)">
+          <use href="#acucareiro-tampa-puxador-forma" transform="translate(-8 -10)" fill="#4A62C8" class="base" />
+        </g>
+        <ellipse cx="498" cy="265.6" rx="9.3" ry="5.8" transform="rotate(-30 498 265.6)" fill="#8296E4" class="brilho" />
+      </g>
+    </g>
+  </g>
+</svg>

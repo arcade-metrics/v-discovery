@@ -1,0 +1,138 @@
+{
+  "item": "cacarola",
+  "numero": 28,
+  "categoria": "cozinha",
+  "nome": "Caçarola com tampa",
+  "svg": "28-cacarola.svg",
+  "png": "28-cacarola.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "cacarola-alca-1": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        254.4,
+        540.8
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "cacarola-alca-2": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        769.6,
+        540.8
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "cacarola-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "cacarola-tampa": {
+      "parte": "tampa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        248.2,
+        479.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "cacarola-tampa-puxador": {
+      "parte": "puxador",
+      "pai": "cacarola-tampa",
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

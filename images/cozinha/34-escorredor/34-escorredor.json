@@ -1,0 +1,123 @@
+{
+  "item": "escorredor",
+  "numero": 34,
+  "categoria": "cozinha",
+  "nome": "Escorredor",
+  "svg": "34-escorredor.svg",
+  "png": "34-escorredor.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "escorredor-pes": {
+      "parte": "pes",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "escorredor-alca-1": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        262.0,
+        398.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#A6242E"
+        ]
+      },
+      "familias": [
+        "vermelho-fundo",
+        "vermelho-vivo"
+      ]
+    },
+    "escorredor-alca-2": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        762.0,
+        398.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#A6242E"
+        ]
+      },
+      "familias": [
+        "vermelho-fundo",
+        "vermelho-vivo"
+      ]
+    },
+    "escorredor-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#A6242E",
+          "#C93830"
+        ],
+        "base": [
+          "#C93830",
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#A6242E"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "vermelho-fundo",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="xicara-com-pires-titulo">
+  <title id="xicara-com-pires-titulo">Xícara com pires</title>
+  <defs>
+    <path id="xicara-com-pires-pires-pe-forma" d="M 362 664 L 662 664 L 648 744 A 136 22 0 0 1 376 744 Z" />
+    <clipPath id="xicara-com-pires-pires-pe-recorte">
+      <use href="#xicara-com-pires-pires-pe-forma" />
+    </clipPath>
+    <path id="xicara-com-pires-pires-forma" d="M 182 604 A 330 112 0 0 1 842 604 L 842 622 A 330 112 0 0 1 182 622 Z" />
+    <clipPath id="xicara-com-pires-pires-recorte">
+      <use href="#xicara-com-pires-pires-forma" />
+    </clipPath>
+    <ellipse id="xicara-com-pires-pires-interior-forma" cx="506" cy="600" rx="236" ry="78" />
+    <clipPath id="xicara-com-pires-pires-interior-recorte">
+      <use href="#xicara-com-pires-pires-interior-forma" />
+    </clipPath>
+    <ellipse id="xicara-com-pires-pires-centro-forma" cx="506" cy="606" rx="104" ry="34" />
+    <clipPath id="xicara-com-pires-pires-centro-recorte">
+      <use href="#xicara-com-pires-pires-centro-forma" />
+    </clipPath>
+    <path id="xicara-com-pires-corpo-pe-forma" d="M 426.9 568.7 L 585.1 568.7 L 592 610 A 86 17.2 0 0 1 420 610 Z" />
+    <clipPath id="xicara-com-pires-corpo-pe-recorte">
+      <use href="#xicara-com-pires-corpo-pe-forma" />
+    </clipPath>
+    <path id="xicara-com-pires-corpo-forma" d="M 308.2 365.8 A 197.8 53.3 0 0 1 703.8 365.8 C 703.8 503.4 643.6 591.1 506 591.1 C 368.4 591.1 308.2 503.4 308.2 365.8 Z" />
+    <clipPath id="xicara-com-pires-corpo-recorte">
+      <use href="#xicara-com-pires-corpo-forma" />
+    </clipPath>
+    <ellipse id="xicara-com-pires-corpo-interior-forma" cx="506" cy="365.8" rx="185.8" ry="46.4" />
+    <clipPath id="xicara-com-pires-corpo-interior-recorte">
+      <use href="#xicara-com-pires-corpo-interior-forma" />
+    </clipPath>
+    <path id="xicara-com-pires-alca-forma" d="M 660.8 400.2 C 736.5 370.9 808.7 396.7 807 460.4 C 805.3 517.1 752 546.4 630.7 537.8 L 653.9 496.5 C 731.3 499.9 760.6 484.4 762.3 460.4 C 764 431.1 727.9 419.1 678 441.4 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="xicara-com-pires-alca-recorte">
+      <use href="#xicara-com-pires-alca-forma" />
+    </clipPath>
+    <ellipse id="xicara-com-pires-liquido-forma" cx="506" cy="377.8" rx="170.3" ry="37.8" />
+    <clipPath id="xicara-com-pires-liquido-recorte">
+      <use href="#xicara-com-pires-liquido-forma" />
+    </clipPath>
+  </defs>
+  <g id="xicara-com-pires">
+    <g id="xicara-com-pires-pires">
+      <use href="#xicara-com-pires-pires-pe-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-pires-pe-recorte)">
+        <use href="#xicara-com-pires-pires-pe-forma" transform="translate(-10 -8)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#xicara-com-pires-pires-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-pires-recorte)">
+        <use href="#xicara-com-pires-pires-forma" transform="translate(-20 -28)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#xicara-com-pires-pires-interior-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-pires-interior-recorte)">
+        <use href="#xicara-com-pires-pires-interior-forma" transform="translate(20 26)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#xicara-com-pires-pires-centro-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-pires-centro-recorte)">
+        <use href="#xicara-com-pires-pires-centro-forma" transform="translate(8 11)" fill="#F4F6FA" class="base" />
+      </g>
+      <g clip-path="url(#xicara-com-pires-pires-recorte)">
+        <path d="M 220 604 A 292 99 0 1 1 804 604 A 292 99 0 1 1 220 604 Z" fill="none" stroke="#1EA396" stroke-width="15" class="marca" />
+        <g transform="translate(-20 -28)" clip-path="url(#xicara-com-pires-pires-recorte)">
+          <path d="M 220 604 A 292 99 0 1 1 804 604 A 292 99 0 1 1 220 604 Z" transform="translate(20 28)" fill="none" stroke="#2EC4B6" stroke-width="15" class="marca" />
+        </g>
+      </g>
+      <ellipse cx="342" cy="618" rx="30" ry="9" transform="rotate(-14 342 618)" fill="#FFFFFF" class="brilho" />
+    </g>
+    <g id="xicara-com-pires-alca" data-pivo="688.3,469">
+      <use href="#xicara-com-pires-alca-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-alca-recorte)">
+        <use href="#xicara-com-pires-alca-forma" transform="translate(-8.6 -15.5)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+    <g id="xicara-com-pires-corpo">
+      <use href="#xicara-com-pires-corpo-pe-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-corpo-pe-recorte)">
+        <use href="#xicara-com-pires-corpo-pe-forma" transform="translate(-10.3 -8.6)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#xicara-com-pires-corpo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-corpo-recorte)">
+        <use href="#xicara-com-pires-corpo-forma" transform="translate(-17.2 -24.1)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#xicara-com-pires-corpo-interior-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-corpo-interior-recorte)">
+        <use href="#xicara-com-pires-corpo-interior-forma" transform="translate(13.8 17.2)" fill="#F4F6FA" class="base" />
+      </g>
+      <g clip-path="url(#xicara-com-pires-corpo-recorte)">
+        <path d="M 299.6 405.3 A 206.4 56.8 0 0 0 712.4 405.3" fill="none" stroke="#1EA396" stroke-width="20.6" class="marca" />
+        <g transform="translate(-17.2 -24.1)" clip-path="url(#xicara-com-pires-corpo-recorte)">
+          <path d="M 299.6 405.3 A 206.4 56.8 0 0 0 712.4 405.3" transform="translate(17.2 24.1)" fill="none" stroke="#2EC4B6" stroke-width="20.6" class="marca" />
+        </g>
+      </g>
+      <path d="M 347.8 472.4 C 361.5 506.8 387.3 534.3 416.6 549.8" fill="none" stroke="#FFFFFF" stroke-width="15.5" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="xicara-com-pires-liquido">
+      <use href="#xicara-com-pires-liquido-forma" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#xicara-com-pires-liquido-recorte)">
+        <use href="#xicara-com-pires-liquido-forma" transform="translate(12 13.8)" fill="#7A4426" class="base" />
+      </g>
+      <ellipse cx="445.8" cy="391.6" rx="29.2" ry="7.7" transform="rotate(-4 445.8 391.6)" fill="#A0643F" class="brilho" />
+    </g>
+  </g>
+</svg>

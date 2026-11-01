@@ -1,0 +1,93 @@
+{
+  "item": "rolo-de-massa",
+  "numero": 32,
+  "categoria": "cozinha",
+  "nome": "Rolo de massa",
+  "svg": "32-rolo-de-massa.svg",
+  "png": "32-rolo-de-massa.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "rolo-de-massa-cabo-1": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        300.0,
+        512.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "rolo-de-massa-cabo-2": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        724.0,
+        512.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "rolo-de-massa-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

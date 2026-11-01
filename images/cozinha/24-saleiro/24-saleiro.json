@@ -1,0 +1,70 @@
+{
+  "item": "saleiro",
+  "numero": 24,
+  "categoria": "cozinha",
+  "nome": "Saleiro",
+  "svg": "24-saleiro.svg",
+  "png": "24-saleiro.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "saleiro-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "saleiro-tampa": {
+      "parte": "tampa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        376.9
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}

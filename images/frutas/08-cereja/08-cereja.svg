@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cereja-titulo">
+  <title id="cereja-titulo">Cereja</title>
+  <defs>
+    <clipPath id="cereja-corpo-1-recorte">
+      <path d="M94 282 A54 54 0 1 1 202 282 A54 54 0 1 1 94 282 Z" />
+    </clipPath>
+    <clipPath id="cereja-corpo-2-recorte">
+      <path d="M200 290 A54 54 0 1 1 308 290 A54 54 0 1 1 200 290 Z" />
+    </clipPath>
+  </defs>
+  <g id="cereja" transform="scale(2.56)">
+    <g id="cereja-talo" data-pivo="547.8,266.2">
+      <path d="M148 230 C156 180 190 130 214 104 M254 238 C246 180 226 136 214 104" fill="none" stroke="#5E8C31" stroke-width="10" stroke-linecap="round" class="base" />
+    </g>
+    <g id="cereja-folha" transform="translate(214 104) rotate(-10) scale(1.0)" data-pivo="547.8,266.2">
+      <path d="M0 0 C18 -34 58 -46 92 -36 C80 -2 40 16 0 0 Z" fill="#5DBB43" class="base" />
+      <path d="M0 0 L92 -36 C80 -2 40 16 0 0 Z" fill="#469A32" class="sombra" />
+    </g>
+    <g id="cereja-corpo-1">
+      <path d="M94 282 A54 54 0 1 1 202 282 A54 54 0 1 1 94 282 Z" fill="#C0222B" class="sombra" />
+      <g clip-path="url(#cereja-corpo-1-recorte)">
+        <path d="M94 282 A54 54 0 1 1 202 282 A54 54 0 1 1 94 282 Z" fill="#E8343A" transform="translate(-14 -14)" class="base" />
+      </g>
+      <ellipse cx="122" cy="262" rx="10" ry="22" transform="rotate(22 122 262)" fill="#FF7A7E" class="brilho" />
+    </g>
+    <g id="cereja-corpo-2">
+      <path d="M200 290 A54 54 0 1 1 308 290 A54 54 0 1 1 200 290 Z" fill="#C0222B" class="sombra" />
+      <g clip-path="url(#cereja-corpo-2-recorte)">
+        <path d="M200 290 A54 54 0 1 1 308 290 A54 54 0 1 1 200 290 Z" fill="#E8343A" transform="translate(-14 -14)" class="base" />
+      </g>
+      <ellipse cx="228" cy="270" rx="10" ry="22" transform="rotate(22 228 270)" fill="#FF7A7E" class="brilho" />
+    </g>
+  </g>
+</svg>

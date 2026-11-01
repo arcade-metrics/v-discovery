@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="saca-rolhas-titulo">
+  <title id="saca-rolhas-titulo">Saca-rolhas</title>
+  <defs>
+    <path id="saca-rolhas-corpo-forma" d="M490 210 L534 210 C540 210 544 214 544 220 L544 496 L600 672 C605 688 594 700 578 700 L446 700 C430 700 419 688 424 672 L480 496 L480 220 C480 214 484 210 490 210 Z" />
+    <path id="saca-rolhas-manivela-forma" d="M440 160 L584 160 C602 160 614 172 614 190 C614 208 602 220 584 220 L440 220 C422 220 410 208 410 190 C410 172 422 160 440 160 Z" />
+    <path id="saca-rolhas-braco-1-forma" d="M486 454 L334 302 A22 22 0 0 0 302 334 L454 486 A22 22 0 0 0 486 454 Z M284 318 A34 34 0 1 0 352 318 A34 34 0 1 0 284 318 Z M436 470 A34 34 0 1 0 504 470 A34 34 0 1 0 436 470 Z" />
+    <path id="saca-rolhas-braco-2-forma" d="M570 486 L722 334 A22 22 0 0 0 690 302 L538 454 A22 22 0 0 0 570 486 Z M672 318 A34 34 0 1 0 740 318 A34 34 0 1 0 672 318 Z M520 470 A34 34 0 1 0 588 470 A34 34 0 1 0 520 470 Z" />
+    <clipPath id="saca-rolhas-corpo-recorte"><use href="#saca-rolhas-corpo-forma" /></clipPath>
+    <clipPath id="saca-rolhas-manivela-recorte"><use href="#saca-rolhas-manivela-forma" /></clipPath>
+    <clipPath id="saca-rolhas-braco-1-recorte"><use href="#saca-rolhas-braco-1-forma" /></clipPath>
+    <clipPath id="saca-rolhas-braco-2-recorte"><use href="#saca-rolhas-braco-2-forma" /></clipPath>
+  </defs>
+  <g id="saca-rolhas">
+    <g id="saca-rolhas-espiral">
+      <path d="M540 704 Q512 712 484 726" fill="none" stroke="#8293B8" stroke-width="16" stroke-linecap="round" class="sombra" />
+      <path d="M540 748 Q512 756 484 770" fill="none" stroke="#8293B8" stroke-width="16" stroke-linecap="round" class="sombra" />
+      <path d="M540 792 Q512 800 484 814" fill="none" stroke="#8293B8" stroke-width="16" stroke-linecap="round" class="sombra" />
+      <path d="M540 836 Q512 844 484 858" fill="none" stroke="#8293B8" stroke-width="16" stroke-linecap="round" class="sombra" />
+      <path d="M484 726 Q512 744 540 748" fill="none" stroke="#AEBEDB" stroke-width="16" stroke-linecap="round" class="base" />
+      <path d="M484 770 Q512 788 540 792" fill="none" stroke="#AEBEDB" stroke-width="16" stroke-linecap="round" class="base" />
+      <path d="M484 814 Q512 832 540 836" fill="none" stroke="#AEBEDB" stroke-width="16" stroke-linecap="round" class="base" />
+      <path d="M484 858 Q508 880 512 898" fill="none" stroke="#AEBEDB" stroke-width="16" stroke-linecap="round" class="base" />
+    </g>
+    <g id="saca-rolhas-corpo">
+      <use href="#saca-rolhas-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#saca-rolhas-corpo-recorte)">
+        <use href="#saca-rolhas-corpo-forma" transform="translate(-12 -20)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M498 300 L526 300" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" class="marca" />
+      <path d="M498 324 L526 324" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" class="marca" />
+      <path d="M498 348 L526 348" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" class="marca" />
+      <path d="M498 372 L526 372" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" class="marca" />
+      <path d="M498 396 L526 396" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" class="marca" />
+      <path d="M498 420 L526 420" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" class="marca" />
+      <path d="M454 640 L470 590" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" class="brilho" />
+    </g>
+    <g id="saca-rolhas-braco-1" data-pivo="470,470">
+      <use href="#saca-rolhas-braco-1-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#saca-rolhas-braco-1-recorte)">
+        <use href="#saca-rolhas-braco-1-forma" transform="translate(-10 -16)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="470" cy="470" r="10" fill="#8293B8" class="marca" />
+      <ellipse cx="308" cy="306" rx="12" ry="7" transform="rotate(-35 308 306)" fill="#DCE5F5" class="brilho" />
+    </g>
+    <g id="saca-rolhas-braco-2" data-pivo="554,470">
+      <use href="#saca-rolhas-braco-2-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#saca-rolhas-braco-2-recorte)">
+        <use href="#saca-rolhas-braco-2-forma" transform="translate(-10 -16)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="554" cy="470" r="10" fill="#8293B8" class="marca" />
+      <ellipse cx="696" cy="306" rx="12" ry="7" transform="rotate(-35 696 306)" fill="#DCE5F5" class="brilho" />
+    </g>
+    <g id="saca-rolhas-manivela" data-pivo="512,200">
+      <use href="#saca-rolhas-manivela-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#saca-rolhas-manivela-recorte)">
+        <use href="#saca-rolhas-manivela-forma" transform="translate(-10 -14)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M436 178 L486 178" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" class="brilho" />
+    </g>
+  </g>
+</svg>

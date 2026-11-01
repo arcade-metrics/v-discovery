@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="coco-titulo">
+  <title id="coco-titulo">Coco</title>
+  <defs>
+    <clipPath id="coco-casca-recorte">
+      <path d="M76 224 A124 124 0 1 1 324 224 A124 124 0 1 1 76 224 Z" />
+    </clipPath>
+  </defs>
+  <g id="coco" transform="scale(2.56)">
+    <g id="coco-casca">
+      <path d="M76 224 A124 124 0 1 1 324 224 A124 124 0 1 1 76 224 Z" fill="#6B4423" class="sombra" />
+      <g clip-path="url(#coco-casca-recorte)">
+        <path d="M76 224 A124 124 0 1 1 324 224 A124 124 0 1 1 76 224 Z" fill="#9A6438" transform="translate(-12 -12)" class="base" />
+      </g>
+      <g clip-path="url(#coco-casca-recorte)">
+        <path d="M90 380 C120 300 170 260 240 250" fill="none" stroke="#6B4423" stroke-width="7" stroke-linecap="round" class="marca" />
+        <path d="M130 380 C160 300 210 260 280 250" fill="none" stroke="#6B4423" stroke-width="7" stroke-linecap="round" class="marca" />
+        <path d="M170 380 C200 300 250 260 320 250" fill="none" stroke="#6B4423" stroke-width="7" stroke-linecap="round" class="marca" />
+      </g>
+    </g>
+    <g id="coco-polpa">
+      <ellipse cx="192" cy="196" rx="104" ry="80" transform="rotate(-18 192 196)" fill="#FBF8F0" class="base" />
+      <ellipse cx="198" cy="202" rx="82" ry="60" transform="rotate(-18 198 202)" fill="#E9E2D2" class="sombra" />
+    </g>
+  </g>
+</svg>

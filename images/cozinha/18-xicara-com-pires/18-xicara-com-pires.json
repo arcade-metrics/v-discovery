@@ -1,0 +1,123 @@
+{
+  "item": "xicara-com-pires",
+  "numero": 18,
+  "categoria": "cozinha",
+  "nome": "Xícara com pires",
+  "svg": "18-xicara-com-pires.svg",
+  "png": "18-xicara-com-pires.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "xicara-com-pires-pires": {
+      "parte": "pires",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#1EA396",
+          "#2EC4B6"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "turquesa"
+      ]
+    },
+    "xicara-com-pires-alca": {
+      "parte": "alca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        688.3,
+        469.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "xicara-com-pires-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#1EA396",
+          "#2EC4B6"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "turquesa"
+      ]
+    },
+    "xicara-com-pires-liquido": {
+      "parte": "liquido",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    }
+  },
+  "gerado_por": "ferramentas/validar.py a partir do SVG; não edite à mão"
+}
