@@ -1,0 +1,53 @@
+# Registro de evidências: currículo, avaliação e inclusão
+
+> Afirmação → fonte → versão → data de acesso → como foi lida. "Lido" = texto aberto e conferido nesta sessão (2026-11-05). "Cópia" = texto oficial hospedado por terceiro. "Busca" = visto apenas em resultado de busca; não sustenta afirmação de conteúdo, só de existência. "conhecimento/" = verificado em documento do repositório (com a data dele). PDFs baixados ficaram fora do repositório, em diretório temporário; hashes registrados para reprodução.
+
+| Id | Afirmação que sustenta | Fonte (URL) | Versão / hash | Acesso | Como |
+|---|---|---|---|---|---|
+| E-01 | BNCC é normativa e orienta currículos de redes e escolas públicas e privadas | https://basenacionalcomum.mec.gov.br/ | sem versão no portal | 2026-10-29 | conhecimento/ (kg.curr.bncc) |
+| E-02 | Estrutura, códigos, duplicidades e diferenças 2017×2018 da BNCC EI/EF | [bncc/](bncc/README.md) (`BNCC_20dez_site.pdf`) | SHA-256 `7d0004aa…cdf180` | 2026-11-04 | transcrição do repo |
+| E-03 | BNCC EI/EF instituída pela Res. CNE/CP 2/2017 | https://abmes.org.br/public/arquivos/legislacoes/Res-CP-CNE-002-2017-12-22.pdf | 22/12/2017 | 2026-11-05 | busca |
+| E-04 | BNCC EM instituída pela Res. CNE/CP 4/2018, DOU 18/12/2018, S1, p. 120 | https://www.gov.br/mec/pt-br/novo-ensino-medio/pdfs/1.1.20.ResoluoFNDEn4__DE_17_DE_DEZEMBRO_DE_2018___BNCC_Ensino_Medio.pdf | 17/12/2018 | 2026-11-05 | busca |
+| E-05 | Estrutura e códigos da BNCC Computação | [bncc-computacao/](bncc-computacao/README.md) | SHA-256 `60aab0b1…` | 2026-11-05 | transcrição do repo |
+| E-06 | Res. CNE/CEB 1/2022: DOU 06/10/2022, vigor 01/11/2022, Parecer CNE/CEB 2/2022 | https://abmes.org.br/public/arquivos/legislacoes/Resolucao-CNE-CEB-001-2022-10-04.pdf | 04/10/2022 | 2026-11-05 | busca |
+| E-07 | DCNEM 2024: objeto, definições (art. 5), áreas e componentes (art. 17), itinerários (arts. 18–20), avaliação e prazos do Inep (art. 30 §§4–6), transição (arts. 39, 42), revogação da Res. 3/2018 (art. 43), vigor 02/12/2024 (art. 44) | https://www.seduc.pa.gov.br/site/public/upload/arquivo/probncc/RESOLUCAO%20CNE-CEB%202-2024-f599f.pdf | Res. CNE/CEB 2 de 13/11/2024; DOU 14/11/2024, S1, p. 48 | 2026-11-05 | lido (cópia do documento assinado) |
+| E-08 | Lei 14.945/2024: FGB 2.400 h (2.100 h com FTP), itinerários 600 h, ≥ 2 itinerários por escola, art. 35-D, prazos (art. 5), vigência | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14945.htm | 31/07/2024 | 2026-11-05 | lido |
+| E-09 | Res. CNE/CEB 4/2025: parâmetros dos IFAs, 4 eixos (art. 11), Anexo com competências sem código, prazos Saeb 2027 e Enem 2028 (art. 28) | https://anec.org.br/wp-content/uploads/2025/05/RESOLUCAO-CNE_CEB-No-4-DE-12-DE-MAIO-DE-2025.pdf | DOU 13/05/2025, S1, p. 36 | 2026-11-05 | lido (cópia do DOU) |
+| E-10 | Parecer CNE/CEB 7/2025 fundamenta a Res. 4/2025 | https://www.gov.br/mec/pt-br/cne/2025/abril/pceb007_25.pdf | 10/04/2025 | 2026-11-05 | busca |
+| E-11 | Res. SEDUC-SP 84/2024: matriz do EM paulista, FGB vinculada ao Currículo Paulista, componentes Redação e Leitura e Educação Financeira | https://www2.unesp.br/Modulos/Noticias/37969/legislacao01112024122704resolucao-seduc-n-84.pdf | 31/10/2024 | 2026-11-05 | lido (cópia) |
+| E-12 | Portaria Inep 435/2025: Saeb 2025 (instrumentos, matrizes, população, atendimento especializado, divulgação, não divulgação de itens) | https://anec.org.br/wp-content/uploads/2025/07/PORTARIA-No-435-DE-3-DE-JULHO-DE-2025-PORTARIA-No-435-DE-3-DE-JULHO-DE-2025-DOU-Imprensa-Nacional.pdf (original: https://www.in.gov.br/en/web/dou/-/portaria-n-435-de-3-de-julho-de-2025-640262289) | DOU 07/07/2025, S1, p. 99 | 2026-11-05 | lido (cópia do DOU) |
+| E-13 | Síntese oficial das DCN da educação básica | https://www.gov.br/mec/pt-br/cne/pdf/cne-divulgacao/cne_sintese_das_diretrizes_curriculares_da_educacao_basica.pdf | — | 2026-11-05 | busca |
+| E-14 | Res. CNE/CEB 4/2010 (DCN gerais), DOU 14/07/2010, S1, p. 824 | https://observatoriodeeducacao.institutounibanco.org.br/api/assets/observatorio/6706ae8c-6edb-4b8d-ba45-0782f8f48f10 | 13/07/2010 | 2026-11-05 | busca (cópia de terceiro) |
+| E-15 | Currículo Paulista EI/EF: regra de códigos (mantém BNCC; bloco vira ano), habilidades criadas, sufixos observados, contagens | https://efape.educacao.sp.gov.br/curriculopaulista/wp-content/uploads/2022/07/curriculo_paulista_26_07_2019.pdf | 526 p.; SHA-256 `53e60892c40c5d589e222fde60d9d685bcc7870f010da8d86fb495b42f7094a2` | 2026-11-05 | lido (extração de texto; sem conferência visual) |
+| E-16 | Deliberação CEE-SP 186/2020 (Currículo Paulista EM), homologada em 03/08/2020, parcialmente revogada pela Del. 236/2025 | https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/2020-00267-delib-186-20-indic-198-20-revogada-parcialmente.pdf | — | 2026-11-05 | busca |
+| E-17 | Currículo Paulista EI/EF: Deliberação CEE 169/2019 (Indicação 179/2019) | https://www.ceesp.sp.gov.br/wp-content/uploads/2024/11/1570674-19-indic-184-19.pdf | — | 2026-11-05 | busca |
+| E-18 | Lista oficial de matrizes e escalas do Saeb | https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb/matrizes-e-escalas | — | 2026-11-05 | lido |
+| E-19 | Escalas LP/MT (matrizes 2001) do 5º, 9º EF e 3ª EM: níveis e intervalos | https://download.inep.gov.br/publicacoes/institucionais/avaliacoes_e_exames_da_educacao_basica/escalas_de_proficiencia_do_saeb.pdf | Inep 2020; SHA-256 `9b45fbf06e8533357ece8cc5ca2df4363d7f2bcb8169291e11353b5b0bdf74c8` | 2026-11-05 | lido (números; parte do texto com fonte corrompida) |
+| E-20 | Escalas 2025 (BNCC): 2º ano LP/MT, 5º e 9º CN/CH, rótulo "Nível Abaixo de 1" | https://download.inep.gov.br/saeb/escala_de_proficiencias_saeb_2025.pdf | SHA-256 `395c808c8be5afe847a59cabd0688d3077c49d85f8551ba213405a18a761ed4a` | 2026-11-05 | lido (idem) |
+| E-21 | Matriz de Linguagens/LP alinhada à BNCC: eixos do conhecimento × eixos cognitivos, sem códigos BNCC | https://download.inep.gov.br/educacao_basica/saeb/matriz-de-referencia-de-linguagens_BNCC.pdf | Inep 2022; SHA-256 `93e388392bf8a8c0120f22100340e873fc688370e7144b76fbe72514fe874292` | 2026-11-05 | lido |
+| E-22 | Matrizes 2001 de LP (tópicos e descritores) e MT (temas e descritores) do 5º e 9º | https://download.inep.gov.br/educacao_basica/saeb/matriz-de-referencia-de-lingua-portuguesa_2001.pdf ; https://download.inep.gov.br/educacao_basica/saeb/matriz-de-referencia-de-matematica_2001.pdf | SHA-256 `f36ef2ad…` (LP), `df198f24…` (MT) | 2026-11-05 | lido (estrutura) |
+| E-23 | SARESP: mesma escala do Saeb, TRI, níveis e cortes de LP 2014, classificação agregada, redação | https://fep.if.usp.br/~profis/arquivo/avaliacao/saresp/RP_LP_2014_online.pdf | Relatório Pedagógico SARESP 2014 LP, ISSN 2236-8574 | 2026-11-05 | lido (cópia de terceiro) |
+| E-24 | SARESP 2025 divulgado em fev/2026 com 4 níveis | https://www.band.com.br/educacao/noticias/saresp-2025-sp-tem-recorde-em-matematica-e-diz-ter-revertido-perdas-da-pandemia-202602251415 | — | 2026-11-05 | busca (imprensa) |
+| E-25 | Decreto 11.556/2023 (CNCA): arts. 5, 30–33 | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11556.htm | 12/06/2023 | 2026-11-05 | lido |
+| E-26 | Padrão nacional de alfabetização = 743 pontos na escala Saeb (Pesquisa Alfabetiza Brasil, Inep 2023) | https://agenciagov.ebc.com.br/noticias/202507/58-dos-municipios-melhoraram-alfabetizacao | — | 2026-11-05 | busca (agência oficial) |
+| E-27 | Decretos 12.686/2025 e 12.773/2025: estudo de caso, PAEE/PEI, sem laudo, LGPD art. 14 | https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12773.htm | — | 2026-10-30 | conhecimento/ (acs.br.pneepei-and-aee; acs.asmt.pei-and-aee-plans) |
+| E-28 | Res. CNE/CEB 4/2009 (AEE) | ver acs.br.pneepei-and-aee | 02/10/2009 | 2026-10-30 | conhecimento/ |
+| E-29 | Portaria MEC 421/2026: arts. 7 (§§2–4), 10, 11, 12, 14, 24, 37, 39; art. 29 alterado pela Portaria 550/2026 | https://www.ifg.edu.br/attachments/article/47027/PORTARIA%20MEC%20No%20421,%20DE%2015%20DE%20MAIO%20DE%202026.pdf (impressão do MECNormas) | vigente com Portaria 550 de 18/06/2026 | 2026-11-05 | lido |
+| E-30 | Res. SEDUC-SP 129/2025: definições, prazos, laudo, PEI, anexos II–V | https://midiasstoragesec.blob.core.windows.net/001/2025/11/resoluo-seduc-n-129.pdf | 30/09/2025 | 2026-11-05 | lido (integral) |
+| E-31 | Decreto SP 67.635/2023: arts. 4, 5, 6, 8, 12–19, 24; sem menção a laudo | https://www.al.sp.gov.br/repositorio/legislacao/decreto/2023/decreto-67635-06.04.2023.html | 06/04/2023; DOE 07/04/2023 | 2026-11-05 | lido |
+| E-32 | Lei 14.254/2021, arts. 1–6 | https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14254.htm | DOU 01/12/2021 | 2026-11-05 | lido |
+| E-33 | Lei 12.764/2012 compilada: arts. 1, 3, 3-A, 7; alterações de 2020 e 2025; Decreto 8.368/2014 | https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm | compilada | 2026-11-05 | lido |
+| E-34 | LGPD arts. 15, 16, 33 (hipóteses de término, conservação, transferência); nenhuma exigência de armazenamento local encontrada no trecho lido | https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm | compilada | 2026-11-05 | lido (até ~100 mil de 125 mil caracteres) |
+| E-34b | Res. CD/ANPD 19/2024 (transferência internacional; cláusulas-padrão até 23/08/2025) | https://www.mattosfilho.com.br/?p=115485 ; https://lefosse.com/noticias/transferencia-internacional-de-dados-prazo-para-adocao-das-clausulas-padrao-da-anpd-se-encerra-em-23-de-agosto/ | 23/08/2024 | 2026-11-05 | busca (escritórios de advocacia; fonte secundária) |
+| E-35 | CMDEB: `ESTUDANTE_DEFICIENCIA` (11 códigos) e `SISTEMA_AVALIACAO_DESEMPENHO` | [cmdeb/10-estudante.md](cmdeb/10-estudante.md); [cmdeb/20-trajetoria.md](cmdeb/20-trajetoria.md) | Portaria MEC 832/2025 | 2026-11-04 | transcrição do repo |
+| E-36 | Análise de LGPD art. 14, Enunciado ANPD 1/2023, dado sensível, art. 20 | conhecimento/privacidade-seguranca-e-governanca/legal-framework/lgpd-children.md | — | 2026-10-30 | conhecimento/ |
+| E-37 | ECA Digital: arts. 1, 7, 8, 13, 16, 22, 26, 35, 41-A; Decreto 12.880/2026 | conhecimento/privacidade-seguranca-e-governanca/legal-framework/eca-and-digital-eca.md | — | 2026-10-29 | conhecimento/ |
+| E-38 | LBI: definições do art. 3, art. 28, art. 63 | conhecimento/acessibilidade-educacao-especial-e-dua/brazil/lbi.md | — | 2026-10-30 | conhecimento/ |
+
+## Fontes que falharam
+
+| Fonte | Problema |
+|---|---|
+| https://www.educacao.sp.gov.br/saresp/ | HTTP 403 ao acesso automatizado |
+| http://portal.mec.gov.br/dmdocuments/rceb004_10.pdf | DNS não resolveu (portal antigo do MEC) |
+| download.inep.gov.br via curl | conexão reiniciada; documentos obtidos pela ferramenta de leitura web |
