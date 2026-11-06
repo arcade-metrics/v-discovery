@@ -1,0 +1,41 @@
+{
+  "item": "regata",
+  "numero": 2,
+  "categoria": "roupas",
+  "nome": "Regata",
+  "svg": "02-regata.svg",
+  "png": "02-regata.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "regata-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ],
+        "marca": [
+          "#EBA622"
+        ],
+        "brilho": [
+          "#FFDE73"
+        ]
+      },
+      "familias": [
+        "amarelo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

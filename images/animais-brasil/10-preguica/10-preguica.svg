@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="preguica-titulo">
+  <title id="preguica-titulo">Preguiça</title>
+  <desc>Bioma: Amazônia</desc>
+  <defs>
+    <path id="preguica-haste-forma" d="M170 218 Q170 196 192 196 L828 196 Q850 196 850 218 L850 218 Q850 240 828 240 L192 240 Q170 240 170 218 Z" />
+    <clipPath id="preguica-haste-recorte">
+      <use href="#preguica-haste-forma" />
+    </clipPath>
+    <path id="preguica-corpo-forma-2" d="M310 470 C330 400 420 370 520 372 C630 374 700 420 706 490 C712 570 650 630 540 640 C420 650 330 610 310 540 C304 516 304 490 310 470 Z" />
+    <clipPath id="preguica-corpo-recorte-2">
+      <use href="#preguica-corpo-forma-2" />
+    </clipPath>
+    <path id="preguica-pata-1-forma-3" d="M643 214 L693 214 L686 452 Q685 480 657 480 L651 480 Q623 480 625 452 Z" />
+    <clipPath id="preguica-pata-1-recorte-3">
+      <use href="#preguica-pata-1-forma-3" />
+    </clipPath>
+    <path id="preguica-pata-3-forma-4" d="M327 214 L377 214 L397 460 Q399 490 369 490 L363 490 Q333 490 332 460 Z" />
+    <clipPath id="preguica-pata-3-recorte-4">
+      <use href="#preguica-pata-3-forma-4" />
+    </clipPath>
+    <path id="preguica-cabeca-forma-5" d="M640 520 C640 456 690 416 750 416 C810 416 856 458 856 520 C856 584 810 626 750 626 C690 626 640 584 640 520 Z" />
+    <clipPath id="preguica-cabeca-recorte-5">
+      <use href="#preguica-cabeca-forma-5" />
+    </clipPath>
+  </defs>
+  <g id="preguica" transform="translate(0 96)">
+    <g id="preguica-pata-2" data-pivo="600,566">
+      <path d="M588 214 L636 214 L629 445 Q628 470 603 470 L597 470 Q572 470 574 445 Z" fill="#BE7F3E" class="base" />
+    </g>
+    <g id="preguica-pata-4" data-pivo="410,576">
+      <path d="M374 214 L422 214 L438 453 Q440 480 413 480 L407 480 Q380 480 379 453 Z" fill="#BE7F3E" class="base" />
+    </g>
+    <g id="preguica-haste">
+      <use href="#preguica-haste-forma" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#preguica-haste-recorte)">
+        <use href="#preguica-haste-forma" transform="translate(-6 -9)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M260 216.0 L320 220.0 M690 218.0 L740 215.0" fill="none" stroke="#5C311B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M200 206 L810 206" fill="none" stroke="#A0643F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="preguica-corpo">
+      <use href="#preguica-corpo-forma-2" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#preguica-corpo-recorte-2)">
+        <use href="#preguica-corpo-forma-2" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M370 470 L380 500 M410 530 L420 562 M450 440 L462 470 M500 500 L510 532 M540 430 L552 460 M560 560 L570 590 M610 480 L620 510 M400 600 L410 620 M480 590 L490 616" fill="none" stroke="#BE7F3E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M336 470 C350 432 390 406 436 396" fill="none" stroke="#F0C68E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="preguica-pata-1" data-pivo="654,566">
+      <use href="#preguica-pata-1-forma-3" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#preguica-pata-1-recorte-3)">
+        <use href="#preguica-pata-1-forma-3" transform="translate(-8 -12)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M636 236 C630 202 648 184 670 196 M652 236 C648 204 666 188 686 202 M668 236 C666 208 682 194 700 208" fill="none" stroke="#E9E2D2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M640 440 L648 280" fill="none" stroke="#F0C68E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="preguica-pata-3" data-pivo="366,576">
+      <use href="#preguica-pata-3-forma-4" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#preguica-pata-3-recorte-4)">
+        <use href="#preguica-pata-3-forma-4" transform="translate(-8 -12)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M322 236 C316 202 334 184 356 196 M338 236 C334 204 352 188 372 202 M354 236 C352 208 368 194 386 208" fill="none" stroke="#E9E2D2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M346 450 L340 280" fill="none" stroke="#F0C68E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="preguica-cabeca" data-pivo="700,656">
+      <use href="#preguica-cabeca-forma-5" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#preguica-cabeca-recorte-5)">
+        <use href="#preguica-cabeca-forma-5" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <ellipse cx="762" cy="528" rx="76" ry="64" fill="#FBF8F0" class="marca" />
+      <path d="M700 516 C720 500 748 502 770 514 C790 506 812 506 828 516 C816 532 792 534 772 526 C750 540 718 538 700 516 Z" fill="#7A4426" class="marca" />
+      <ellipse cx="772" cy="568" rx="16" ry="11" fill="#5C311B" class="marca" />
+      <circle cx="736" cy="516" r="11" fill="#353D4E" class="marca" />
+      <circle cx="732.15" cy="512.15" r="3.3" fill="#FFFFFF" class="brilho" />
+      <circle cx="800" cy="514" r="11" fill="#353D4E" class="marca" />
+      <circle cx="796.15" cy="510.15" r="3.3" fill="#FFFFFF" class="brilho" />
+      <path d="M672 488 C682 456 708 436 738 430" fill="none" stroke="#F0C68E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

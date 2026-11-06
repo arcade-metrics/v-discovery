@@ -1,0 +1,180 @@
+{
+  "item": "bateria",
+  "numero": 3,
+  "categoria": "instrumentos",
+  "nome": "Bateria",
+  "svg": "03-bateria.svg",
+  "png": "03-bateria.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "bateria-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "bateria-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#8293B8",
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal",
+        "vermelho-vivo"
+      ]
+    },
+    "bateria-pele-1": {
+      "parte": "pele",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "bateria-pele-2": {
+      "parte": "pele",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830",
+          "#D3DAE6"
+        ],
+        "base": [
+          "#EA4A3F",
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "branco",
+        "metal",
+        "vermelho-vivo"
+      ]
+    },
+    "bateria-pele-3": {
+      "parte": "pele",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830",
+          "#D3DAE6"
+        ],
+        "base": [
+          "#EA4A3F",
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "branco",
+        "metal",
+        "vermelho-vivo"
+      ]
+    },
+    "bateria-prato": {
+      "parte": "prato",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ],
+        "marca": [
+          "#EBA622"
+        ],
+        "brilho": [
+          "#FFDE73"
+        ]
+      },
+      "familias": [
+        "amarelo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,149 @@
+{
+  "item": "violino",
+  "numero": 5,
+  "categoria": "instrumentos",
+  "nome": "Violino",
+  "svg": "05-violino.svg",
+  "png": "05-violino.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "violino-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#4A5468",
+          "#D3DAE6"
+        ]
+      },
+      "familias": [
+        "branco",
+        "cafe",
+        "grafite"
+      ]
+    },
+    "violino-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#3A2418",
+          "#4A5468",
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "grafite",
+        "madeira",
+        "marrom-escuro"
+      ]
+    },
+    "violino-braco": {
+      "parte": "braco",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        640.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "violino-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        258.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#4A5468",
+          "#5C311B"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "grafite"
+      ]
+    },
+    "violino-corda": {
+      "parte": "corda",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "marca"
+      ],
+      "cores": {
+        "marca": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

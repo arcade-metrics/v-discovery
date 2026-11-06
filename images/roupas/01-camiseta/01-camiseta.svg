@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="camiseta-titulo">
+  <title id="camiseta-titulo">Camiseta</title>
+  <defs>
+    <path id="camiseta-corpo-forma" d="M474 206 Q512 236 550 206 L577 185 Q588 176 601 182 L746 251 Q770 262 760 286 L723 379 Q716 398 700 386 L665 361 Q652 352 652 368 L656 804 Q656 830 630 830 L512 830 L394 830 Q368 830 368 804 L372 368 Q372 352 359 361 L324 386 Q308 398 301 379 L264 286 Q254 262 278 251 L423 182 Q436 176 447 185 Z" />
+    <clipPath id="camiseta-corpo-recorte">
+      <use href="#camiseta-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="camiseta">
+    <g id="camiseta-corpo">
+      <use href="#camiseta-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#camiseta-corpo-recorte)">
+        <use href="#camiseta-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M438 184 Q512 300 586 184" fill="none" stroke="#C93830" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M402 430 L398 770" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M338 250 L302 300" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

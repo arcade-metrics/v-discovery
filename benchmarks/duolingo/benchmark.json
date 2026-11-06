@@ -15,8 +15,7 @@
     {"id": "02", "arquivo": "02-gameplay.md", "titulo": "Gameplay: lição, exercícios, caminho, adaptação, feedback"},
     {"id": "03", "arquivo": "03-estilo.md", "titulo": "Estilo: paleta, tipografia, forma, personagens, movimento, som, copy"},
     {"id": "04", "arquivo": "04-evidencias-e-criticas.md", "titulo": "Evidências e críticas"},
-    {"id": "05", "arquivo": "05-riscos-educacao-especial.md", "titulo": "Riscos e oportunidades por perfil"},
-    {"id": "apendice", "arquivo": "apendice-caso-vuoo.md", "titulo": "Estudo de caso: VUOO"}
+    {"id": "05", "arquivo": "05-riscos-educacao-especial.md", "titulo": "Riscos e oportunidades por perfil"}
   ],
   "esquema_de_mecanica": ["o_que_e", "como_funciona", "por_que_funciona", "numeros", "evidencia_externa", "criticas", "risco_educacao_especial", "adaptacoes", "imagens", "fontes"],
   "mecanicas": [

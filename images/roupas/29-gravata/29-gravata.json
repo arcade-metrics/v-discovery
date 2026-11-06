@@ -1,0 +1,42 @@
+{
+  "item": "gravata",
+  "numero": 29,
+  "categoria": "roupas",
+  "nome": "Gravata",
+  "svg": "29-gravata.svg",
+  "png": "29-gravata.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "gravata-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C0222B"
+        ],
+        "base": [
+          "#E8343A"
+        ],
+        "marca": [
+          "#FFC93C"
+        ],
+        "brilho": [
+          "#FF7A7E"
+        ]
+      },
+      "familias": [
+        "amarelo",
+        "vermelho-cereja"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

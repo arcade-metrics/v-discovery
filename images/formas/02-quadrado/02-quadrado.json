@@ -1,0 +1,37 @@
+{
+  "item": "quadrado",
+  "numero": 2,
+  "categoria": "formas",
+  "nome": "Quadrado",
+  "svg": "02-quadrado.svg",
+  "png": "02-quadrado.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "quadrado-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

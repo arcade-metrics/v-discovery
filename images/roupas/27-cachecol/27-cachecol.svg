@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cachecol-titulo">
+  <title id="cachecol-titulo">Cachecol</title>
+  <defs>
+    <path id="cachecol-corpo-forma" d="M540 310 Q540 300 550 300 L634 300 Q644 300 644 310 L664 810 Q664 820 654 820 L570 820 Q560 820 560 810 Z M392 310 Q392 300 402 300 L486 300 Q496 300 496 310 L476 730 Q476 740 466 740 L382 740 Q372 740 372 730 Z" />
+    <clipPath id="cachecol-corpo-recorte">
+      <use href="#cachecol-corpo-forma" />
+    </clipPath>
+    <path id="cachecol-corpo-forma-2" d="M290 262 C290 196 390 166 512 166 C634 166 734 196 734 262 C734 330 634 364 512 364 C390 364 290 330 290 262 Z M362 250 A150 46 0 1 0 662 250 A150 46 0 1 0 362 250 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="cachecol-corpo-recorte-2">
+      <use href="#cachecol-corpo-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="cachecol">
+    <g id="cachecol-corpo">
+      <use href="#cachecol-corpo-forma" fill="#A6242E" class="sombra" />
+      <g clip-path="url(#cachecol-corpo-recorte)">
+        <use href="#cachecol-corpo-forma" transform="translate(-14 -22)" fill="#D0343E" class="base" />
+      </g>
+      <use href="#cachecol-corpo-forma-2" fill="#A6242E" class="sombra" />
+      <g clip-path="url(#cachecol-corpo-recorte-2)">
+        <use href="#cachecol-corpo-forma-2" transform="translate(-10 -16)" fill="#D0343E" class="base" />
+      </g>
+      <path d="M564 700 L654 700 M566 744 L656 744 M382 640 L478 640 M380 684 L476 684" fill="none" stroke="#F4F6FA" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M578 834 L578 872 M602 834 L602 872 M626 834 L626 872 M650 834 L650 872 M388 754 L388 792 M412 754 L412 792 M436 754 L436 792 M460 754 L460 792" fill="none" stroke="#A6242E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M404 380 L396 600" fill="none" stroke="#EE7078" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M330 236 C350 206 400 188 440 182" fill="none" stroke="#EE7078" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

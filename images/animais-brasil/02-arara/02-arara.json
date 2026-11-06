@@ -1,0 +1,245 @@
+{
+  "item": "arara",
+  "numero": 2,
+  "categoria": "animais-brasil",
+  "nome": "Arara-vermelha",
+  "svg": "02-arara.svg",
+  "png": "02-arara.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "arara-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        470.0,
+        570.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C",
+          "#C93830"
+        ],
+        "base": [
+          "#4A62C8",
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "azul",
+        "vermelho-vivo"
+      ]
+    },
+    "arara-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#5C311B"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "arara-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "arara-asa": {
+      "parte": "asa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        560.0,
+        360.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C",
+          "#EBA622"
+        ],
+        "base": [
+          "#4A62C8",
+          "#FFC93C"
+        ],
+        "marca": [
+          "#33479C",
+          "#EBA622"
+        ],
+        "brilho": [
+          "#FFDE73"
+        ]
+      },
+      "familias": [
+        "amarelo",
+        "azul"
+      ]
+    },
+    "arara-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        520.0,
+        590.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "arara-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        568.0,
+        590.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "arara-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        590.0,
+        330.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#353D4E",
+          "#D3DAE6",
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#F7867C",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "vermelho-vivo"
+      ]
+    },
+    "arara-cabeca-bico": {
+      "parte": "bico",
+      "pai": "arara-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#E9E2D2"
+        ],
+        "base": [
+          "#FBF8F0"
+        ],
+        "marca": [
+          "#4A5468",
+          "#E9E2D2"
+        ]
+      },
+      "familias": [
+        "creme",
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

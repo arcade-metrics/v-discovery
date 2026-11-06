@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="barco-titulo">
+  <title id="barco-titulo">Barco</title>
+  <defs>
+    <path id="barco-vela-forma" d="M484 200 C420 300 330 460 260 572 L484 572 Z" />
+    <clipPath id="barco-vela-recorte">
+      <use href="#barco-vela-forma" />
+    </clipPath>
+    <path id="barco-vela-forma-2" d="M522 250 L522 572 L730 572 C670 470 590 340 522 250 Z" />
+    <clipPath id="barco-vela-recorte-2">
+      <use href="#barco-vela-forma-2" />
+    </clipPath>
+    <path id="barco-corpo-forma-3" d="M170 600 L854 600 C846 640 820 700 780 740 C760 760 736 770 700 770 L330 770 C290 770 260 756 240 734 C204 690 180 640 170 600 Z" />
+    <clipPath id="barco-corpo-recorte-3">
+      <use href="#barco-corpo-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="barco" transform="translate(0 57)">
+    <g id="barco-mastro">
+      <path d="M502 160 L502 600" transform="translate(5 7)" fill="none" stroke="#BE7F3E" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M502 160 L502 600" fill="none" stroke="#DDA15E" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <path d="M500 140 L566 160 L500 180 Z" fill="#EA4A3F" class="marca" />
+    </g>
+    <g id="barco-vela">
+      <use href="#barco-vela-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#barco-vela-recorte)">
+        <use href="#barco-vela-forma" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#barco-vela-forma-2" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#barco-vela-recorte-2)">
+        <use href="#barco-vela-forma-2" transform="translate(-8 -12)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M466 270 L420 500" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M540 330 L540 540" fill="none" stroke="#FFDE73" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="barco-corpo">
+      <use href="#barco-corpo-forma-3" fill="#C93830" class="sombra" />
+      <g clip-path="url(#barco-corpo-recorte-3)">
+        <use href="#barco-corpo-forma-3" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M226 650 L808 650" fill="none" stroke="#F4F6FA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M220 622 L420 622" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

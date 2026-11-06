@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="onibus-titulo">
+  <title id="onibus-titulo">Ônibus</title>
+  <defs>
+    <path id="onibus-corpo-forma" d="M150 300 Q150 250 200 250 L824 250 Q874 250 874 300 L874 690 Q874 720 844 720 L180 720 Q150 720 150 690 Z" />
+    <clipPath id="onibus-corpo-recorte">
+      <use href="#onibus-corpo-forma" />
+    </clipPath>
+    <path id="onibus-janela-forma-2" d="M190 304 Q190 290 204 290 L268 290 Q282 290 282 304 L282 416 Q282 430 268 430 L204 430 Q190 430 190 416 Z M302 304 Q302 290 316 290 L380 290 Q394 290 394 304 L394 416 Q394 430 380 430 L316 430 Q302 430 302 416 Z M414 304 Q414 290 428 290 L492 290 Q506 290 506 304 L506 416 Q506 430 492 430 L428 430 Q414 430 414 416 Z M526 304 Q526 290 540 290 L604 290 Q618 290 618 304 L618 416 Q618 430 604 430 L540 430 Q526 430 526 416 Z M638 304 Q638 290 652 290 L716 290 Q730 290 730 304 L730 416 Q730 430 716 430 L652 430 Q638 430 638 416 Z M752 304 Q752 290 766 290 L822 290 Q836 290 836 304 L836 590 Q836 600 826 600 L762 600 Q752 600 752 590 Z" />
+    <clipPath id="onibus-janela-recorte-2">
+      <use href="#onibus-janela-forma-2" />
+    </clipPath>
+    <path id="onibus-farol-forma-3" d="M846 588 Q846 580 854 580 L868 580 Q872 580 872 584 L872 620 Q872 624 868 624 L854 624 Q846 624 846 616 Z" />
+    <clipPath id="onibus-farol-recorte-3">
+      <use href="#onibus-farol-forma-3" />
+    </clipPath>
+    <path id="onibus-roda-1-forma-4" d="M224 720 A76 76 0 1 0 376 720 A76 76 0 1 0 224 720 Z" />
+    <clipPath id="onibus-roda-1-recorte-4">
+      <use href="#onibus-roda-1-forma-4" />
+    </clipPath>
+    <path id="onibus-roda-1-forma-5" d="M264 720 A36 36 0 1 0 336 720 A36 36 0 1 0 264 720 Z" />
+    <clipPath id="onibus-roda-1-recorte-5">
+      <use href="#onibus-roda-1-forma-5" />
+    </clipPath>
+    <path id="onibus-roda-2-forma-6" d="M644 720 A76 76 0 1 0 796 720 A76 76 0 1 0 644 720 Z" />
+    <clipPath id="onibus-roda-2-recorte-6">
+      <use href="#onibus-roda-2-forma-6" />
+    </clipPath>
+    <path id="onibus-roda-2-forma-7" d="M684 720 A36 36 0 1 0 756 720 A36 36 0 1 0 684 720 Z" />
+    <clipPath id="onibus-roda-2-recorte-7">
+      <use href="#onibus-roda-2-forma-7" />
+    </clipPath>
+  </defs>
+  <g id="onibus" transform="translate(0 -11)">
+    <g id="onibus-corpo">
+      <use href="#onibus-corpo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#onibus-corpo-recorte)">
+        <use href="#onibus-corpo-forma" transform="translate(-14 -22)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M150 520 L874 520" fill="none" stroke="#4A5468" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <rect x="150" y="684" width="724" height="36" rx="16" fill="#4A5468" class="marca" />
+      <path d="M208 720 A92 92 0 0 1 392 720 Z" fill="#353D4E" class="marca" />
+      <path d="M628 720 A92 92 0 0 1 812 720 Z" fill="#353D4E" class="marca" />
+      <path d="M184 300 L184 480" fill="none" stroke="#FFDE73" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M230 270 L700 270" fill="none" stroke="#FFDE73" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="onibus-janela">
+      <use href="#onibus-janela-forma-2" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#onibus-janela-recorte-2)">
+        <use href="#onibus-janela-forma-2" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M794 300 L794 590" fill="none" stroke="#9FD0E4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M208 310 L208 400 M320 310 L320 400 M432 310 L432 400 M544 310 L544 400 M656 310 L656 400" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="onibus-farol">
+      <use href="#onibus-farol-forma-3" fill="#EDB417" class="sombra" />
+      <g clip-path="url(#onibus-farol-recorte-3)">
+        <use href="#onibus-farol-forma-3" transform="translate(-3 -5)" fill="#FFD43B" class="base" />
+      </g>
+    </g>
+    <g id="onibus-roda-1" data-pivo="300,720">
+      <use href="#onibus-roda-1-forma-4" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#onibus-roda-1-recorte-4)">
+        <use href="#onibus-roda-1-forma-4" transform="translate(-8 -11)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#onibus-roda-1-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#onibus-roda-1-recorte-5)">
+        <use href="#onibus-roda-1-forma-5" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="300" cy="720" r="12" fill="#8293B8" class="marca" />
+      <path d="M243 705 A59 59 0 0 1 280 664" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="onibus-roda-2" data-pivo="720,720">
+      <use href="#onibus-roda-2-forma-6" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#onibus-roda-2-recorte-6)">
+        <use href="#onibus-roda-2-forma-6" transform="translate(-8 -11)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#onibus-roda-2-forma-7" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#onibus-roda-2-recorte-7)">
+        <use href="#onibus-roda-2-forma-7" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="720" cy="720" r="12" fill="#8293B8" class="marca" />
+      <path d="M663 705 A59 59 0 0 1 700 664" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

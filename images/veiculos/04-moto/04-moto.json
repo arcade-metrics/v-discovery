@@ -1,0 +1,227 @@
+{
+  "item": "moto",
+  "numero": 4,
+  "categoria": "veiculos",
+  "nome": "Moto",
+  "svg": "04-moto.svg",
+  "png": "04-moto.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "moto-roda-1": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        300.0,
+        690.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "moto-roda-2": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        740.0,
+        690.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "moto-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "moto-motor": {
+      "parte": "motor",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "moto-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "moto-selim": {
+      "parte": "selim",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "moto-guidao": {
+      "parte": "guidao",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        652.0,
+        436.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "moto-farol": {
+      "parte": "farol",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#EDB417"
+        ],
+        "base": [
+          "#FFD43B"
+        ]
+      },
+      "familias": [
+        "amarelo-limao"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

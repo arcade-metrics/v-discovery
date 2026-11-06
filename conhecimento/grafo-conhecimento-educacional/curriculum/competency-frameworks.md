@@ -13,8 +13,8 @@ relacoes:
   - { tipo: depende-de, alvo: kg.std.skos }
   - { tipo: complementa, alvo: kg.curr.bncc }
   - { tipo: complementa, alvo: kg.curr.prerequisites }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
-  - { tipo: relacionado-a, alvo: kg.voc.esco }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
+  - { tipo: relacionado-a, alvo: iop.comp.esco }
   - { tipo: relacionado-a, alvo: kg.eng.versioning-and-provenance }
 termos: [framework de competência, concept scheme, crosswalk, alinhamento, mapeamento, versionamento de currículo, autoridade, código de habilidade]
 ---
@@ -142,7 +142,7 @@ SELECT ?h ?cod WHERE {
 
 ## Relações com outros conceitos
 
-Parte de kg.mod.conceptual-model. Depende de kg.std.skos. Complementa kg.curr.bncc (um framework concreto) e kg.curr.prerequisites. Relaciona-se com kg.voc.case, kg.voc.esco e kg.eng.versioning-and-provenance.
+Parte de kg.mod.conceptual-model. Depende de kg.std.skos. Complementa kg.curr.bncc (um framework concreto) e kg.curr.prerequisites. Relaciona-se com iop.comp.case, iop.comp.esco e kg.eng.versioning-and-provenance.
 
 ## Lacunas e questões abertas
 

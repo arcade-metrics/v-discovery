@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="pincel-titulo">
+  <title id="pincel-titulo">Pincel</title>
+  <defs>
+    <path id="pincel-cabo-forma" d="M440 500 L584 500 C584 540 560 560 548 590 C540 610 552 640 556 680 L566 820 C568 860 544 884 512 884 C480 884 456 860 458 820 L468 680 C472 640 484 610 476 590 C464 560 440 540 440 500 Z M496 830 A16 16 0 1 0 528 830 A16 16 0 1 0 496 830 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="pincel-cabo-recorte">
+      <use href="#pincel-cabo-forma" />
+    </clipPath>
+    <path id="pincel-cerdas-forma-2" d="M408 400 L400 196 C400 180 410 170 426 168 C460 162 488 176 512 170 C540 162 566 160 598 166 C614 170 624 180 624 196 L616 400 Z" />
+    <clipPath id="pincel-cerdas-recorte-2">
+      <use href="#pincel-cerdas-forma-2" />
+    </clipPath>
+    <path id="pincel-aro-forma-3" d="M404 384 L620 384 C628 384 632 390 632 398 L626 492 C626 500 620 506 612 506 L412 506 C404 506 398 500 398 492 L392 398 C392 390 396 384 404 384 Z" />
+    <clipPath id="pincel-aro-recorte-3">
+      <use href="#pincel-aro-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="pincel">
+    <g id="pincel-cabo" data-pivo="512,860">
+      <use href="#pincel-cabo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#pincel-cabo-recorte)">
+        <use href="#pincel-cabo-forma" transform="translate(-10 -16)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M488 650 L484 780" fill="none" stroke="#FFDE73" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="pincel-cerdas">
+      <use href="#pincel-cerdas-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#pincel-cerdas-recorte-2)">
+        <use href="#pincel-cerdas-forma-2" transform="translate(-12 -18)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M470 230 L472 380 M514 222 L514 380 M558 226 L556 380" fill="none" stroke="#353D4E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M426 206 L430 378" fill="none" stroke="#717D95" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="pincel-aro">
+      <use href="#pincel-aro-forma-3" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#pincel-aro-recorte-3)">
+        <use href="#pincel-aro-forma-3" transform="translate(-12 -18)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M410 446 L612 446" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M414 404 L416 486" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

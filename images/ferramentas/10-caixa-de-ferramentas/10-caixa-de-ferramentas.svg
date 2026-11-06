@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="caixa-de-ferramentas-titulo">
+  <title id="caixa-de-ferramentas-titulo">Caixa de ferramentas</title>
+  <defs>
+    <path id="caixa-de-ferramentas-alca-forma" d="M398 390 L398 300 C398 280 412 266 432 266 L592 266 C612 266 626 280 626 300 L626 390 L592 390 L592 312 C592 304 586 298 578 298 L446 298 C438 298 432 304 432 312 L432 390 Z" />
+    <clipPath id="caixa-de-ferramentas-alca-recorte">
+      <use href="#caixa-de-ferramentas-alca-forma" />
+    </clipPath>
+    <path id="caixa-de-ferramentas-corpo-forma-2" d="M244 470 L780 470 L766 812 C764 830 750 842 732 842 L292 842 C274 842 260 830 258 812 Z" />
+    <clipPath id="caixa-de-ferramentas-corpo-recorte-2">
+      <use href="#caixa-de-ferramentas-corpo-forma-2" />
+    </clipPath>
+    <path id="caixa-de-ferramentas-tampa-forma-3" d="M248 382 L776 382 C792 382 804 394 804 410 L804 462 C804 476 794 486 780 486 L244 486 C230 486 220 476 220 462 L220 410 C220 394 232 382 248 382 Z" />
+    <clipPath id="caixa-de-ferramentas-tampa-recorte-3">
+      <use href="#caixa-de-ferramentas-tampa-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="caixa-de-ferramentas">
+    <g id="caixa-de-ferramentas-alca" data-pivo="512,390">
+      <use href="#caixa-de-ferramentas-alca-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#caixa-de-ferramentas-alca-recorte)">
+        <use href="#caixa-de-ferramentas-alca-forma" transform="translate(-8 -12)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M444 282 L582 282" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caixa-de-ferramentas-corpo">
+      <use href="#caixa-de-ferramentas-corpo-forma-2" fill="#C93830" class="sombra" />
+      <g clip-path="url(#caixa-de-ferramentas-corpo-recorte-2)">
+        <use href="#caixa-de-ferramentas-corpo-forma-2" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <rect x="480" y="486" width="64" height="60" rx="10" fill="#AEBEDB" class="marca" />
+      <path d="M286 530 L296 790" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caixa-de-ferramentas-tampa" data-pivo="512,486">
+      <use href="#caixa-de-ferramentas-tampa-forma-3" fill="#C93830" class="sombra" />
+      <g clip-path="url(#caixa-de-ferramentas-tampa-recorte-3)">
+        <use href="#caixa-de-ferramentas-tampa-forma-3" transform="translate(-10 -16)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M258 412 L620 412" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

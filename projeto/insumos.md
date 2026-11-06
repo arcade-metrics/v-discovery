@@ -2,16 +2,16 @@
 titulo: Insumos do projeto VUOO e CIATec
 escopo: projeto
 status: congelado (IN-01 a IN-35); novos insumos a partir de IN-36
-origem: produtos/vuoo-linguagem/00-insumos.md, 27/10/2026
-promovido_em: 2026-10-29
 atualizado_em: 2026-10-29
 ---
 
 # Insumos: o que os projetos já decidiram
 
-Este arquivo extrai dos dois documentos-fonte (`projeto/vuoo.md`, proposta PIPE-TC Fase 2; `projeto/ciatec.md`, proposta CCD/FAPESP) **o que restringe as decisões de produto**. Cada item cita a fonte. Quando o item traz uma implicação tirada pelo estudo, e não dita pela fonte, ela vem marcada **[DERIVADO]**. As decisões que derivam destes insumos ficam em `produtos/`, sempre referenciando o código do insumo (ex.: `[IN-07]`).
+> **Independência do produto (2026-11-05).** O produto VUOO é independente destes projetos e começa do zero. Os insumos abaixo são **contexto e inspiração**, não restrições: valem para o produto só quando uma decisão de produto (`D-nn`, `RN-nn`, `ADR-nn`) os adota explicitamente.
 
-> **Histórico.** Extraído em 27/10/2026 para o estudo de linguagem dos microjogos (`produtos/vuoo-linguagem/`) e promovido ao nível do projeto em 29/10/2026, porque os insumos valem para o produto inteiro. Os códigos IN-01 a IN-35 estão congelados: nunca mudam de número nem de sentido. Correções entram como nota no próprio item; insumos novos entram no fim, a partir de IN-36, com a data.
+Este arquivo extrai dos dois documentos-fonte (`projeto/vuoo.md`, proposta PIPE-TC Fase 2; `projeto/ciatec.md`, proposta CCD/FAPESP) o que as propostas diziam sobre o produto. Cada item cita a fonte. Quando o item traz uma implicação tirada pelo estudo, e não dita pela fonte, ela vem marcada **[DERIVADO]**. As decisões que derivam destes insumos ficam em `produtos/`, sempre referenciando o código do insumo (ex.: `[IN-07]`).
+
+> **Códigos.** Os códigos IN-01 a IN-35 estão congelados: nunca mudam de número nem de sentido. Correções entram como nota no próprio item; insumos novos entram no fim, a partir de IN-36, com a data.
 
 ## Como os dois projetos se conectam
 
@@ -22,7 +22,7 @@ Este arquivo extrai dos dois documentos-fonte (`projeto/vuoo.md`, proposta PIPE-
 | Natureza | Ciência aberta, uso gratuito, interesse público | SaaS B2G/B2B, R$ 9,50/estudante/mês (a validar) |
 | Ponte | Instrumentos cognitivo-motores validados pelo grupo | Migra esses instrumentos para formato gamificado na escola |
 
-**Leitura:** o CIATec é a fonte de ciência e a chancela; o VUOO é o produto que chega à escola. A linguagem visual é do **VUOO**, com o CIATec/USP e a FAPESP como endosso (detalhe em `produtos/vuoo-linguagem/03-linguagem.md`, seção Arquitetura de marca).
+**Leitura:** o CIATec é a fonte de ciência e a chancela; o VUOO é o produto que chega à escola. A linguagem visual é do **VUOO**, com o CIATec/USP e a FAPESP como endosso.
 
 ## Insumos
 
@@ -51,7 +51,7 @@ Este arquivo extrai dos dois documentos-fonte (`projeto/vuoo.md`, proposta PIPE-
 - **[IN-16] Construtos medidos:** funções executivas — planejamento, controle inibitório, flexibilidade cognitiva, memória de trabalho (vuoo §4); tempo de reação e lei de Fitts (OpenBubble, vuoo §6a); tempo de hesitação, sequência de decisões, padrões de erro (vuoo §4); variáveis atencionais por eye/head tracking (Wemoga Eye).
 - **[IN-17] A gamificação não pode distorcer a medição.** O PP3 testa se "a adaptação do VUOO Bot aumenta o engajamento sem comprometer essa captura", com critério de preservação da correlação com o instrumento de referência nas duas variantes (vuoo PP3). O A/B do PP3 compara **Bot adaptativo × versão sem adaptação** (40 por variante). [DERIVADO] **Restrição de design mais importante deste estudo:** nada da linguagem pode alterar o estímulo ou a resposta medida. Os instrumentos são aplicados no PP1 em versão gamificada "por aplicador treinado", com "normalização das variáveis de captura" e "parecer de preservação dos construtos" (F1.2, E1.3).
 - **[IN-18] CMS para gestão e expansão do repertório** (vuoo F3.2) — a linguagem precisa ser um sistema de componentes e templates, não peças únicas.
-- **[IN-19] Jogos colaborativos.** O CIATec propõe "jogos colaborativos acessíveis" e cita evidência de que jogos colaborativos com mediador (professor ou IA) favorecem interação entre crianças com TEA e colegas (ciatec §1). O VUOO não menciona colaboração explicitamente — **ponto de tensão a resolver** (ver `produtos/vuoo-linguagem/02-gamificacao.md`).
+- **[IN-19] Jogos colaborativos.** O CIATec propõe "jogos colaborativos acessíveis" e cita evidência de que jogos colaborativos com mediador (professor ou IA) favorecem interação entre crianças com TEA e colegas (ciatec §1). O VUOO não menciona colaboração explicitamente — **ponto de tensão a resolver**.
 - **[IN-20] Quatro Pilares (Delors): aprender a conhecer, a fazer, a conviver, a ser.** Organizam os temas dos jogos (ciatec Tabela 2).
 
 ### Professor, gestor e família
@@ -62,7 +62,7 @@ Este arquivo extrai dos dois documentos-fonte (`projeto/vuoo.md`, proposta PIPE-
 
 ### Pesquisa e variação
 - **[IN-25] O CIATec prevê testes A/B/n com "cinco interfaces visuais distintas, dois tipos de feedback e dois sistemas de progressão"** (ciatec §3.2.5). [DERIVADO] A linguagem visual precisa ser parametrizável por tokens. O desenho do A/B/n é do CIATec; este estudo só pode propor.
-- **[IN-26] O estudo de prova de conceito menciona "classificações"** e o de mundo real, "sistemas de classificação dinâmicos" (ciatec §3.2.4–5). **Tensão** com a recomendação de não usar rankings entre crianças: tratada como pergunta ao CIATec (`produtos/vuoo-linguagem/99-pendencias.md`).
+- **[IN-26] O estudo de prova de conceito menciona "classificações"** e o de mundo real, "sistemas de classificação dinâmicos" (ciatec §3.2.4–5). **Tensão** com a recomendação de não usar rankings entre crianças: pergunta ao CIATec.
 - **[IN-27] Métricas internas previstas:** taxa de acerto, tentativas, erro médio, abandono, interações por minuto (ciatec §3.2.3); conclusão, tempo em tarefa, retorno em sessões subsequentes (vuoo PP3).
 - **[IN-28] Triagens de saúde mental:** o estudo transversal do CIATec aplica SDQ, RCADS e PANAS como triagens (ciatec §3.2.2), sem desenho pré/pós declarado. [DERIVADO] Recomenda-se usá-las como contra-indicador da gamificação.
 
@@ -77,7 +77,7 @@ Este arquivo extrai dos dois documentos-fonte (`projeto/vuoo.md`, proposta PIPE-
 
 ## Lacunas que estes documentos não resolvem
 
-Estas entram como `[ASSUMIDO]` nos estudos de produto e estão consolidadas em `produtos/vuoo-linguagem/99-pendencias.md`:
+Estas entram como `[ASSUMIDO]` nos estudos de produto:
 
 1. Se o VUOO e o CIATec vão compartilhar a mesma plataforma de jogos ou se o CIATec terá identidade própria nos seus 4 jogos.
 2. Se haverá uso individual (cada criança no seu aparelho) ou compartilhado (um tablet por dupla/grupo) — muda tudo na colaboração.

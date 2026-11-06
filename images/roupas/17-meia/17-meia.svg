@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="meia-titulo">
+  <title id="meia-titulo">Meia</title>
+  <defs>
+    <path id="meia-corpo-forma" d="M420 160 L600 160 C612 160 620 168 620 180 L620 600 C620 640 640 660 680 690 L780 760 C820 790 820 850 780 876 C746 898 700 890 660 864 L470 740 C430 714 410 680 410 630 L410 170 C410 164 414 160 420 160 Z" />
+    <clipPath id="meia-corpo-recorte">
+      <use href="#meia-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="meia">
+    <g id="meia-corpo">
+      <use href="#meia-corpo-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#meia-corpo-recorte)">
+        <use href="#meia-corpo-forma" transform="translate(-14 -22)" fill="#2EC4B6" class="base" />
+      </g>
+      <path d="M416 216 L614 216 M416 262 L614 262" fill="none" stroke="#F4F6FA" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M442 310 L442 620" fill="none" stroke="#7FE0D6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

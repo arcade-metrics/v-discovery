@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="porco-titulo">
+  <title id="porco-titulo">Porco</title>
+  <defs>
+    <path id="porco-pata-3-forma" d="M380 630 L444 630 L442 804 Q442 820 426 820 L398 820 Q382 820 382 804 Z" />
+    <clipPath id="porco-pata-3-recorte">
+      <use href="#porco-pata-3-forma" />
+    </clipPath>
+    <path id="porco-pata-1-forma-2" d="M618 630 L682 630 L680 804 Q680 820 664 820 L636 820 Q620 820 620 804 Z" />
+    <clipPath id="porco-pata-1-recorte-2">
+      <use href="#porco-pata-1-forma-2" />
+    </clipPath>
+    <path id="porco-corpo-forma-3" d="M296 560 Q296 430 426 430 L576 430 Q706 430 706 560 L706 562 Q706 692 576 692 L426 692 Q296 692 296 562 Z" />
+    <clipPath id="porco-corpo-recorte-3">
+      <use href="#porco-corpo-forma-3" />
+    </clipPath>
+    <path id="porco-cabeca-orelha-1-forma-4" d="M680 398 Q664 396 673 383 L712 330 Q724 314 730 333 L749 393 Q754 408 738 406 Z" />
+    <clipPath id="porco-cabeca-orelha-1-recorte-4">
+      <use href="#porco-cabeca-orelha-1-forma-4" />
+    </clipPath>
+    <path id="porco-cabeca-forma-5" d="M594 470 A114 110 0 1 0 822 470 A114 110 0 1 0 594 470 Z" />
+    <clipPath id="porco-cabeca-recorte-5">
+      <use href="#porco-cabeca-forma-5" />
+    </clipPath>
+    <path id="porco-cabeca-focinho-forma-6" d="M773.2 496.3 A40 56 14 1 0 850.8 515.7 A40 56 14 1 0 773.2 496.3 Z" />
+    <clipPath id="porco-cabeca-focinho-recorte-6">
+      <use href="#porco-cabeca-focinho-forma-6" />
+    </clipPath>
+  </defs>
+  <g id="porco" transform="translate(-126.7 -141.0) scale(1.144)">
+    <g id="porco-rabo" data-pivo="221,454">
+      <path d="M304 520 C272 524 260 496 278 482 C296 470 314 492 298 506" transform="translate(3 4)" fill="none" stroke="#E17A94" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M304 520 C272 524 260 496 278 482 C296 470 314 492 298 506" fill="none" stroke="#F7A1B6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="porco-pata-4" data-pivo="287,602">
+      <path d="M330 630 L394 630 L392 804 Q392 820 376 820 L348 820 Q332 820 332 804 Z" fill="#E17A94" class="base" />
+      <path d="M332 792 L392 792 L392 806 Q392 820 376 820 L348 820 Q332 820 332 806 Z" fill="#E17A94" class="marca" />
+    </g>
+    <g id="porco-pata-2" data-pivo="559,602">
+      <path d="M568 630 L632 630 L630 804 Q630 820 614 820 L586 820 Q570 820 570 804 Z" fill="#E17A94" class="base" />
+      <path d="M570 792 L630 792 L630 806 Q630 820 614 820 L586 820 Q570 820 570 806 Z" fill="#E17A94" class="marca" />
+    </g>
+    <g id="porco-pata-3" data-pivo="344,602">
+      <use href="#porco-pata-3-forma" fill="#E17A94" class="sombra" />
+      <g clip-path="url(#porco-pata-3-recorte)">
+        <use href="#porco-pata-3-forma" transform="translate(-8 -12)" fill="#F7A1B6" class="base" />
+      </g>
+      <path d="M382 792 L442 792 L442 806 Q442 820 426 820 L398 820 Q382 820 382 806 Z" fill="#E17A94" class="marca" />
+    </g>
+    <g id="porco-pata-1" data-pivo="617,602">
+      <use href="#porco-pata-1-forma-2" fill="#E17A94" class="sombra" />
+      <g clip-path="url(#porco-pata-1-recorte-2)">
+        <use href="#porco-pata-1-forma-2" transform="translate(-8 -12)" fill="#F7A1B6" class="base" />
+      </g>
+      <path d="M620 792 L680 792 L680 806 Q680 820 664 820 L636 820 Q620 820 620 806 Z" fill="#E17A94" class="marca" />
+    </g>
+    <g id="porco-corpo">
+      <use href="#porco-corpo-forma-3" fill="#E17A94" class="sombra" />
+      <g clip-path="url(#porco-corpo-recorte-3)">
+        <use href="#porco-corpo-forma-3" transform="translate(-14 -22)" fill="#F7A1B6" class="base" />
+      </g>
+      <path d="M346 510 C362 480 394 460 430 452" fill="none" stroke="#FCC8D5" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="porco-cabeca" data-pivo="628,408">
+    <g id="porco-cabeca-orelha-2">
+      <path d="M640 397 Q630 396 635 387 L660 344 Q668 330 674 345 L696 393 Q700 402 690 401 Z" fill="#E17A94" class="base" />
+    </g>
+    <g id="porco-cabeca-orelha-1">
+      <use href="#porco-cabeca-orelha-1-forma-4" fill="#E17A94" class="sombra" />
+      <g clip-path="url(#porco-cabeca-orelha-1-recorte-4)">
+        <use href="#porco-cabeca-orelha-1-forma-4" transform="translate(-6 -10)" fill="#F7A1B6" class="base" />
+      </g>
+    </g>
+      <use href="#porco-cabeca-forma-5" fill="#E17A94" class="sombra" />
+      <g clip-path="url(#porco-cabeca-recorte-5)">
+        <use href="#porco-cabeca-forma-5" transform="translate(-14 -22)" fill="#F7A1B6" class="base" />
+      </g>
+    <g id="porco-cabeca-focinho">
+      <use href="#porco-cabeca-focinho-forma-6" fill="#E17A94" class="sombra" />
+      <g clip-path="url(#porco-cabeca-focinho-recorte-6)">
+        <use href="#porco-cabeca-focinho-forma-6" transform="translate(-8 -10)" fill="#F7A1B6" class="base" />
+      </g>
+      <path d="M810.2 488.1 A8 13 14 1 0 825.8 491.9 A8 13 14 1 0 810.2 488.1 Z" fill="#E17A94" class="marca" />
+      <path d="M804.2 522.1 A8 13 14 1 0 819.8 525.9 A8 13 14 1 0 804.2 522.1 Z" fill="#E17A94" class="marca" />
+    </g>
+      <circle cx="742" cy="444" r="18" fill="#353D4E" class="marca" />
+      <circle cx="737" cy="438" r="6" fill="#FFFFFF" class="brilho" />
+    </g>
+  </g>
+</svg>

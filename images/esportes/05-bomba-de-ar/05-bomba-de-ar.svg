@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="bomba-de-ar-titulo">
+  <title id="bomba-de-ar-titulo">Bomba de ar</title>
+  <defs>
+    <path id="bomba-de-ar-pes-forma" d="M356 780 L668 780 Q688 780 688 800 L688 812 Q688 832 668 832 L356 832 Q336 832 336 812 L336 800 Q336 780 356 780 Z" />
+    <clipPath id="bomba-de-ar-pes-recorte">
+      <use href="#bomba-de-ar-pes-forma" />
+    </clipPath>
+    <path id="bomba-de-ar-corpo-forma" d="M480 380 L544 380 Q574 380 574 410 L574 770 Q574 800 544 800 L480 800 Q450 800 450 770 L450 410 Q450 380 480 380 Z" />
+    <clipPath id="bomba-de-ar-corpo-recorte">
+      <use href="#bomba-de-ar-corpo-forma" />
+    </clipPath>
+    <path id="bomba-de-ar-visor-forma" d="M466 690 A46 46 0 1 0 558 690 A46 46 0 1 0 466 690 Z" />
+    <clipPath id="bomba-de-ar-visor-recorte">
+      <use href="#bomba-de-ar-visor-forma" />
+    </clipPath>
+    <path id="bomba-de-ar-cabo-forma" d="M378 248 L646 248 Q672 248 672 274 L672 276 Q672 302 646 302 L378 302 Q352 302 352 276 L352 274 Q352 248 378 248 Z" />
+    <clipPath id="bomba-de-ar-cabo-recorte">
+      <use href="#bomba-de-ar-cabo-forma" />
+    </clipPath>
+    <path id="bomba-de-ar-cabo-haste-forma" d="M502 300 L522 300 Q528 300 528 306 L528 380 Q528 386 522 386 L502 386 Q496 386 496 380 L496 306 Q496 300 502 300 Z" />
+    <clipPath id="bomba-de-ar-cabo-haste-recorte">
+      <use href="#bomba-de-ar-cabo-haste-forma" />
+    </clipPath>
+  </defs>
+  <g id="bomba-de-ar">
+    <g id="bomba-de-ar-mangueira">
+      <path d="M560 770 C690 790 740 660 720 540 C708 470 680 440 650 446" transform="translate(3 4)" fill="none" stroke="#353D4E" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M560 770 C690 790 740 660 720 540 C708 470 680 440 650 446" fill="none" stroke="#4A5468" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="bomba-de-ar-pes">
+      <use href="#bomba-de-ar-pes-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#bomba-de-ar-pes-recorte)">
+        <use href="#bomba-de-ar-pes-forma" transform="translate(-6 -10)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+    <g id="bomba-de-ar-corpo">
+      <use href="#bomba-de-ar-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#bomba-de-ar-corpo-recorte)">
+        <use href="#bomba-de-ar-corpo-forma" transform="translate(-10 -16)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M478 420 L478 600" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="bomba-de-ar-visor">
+      <use href="#bomba-de-ar-visor-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#bomba-de-ar-visor-recorte)">
+        <use href="#bomba-de-ar-visor-forma" transform="translate(-5 -8)" fill="#F4F6FA" class="base" />
+      </g>
+      <path d="M512 690 L536 664" fill="none" stroke="#4A5468" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+    <g id="bomba-de-ar-cabo" data-pivo="512,274">
+      <use href="#bomba-de-ar-cabo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#bomba-de-ar-cabo-recorte)">
+        <use href="#bomba-de-ar-cabo-forma" transform="translate(-6 -10)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M384 264 L470 264" fill="none" stroke="#717D95" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <g id="bomba-de-ar-cabo-haste">
+        <use href="#bomba-de-ar-cabo-haste-forma" fill="#8293B8" class="sombra" />
+        <g clip-path="url(#bomba-de-ar-cabo-haste-recorte)">
+          <use href="#bomba-de-ar-cabo-haste-forma" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

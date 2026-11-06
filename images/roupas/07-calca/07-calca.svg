@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="calca-titulo">
+  <title id="calca-titulo">Calça</title>
+  <defs>
+    <path id="calca-corpo-forma" d="M512 170 L658 170 Q670 170 670 182 L693 826 Q694 846 674 847 L564 855 Q548 856 547 840 L531 454 Q530 430 521 415 L512 400 L503 415 Q494 430 493 454 L477 840 Q476 856 460 855 L350 847 Q330 846 331 826 L354 182 Q354 170 366 170 Z" />
+    <clipPath id="calca-corpo-recorte">
+      <use href="#calca-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="calca">
+    <g id="calca-corpo">
+      <use href="#calca-corpo-forma" fill="#33479C" class="sombra" />
+      <g clip-path="url(#calca-corpo-recorte)">
+        <use href="#calca-corpo-forma" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M360 222 L664 222" fill="none" stroke="#33479C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M532 232 C532 300 526 340 514 370" fill="none" stroke="#33479C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="512" cy="196" r="12" fill="#AEBEDB" class="marca" />
+      <path d="M364 280 L348 800" fill="none" stroke="#8296E4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

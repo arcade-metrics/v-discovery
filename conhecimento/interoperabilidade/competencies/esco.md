@@ -133,7 +133,3 @@ Alternativa europeia a `iop.comp.ctdl` no eixo ocupacional; complementa `iop.com
 | esco2026download | fornecedor | 2026-10-29 |
 | w3c2009skos | normativo | 2026-10-29 |
 | credentialengine2026ctdl | fornecedor | 2026-10-29 |
-
-## Histórico
-
-Fusão, em 29/10/2026, de `iop.comp.esco` (interoperabilidade, 78 linhas) com `kg.voc.esco` (grafo de conhecimento educacional, 115 linhas). Nenhum parágrafo foi descartado; a lacuna "formato de publicação RDF/SKOS não verificado" do documento de interoperabilidade foi resolvida pela página de download consultada pela frente do grafo. `kg.voc.esco` permanece como redirecionamento. As chaves `esco2025what` e `esco2026what` apontam para a mesma página, consultada por duas frentes.

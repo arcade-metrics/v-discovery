@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="trofeu-titulo">
+  <title id="trofeu-titulo">Troféu</title>
+  <defs>
+    <path id="trofeu-pedestal-forma" d="M390 724 L634 724 Q652 724 652 742 L652 806 Q652 824 634 824 L390 824 Q372 824 372 806 L372 742 Q372 724 390 724 Z" />
+    <clipPath id="trofeu-pedestal-recorte">
+      <use href="#trofeu-pedestal-forma" />
+    </clipPath>
+    <path id="trofeu-haste-forma" d="M484 580 L540 580 L556 690 Q600 696 600 724 L424 724 Q424 696 468 690 Z" />
+    <clipPath id="trofeu-haste-recorte">
+      <use href="#trofeu-haste-forma" />
+    </clipPath>
+    <path id="trofeu-corpo-forma" d="M336 252 L688 252 C688 470 616 596 512 596 C408 596 336 470 336 252 Z" />
+    <clipPath id="trofeu-corpo-recorte">
+      <use href="#trofeu-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="trofeu">
+    <g id="trofeu-alca-1" data-pivo="352,300">
+      <path d="M352 300 C232 296 232 470 394 492" transform="translate(4 6)" fill="none" stroke="#EBA622" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M352 300 C232 296 232 470 394 492" fill="none" stroke="#FFC93C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="trofeu-alca-2" data-pivo="672,300">
+      <path d="M672 300 C792 296 792 470 630 492" transform="translate(4 6)" fill="none" stroke="#EBA622" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M672 300 C792 296 792 470 630 492" fill="none" stroke="#FFC93C" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="trofeu-pedestal">
+      <use href="#trofeu-pedestal-forma" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#trofeu-pedestal-recorte)">
+        <use href="#trofeu-pedestal-forma" transform="translate(-8 -12)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M460 754 L564 754 Q572 754 572 762 L572 786 Q572 794 564 794 L460 794 Q452 794 452 786 L452 762 Q452 754 460 754 Z" fill="#FFC93C" class="marca" />
+    </g>
+    <g id="trofeu-haste">
+      <use href="#trofeu-haste-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#trofeu-haste-recorte)">
+        <use href="#trofeu-haste-forma" transform="translate(-8 -12)" fill="#FFC93C" class="base" />
+      </g>
+    </g>
+    <g id="trofeu-corpo">
+      <use href="#trofeu-corpo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#trofeu-corpo-recorte)">
+        <use href="#trofeu-corpo-forma" transform="translate(-14 -22)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M394 300 C396 400 420 480 462 530" fill="none" stroke="#FFDE73" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

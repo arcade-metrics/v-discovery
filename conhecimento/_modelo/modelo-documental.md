@@ -22,7 +22,7 @@ Formato: `<dominio>.<area>.<slug>`, em inglês, minúsculas, hífens.
 
 Exemplos: `rtm.sync.snapshot-interpolation`, `iop.spec.xapi`, `adp.model.bayesian-knowledge-tracing`.
 
-Um id nunca muda depois de publicado. Se o conceito for renomeado, o arquivo muda de nome e o id permanece. Se o conceito for dividido, o id antigo vira um documento curto do tipo `redirecionamento` apontando para os novos.
+Um id nunca muda depois de publicado. Se o conceito for renomeado, o arquivo muda de nome e o id permanece. Se o conceito for dividido ou fundido, todas as referências ao id antigo são reescritas para os novos e o id antigo deixa de existir; não fica documento de redirecionamento.
 
 ## 2. Frontmatter YAML
 
@@ -30,7 +30,7 @@ Um id nunca muda depois de publicado. Se o conceito for renomeado, o arquivo mud
 ---
 id: rtm.sync.snapshot-interpolation
 titulo: Snapshot interpolation
-tipo: conceito          # conceito | tecnica | protocolo | padrao | framework | estudo-de-caso | comparacao | glossario | mapa | relatorio | redirecionamento
+tipo: conceito          # conceito | tecnica | protocolo | padrao | framework | estudo-de-caso | comparacao | glossario | mapa | relatorio
 dominio: realtime-multiplayer
 status: rascunho        # rascunho | revisado
 criado: 2026-10-29

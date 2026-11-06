@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cronometro-titulo">
+  <title id="cronometro-titulo">Cronômetro</title>
+  <defs>
+    <path id="cronometro-botao-1-forma" d="M482 200 L542 200 Q562 200 562 220 L562 236 Q562 256 542 256 L482 256 Q462 256 462 236 L462 220 Q462 200 482 200 Z" />
+    <clipPath id="cronometro-botao-1-recorte">
+      <use href="#cronometro-botao-1-forma" />
+    </clipPath>
+    <path id="cronometro-botao-1-forma-2" d="M498 246 L526 246 Q534 246 534 254 L534 298 Q534 306 526 306 L498 306 Q490 306 490 298 L490 254 Q490 246 498 246 Z" />
+    <clipPath id="cronometro-botao-1-recorte-2">
+      <use href="#cronometro-botao-1-forma-2" />
+    </clipPath>
+    <path id="cronometro-botao-2-forma" d="M690 330 L732 288 Q744 276 756 288 L778 310 Q790 322 778 334 L736 376 Z" />
+    <clipPath id="cronometro-botao-2-recorte">
+      <use href="#cronometro-botao-2-forma" />
+    </clipPath>
+    <path id="cronometro-corpo-forma" d="M262 560 A250 250 0 1 0 762 560 A250 250 0 1 0 262 560 Z" />
+    <clipPath id="cronometro-corpo-recorte">
+      <use href="#cronometro-corpo-forma" />
+    </clipPath>
+    <path id="cronometro-visor-forma" d="M320 560 A192 192 0 1 0 704 560 A192 192 0 1 0 320 560 Z" />
+    <clipPath id="cronometro-visor-recorte">
+      <use href="#cronometro-visor-forma" />
+    </clipPath>
+  </defs>
+  <g id="cronometro">
+    <g id="cronometro-botao-1">
+      <use href="#cronometro-botao-1-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#cronometro-botao-1-recorte)">
+        <use href="#cronometro-botao-1-forma" transform="translate(-6 -10)" fill="#AEBEDB" class="base" />
+      </g>
+      <use href="#cronometro-botao-1-forma-2" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#cronometro-botao-1-recorte-2)">
+        <use href="#cronometro-botao-1-forma-2" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+    </g>
+    <g id="cronometro-botao-2">
+      <use href="#cronometro-botao-2-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#cronometro-botao-2-recorte)">
+        <use href="#cronometro-botao-2-forma" transform="translate(-5 -8)" fill="#AEBEDB" class="base" />
+      </g>
+    </g>
+    <g id="cronometro-corpo">
+      <use href="#cronometro-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#cronometro-corpo-recorte)">
+        <use href="#cronometro-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M330 520 C346 440 400 380 470 360" fill="none" stroke="#F7867C" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="cronometro-visor">
+      <use href="#cronometro-visor-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#cronometro-visor-recorte)">
+        <use href="#cronometro-visor-forma" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+      <path d="M512 400 L512 430 M672 560 L642 560 M512 720 L512 690 M352 560 L382 560" fill="none" stroke="#4A5468" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+    <g id="cronometro-ponteiro" data-pivo="512,560">
+      <path d="M512 560 L590 448" fill="none" stroke="#EA4A3F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <path d="M490 560 A22 22 0 1 0 534 560 A22 22 0 1 0 490 560 Z" fill="#4A5468" class="marca" />
+    </g>
+  </g>
+</svg>

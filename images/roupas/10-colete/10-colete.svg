@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="colete-titulo">
+  <title id="colete-titulo">Colete</title>
+  <defs>
+    <path id="colete-corpo-forma" d="M512 430 L566 180 Q568 170 578 170 L606 170 Q616 170 618 180 L635 281 Q644 330 667 358 L677 371 Q690 386 690 406 L694 776 Q694 800 671 808 L569 843 Q560 846 553 839 L512 800 L471 839 Q464 846 455 843 L353 808 Q330 800 330 776 L334 406 Q334 386 347 371 L357 358 Q380 330 389 281 L406 180 Q408 170 418 170 L446 170 Q456 170 458 180 Z" />
+    <clipPath id="colete-corpo-recorte">
+      <use href="#colete-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="colete">
+    <g id="colete-corpo">
+      <use href="#colete-corpo-forma" fill="#8AAE28" class="sombra" />
+      <g clip-path="url(#colete-corpo-recorte)">
+        <use href="#colete-corpo-forma" transform="translate(-14 -22)" fill="#A8CC3C" class="base" />
+      </g>
+      <path d="M512 432 L512 800" fill="none" stroke="#8AAE28" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="530" cy="490" r="12" fill="#AEBEDB" class="marca" />
+      <circle cx="530" cy="580" r="12" fill="#AEBEDB" class="marca" />
+      <circle cx="530" cy="670" r="12" fill="#AEBEDB" class="marca" />
+      <circle cx="530" cy="750" r="12" fill="#AEBEDB" class="marca" />
+      <path d="M360 440 L356 780" fill="none" stroke="#D2E87C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

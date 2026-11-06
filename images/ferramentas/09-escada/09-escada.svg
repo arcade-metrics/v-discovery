@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="escada-titulo">
+  <title id="escada-titulo">Escada</title>
+  <defs>
+    <path id="escada-corpo-forma" d="M404 156 C404 150 408 146 414 146 L438 146 C444 146 448 150 448 156 L432 880 C432 886 428 890 422 890 L390 890 C384 890 380 886 380 880 Z M576 156 C576 150 580 146 586 146 L610 146 C616 146 620 150 620 156 L644 880 C644 886 640 890 634 890 L602 890 C596 890 592 886 592 880 Z M426 240 L598 240 L598 274 L426 274 Z M426 350 L598 350 L598 384 L426 384 Z M426 460 L598 460 L598 494 L426 494 Z M426 570 L598 570 L598 604 L426 604 Z M426 680 L598 680 L598 714 L426 714 Z M426 790 L598 790 L598 824 L426 824 Z" />
+    <clipPath id="escada-corpo-recorte">
+      <use href="#escada-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="escada">
+    <g id="escada-corpo">
+      <use href="#escada-corpo-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#escada-corpo-recorte)">
+        <use href="#escada-corpo-forma" transform="translate(-10 -16)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M414 180 L398 860 M586 180 L602 860" fill="none" stroke="#F0C68E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M452 249 L572 249 M452 359 L572 359 M452 469 L572 469 M452 579 L572 579 M452 689 L572 689 M452 799 L572 799" fill="none" stroke="#F0C68E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

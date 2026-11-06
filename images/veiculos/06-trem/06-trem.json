@@ -1,0 +1,274 @@
+{
+  "item": "trem",
+  "numero": 6,
+  "categoria": "veiculos",
+  "nome": "Trem",
+  "svg": "06-trem.svg",
+  "png": "06-trem.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "trem-vapor": {
+      "parte": "vapor",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "trem-chamine": {
+      "parte": "chamine",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "trem-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C",
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468",
+          "#4A62C8"
+        ],
+        "marca": [
+          "#FFC93C"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "amarelo",
+        "azul",
+        "grafite"
+      ]
+    },
+    "trem-cabine": {
+      "parte": "cabine",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#C93830"
+        ],
+        "base": [
+          "#4A5468",
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "vermelho-vivo"
+      ]
+    },
+    "trem-janela": {
+      "parte": "janela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "trem-roda-1": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        280.0,
+        670.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "trem-roda-2": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        450.0,
+        670.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "trem-roda-3": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        720.0,
+        690.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "trem-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

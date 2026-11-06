@@ -1,0 +1,41 @@
+{
+  "item": "sunga",
+  "numero": 12,
+  "categoria": "roupas",
+  "nome": "Sunga",
+  "svg": "12-sunga.svg",
+  "png": "12-sunga.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "sunga-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "marca": [
+          "#33479C"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

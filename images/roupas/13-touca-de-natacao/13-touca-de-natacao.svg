@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="touca-de-natacao-titulo">
+  <title id="touca-de-natacao-titulo">Touca de natação</title>
+  <defs>
+    <path id="touca-de-natacao-corpo-forma" d="M262 700 C262 420 370 230 512 230 C654 230 762 420 762 700 C762 730 740 744 712 744 L312 744 C284 744 262 730 262 700 Z" />
+    <clipPath id="touca-de-natacao-corpo-recorte">
+      <use href="#touca-de-natacao-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="touca-de-natacao">
+    <g id="touca-de-natacao-corpo">
+      <use href="#touca-de-natacao-corpo-forma" fill="#EDB417" class="sombra" />
+      <g clip-path="url(#touca-de-natacao-corpo-recorte)">
+        <use href="#touca-de-natacao-corpo-forma" transform="translate(-14 -22)" fill="#FFD43B" class="base" />
+      </g>
+      <path d="M274 680 L750 680" fill="none" stroke="#EDB417" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <ellipse cx="392" cy="390" rx="28" ry="64" transform="rotate(32 392 390)" fill="#FFE98A" class="brilho" />
+    </g>
+  </g>
+</svg>

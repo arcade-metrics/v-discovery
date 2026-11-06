@@ -119,7 +119,3 @@ Alternativa a `iop.md.dublin-core` (que, na prática, o complementa) e a `iop.md
 | imsglobal2011cc | normativo | 2026-10-29 |
 | dcmi2020terms | normativo | 2026-10-29 |
 | schemaorg2026learningresource | fornecedor | 2026-10-29 |
-
-## Histórico
-
-Fusão, em 29/10/2026, de `iop.md.ieee-lom` (interoperabilidade, 71 linhas) com `kg.voc.ieee-lom` (grafo de conhecimento educacional, 101 linhas). Nenhum parágrafo foi descartado; a ressalva do documento de interoperabilidade de que as datas vinham só de repositório secundário foi resolvida pela página do catálogo IEEE SA consultada pela frente do grafo. `kg.voc.ieee-lom` permanece como redirecionamento.

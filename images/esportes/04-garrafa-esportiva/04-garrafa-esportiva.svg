@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="garrafa-esportiva-titulo">
+  <title id="garrafa-esportiva-titulo">Garrafa esportiva</title>
+  <defs>
+    <path id="garrafa-esportiva-corpo-forma" d="M420 330 L604 330 Q644 330 644 370 L644 420 Q620 470 620 520 Q620 570 644 620 L644 800 Q644 840 604 840 L420 840 Q380 840 380 800 L380 620 Q404 570 404 520 Q404 470 380 420 L380 370 Q380 330 420 330 Z" />
+    <clipPath id="garrafa-esportiva-corpo-recorte">
+      <use href="#garrafa-esportiva-corpo-forma" />
+    </clipPath>
+    <path id="garrafa-esportiva-tampa-forma" d="M414 270 L610 270 Q632 270 632 292 L632 320 Q632 342 610 342 L414 342 Q392 342 392 320 L392 292 Q392 270 414 270 Z" />
+    <clipPath id="garrafa-esportiva-tampa-recorte">
+      <use href="#garrafa-esportiva-tampa-forma" />
+    </clipPath>
+    <path id="garrafa-esportiva-tampa-bico-forma" d="M486 276 L486 222 Q486 196 512 196 Q538 196 538 222 L538 276 Z" />
+    <clipPath id="garrafa-esportiva-tampa-bico-recorte">
+      <use href="#garrafa-esportiva-tampa-bico-forma" />
+    </clipPath>
+  </defs>
+  <g id="garrafa-esportiva">
+    <g id="garrafa-esportiva-corpo">
+      <use href="#garrafa-esportiva-corpo-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#garrafa-esportiva-corpo-recorte)">
+        <use href="#garrafa-esportiva-corpo-forma" transform="translate(-14 -22)" fill="#2EC4B6" class="base" />
+      </g>
+      <g clip-path="url(#garrafa-esportiva-corpo-recorte)">
+        <path d="M392 680 L632 680 M392 730 L632 730" fill="none" stroke="#1EA396" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      </g>
+      <path d="M414 640 L414 790" fill="none" stroke="#7FE0D6" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="garrafa-esportiva-tampa" data-pivo="620,300">
+      <use href="#garrafa-esportiva-tampa-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#garrafa-esportiva-tampa-recorte)">
+        <use href="#garrafa-esportiva-tampa-forma" transform="translate(-6 -10)" fill="#4A5468" class="base" />
+      </g>
+      <g id="garrafa-esportiva-tampa-bico">
+        <use href="#garrafa-esportiva-tampa-bico-forma" fill="#D3DAE6" class="sombra" />
+        <g clip-path="url(#garrafa-esportiva-tampa-bico-recorte)">
+          <use href="#garrafa-esportiva-tampa-bico-forma" transform="translate(-5 -8)" fill="#F4F6FA" class="base" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

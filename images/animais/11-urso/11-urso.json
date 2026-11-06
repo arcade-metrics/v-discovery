@@ -1,0 +1,252 @@
+{
+  "item": "urso",
+  "numero": 11,
+  "categoria": "animais",
+  "nome": "Urso",
+  "svg": "11-urso.svg",
+  "png": "11-urso.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "urso-pata-4": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        270.0,
+        600.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#5C311B"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        521.0,
+        600.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#5C311B"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-pata-3": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        336.0,
+        600.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        590.0,
+        600.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        223.0,
+        469.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        601.0,
+        423.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#A0643F",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "cafe",
+        "grafite"
+      ]
+    },
+    "urso-cabeca-orelha-2": {
+      "parte": "orelha",
+      "pai": "urso-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#5C311B"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-cabeca-orelha-1": {
+      "parte": "orelha",
+      "pai": "urso-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "urso-cabeca-focinho": {
+      "parte": "focinho",
+      "pai": "urso-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "madeira"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

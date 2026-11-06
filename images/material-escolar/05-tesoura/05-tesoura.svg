@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="tesoura-titulo">
+  <title id="tesoura-titulo">Tesoura</title>
+  <defs>
+    <path id="tesoura-braco-1-forma" d="M308 764 A96 74 0 1 1 500 764 A96 74 0 1 1 308 764 Z M346 764 A58 40 0 1 0 462 764 A58 40 0 1 0 346 764 Z M534 530 L453 718 L405 697 L490 510 Z" />
+    <clipPath id="tesoura-braco-1-recorte">
+      <use href="#tesoura-braco-1-forma" />
+    </clipPath>
+    <path id="tesoura-braco-1-forma-2" d="M487 528 L597 167 Q603 156 609 170 Q606 364 538 541 Z" />
+    <clipPath id="tesoura-braco-1-recorte-2">
+      <use href="#tesoura-braco-1-forma-2" />
+    </clipPath>
+    <path id="tesoura-braco-2-forma-3" d="M524 764 A96 74 0 1 1 716 764 A96 74 0 1 1 524 764 Z M562 764 A58 40 0 1 0 678 764 A58 40 0 1 0 562 764 Z M534 510 L619 697 L571 718 L490 530 Z" />
+    <clipPath id="tesoura-braco-2-recorte-3">
+      <use href="#tesoura-braco-2-forma-3" />
+    </clipPath>
+    <path id="tesoura-braco-2-forma-4" d="M537 528 L427 167 Q421 156 415 170 Q418 364 486 541 Z" />
+    <clipPath id="tesoura-braco-2-recorte-4">
+      <use href="#tesoura-braco-2-forma-4" />
+    </clipPath>
+  </defs>
+  <g id="tesoura">
+    <g id="tesoura-braco-1" data-pivo="512,520">
+      <use href="#tesoura-braco-1-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#tesoura-braco-1-recorte)">
+        <use href="#tesoura-braco-1-forma" transform="translate(-10 -16)" fill="#FF9A2E" class="base" />
+      </g>
+      <use href="#tesoura-braco-1-forma-2" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#tesoura-braco-1-recorte-2)">
+        <use href="#tesoura-braco-1-forma-2" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M334 740 C338 712 356 698 378 692" fill="none" stroke="#FFC27A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="tesoura-braco-2" data-pivo="512,520">
+      <use href="#tesoura-braco-2-forma-3" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#tesoura-braco-2-recorte-3)">
+        <use href="#tesoura-braco-2-forma-3" transform="translate(-10 -16)" fill="#FF9A2E" class="base" />
+      </g>
+      <use href="#tesoura-braco-2-forma-4" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#tesoura-braco-2-recorte-4)">
+        <use href="#tesoura-braco-2-forma-4" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M550 740 C554 712 572 698 594 692" fill="none" stroke="#FFC27A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <circle cx="512" cy="520" r="40" fill="#AEBEDB" class="marca" />
+      <circle cx="512" cy="520" r="10" fill="#4A5468" class="marca" />
+      <path d="M450 260 L476 410" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

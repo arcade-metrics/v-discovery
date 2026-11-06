@@ -1,0 +1,97 @@
+{
+  "item": "pandeiro",
+  "numero": 8,
+  "categoria": "instrumentos",
+  "nome": "Pandeiro",
+  "svg": "08-pandeiro.svg",
+  "png": "08-pandeiro.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "pandeiro-pele": {
+      "parte": "pele",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E9E2D2"
+        ],
+        "base": [
+          "#FBF8F0"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "creme"
+      ]
+    },
+    "pandeiro-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#7A4426"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "madeira"
+      ]
+    },
+    "pandeiro-prato": {
+      "parte": "prato",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

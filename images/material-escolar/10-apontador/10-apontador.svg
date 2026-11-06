@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="apontador-titulo">
+  <title id="apontador-titulo">Apontador</title>
+  <defs>
+    <path id="apontador-corpo-forma" d="M292 196 L606 196 L606 828 L292 828 Q262 828 262 798 L262 576 A64 64 0 0 0 262 448 L262 226 Q262 196 292 196 Z" />
+    <clipPath id="apontador-corpo-recorte">
+      <use href="#apontador-corpo-forma" />
+    </clipPath>
+    <path id="apontador-lamina-forma-2" d="M342 240 Q342 232 350 232 L492 232 Q500 232 500 240 L494 784 Q494 792 486 792 L354 792 Q346 792 346 784 Z" />
+    <clipPath id="apontador-lamina-recorte-2">
+      <use href="#apontador-lamina-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="apontador" transform="translate(-12 0)">
+    <g id="apontador-corpo">
+      <use href="#apontador-corpo-forma" fill="#2F97CF" class="sombra" />
+      <g clip-path="url(#apontador-corpo-recorte)">
+        <use href="#apontador-corpo-forma" transform="translate(-14 -22)" fill="#4FB8EA" class="base" />
+      </g>
+      <path d="M606 196 L770 224 Q786 226 786 242 L786 440 A72 72 0 0 0 786 584 L786 782 Q786 798 770 800 L606 828 Z" fill="#2F97CF" class="sombra" />
+      <rect x="314" y="232" width="26" height="560" rx="6" fill="#2F97CF" class="marca" />
+      <path d="M632 276 L762 298 M632 308 L762 330 M632 340 L762 362 M632 372 L762 394 M632 660 L762 682 M632 692 L762 714 M632 724 L762 746 M632 756 L762 778" fill="none" stroke="#4FB8EA" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M288 240 L288 412 M288 612 L288 784" fill="none" stroke="#93D6F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="apontador-furo">
+      <ellipse cx="676" cy="512" rx="40" ry="70" fill="#4A5468" class="base" />
+      <ellipse cx="670" cy="516" rx="28" ry="52" fill="#353D4E" class="marca" />
+      <ellipse cx="678" cy="520" rx="13" ry="26" fill="#BE7F3E" class="marca" />
+    </g>
+    <g id="apontador-lamina">
+      <use href="#apontador-lamina-forma-2" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#apontador-lamina-recorte-2)">
+        <use href="#apontador-lamina-forma-2" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="422" cy="566" r="38" fill="#8293B8" class="marca" />
+      <circle cx="416" cy="558" r="28" fill="#AEBEDB" class="marca" />
+      <path d="M366 266 L368 748" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <ellipse cx="404" cy="546" rx="7" ry="11" transform="rotate(30 404 546)" fill="#DCE5F5" class="brilho" />
+    </g>
+  </g>
+</svg>

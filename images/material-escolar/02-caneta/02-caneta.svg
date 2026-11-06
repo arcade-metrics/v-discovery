@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="caneta-titulo">
+  <title id="caneta-titulo">Caneta</title>
+  <defs>
+    <path id="caneta-ponta-forma" d="M496 830 L528 830 L520 872 C518 882 506 882 504 872 Z" />
+    <clipPath id="caneta-ponta-recorte">
+      <use href="#caneta-ponta-forma" />
+    </clipPath>
+    <path id="caneta-ponta-forma-2" d="M458 712 L566 712 L566 736 C566 774 540 798 530 836 L494 836 C484 798 458 774 458 736 Z" />
+    <clipPath id="caneta-ponta-recorte-2">
+      <use href="#caneta-ponta-forma-2" />
+    </clipPath>
+    <path id="caneta-corpo-forma-3" d="M458 390 L566 390 L566 720 L458 720 Z" />
+    <clipPath id="caneta-corpo-recorte-3">
+      <use href="#caneta-corpo-forma-3" />
+    </clipPath>
+    <path id="caneta-tampa-forma-4" d="M462 150 C462 140 470 132 480 132 L544 132 C554 132 562 140 562 150 L566 400 L458 400 Z" />
+    <clipPath id="caneta-tampa-recorte-4">
+      <use href="#caneta-tampa-forma-4" />
+    </clipPath>
+    <path id="caneta-tampa-forma-5" d="M556 168 L584 168 C594 168 600 174 600 184 L598 352 C598 370 588 380 576 380 C564 380 556 370 556 356 Z" />
+    <clipPath id="caneta-tampa-recorte-5">
+      <use href="#caneta-tampa-forma-5" />
+    </clipPath>
+  </defs>
+  <g id="caneta">
+    <g id="caneta-ponta">
+      <use href="#caneta-ponta-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#caneta-ponta-recorte)">
+        <use href="#caneta-ponta-forma" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <use href="#caneta-ponta-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#caneta-ponta-recorte-2)">
+        <use href="#caneta-ponta-forma-2" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M476 728 L482 770" fill="none" stroke="#8296E4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caneta-corpo">
+      <use href="#caneta-corpo-forma-3" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#caneta-corpo-recorte-3)">
+        <use href="#caneta-corpo-forma-3" transform="translate(-10 -14)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M512 404 L512 712" fill="none" stroke="#4A62C8" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M476 410 L476 700" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caneta-tampa" data-pivo="512,400">
+      <use href="#caneta-tampa-forma-4" fill="#33479C" class="sombra" />
+      <g clip-path="url(#caneta-tampa-recorte-4)">
+        <use href="#caneta-tampa-forma-4" transform="translate(-10 -16)" fill="#4A62C8" class="base" />
+      </g>
+      <use href="#caneta-tampa-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#caneta-tampa-recorte-5)">
+        <use href="#caneta-tampa-forma-5" transform="translate(-6 -8)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M480 170 L482 380" fill="none" stroke="#8296E4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M568 190 L568 340" fill="none" stroke="#DCE5F5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

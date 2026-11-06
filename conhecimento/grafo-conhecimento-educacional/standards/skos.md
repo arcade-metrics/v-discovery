@@ -12,7 +12,7 @@ relacoes:
   - { tipo: parte-de, alvo: kg.std.index }
   - { tipo: depende-de, alvo: kg.std.rdf }
   - { tipo: alternativa-a, alvo: kg.std.owl2 }
-  - { tipo: implementado-por, alvo: kg.voc.esco }
+  - { tipo: implementado-por, alvo: iop.comp.esco }
   - { tipo: complementa, alvo: kg.curr.competency-frameworks }
   - { tipo: relacionado-a, alvo: kg.found.reasoning }
 termos: [SKOS, skos:Concept, skos:ConceptScheme, skos:prefLabel, skos:altLabel, skos:notation, skos:broader, skos:narrower, skos:related, skos:broaderTransitive, skos:semanticRelation, skos:exactMatch, skos:closeMatch, skos:inScheme, skos:topConceptOf, tesauro, taxonomia]
@@ -60,8 +60,8 @@ Pontos normativos relevantes [F: w3c2009skos, §8.1, §8.3]:
 
 ### Adoção em educação
 
-- A ESCO, classificação multilíngue europeia de competências e ocupações, descreve 3.039 ocupações e 13.939 competências, traduzidas em 28 idiomas; a versão corrente é ESCO v1.2.1, release v6.0.0, com última atualização em 10/12/2025 [F: esco2026what]. Ver kg.voc.esco.
-- Os *concept schemes* do LRMI são "pequenos conjuntos de conceitos para uso como valores com as propriedades LRMI", e "os conceitos nos vocabulários foram declarados em RDF usando o Simple Knowledge Organization System (SKOS) do W3C" [F: dcmi2026lrmi]. Ver kg.voc.schema-org-learning-resource.
+- A ESCO, classificação multilíngue europeia de competências e ocupações, descreve 3.039 ocupações e 13.939 competências, traduzidas em 28 idiomas; a versão corrente é ESCO v1.2.1, release v6.0.0, com última atualização em 10/12/2025 [F: esco2026what]. Ver iop.comp.esco.
+- Os *concept schemes* do LRMI são "pequenos conjuntos de conceitos para uso como valores com as propriedades LRMI", e "os conceitos nos vocabulários foram declarados em RDF usando o Simple Knowledge Organization System (SKOS) do W3C" [F: dcmi2026lrmi]. Ver iop.md.lrmi-schema-org.
 
 ## Requisitos e pressupostos
 
@@ -111,7 +111,7 @@ ex:c/8f3a ex:preRequisitoDe ex:c/1b2c .
 
 ## Relações com outros conceitos
 
-Parte de kg.std.index. Depende de kg.std.rdf. Alternativa a kg.std.owl2 quando basta hierarquia. Implementado por kg.voc.esco. Complementa kg.curr.competency-frameworks. Relaciona-se com kg.found.reasoning (fecho transitivo por convenção, não por inferência automática).
+Parte de kg.std.index. Depende de kg.std.rdf. Alternativa a kg.std.owl2 quando basta hierarquia. Implementado por iop.comp.esco. Complementa kg.curr.competency-frameworks. Relaciona-se com kg.found.reasoning (fecho transitivo por convenção, não por inferência automática).
 
 ## Lacunas e questões abertas
 

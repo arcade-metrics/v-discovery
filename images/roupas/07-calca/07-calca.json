@@ -1,0 +1,43 @@
+{
+  "item": "calca",
+  "numero": 7,
+  "categoria": "roupas",
+  "nome": "Calça",
+  "svg": "07-calca.svg",
+  "png": "07-calca.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "calca-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "marca": [
+          "#33479C",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

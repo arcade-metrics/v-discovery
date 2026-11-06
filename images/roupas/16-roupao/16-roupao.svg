@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="roupao-titulo">
+  <title id="roupao-titulo">Roupão</title>
+  <defs>
+    <path id="roupao-corpo-forma" d="M512 430 L574 195 Q578 180 593 184 L669 204 Q702 212 711 245 L800 587 Q806 610 783 617 L763 624 Q744 630 738 611 L683 422 Q680 410 680 422 L691 856 Q692 880 668 880 L512 880 L356 880 Q332 880 333 856 L344 422 Q344 410 341 422 L286 611 Q280 630 261 624 L241 617 Q218 610 224 587 L313 245 Q322 212 355 204 L431 184 Q446 180 450 195 Z" />
+    <clipPath id="roupao-corpo-recorte">
+      <use href="#roupao-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="roupao">
+    <g id="roupao-corpo">
+      <use href="#roupao-corpo-forma" fill="#EE7C4C" class="sombra" />
+      <g clip-path="url(#roupao-corpo-recorte)">
+        <use href="#roupao-corpo-forma" transform="translate(-14 -22)" fill="#FF9E6E" class="base" />
+      </g>
+      <path d="M576 194 C560 300 530 380 512 430 M448 194 C464 300 494 380 512 430" fill="none" stroke="#EE7C4C" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M512 430 L566 876" fill="none" stroke="#EE7C4C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <rect x="346" y="560" width="332" height="40" rx="12" fill="#EE7C4C" class="marca" />
+      <path d="M560 600 L540 704 M592 600 L612 696" fill="none" stroke="#EE7C4C" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M372 640 L370 840" fill="none" stroke="#FFC6A6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M318 300 L266 540" fill="none" stroke="#FFC6A6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

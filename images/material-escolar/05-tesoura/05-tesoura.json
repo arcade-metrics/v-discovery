@@ -1,0 +1,81 @@
+{
+  "item": "tesoura",
+  "numero": 5,
+  "categoria": "material-escolar",
+  "nome": "Tesoura",
+  "svg": "05-tesoura.svg",
+  "png": "05-tesoura.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "tesoura-braco-1": {
+      "parte": "braco",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        520.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8",
+          "#E87A12"
+        ],
+        "base": [
+          "#AEBEDB",
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja",
+        "metal"
+      ]
+    },
+    "tesoura-braco-2": {
+      "parte": "braco",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        520.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8",
+          "#E87A12"
+        ],
+        "base": [
+          "#AEBEDB",
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#DCE5F5",
+          "#FFC27A"
+        ],
+        "marca": [
+          "#4A5468",
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "laranja",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

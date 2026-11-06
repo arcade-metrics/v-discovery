@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="bone-titulo">
+  <title id="bone-titulo">Boné</title>
+  <defs>
+    <path id="bone-corpo-forma" d="M200 640 C200 400 340 260 520 260 C690 260 780 380 790 600 L790 640 Z" />
+    <clipPath id="bone-corpo-recorte">
+      <use href="#bone-corpo-forma" />
+    </clipPath>
+    <path id="bone-aba-forma-2" d="M640 596 L862 625 Q884 628 889 649 L892 660 Q896 678 878 679 L640 690 Z" />
+    <clipPath id="bone-aba-recorte-2">
+      <use href="#bone-aba-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="bone">
+    <g id="bone-corpo">
+      <use href="#bone-corpo-forma" fill="#33479C" class="sombra" />
+      <g clip-path="url(#bone-corpo-recorte)">
+        <use href="#bone-corpo-forma" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M520 272 C460 360 440 500 440 636 M520 272 C600 360 640 480 650 630" fill="none" stroke="#33479C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="520" cy="264" r="18" fill="#33479C" class="marca" />
+      <path d="M300 470 C320 390 370 336 420 314" fill="none" stroke="#8296E4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="bone-aba">
+      <use href="#bone-aba-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#bone-aba-recorte-2)">
+        <use href="#bone-aba-forma-2" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

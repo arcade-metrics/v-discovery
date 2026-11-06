@@ -1,0 +1,67 @@
+{
+  "item": "guarda-chuva",
+  "numero": 30,
+  "categoria": "roupas",
+  "nome": "Guarda-chuva",
+  "svg": "30-guarda-chuva.svg",
+  "png": "30-guarda-chuva.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "guarda-chuva-cabo": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        500.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "guarda-chuva-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#4A5468",
+          "#C93830"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

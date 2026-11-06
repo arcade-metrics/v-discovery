@@ -1,0 +1,161 @@
+{
+  "item": "carro",
+  "numero": 1,
+  "categoria": "veiculos",
+  "nome": "Carro",
+  "svg": "01-carro.svg",
+  "png": "01-carro.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "carro-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#353D4E",
+          "#C93830",
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "laranja",
+        "vermelho-vivo"
+      ]
+    },
+    "carro-janela": {
+      "parte": "janela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "carro-farol": {
+      "parte": "farol",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#EDB417"
+        ],
+        "base": [
+          "#FFD43B"
+        ]
+      },
+      "familias": [
+        "amarelo-limao"
+      ]
+    },
+    "carro-roda-1": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        330.0,
+        700.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "carro-roda-2": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        700.0,
+        700.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="piano-titulo">
+  <title id="piano-titulo">Piano</title>
+  <defs>
+    <path id="piano-tampa-forma" d="M214 228 Q214 214 228 214 L796 214 Q810 214 810 228 L810 254 Q810 262 802 262 L222 262 Q214 262 214 254 Z" />
+    <clipPath id="piano-tampa-recorte">
+      <use href="#piano-tampa-forma" />
+    </clipPath>
+    <path id="piano-corpo-forma-2" d="M236 250 L788 250 L788 792 Q788 806 774 806 L250 806 Q236 806 236 792 Z" />
+    <clipPath id="piano-corpo-recorte-2">
+      <use href="#piano-corpo-forma-2" />
+    </clipPath>
+    <path id="piano-tecla-forma-3" d="M250 526 Q250 520 256 520 L768 520 Q774 520 774 526 L774 634 Q774 640 768 640 L256 640 Q250 640 250 634 Z" />
+    <clipPath id="piano-tecla-recorte-3">
+      <use href="#piano-tecla-forma-3" />
+    </clipPath>
+    <path id="piano-pes-forma-4" d="M270 810 Q270 806 274 806 L310 806 Q314 806 314 810 L317 858 Q318 866 310 866 L274 866 Q266 866 267 858 Z M710 810 Q710 806 714 806 L750 806 Q754 806 754 810 L757 858 Q758 866 750 866 L714 866 Q706 866 707 858 Z" />
+    <clipPath id="piano-pes-recorte-4">
+      <use href="#piano-pes-forma-4" />
+    </clipPath>
+  </defs>
+  <g id="piano">
+    <g id="piano-tampa" data-pivo="214,238">
+      <use href="#piano-tampa-forma" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#piano-tampa-recorte)">
+        <use href="#piano-tampa-forma" transform="translate(-6 -10)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M240 230 L600 230" fill="none" stroke="#A0643F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="piano-corpo">
+      <use href="#piano-corpo-forma-2" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#piano-corpo-recorte-2)">
+        <use href="#piano-corpo-forma-2" transform="translate(-14 -22)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M292 300 L732 300 L732 462 L292 462 Z M292 690 L732 690 L732 772 L292 772 Z" fill="none" stroke="#5C311B" stroke-width="10" stroke-linejoin="round" class="marca" />
+      <rect x="236" y="494" width="552" height="30" rx="0" fill="#5C311B" class="marca" />
+      <rect x="236" y="640" width="552" height="22" rx="0" fill="#5C311B" class="marca" />
+      <path d="M262 300 L262 470" fill="none" stroke="#A0643F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M262 690 L262 780" fill="none" stroke="#A0643F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="piano-tecla">
+      <use href="#piano-tecla-forma-3" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#piano-tecla-recorte-3)">
+        <use href="#piano-tecla-forma-3" transform="translate(-3 -5)" fill="#F4F6FA" class="base" />
+      </g>
+      <path d="M287 524 L287 636 M325 524 L325 636 M362 524 L362 636 M400 524 L400 636 M437 524 L437 636 M475 524 L475 636 M512 524 L512 636 M549 524 L549 636 M587 524 L587 636 M624 524 L624 636 M662 524 L662 636 M699 524 L699 636 M737 524 L737 636" fill="none" stroke="#D3DAE6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <rect x="276" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="314" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="389" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="426" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="464" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="538" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="576" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="651" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="688" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+      <rect x="726" y="520" width="22" height="72" rx="4" fill="#4A5468" class="marca" />
+    </g>
+    <g id="piano-pes">
+      <use href="#piano-pes-forma-4" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#piano-pes-recorte-4)">
+        <use href="#piano-pes-forma-4" transform="translate(-6 -8)" fill="#7A4426" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

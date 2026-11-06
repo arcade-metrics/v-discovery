@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="lapis-titulo">
+  <title id="lapis-titulo">Lápis</title>
+  <defs>
+    <path id="lapis-ponta-forma" d="M440 340 L500 168 Q512 140 524 168 L584 340 Z" />
+    <clipPath id="lapis-ponta-recorte">
+      <use href="#lapis-ponta-forma" />
+    </clipPath>
+    <path id="lapis-ponta-forma-2" d="M478 230 L500 168 Q512 140 524 168 L546 230 Q512 244 478 230 Z" />
+    <clipPath id="lapis-ponta-recorte-2">
+      <use href="#lapis-ponta-forma-2" />
+    </clipPath>
+    <path id="lapis-corpo-forma-3" d="M440 352 Q464 312 488 346 Q512 306 536 346 Q560 312 584 352 L584 760 L440 760 Z" />
+    <clipPath id="lapis-corpo-recorte-3">
+      <use href="#lapis-corpo-forma-3" />
+    </clipPath>
+    <path id="lapis-aro-forma-4" d="M444 836 L580 836 L580 863 Q580 890 552 890 L472 890 Q444 890 444 863 Z" />
+    <clipPath id="lapis-aro-recorte-4">
+      <use href="#lapis-aro-forma-4" />
+    </clipPath>
+    <path id="lapis-aro-forma-5" d="M436 760 Q436 752 444 752 L580 752 Q588 752 588 760 L588 834 Q588 842 580 842 L444 842 Q436 842 436 834 Z" />
+    <clipPath id="lapis-aro-recorte-5">
+      <use href="#lapis-aro-forma-5" />
+    </clipPath>
+  </defs>
+  <g id="lapis">
+    <g id="lapis-ponta">
+      <use href="#lapis-ponta-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#lapis-ponta-recorte)">
+        <use href="#lapis-ponta-forma" transform="translate(-8 -12)" fill="#DDA15E" class="base" />
+      </g>
+      <use href="#lapis-ponta-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#lapis-ponta-recorte-2)">
+        <use href="#lapis-ponta-forma-2" transform="translate(-6 -8)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M468 306 L486 252" fill="none" stroke="#F0C68E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="lapis-corpo">
+      <use href="#lapis-corpo-forma-3" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#lapis-corpo-recorte-3)">
+        <use href="#lapis-corpo-forma-3" transform="translate(-10 -16)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M488 356 L488 756 M536 356 L536 756" fill="none" stroke="#EBA622" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M462 384 L462 730" fill="none" stroke="#FFDE73" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="lapis-aro">
+      <use href="#lapis-aro-forma-4" fill="#C92E5E" class="sombra" />
+      <g clip-path="url(#lapis-aro-recorte-4)">
+        <use href="#lapis-aro-forma-4" transform="translate(-8 -12)" fill="#F0457A" class="base" />
+      </g>
+      <use href="#lapis-aro-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#lapis-aro-recorte-5)">
+        <use href="#lapis-aro-forma-5" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M444 782 L580 782 M444 812 L580 812" fill="none" stroke="#8293B8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M454 766 L454 828" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

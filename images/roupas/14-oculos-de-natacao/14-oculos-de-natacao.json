@@ -1,0 +1,104 @@
+{
+  "item": "oculos-de-natacao",
+  "numero": 14,
+  "categoria": "roupas",
+  "nome": "Óculos de natação",
+  "svg": "14-oculos-de-natacao.svg",
+  "png": "14-oculos-de-natacao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "oculos-de-natacao-tira": {
+      "parte": "tira",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "oculos-de-natacao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ]
+      },
+      "familias": [
+        "turquesa"
+      ]
+    },
+    "oculos-de-natacao-visor-1": {
+      "parte": "visor",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "oculos-de-natacao-visor-2": {
+      "parte": "visor",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

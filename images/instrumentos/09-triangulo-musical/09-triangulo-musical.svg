@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="triangulo-musical-titulo">
+  <title id="triangulo-musical-titulo">Triângulo</title>
+  <defs>
+
+  </defs>
+  <g id="triangulo-musical" transform="translate(-24 96)">
+    <g id="triangulo-musical-tira">
+      <path d="M512 254 C462 186 486 126 512 126 C538 126 562 186 512 254" transform="translate(2 3)" fill="none" stroke="#C93830" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M512 254 C462 186 486 126 512 126 C538 126 562 186 512 254" fill="none" stroke="#EA4A3F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="triangulo-musical-corpo">
+      <path d="M276 660 L512 254 L770 700 L322 700" transform="translate(4 6)" fill="none" stroke="#8293B8" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M276 660 L512 254 L770 700 L322 700" fill="none" stroke="#AEBEDB" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <path d="M306 595 L472 308" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="triangulo-musical-baqueta">
+      <path d="M640 540 L790 380" transform="translate(3 4)" fill="none" stroke="#8293B8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M640 540 L790 380" fill="none" stroke="#AEBEDB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <circle cx="794" cy="376" r="16" fill="#4A5468" class="marca" />
+    </g>
+  </g>
+</svg>

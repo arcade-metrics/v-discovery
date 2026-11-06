@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="aviao-titulo">
+  <title id="aviao-titulo">Avião</title>
+  <defs>
+    <path id="aviao-asa-1-forma" d="M467 440 Q470 450 480 450 L560 450 Q570 450 565 441 L487 312 Q480 300 466 300 L444 300 Q430 300 434 314 Z" />
+    <clipPath id="aviao-asa-1-recorte">
+      <use href="#aviao-asa-1-forma" />
+    </clipPath>
+    <path id="aviao-rabo-forma-2" d="M189 466 Q190 474 198 473 L302 453 Q310 452 307 445 L243 305 Q236 290 220 290 L192 290 Q176 290 177 306 Z" />
+    <clipPath id="aviao-rabo-recorte-2">
+      <use href="#aviao-rabo-forma-2" />
+    </clipPath>
+    <path id="aviao-corpo-forma-3" d="M200 470 C230 450 280 440 330 440 L740 440 C800 440 860 470 860 510 C860 550 806 580 740 580 L320 580 C250 580 196 562 180 532 C172 512 182 486 200 470 Z" />
+    <clipPath id="aviao-corpo-recorte-3">
+      <use href="#aviao-corpo-forma-3" />
+    </clipPath>
+    <path id="aviao-asa-2-forma-4" d="M438 540 Q440 530 450 530 L590 530 Q600 530 595 539 L478 746 Q470 760 454 760 L416 760 Q400 760 403 744 Z" />
+    <clipPath id="aviao-asa-2-recorte-4">
+      <use href="#aviao-asa-2-forma-4" />
+    </clipPath>
+    <path id="aviao-asa-2-forma-5" d="M456 638 Q456 616 478 616 L550 616 Q572 616 572 638 L572 642 Q572 664 550 664 L478 664 Q456 664 456 642 Z" />
+    <clipPath id="aviao-asa-2-recorte-5">
+      <use href="#aviao-asa-2-forma-5" />
+    </clipPath>
+    <path id="aviao-janela-forma-6" d="M770 474 Q770 462 782 465 L812 472 Q828 476 833 489 L835 495 Q838 502 830 502 L778 502 Q770 502 770 494 Z" />
+    <clipPath id="aviao-janela-recorte-6">
+      <use href="#aviao-janela-forma-6" />
+    </clipPath>
+  </defs>
+  <g id="aviao" transform="translate(-6 -13)">
+    <g id="aviao-asa-1" data-pivo="520,450">
+      <use href="#aviao-asa-1-forma" fill="#33479C" class="sombra" />
+      <g clip-path="url(#aviao-asa-1-recorte)">
+        <use href="#aviao-asa-1-forma" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+    </g>
+    <g id="aviao-rabo" data-pivo="240,460">
+      <use href="#aviao-rabo-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#aviao-rabo-recorte-2)">
+        <use href="#aviao-rabo-forma-2" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M200 316 L216 430" fill="none" stroke="#8296E4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="aviao-corpo">
+      <use href="#aviao-corpo-forma-3" fill="#2F97CF" class="sombra" />
+      <g clip-path="url(#aviao-corpo-recorte-3)">
+        <use href="#aviao-corpo-forma-3" transform="translate(-14 -22)" fill="#4FB8EA" class="base" />
+      </g>
+      <path d="M250 546 L800 546" fill="none" stroke="#4A62C8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="340" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="392" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="444" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="496" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="548" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="600" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="652" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <circle cx="704" cy="494" r="14" fill="#C8E8F4" class="marca" />
+      <path d="M300 458 L700 458" fill="none" stroke="#93D6F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="aviao-asa-2" data-pivo="520,530">
+      <use href="#aviao-asa-2-forma-4" fill="#33479C" class="sombra" />
+      <g clip-path="url(#aviao-asa-2-recorte-4)">
+        <use href="#aviao-asa-2-forma-4" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+      <use href="#aviao-asa-2-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#aviao-asa-2-recorte-5)">
+        <use href="#aviao-asa-2-forma-5" transform="translate(-5 -8)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M470 560 L430 720" fill="none" stroke="#8296E4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="aviao-janela">
+      <use href="#aviao-janela-forma-6" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#aviao-janela-recorte-6)">
+        <use href="#aviao-janela-forma-6" transform="translate(-4 -6)" fill="#C8E8F4" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

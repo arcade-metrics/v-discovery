@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="carro-titulo">
+  <title id="carro-titulo">Carro</title>
+  <defs>
+    <path id="carro-corpo-forma" d="M220 700 C190 700 172 680 172 650 L172 560 C172 520 196 496 236 490 L330 480 L400 360 C412 340 430 330 456 330 L600 330 C626 330 644 340 660 360 L740 470 L800 484 C834 492 852 516 852 552 L852 650 C852 680 834 700 804 700 Z" />
+    <clipPath id="carro-corpo-recorte">
+      <use href="#carro-corpo-forma" />
+    </clipPath>
+    <path id="carro-janela-forma-2" d="M426 470 Q416 470 420 461 L462 379 Q468 366 482 366 L534 366 Q544 366 544 376 L544 462 Q544 470 536 470 Z M576 376 Q576 366 586 366 L598 366 Q612 366 621 377 L694 462 Q700 470 690 470 L584 470 Q576 470 576 462 Z" />
+    <clipPath id="carro-janela-recorte-2">
+      <use href="#carro-janela-forma-2" />
+    </clipPath>
+    <path id="carro-farol-forma-3" d="M817 526 Q818 516 828 518 L846 521 Q852 522 852 528 L852 552 Q852 558 846 557 L824 555 Q814 554 815 544 Z" />
+    <clipPath id="carro-farol-recorte-3">
+      <use href="#carro-farol-forma-3" />
+    </clipPath>
+    <path id="carro-roda-1-forma-4" d="M250 700 A80 80 0 1 0 410 700 A80 80 0 1 0 250 700 Z" />
+    <clipPath id="carro-roda-1-recorte-4">
+      <use href="#carro-roda-1-forma-4" />
+    </clipPath>
+    <path id="carro-roda-1-forma-5" d="M292 700 A38 38 0 1 0 368 700 A38 38 0 1 0 292 700 Z" />
+    <clipPath id="carro-roda-1-recorte-5">
+      <use href="#carro-roda-1-forma-5" />
+    </clipPath>
+    <path id="carro-roda-2-forma-6" d="M620 700 A80 80 0 1 0 780 700 A80 80 0 1 0 620 700 Z" />
+    <clipPath id="carro-roda-2-recorte-6">
+      <use href="#carro-roda-2-forma-6" />
+    </clipPath>
+    <path id="carro-roda-2-forma-7" d="M662 700 A38 38 0 1 0 738 700 A38 38 0 1 0 662 700 Z" />
+    <clipPath id="carro-roda-2-recorte-7">
+      <use href="#carro-roda-2-forma-7" />
+    </clipPath>
+  </defs>
+  <g id="carro" transform="translate(0 -43)">
+    <g id="carro-corpo">
+      <use href="#carro-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#carro-corpo-recorte)">
+        <use href="#carro-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M234 700 A96 96 0 0 1 426 700 Z" fill="#353D4E" class="marca" />
+      <path d="M604 700 A96 96 0 0 1 796 700 Z" fill="#353D4E" class="marca" />
+      <path d="M560 490 L560 668" fill="none" stroke="#C93830" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M584 520 L618 520" fill="none" stroke="#C93830" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <rect x="172" y="528" width="22" height="42" rx="6" fill="#FF9A2E" class="marca" />
+      <path d="M214 522 L300 508" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M470 348 L590 348" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="carro-janela">
+      <use href="#carro-janela-forma-2" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#carro-janela-recorte-2)">
+        <use href="#carro-janela-forma-2" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M440 450 L476 384" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="carro-farol">
+      <use href="#carro-farol-forma-3" fill="#EDB417" class="sombra" />
+      <g clip-path="url(#carro-farol-recorte-3)">
+        <use href="#carro-farol-forma-3" transform="translate(-3 -5)" fill="#FFD43B" class="base" />
+      </g>
+    </g>
+    <g id="carro-roda-1" data-pivo="330,700">
+      <use href="#carro-roda-1-forma-4" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#carro-roda-1-recorte-4)">
+        <use href="#carro-roda-1-forma-4" transform="translate(-8 -12)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#carro-roda-1-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#carro-roda-1-recorte-5)">
+        <use href="#carro-roda-1-forma-5" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="330" cy="700" r="13" fill="#8293B8" class="marca" />
+      <path d="M270 684 A62 62 0 0 1 309 641" fill="none" stroke="#717D95" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="carro-roda-2" data-pivo="700,700">
+      <use href="#carro-roda-2-forma-6" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#carro-roda-2-recorte-6)">
+        <use href="#carro-roda-2-forma-6" transform="translate(-8 -12)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#carro-roda-2-forma-7" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#carro-roda-2-recorte-7)">
+        <use href="#carro-roda-2-forma-7" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="700" cy="700" r="13" fill="#8293B8" class="marca" />
+      <path d="M640 684 A62 62 0 0 1 679 641" fill="none" stroke="#717D95" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>
