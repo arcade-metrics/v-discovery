@@ -1,6 +1,6 @@
 ---
 produto: VUOO — Linguagem de produto dos microjogos
-slug: vuoo-linguagem
+slug: vuoo-microjogos
 etapa: pesquisa / c-benchmark
 status: rascunho para revisão
 atualizado_em: 2026-10-27
@@ -8,7 +8,7 @@ atualizado_em: 2026-10-27
 
 # C · Benchmark de produtos educacionais e jogos infantis
 
-**Objetivo:** mapear como produtos próximos ao VUOO resolvem loop de jogo, recompensa, mascote, visual, tom de voz e acessibilidade, para decidir o que copiar, o que adaptar e o que evitar. Os códigos `[IN-xx]` remetem a `../00-insumos.md`.
+**Objetivo:** mapear como produtos próximos ao VUOO resolvem loop de jogo, recompensa, mascote, visual, tom de voz e acessibilidade, para decidir o que copiar, o que adaptar e o que evitar. Os códigos `[IN-xx]` remetem a `projeto/insumos.md`.
 
 **Método e confiabilidade.** Pesquisa web (outubro/2026) em sites oficiais, lojas de aplicativos, imprensa especializada, artigos acadêmicos e organizações de defesa da infância. Três níveis de confiança aparecem no texto:
 - sem marcação: afirmação com fonte listada no fim da ficha;

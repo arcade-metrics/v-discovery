@@ -1,6 +1,6 @@
 ---
 produto: VUOO — Linguagem de produto dos microjogos
-slug: vuoo-linguagem
+slug: vuoo-microjogos
 etapa: 02-gamificacao
 status: em revisão
 atualizado_em: 2026-10-27
@@ -14,7 +14,7 @@ O pedido foi "a jogabilidade do Duolingo: recompensas, tarefas". Este documento 
 2. **É segura?** Funciona sem medo de perder, comparação social, culpa, imprevisibilidade ansiogênica ou sobrecarga? (pesquisa `b`; ECA Digital e AADC na pesquisa `d`)
 3. **Fica fora da medida?** Deixa intactos o estímulo e a resposta que o microjogo mede? (`[IN-17]`)
 
-Uma mecânica só entra se passar nas três. Quando falha em uma, é transformada. Códigos: `[IN-xx]` = `00-insumos.md`; `Rxx` = `pesquisa/b-neurodivergencia.md`; `Ixx` = `pesquisa/d-institucional.md`; `Cxx`/`Sxx` = achados das revisões em `revisao/`.
+Uma mecânica só entra se passar nas três. Quando falha em uma, é transformada. Códigos: `[IN-xx]` = `projeto/insumos.md`; `Rxx` = `pesquisa/b-neurodivergencia.md`; `Ixx` = `pesquisa/d-institucional.md`; `Cxx`/`Sxx` = achados das revisões em `revisao/`.
 
 ## A ideia que organiza tudo
 

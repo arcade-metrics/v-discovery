@@ -11,7 +11,7 @@ fontes: [krathwohl2002revision, ims2017case10, schemaorg2026learningresource, w3
 relacoes:
   - { tipo: parte-de, alvo: kg.mod.competencies-and-objectives }
   - { tipo: depende-de, alvo: kg.std.skos }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
   - { tipo: relacionado-a, alvo: kg.mod.conceptual-model }
   - { tipo: relacionado-a, alvo: adp.id.knowledge-components }
 termos: [taxonomia cognitiva, taxonomia de Bloom, taxonomia revisada, nível cognitivo, dimensão do processo cognitivo, dimensão do conhecimento, Depth of Knowledge, hasSkillLevel, verbo de ação]
@@ -117,7 +117,7 @@ SELECT ?componente ?nivel (COUNT(?o) AS ?n) WHERE {
 
 ## Relações com outros conceitos
 
-Parte de kg.mod.competencies-and-objectives. Depende de kg.std.skos. Relaciona-se com kg.voc.case (`hasSkillLevel`), kg.mod.conceptual-model e, no domínio vizinho, com adp.id.knowledge-components.
+Parte de kg.mod.competencies-and-objectives. Depende de kg.std.skos. Relaciona-se com iop.comp.case (`hasSkillLevel`), kg.mod.conceptual-model e, no domínio vizinho, com adp.id.knowledge-components.
 
 ## Lacunas e questões abertas
 

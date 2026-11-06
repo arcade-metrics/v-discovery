@@ -4,7 +4,7 @@
 
 **Para quem:** equipe de produto e engenharia da Wemoga que vai desenhar a arquitetura do produto VUOO: nuvem, backend, banco, identidade, proteção de dados, app e pipeline de eventos.
 
-**Produto, não projeto.** O produto VUOO é independente do projeto de pesquisa com o CIATec/CCD (decisão D8, §7.1b). A proposta em projeto/vuoo.md é só contexto. Versões anteriores deste relatório se referiam às fases F1.2 e F2.1 e a uma base de pesquisa; esse enquadramento foi retirado em 2026-11-05.
+**Produto, não projeto.** O produto VUOO é independente do projeto de pesquisa com o CIATec/CCD (decisão INF-08, §7.1b). A proposta em projeto/vuoo.md é só contexto. Versões anteriores deste relatório se referiam às fases F1.2 e F2.1 e a uma base de pesquisa; esse enquadramento foi retirado em 2026-11-05.
 
 **Estado:** proposta. Nada aqui é decisão. As decisões viram ADR (pasta `padroes/` desta solução) depois da revisão humana.
 
@@ -29,7 +29,7 @@
    - plano com mantenedor.
 
    A China só cabe como **implantação separada no território**, operada por entidade local.
-6. **Implantação:** uma célula por jurisdição (Brasil em região brasileira, cobrindo também logs, backups, telemetria e eventuais chamadas de LLM). O tenant é a rede ou secretaria; o aluno avulso entra num tenant próprio, a rede geral (D9). Não há base de pesquisa no produto (D14).
+6. **Implantação:** uma célula por jurisdição (Brasil em região brasileira, cobrindo também logs, backups, telemetria e eventuais chamadas de LLM). O tenant é a rede ou secretaria; o aluno avulso entra num tenant próprio, a rede geral (INF-09). Não há base de pesquisa no produto (INF-14).
 
 ## 2. Arquitetura proposta
 
@@ -98,7 +98,7 @@ O índice completo está em [brasil/README.md](camada-brasil/README-estudo-brasi
 | **Identidade** | Resolução por CPF (Inue) → ID INEP → certidão → nome + nascimento + filiação; todos guardados com scheme | modelo-de-dados §6 | decidir se o CPF é obrigatório no cadastro; estado "CPF pendente" |
 | **Adaptador Censo Escolar** | Exporta os registros 00/10/20/30/40/50/60 (1ª etapa) e a Situação do Aluno (2ª etapa); reimporta os códigos INEP gerados | leiaute 2026 V5 campo a campo | leiaute da Situação 2026 (não publicado); 2025 tem 7/8 contraditórios |
 | **Adaptador Gestão Presente** | Cliente da API CMDEB v2: estudante, matrícula, enturmação, frequência mensal, desempenho, profissionais | OpenAPI lido; divergências Portaria × API documentadas | confirmar com o MEC o alcance da obrigatoriedade (só para redes aderentes) |
-| **Currículo** | Extrai a BNCC da fonte oficial do MEC; importa o Currículo Paulista com `derivaDe`; modela os IFAs da Res. CNE/CEB 4/2025 | [bncc/](camada-brasil/bncc/README.md), [bncc-computacao/](camada-brasil/bncc-computacao/README.md), [bncc-dados/](fora-da-fase-1/brasil/bncc-dados/README.md), modelo-de-dados-curriculo §1 | escolher o texto canônico (2017 × 2018); sentido oficial de `*` e A/B/C no CP; volume EM do CP |
+| **Currículo** | Consome a BNCC do vuoo-base v1.1 (versão final e Computação); importa o Currículo Paulista com `derivaDe`; modela os IFAs da Res. CNE/CEB 4/2025 | [vuoo-base v1.1](https://github.com/arcade-metrics/v-base) (`dados/bncc-2018.json`, `dados/bncc-computacao-2022.json`), [bncc-dados/](fora-da-fase-1/brasil/bncc-dados/README.md), modelo-de-dados-curriculo §1 | sentido oficial de `*` e A/B/C no CP; volume EM do CP |
 | **Avaliação** | Escalas e esquemas de classificação do Saeb, SARESP e CNCA; alinhamento item→habilidade por curadoria | modelo-de-dados-curriculo §2 | cortes atuais do SARESP; escalas Saeb-BNCC |
 | **Inclusão / PEI** | Estudo de caso, PAEE/PEI com o mínimo federal (Port. 421 arts. 10–11) e o formato SP (Anexos II–V), prazos e revisões | modelo-de-dados-curriculo §3 | posição jurídica sobre laudo (SP 129 × MEC 421) |
 | **Regras LDB** | Validação de carga, dias letivos, frequência de 75% (e 60% na EI), idade por etapa | modelo-de-dados §5 | conferir a redação literal da LDB |
@@ -130,7 +130,7 @@ O índice completo está em [brasil/README.md](camada-brasil/README-estudo-brasi
 | R1 | **Core com viés brasileiro**, já que o Brasil é o único adaptador real | Regra P1 (duas jurisdições ou princípio transversal) e teste de neutralidade contra os crosswalks em standby antes de aceitar cada entidade |
 | R2 | **Equivalência falsa por transitividade** (BR→Core→EUA) | `exactMatch` só com revisão; SSSOM com confiança e justificativa |
 | R3 | **Residência incompleta**: logs, observabilidade, backups ou API de LLM fora do Brasil | Requisito explícito da arquitetura, incluindo SDKs de analytics e de crash no app (§7.9); avaliar fornecedores de LLM com região no Brasil |
-| R3a | **Protótipo nos EUA (D7) receber dado real** por atalho ("só um teste") | Condições do §7.8: só dados sintéticos e critério de saída antes de qualquer dado real |
+| R3a | **Protótipo nos EUA (INF-07) receber dado real** por atalho ("só um teste") | Condições do §7.8: só dados sintéticos e critério de saída antes de qualquer dado real |
 | R4 | **Bypass de RLS** por superusuário, `BYPASSRLS` ou dono da tabela | `FORCE ROW LEVEL SECURITY`; papéis de aplicação sem privilégio; teste automatizado |
 | R5 | **Ontologia além de OWL 2 QL** não roda virtualmente no Ontop | Decidir, quando o grafo for desenhado, o que é materializado; manter o Core operacional em QL |
 | R6 | **Leiaute do Censo muda todo ano** | Um serializador por ano; testes com os arquivos de exemplo do INEP |
@@ -146,35 +146,35 @@ Escopo: só arquitetura. Não se gera código nesta etapa.
 
 | # | Decisão | Consequência na arquitetura |
 |---|---|---|
-| D1 | **O CPF é o identificador preferencial do estudante.** Quem não tem CPF é cadastrado mesmo assim, ligado a um responsável. | Ver §7.3. A pessoa é referenciada pelo UUID interno, e o CPF é um identificador da lista. Estado de identidade `cpf_pendente`. |
-| D2 | **BNCC canônica = edição 2018** (atualização 06/11/2026: a base canônica mora no repositório **vuoo-base** (`fontes/bncc/`, https://github.com/arcade-metrics/v-base): fonte oficial `BNCC_EI_EF_110518_versaofinal_site.pdf` (versão final, EI, EF e EM) e cópia de trabalho `BNCC_reparado.pdf`), extraída por pipeline próprio da fonte oficial do MEC. | A transcrição de 2017 em `brasil/bncc/` fica como fonte histórica. As diferenças entre as duas viram `EdicaoDoTexto` e mapeamento. |
-| D4 | **Laudo é campo, não documento.** O VUOO não armazena arquivos; quando houver, a referência vem por API do sistema da rede. | C.DOC passa a guardar só metadados e referência externa (ver §7.4). Não há armazenamento de arquivos clínicos. |
-| D5 | **A residência no Brasil vale também para as APIs de LLM e embeddings**, se o produto as usar. | Só serve fornecedor com modelo disponível em região brasileira, a verificar por modelo. É requisito da arquitetura. |
-| D6 | **Granularidade mínima do código = Brasil.** SP é o piloto, mas nada é programado especificamente para SP; variações de estado e rede entram como campos opcionais e dados. | Ver §7.5. |
+| INF-01 | **O CPF é o identificador preferencial do estudante.** Quem não tem CPF é cadastrado mesmo assim, ligado a um responsável. | Ver §7.3. A pessoa é referenciada pelo UUID interno, e o CPF é um identificador da lista. Estado de identidade `cpf_pendente`. |
+| INF-02 | **BNCC canônica = versão final** (EI, EF e EM), com a BNCC Computação, no repositório **vuoo-base**, release v1.1 (https://github.com/arcade-metrics/v-base): `dados/bncc-2018.json` e `dados/bncc-computacao-2022.json`, extraídos por pipeline próprio e determinístico da fonte oficial do MEC (`fontes/bncc/`; método em `ferramentas/METODO.md`). | Os produtos citam a release e usam os ids do vuoo-base (`bncc-2018/<CODIGO>`, `bncc-computacao-2022/<CODIGO>`); o código oficial é atributo. Os Microjogos consomem o formato relacional; o Elo, o RDF. |
+| INF-04 | **Laudo é campo, não documento.** O VUOO não armazena arquivos; quando houver, a referência vem por API do sistema da rede. | C.DOC passa a guardar só metadados e referência externa (ver §7.4). Não há armazenamento de arquivos clínicos. |
+| INF-05 | **A residência no Brasil vale também para as APIs de LLM e embeddings**, se o produto as usar. | Só serve fornecedor com modelo disponível em região brasileira, a verificar por modelo. É requisito da arquitetura. |
+| INF-06 | **Granularidade mínima do código = Brasil.** SP é o piloto, mas nada é programado especificamente para SP; variações de estado e rede entram como campos opcionais e dados. | Ver §7.5. |
 
-| D1a | **Uma pessoa pode ter vários documentos, e todos ficam sempre vinculados a ela.** Sem CPF, vale por exemplo a certidão de nascimento. | Confirma §7.3. Os documentos são identificadores com scheme presos ao UUID da pessoa, mais o vínculo com o responsável. |
-| D3 | **Papéis LGPD conforme §7.6.** Na operação com escola ou rede, a escola/rede é controladora e a Wemoga/VUOO é operadora. *(Revista na segunda rodada: a parte sobre base de pesquisa e CEP caiu com a D14.)* | Ver §7.6. |
-| D7 | **O protótipo roda numa máquina virtual na AWS, provavelmente numa região dos EUA, por custo.** A residência no Brasil (D5) vale a partir da versão oficial. | Exceção temporária e registrada. Ver §7.8. |
+| INF-01a | **Uma pessoa pode ter vários documentos, e todos ficam sempre vinculados a ela.** Sem CPF, vale por exemplo a certidão de nascimento. | Confirma §7.3. Os documentos são identificadores com scheme presos ao UUID da pessoa, mais o vínculo com o responsável. |
+| INF-03 | **Papéis LGPD conforme §7.6.** Na operação com escola ou rede, a escola/rede é controladora e a Wemoga/VUOO é operadora. *(Revista na segunda rodada: a parte sobre base de pesquisa e CEP caiu com a INF-14.)* | Ver §7.6. |
+| INF-07 | **O protótipo roda numa máquina virtual na AWS, provavelmente numa região dos EUA, por custo.** A residência no Brasil (INF-05) vale a partir da versão oficial. | Exceção temporária e registrada. Ver §7.8. |
 
 ### 7.1b Decididas em 2026-11-05 (segunda rodada: produto e app)
 
 | # | Decisão | Consequência na arquitetura |
 |---|---|---|
-| D8 | **O produto VUOO é independente do projeto de pesquisa com o CIATec/CCD** e começa do zero. A proposta em `projeto/` é só contexto. | Nenhum requisito, métrica ou prazo vem das fases, pacotes ou amostras do projeto. |
-| D9 | **O cliente é a escola ou a rede.** Na versão inicial existe também o **uso avulso**: o aluno baixa e usa sem escola, para ter a experiência, e entra numa **rede geral** com um **professor geral**. | A rede geral é um tenant como os outros, operado pela Wemoga. Ver §7.6 (controlador) e §7.9. |
-| D10 | **Entrega inicial: app nativo Android e iOS, instalado no celular do aluno**, com micro-atividades de 5 a 15 minutos por dia. | O app é o cliente principal; a web fica para professor e gestão. |
-| D11 | **Autorização dos pais com o menor atrito possível.** Na rede, o responsável recebe um link que já o autentica. No uso avulso, a autorização do responsável entra no fluxo de instalação. | Nenhum dado do aluno é coletado antes de a autorização estar registrada; o primeiro acesso exige rede. Ver §7.9. |
-| D12 | **Offline: trilhas baixadas no aparelho; resultados guardados e enviados quando houver rede.** Provisório: uma trilha por semana, a rever depois dos testes de peso. | Fila local de eventos; pacotes de trilha versionados. Ver §7.9. |
-| D13 | **Captura de interação no celular e no tablet: toque, gestos e sensores inerciais. Sem visão computacional.** Também entra um **rastreamento de uso do app inteiro**, além dos eventos de atividade. | Dois fluxos no mesmo pipeline: atividade e uso do app. Séries de sensores em bloco. Ver §7.9. |
-| D14 | **Não há base de pesquisa no produto.** | O silo de pesquisa e o pipeline com CEP saem da arquitetura (§7.7). |
-| D15 | **O histórico acompanha o aluno, que é o titular dos dados.** A migração entre escolas acontece por requisição da nova escola e aprovação do aluno ou responsável, e fica sempre disponível. A escola anterior mantém o histórico do período em que o aluno esteve lá. A nova escola lê o histórico anterior sem nenhum dado que identifique a escola de origem. | Matrícula como concessão de acesso; repositório do aluno por pessoa; view com a organização ocultada. Ver §7.9.6. |
-| D16 | **Cadeia global para quem não tem escola:** rede geral → escola geral → turma geral → professor geral, com a mesma estrutura de uma rede real. No Brasil é o `global_brazil`, criado com estrutura simulada **depois que o resto estiver implementado**. | Tenant comum operado pela Wemoga; professor geral é papel de sistema; alunos da turma geral não se veem. Ver §7.9.6. |
-| D17 | **Sensores e toque são normalizados no aparelho** para permitir comparação geral. Taxa máxima inicial de 100 Hz; taxas diferentes são permitidas por sistema e aparelho, sempre registradas, e tratadas na estatística depois. | Biblioteca única de normalização para Android e iOS, versionada no envelope. Ver §7.9.7. |
-| D18 | **O aluno avulso não compartilha dados com ninguém; os dados são dele.** Se ele decidir entrar numa escola, pode levar o histórico, pelo fluxo da D15. | Na rede geral não há concessão a terceiros; a única saída é a migração aprovada pelo titular. |
-| D19 | **Revogação pelo titular, sem prazo e sem veto.** A escola recebe um aviso e precisa dar um "ciente", que só registra que ela soube e não limita a exclusão. Continua existindo o registro de que o aluno esteve na escola, mas ele deixa de estar ligado aos dados de atividade. O histórico de atividade daquele período deixa de ser visível para a escola. | Ver §7.9.6, "Revogação". |
-| D20 | **Opção B aprovada:** Core próprio mínimo + perfis por jurisdição + mapeamentos como dado. O Core v0.1 é a base dos ADRs. | §1–§3 deixam de ser proposta quanto à opção; as entidades seguem em revisão. |
-| D21 | **Revogação em camadas, cada uma opção do titular:** (1) tirar o acesso da escola; (2) tirar os dados do treino do VUOO; (3) exportar os dados; (4) revogar tudo. O treino do VUOO cruza com o **perfil da escola**, senão não há como cruzar os dados. A comunicação de cada camada é clara e suave. | Base de treino com perfil da escola; ferramenta de exportação; ver §7.9.6, "Camadas de revogação". |
-| D22 | **O repositório do aluno é do aluno**, fora de qualquer tenant. Ele é relacionado depois a uma rede, como **titular** (vínculo atual), **legado** (vínculo anterior) ou **global** (sem vínculo, `global_brazil`). | Nenhum dado do aluno dentro de silo de rede; nenhuma cópia na migração. Ver §7.9.6. |
+| INF-08 | **O produto VUOO é independente do projeto de pesquisa com o CIATec/CCD** e começa do zero. A proposta em `projeto/` é só contexto. | Nenhum requisito, métrica ou prazo vem das fases, pacotes ou amostras do projeto. |
+| INF-09 | **O cliente é a escola ou a rede.** Na versão inicial existe também o **uso avulso**: o aluno baixa e usa sem escola, para ter a experiência, e entra numa **rede geral** com um **professor geral**. | A rede geral é um tenant como os outros, operado pela Wemoga. Ver §7.6 (controlador) e §7.9. |
+| INF-10 | **Entrega inicial: app em Flutter (Android e iOS), *mobile first*, instalado no celular do aluno** (D-34), com micro-atividades de 5 a 15 minutos por dia. | O app é o cliente principal; a web fica para professor e gestão. |
+| INF-11 | **Autorização dos pais com o menor atrito possível.** Na rede, o responsável recebe um link que já o autentica. No uso avulso, a autorização do responsável entra no fluxo de instalação. | Nenhum dado do aluno é coletado antes de a autorização estar registrada; o primeiro acesso exige rede. Ver §7.9. |
+| INF-12 | **Offline: trilhas baixadas no aparelho; resultados guardados e enviados quando houver rede.** Provisório: uma trilha por semana, a rever depois dos testes de peso. | Fila local de eventos; pacotes de trilha versionados. Ver §7.9. |
+| INF-13 | **Captura de interação no celular e no tablet: toque, gestos e sensores inerciais. Sem visão computacional.** Também entra um **rastreamento de uso do app inteiro**, além dos eventos de atividade. | Dois fluxos no mesmo pipeline: atividade e uso do app. Séries de sensores em bloco. Ver §7.9. |
+| INF-14 | **Não há base de pesquisa no produto.** | O silo de pesquisa e o pipeline com CEP saem da arquitetura (§7.7). |
+| INF-15 | **O histórico acompanha o aluno, que é o titular dos dados.** A migração entre escolas acontece por requisição da nova escola e aprovação do aluno ou responsável, e fica sempre disponível. A escola anterior mantém o histórico do período em que o aluno esteve lá. A nova escola lê o histórico anterior sem nenhum dado que identifique a escola de origem. | Matrícula como concessão de acesso; repositório do aluno por pessoa; view com a organização ocultada. Ver §7.9.6. |
+| INF-16 | **Cadeia global para quem não tem escola:** rede geral → escola geral → turma geral → professor geral, com a mesma estrutura de uma rede real. No Brasil é o `global_brazil`, criado com estrutura simulada **depois que o resto estiver implementado**. | Tenant comum operado pela Wemoga; professor geral é papel de sistema; alunos da turma geral não se veem. Ver §7.9.6. |
+| INF-17 | **Sensores e toque são normalizados no aparelho** para permitir comparação geral. Taxa máxima inicial de 100 Hz; taxas diferentes são permitidas por sistema e aparelho, sempre registradas, e tratadas na estatística depois. | Biblioteca única de normalização para Android e iOS, versionada no envelope. Ver §7.9.7. |
+| INF-18 | **O aluno avulso não compartilha dados com ninguém; os dados são dele.** Se ele decidir entrar numa escola, pode levar o histórico, pelo fluxo da INF-15. | Na rede geral não há concessão a terceiros; a única saída é a migração aprovada pelo titular. |
+| INF-19 | **Revogação pelo titular, sem prazo e sem veto.** A escola recebe um aviso e precisa dar um "ciente", que só registra que ela soube e não limita a exclusão. Continua existindo o registro de que o aluno esteve na escola, mas ele deixa de estar ligado aos dados de atividade. O histórico de atividade daquele período deixa de ser visível para a escola. | Ver §7.9.6, "Revogação". |
+| INF-20 | **Opção B aprovada:** Core próprio mínimo + perfis por jurisdição + mapeamentos como dado. O Core v0.1 é a base dos ADRs. | §1–§3 deixam de ser proposta quanto à opção; as entidades seguem em revisão. |
+| INF-21 | **Revogação em camadas, cada uma opção do titular:** (1) tirar o acesso da escola; (2) tirar os dados do treino do VUOO; (3) exportar os dados; (4) revogar tudo. O treino do VUOO cruza com o **perfil da escola**, senão não há como cruzar os dados. A comunicação de cada camada é clara e suave. | Base de treino com perfil da escola; ferramenta de exportação; ver §7.9.6, "Camadas de revogação". |
+| INF-22 | **O repositório do aluno é do aluno**, fora de qualquer tenant. Ele é relacionado depois a uma rede, como **titular** (vínculo atual), **legado** (vínculo anterior) ou **global** (sem vínculo, `global_brazil`). | Nenhum dado do aluno dentro de silo de rede; nenhuma cópia na migração. Ver §7.9.6. |
 
 ### 7.2 Ainda pendentes
 
@@ -182,9 +182,9 @@ Escopo: só arquitetura. Não se gera código nesta etapa.
 2. **Dicionário de variáveis de atividade e telemetria**, com as features calculadas no aparelho e a fração de amostra bruta. É decisão de produto: vai para o PRD desta solução e o desenho das micro-atividades, não para este relatório.
 3. **Perfil da escola no treino:** quais atributos entram (tipo de rede, região, porte, faixas de indicadores…) e em que granularidade, para não reidentificar escola pequena (§7.9.6).
 4. **Textos das camadas de revogação** e formato da exportação, com o jurídico.
-5. **Comparação entre aparelhos:** sem banco de testes por enquanto; atraso de toque e ruído de sensor são ajustados ao longo do desenvolvimento, com o perfil do aparelho registrado em cada evento (D17).
+5. **Comparação entre aparelhos:** sem banco de testes por enquanto; atraso de toque e ruído de sensor são ajustados ao longo do desenvolvimento, com o perfil do aparelho registrado em cada evento (INF-17).
 
-Resolvidas: passagem do avulso para a rede (D15, D18); papel do professor geral (papel de sistema, D16); taxa dos sensores (até 100 Hz, D17); compartilhamento no avulso (não há, D18); revogação (D19, D21); Opção B (D20); repositório do aluno fora dos silos (D22).
+Resolvidas: passagem do avulso para a rede (INF-15, INF-18); papel do professor geral (papel de sistema, INF-16); taxa dos sensores (até 100 Hz, INF-17); compartilhamento no avulso (não há, INF-18); revogação (INF-19, INF-21); Opção B (INF-20); repositório do aluno fora dos silos (INF-22).
 
 ### 7.3 Estudante sem CPF
 
@@ -237,10 +237,10 @@ Sim, os papéis são da escola/rede e do VUOO, mas dependem de **quem decide a f
 | Uso | Controlador (decide para quê) | Operador (trata em nome de) |
 |---|---|---|
 | Operação pedagógica: turma, PEI, atividades, relatórios ao professor | **escola ou rede** (quem contrata; na pública, a secretaria) | **VUOO** |
-| Uso avulso na rede geral (D9) | **Wemoga/VUOO** (não há escola; a finalidade é do produto) | — |
-| Rastreamento de uso do app (D13) | o controlador do tenant, para a operação; VUOO só com dado agregado | VUOO |
+| Uso avulso na rede geral (INF-09) | **Wemoga/VUOO** (não há escola; a finalidade é do produto) | — |
+| Rastreamento de uso do app (INF-13) | o controlador do tenant, para a operação; VUOO só com dado agregado | VUOO |
 | Melhoria do produto com dado agregado ou anonimizado | VUOO, se o dado não for mais pessoal | — |
-| Treino dos modelos de predição do VUOO, com dado pseudonimizado e perfil da escola (D21, §7.9.6) | **VUOO**, com consentimento próprio do responsável, revogável à parte `[A CONFIRMAR: jurídico]` | — |
+| Treino dos modelos de predição do VUOO, com dado pseudonimizado e perfil da escola (INF-21, §7.9.6) | **VUOO**, com consentimento próprio do responsável, revogável à parte `[A CONFIRMAR: jurídico]` | — |
 
 Na arquitetura:
 
@@ -250,13 +250,13 @@ Na arquitetura:
 
 ### 7.7 Base de pesquisa: fora do produto
 
-Decisão D14 (2026-11-05): o produto não tem base de pesquisa. Saem da arquitetura o silo físico, o pipeline de anonimização com protocolo CEP e a regra de que dado de neurodivergência só existe na pesquisa. As fichas de `conhecimento/dados-pesquisa-e-eventos/research-ethics/` continuam como conhecimento, mas não orientam o produto.
+Decisão INF-14 (2026-11-05): o produto não tem base de pesquisa. Saem da arquitetura o silo físico, o pipeline de anonimização com protocolo CEP e a regra de que dado de neurodivergência só existe na pesquisa. As fichas de `conhecimento/dados-pesquisa-e-eventos/research-ethics/` continuam como conhecimento, mas não orientam o produto.
 
 Se um parceiro de pesquisa quiser dados no futuro, isso é uma **exportação** sob acordo próprio (C.AGR) com registro de divulgação (C.DSC), e não um componente da plataforma.
 
 ### 7.8 Protótipo fora do Brasil (exceção temporária)
 
-**Registro:** em 2026-11-05 ficou decidido que o protótipo roda numa máquina virtual única na AWS, provavelmente numa região dos EUA, por custo. A residência no Brasil, inclusive para LLM (D5), vale a partir da **versão oficial**.
+**Registro:** em 2026-11-05 ficou decidido que o protótipo roda numa máquina virtual única na AWS, provavelmente numa região dos EUA, por custo. A residência no Brasil, inclusive para LLM (INF-05), vale a partir da **versão oficial**.
 
 Condições propostas para que a exceção não crie risco:
 
@@ -268,7 +268,7 @@ Condições propostas para que a exceção não crie risco:
 
 ### 7.9 Dados do app: volume, latência, offline e pipeline (proposta)
 
-Discussão de 2026-11-05 sobre as decisões D9 a D13. Os números são estimativa nossa [I], sem medição; servem para dimensionar, não para contratar. Base: `conhecimento/dados-pesquisa-e-eventos/` (events, quality) e `conhecimento/realtime-multiplayer/reliability-security/` (entrega, reconexão).
+Discussão de 2026-11-05 sobre as decisões INF-09 a INF-13. Os números são estimativa nossa [I], sem medição; servem para dimensionar, não para contratar. Base: `conhecimento/dados-pesquisa-e-eventos/` (events, quality) e `conhecimento/realtime-multiplayer/reliability-security/` (entrega, reconexão).
 
 #### 7.9.1 Volume
 
@@ -281,7 +281,7 @@ Premissas: 5 a 15 minutos por dia, cerca de 10 minutos dentro de atividade.
 | Sensores inerciais (acelerômetro + giroscópio, 6 eixos, de 60 a 100 Hz conforme o aparelho, só dentro da atividade, binário) | ~1 a 1,7 MB | ~0,4 a 0,7 MB |
 | Uso do app (abertura, telas, navegação, erros) | ~30 KB | ~10 KB |
 
-Total: de 1,4 a 2 MB bruto e de 0,5 a 0,8 MB comprimido por aluno por dia, ou seja, de 10 a 25 MB por mês. Com 100 mil alunos, o armazenamento cresce de 1,5 a 2,5 TB por mês. Com normalização e features no aparelho (D17), o que sobe de série bruta é só a amostra de validação. O custo é baixo e a vazão é modesta.
+Total: de 1,4 a 2 MB bruto e de 0,5 a 0,8 MB comprimido por aluno por dia, ou seja, de 10 a 25 MB por mês. Com 100 mil alunos, o armazenamento cresce de 1,5 a 2,5 TB por mês. Com normalização e features no aparelho (INF-17), o que sobe de série bruta é só a amostra de validação. O custo é baixo e a vazão é modesta.
 
 Leitura:
 
@@ -307,7 +307,7 @@ O requisito novo é o **frescor**. O servidor vê o aluno na última sincroniza�
 - **Fatos, não estado.** O app envia resultados como eventos imutáveis (C.EVT), cada um com a versão da trilha e do conteúdo em que foi feito. O servidor recalcula progresso, sequência de dias e recompensas. Não há edição concorrente do lado do aluno, então não há CRDT. O lado do professor (PEI, observações) fica online.
 - **Fila local** em banco do próprio app (SQLite), com `id` e sequência gerados no aparelho e gravados antes do envio. O envio é em lote e idempotente, e só sai da fila o que o servidor confirmou (`dat.qual.loss-and-deduplication`).
 - **Segundo plano:** o agendador do Android é confiável; no iOS a execução em segundo plano é oportunista. A regra é sincronizar ao abrir, ao fechar e ao terminar uma atividade, e tratar o segundo plano como bônus.
-- **Pacote de trilha** versionado e assinado: manifesto, regras de progressão e mídia. Provisório: uma semana à frente (D12).
+- **Pacote de trilha** versionado e assinado: manifesto, regras de progressão e mídia. Provisório: uma semana à frente (INF-12).
 - **Relógio:** a sequência de dias usa a data local derivada da âncora monotônica e confere com a hora de recebimento no servidor, porque a criança pode adiantar o relógio do celular.
 - **Dado local mínimo:** a fila carrega o UUID da pessoa, nunca nome nem CPF, e é limpa depois da confirmação.
 
@@ -315,7 +315,7 @@ O requisito novo é o **frescor**. O servidor vê o aluno na última sincroniza�
 
 - **Primeiro acesso exige rede.** Nenhum evento do aluno é gravado antes de a autorização do responsável estar registrada (C.CNS). Isso é candidato a regra de negócio.
 - **Na rede:** a escola cadastra o aluno, e o responsável recebe um link de uso único que o autentica e registra a autorização. O app do aluno é vinculado por código ou QR gerado nesse fluxo.
-- **No avulso:** o fluxo de instalação pede o contato do responsável, e a autorização chega pelo mesmo tipo de link. O aluno entra no tenant da rede geral (D9).
+- **No avulso:** o fluxo de instalação pede o contato do responsável, e a autorização chega pelo mesmo tipo de link. O aluno entra no tenant da rede geral (INF-09).
 - **Login do aluno sem e-mail nem senha:** o aparelho vinculado é a credencial, com renovação periódica quando houver rede. A validade sem rede é a da janela offline (§7.2, item 4).
 
 #### 7.9.5 Pipeline de eventos
@@ -331,11 +331,11 @@ O requisito novo é o **frescor**. O servidor vê o aluno na última sincroniza�
 5. **Log de eventos imutável** como fonte de verdade só para C.EVT. O resto do Core segue relacional e bitemporal, sem event sourcing completo nem CQRS (`dat.ev.event-sourcing`).
 6. **Projeções** sobre o log: progresso e recompensas, painel do professor, métricas de uso do produto e exportação xAPI. Guardar o bruto desde o primeiro dia permite que modelos futuros sejam só projeções novas.
 7. **Sem fila de mensagens dedicada no começo:** Postgres e armazenamento de objetos, com a fila como porta substituível.
-8. **Nada de SDK de analytics ou crash de terceiros mandando dado para fora da célula.** O rastreamento de uso (D13) passa pelo mesmo pipeline, ou por ferramenta hospedada na célula BR (D5, R3).
+8. **Nada de SDK de analytics ou crash de terceiros mandando dado para fora da célula.** O rastreamento de uso (INF-13) passa pelo mesmo pipeline, ou por ferramenta hospedada na célula BR (INF-05, R3).
 
 **Sessão de atividade:** C.SES é o calendário letivo (`AcademicSession`), e o evento precisa de contexto próprio. Entra no Core como C.ASN (`ActivitySession`), em D6, junto com C.EVT.
 
-#### 7.9.6 Histórico do aluno, concessões e cadeia global (D15, D16)
+#### 7.9.6 Histórico do aluno, concessões e cadeia global (INF-15, INF-16)
 
 **Enquadramento LGPD.** O aluno é o **titular**; "propriedade" não é conceito da LGPD. Na operação, o controlador é a escola ou a rede. A migração é **portabilidade iniciada pelo titular** (art. 18), e a escola nova passa a controlar o que recebe. Para menor de idade, quem aprova é o responsável; o adolescente dá o aceite junto (art. 14).
 
@@ -359,7 +359,7 @@ A concessão tem quem recebe, escopo (matrículas ou períodos), categorias de d
 
 **Organização oculta.** A escola nova vê o histórico por uma view que troca rede, escola, turma e professor por "vínculo anterior n (período)". Isso é **minimização, não anonimato**: a versão do currículo adotado, o calendário e o conteúdo da rede ainda podem indicar a origem. O aluno e o responsável veem tudo.
 
-**Repositório do aluno (D22).** O repositório é do aluno e fica fora de qualquer tenant, dentro da célula. Ele se relaciona com redes por três tipos de vínculo:
+**Repositório do aluno (INF-22).** O repositório é do aluno e fica fora de qualquer tenant, dentro da célula. Ele se relaciona com redes por três tipos de vínculo:
 
 | Vínculo | Quando | Acesso da rede |
 |---|---|---|
@@ -372,11 +372,11 @@ A concessão tem quem recebe, escopo (matrículas ou períodos), categorias de d
 - migrar é criar uma linha de concessão, não copiar dados;
 - painéis e relatórios da escola são projeções recalculáveis, sem cópia do bruto;
 - os eventos referenciam a versão do conteúdo, não o conteúdo;
-- a série bruta sobe só como amostra de validação (D17).
+- a série bruta sobe só como amostra de validação (INF-17).
 
-Uma rede que exija banco dedicado isola nele só os dados de organização; **o repositório do aluno nunca vai para dentro do silo** (D22). Assim nenhuma migração gera cópia.
+Uma rede que exija banco dedicado isola nele só os dados de organização; **o repositório do aluno nunca vai para dentro do silo** (INF-22). Assim nenhuma migração gera cópia.
 
-**Revogação (D19).** O titular revoga, e a revogação vale na hora:
+**Revogação (INF-19).** O titular revoga, e a revogação vale na hora:
 
 1. A concessão da escola termina, e a escola deixa de ver o histórico de atividade do aluno naquele período. Painéis e relatórios são recalculados sem ele.
 2. A escola recebe o aviso e precisa dar o "ciente". O ciente é registrado, mas não condiciona nada.
@@ -384,11 +384,11 @@ Uma rede que exija banco dedicado isola nele só os dados de organização; **o 
 4. O aluno continua com o histórico inteiro no repositório dele.
 5. Fica um registro da revogação, sem o conteúdo, para prestação de contas (C.DSC).
 
-**Camadas de revogação (D21).** Cada camada é uma escolha separada do titular (ou do responsável), mostrada nesta ordem, da mais leve para a mais forte:
+**Camadas de revogação (INF-21).** Cada camada é uma escolha separada do titular (ou do responsável), mostrada nesta ordem, da mais leve para a mais forte:
 
 | Camada | O que acontece | O que continua |
 |---|---|---|
-| 1. Tirar o acesso da escola (D19) | a escola deixa de ver o histórico de atividade; recebe aviso e dá ciente | o registro de que o aluno esteve lá; o repositório do aluno; o treino do VUOO |
+| 1. Tirar o acesso da escola (INF-19) | a escola deixa de ver o histórico de atividade; recebe aviso e dá ciente | o registro de que o aluno esteve lá; o repositório do aluno; o treino do VUOO |
 | 2. Tirar do treino do VUOO | os dados do aluno saem da base de treino e não entram em treinos novos | o uso do app; os modelos já treinados não são desfeitos, mas o próximo treino não usa os dados |
 | 3. Exportar os dados | o titular baixa o histórico (portabilidade, LGPD art. 18 V) em formato aberto (JSON/CSV, com view xAPI) | tudo; exportar não revoga nada |
 | 4. Revogar tudo | eliminação dos dados do aluno (art. 18 VI) e encerramento da conta | só os registros legais que a escola é obrigada a guardar e o registro da própria revogação |
@@ -405,7 +405,7 @@ A chave entre o aluno e o pseudônimo fica do lado do repositório do aluno, nã
 
 **Cadeia global (`global_brazil`).** É um tenant comum, operado pela Wemoga, com a mesma hierarquia de uma rede real: rede geral, escola geral, turma geral e professor geral. Assim, compartilhar, migrar e os relatórios funcionam igual nos dois modos. O professor geral é **papel de sistema**: feedback automático e conteúdo padrão, sem pessoa olhando os dados. Alunos da turma geral **não se veem** (sem lista nem ranking entre crianças desconhecidas). A estrutura é criada como simulação depois que o resto estiver implementado. Na migração do avulso para uma escola, vale o mesmo fluxo de concessão.
 
-#### 7.9.7 Normalização no aparelho (D17)
+#### 7.9.7 Normalização no aparelho (INF-17)
 
 Objetivo: comparar alunos de forma geral, entre aparelhos e sistemas.
 
@@ -437,8 +437,8 @@ Objetivo: comparar alunos de forma geral, entre aparelhos e sistemas.
    - grafo híbrido;
    - app offline com fila local e pacotes de trilha;
    - pipeline de eventos (envelope, dois fluxos, séries em bloco, ingestão idempotente);
-   - repositório do aluno por pessoa e matrícula como concessão de acesso (D15);
-   - normalização de sensores e toque no aparelho, com biblioteca única e versionada (D17).
+   - repositório do aluno por pessoa e matrícula como concessão de acesso (INF-15);
+   - normalização de sensores e toque no aparelho, com biblioteca única e versionada (INF-17).
 4. **Fechar as lacunas que bloqueiam o Brasil** ([brasil/README.md](camada-brasil/README-estudo-brasil.md), "O que falta").
 5. **Prova de conceito pequena:** `vuoo-core` em OWL com C.ORG, C.PER, C.ROL, C.IDN, C.ENR e C.GRP; shapes `vuoo-br`; carga de uma escola fictícia; exportação para o registro 60 do Censo e para OneRoster. Isso valida a cadeia ontologia → relacional → R2RML → views.
 

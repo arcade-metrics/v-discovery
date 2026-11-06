@@ -10,7 +10,7 @@
 | QI-06 | ISCED-F não serve para componente curricular; o Core precisa de outro vocabulário neutro para C.SUB (ou nenhum) | evitar falsa equivalência Matemática ↔ 0541 | questão para `core/` |
 | QI-07 | Mapeamento BR é de 2012/2013; existe versão mais nova no UIS? | BNCC e Novo Ensino Médio mudaram a estrutura | verificar periodicamente; a página não traz data |
 | QI-08 | ISO 21001 e 29993: texto pago; requisitos de dados inferidos só pelos títulos | lista de verificação incompleta | decidir se vale comprar a 21001:2025 |
-| QI-09 | **Candidato a entidade do Core:** Feedback / Complaint (satisfação e reclamação de partes interessadas, ISO 21001 9.1.2) | não há alvo em C.xxx | registrar em `core/` |
+| QI-09 | **Candidato a entidade do Core:** Feedback / Complaint (satisfação e reclamação de partes interessadas, ISO 21001 9.1.2) | não há alvo em C.xxx | registrar em `core-v0.1.md` |
 | QI-10 | Agenda escolar: guardar hora local + fuso IANA ou só instante UTC? | aulas recorrentes atravessam horário de verão (EUA, UE, RU) | proposta: hora local + fuso (RFC 9557 na serialização) |
 | QI-11 | Subtags BCP 47 de línguas de sinais (bzs, ase, bfi, csl) não conferidas no registro IANA | dado de acessibilidade | conferir antes de fixar vocabulário |
 | QI-12 | Abaixo de ISO 3166-2 não há padrão internacional (município, distrito escolar) | C.ORG precisa de jurisdição local | C.IDN com `scheme` por adaptador |
@@ -20,6 +20,6 @@
 | QI-16 | Tipos de equivalência do crosswalk ↔ propriedades SKOS de mapeamento: adotar formalmente? | crosswalks de todas as pastas | proposta em `int.w3c-semantic-stack` |
 | QI-17 | IEEE 1484.20.3: classes não verificadas (texto pago); exportar C.CMP para SCD sem perda? | neutralidade do Core | obter texto ou artefatos IEEE SA Open |
 | QI-18 | IEEE 2881-2025: termos não verificados | alinhamento C.ACT/C.EVT | idem |
-| QI-19 | **Candidato a entidade do Core:** AccessPreference (C.PRF), separada de C.SUP | preferência de acesso não é necessidade nem diagnóstico | registrar em `core/` |
+| QI-19 | **Candidato a entidade do Core:** AccessPreference (C.PRF), separada de C.SUP | preferência de acesso não é necessidade nem diagnóstico | registrar em `core-v0.1.md` |
 | QI-20 | Vocabulários de C.SUP: CIF, barreiras pedagógicas, AfA — qual é o mínimo neutro? | evitar reduzir a diagnóstico | questão compartilhada com `brasil/` (inclusão) |
 | QI-21 | Credenciais exportáveis não devem carregar dados de apoio (C.SUP) | dado sensível portável | regra de privacidade |

@@ -13,7 +13,7 @@ relacoes:
   - { tipo: depende-de, alvo: kg.found.reasoning }
   - { tipo: complementa, alvo: kg.curr.competency-frameworks }
   - { tipo: avaliado-por, alvo: kg.std.shacl }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
   - { tipo: relacionado-a, alvo: kg.eng.construction }
   - { tipo: relacionado-a, alvo: adp.adapt.sequencing-policies }
 termos: [pré-requisito, prerequisite relation, progressão, sequência, DAG, aciclicidade, fecho transitivo, RefD, inferência de pré-requisito, ordem de apresentação]
@@ -199,7 +199,7 @@ SELECT DISTINCT ?pre WHERE {
 
 ## Relações com outros conceitos
 
-Parte de kg.mod.conceptual-model. Depende de kg.found.reasoning (fecho transitivo). Complementa kg.curr.competency-frameworks. Avaliado por kg.std.shacl (aciclicidade). Relaciona-se com kg.voc.case (`precedes`), kg.eng.construction (inferência automática) e, no domínio vizinho, com adp.adapt.sequencing-policies (o uso das relações para decidir o que vem depois).
+Parte de kg.mod.conceptual-model. Depende de kg.found.reasoning (fecho transitivo). Complementa kg.curr.competency-frameworks. Avaliado por kg.std.shacl (aciclicidade). Relaciona-se com iop.comp.case (`precedes`), kg.eng.construction (inferência automática) e, no domínio vizinho, com adp.adapt.sequencing-policies (o uso das relações para decidir o que vem depois).
 
 ## Lacunas e questões abertas
 

@@ -88,7 +88,7 @@ Downloads (fora do repositório, em `D:\tmp\vuoo-arq\`, com `curl.exe`): especif
 | `conhecimento/interoperabilidade/rostering/comparison.md` | OneRoster × Ed-Fi × SIF × CEDS |
 | `conhecimento/grafo-conhecimento-educacional/modeling/conceptual-model.md`, `layer-separation.md` | camadas do grafo e classes mínimas |
 | `conhecimento/grafo-conhecimento-educacional/engineering/versioning-and-provenance.md`, `storage-and-query.md` | IRIs estáveis, grafos nomeados, PROV mínimo, armazenamento por camada |
-| `conhecimento/grafo-conhecimento-educacional/standards/{skos,shacl,json-ld,prov-o}.md`, `vocabularies/case.md` | detalhes normativos já registrados |
+| `conhecimento/grafo-conhecimento-educacional/standards/{skos,shacl,json-ld,prov-o}.md`, `conhecimento/interoperabilidade/competencies/case.md` | detalhes normativos já registrados |
 | `conhecimento/privacidade-seguranca-e-governanca/access-control/school-roles.md` | papel × escopo, vigência de papéis |
-| `fora-da-fase-1/brasil/bncc-dados/01,02,03,10` e `bncc-pacotes/10-aplicacao-vuoo.md` | dado normativo verificado, vigência por data-version, separação de distribuição |
-| `projeto/vuoo.md` (linhas 106, 126, 138, 146, 147, 165, 295) | **só contexto** (o produto é independente do projeto desde 2026-11-05): OWL/SPARQL, separação base de pesquisa × operacional (retirada, D14), nuvem no Brasil, APIs de LLM |
+| `fora-da-fase-1/brasil/bncc-dados/01,02,03,10` e `fora-da-fase-1/brasil/bncc-pacotes/10-aplicacao-vuoo.md` | dado normativo verificado, vigência por data-version, separação de distribuição |
+| `projeto/vuoo.md` (linhas 106, 126, 138, 146, 147, 165, 295) | **só contexto** (o produto é independente do projeto desde 2026-11-05): OWL/SPARQL, nuvem no Brasil, APIs de LLM |

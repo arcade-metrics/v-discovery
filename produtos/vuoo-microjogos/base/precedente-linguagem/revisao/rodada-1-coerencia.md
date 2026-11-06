@@ -1,7 +1,7 @@
 ---
 revisao: rodada 1
 lente: coerência com o projeto (vuoo.md, PIPE-TC Fase 2; ciatec.md, CCD)
-material: produtos/vuoo-linguagem/ (00 a 05 + vuoo-linguagem.html)
+material: base/precedente-linguagem/ (00 a 05 + vuoo-linguagem.html)
 data: 2026-10-27
 postura: adversarial (perspectiva CIATec / avaliador FAPESP PIPE-TC)
 ---
@@ -182,7 +182,7 @@ Convenção: "vuoo" = `projeto/vuoo.md`; "ciatec" = `projeto/ciatec.md`. Os núm
 
 ## Menores
 
-### C22 · `00-insumos.md` mistura requisito derivado com citação de fonte
+### C22 · `projeto/insumos.md` mistura requisito derivado com citação de fonte
 - **Onde:** [IN-04], [IN-05], [IN-13], [IN-17], [IN-25], [IN-28], todas com frases em negrito que são inferência (ex.: *"O Bot precisa ser fabricável em impressão 3D"*; *"A linguagem visual precisa ser parametrizável por tokens"*), num arquivo que diz *"Nada aqui é opinião"*.
 - **Correção:** separar cada IN em "fonte diz" e "implicação [DERIVADO]".
 

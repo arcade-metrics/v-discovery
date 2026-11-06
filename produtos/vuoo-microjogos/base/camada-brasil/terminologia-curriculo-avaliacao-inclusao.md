@@ -4,12 +4,12 @@
 
 ## 1. Gramática dos códigos da BNCC
 
-Fonte: decodificador do bncc-dados, portado em [bncc-pacotes/02-api-e-modelo.md](../fora-da-fase-1/brasil/bncc-pacotes/02-api-e-modelo.md); exemplos conferidos nas transcrições [bncc/](bncc/README.md) e [bncc-computacao/](bncc-computacao/README.md).
+Fonte: códigos impressos na BNCC (versão final) e na BNCC Computação, extraídos no repositório vuoo-base, release v1.1 (https://github.com/arcade-metrics/v-base): `dados/bncc-2018.json` e `dados/bncc-computacao-2022.json`. A decomposição segue o decodificador descrito em [bncc-pacotes/02-api-e-modelo.md](../fora-da-fase-1/brasil/bncc-pacotes/02-api-e-modelo.md).
 
 | Padrão | Exemplo | Partes | Observação |
 |---|---|---|---|
 | `EI` + grupo etário `01`–`03` + campo + seq. | `EI02TS01` | grupo 02, campo TS | campos: `EO` O eu, o outro e o nós; `CG` Corpo, gestos e movimentos; `TS` Traços, sons, cores e formas; `EF` Escuta, fala, pensamento e imaginação; `ET` Espaços, tempos, quantidades, relações e transformações |
-| `EI` + grupo + `CO` + seq. | `EI03CO01` | Computação | só grupo 03 na transcrição |
+| `EI` + grupo + `CO` + seq. | `EI03CO01` | Computação | só o grupo 03 tem objetivos no documento |
 | `EF` + ano `01`–`09` ou bloco + componente + seq. | `EF67LP08` | anos 6 e 7, LP | blocos: `12`, `15`, `35`, `67`, `69`, `89`, válidos só para certos componentes (Arte `15`,`69`; EF `12`,`35`,`67`,`89`; LP todos; CO `15`,`69`) |
 | `EM13` + área + competência (1 díg.) + seq. (2 díg.) | `EM13LGG103` | área LGG, competência 1, item 03 | áreas: `LGG`, `MAT`, `CNT`, `CHS`. Depois de `EM13LGG105` vem `EM13LGG201` |
 | `EM13LP` + seq. | `EM13LP02` | LP no EM | sem competência no código |
@@ -17,9 +17,9 @@ Fonte: decodificador do bncc-dados, portado em [bncc-pacotes/02-api-e-modelo.md]
 
 Componentes do EF no código: `LP` Língua Portuguesa, `AR` Arte, `EF` Educação Física, `LI` Língua Inglesa, `MA` Matemática, `CI` Ciências, `GE` Geografia, `HI` História, `ER` Ensino Religioso, `CO` Computação (complemento 2022).
 
-Grupos etários da EI: `EI01` Bebês (zero a 1 ano e 6 meses), `EI02` Crianças bem pequenas, `EI03` Crianças pequenas ([bncc/10-educacao-infantil.md](bncc/10-educacao-infantil.md)).
+Grupos etários da EI: `EI01` Bebês (zero a 1 ano e 6 meses), `EI02` Crianças bem pequenas, `EI03` Crianças pequenas (vuoo-base v1.1, `dados/bncc-2018.json`, campo `faixa_etaria`).
 
-Regras: decodificar ≠ existir; a sequência não é ordem pedagógica; dois códigos do EF (EF05LP25, EF04LP27) aparecem duas vezes com textos diferentes no PDF de 2017 ([bncc/98-decisoes.md](bncc/98-decisoes.md)).
+Regras: decodificar ≠ existir; a sequência não é ordem pedagógica; o código não é identidade: a forma impressa pode diferir (`EF05CO011`, impresso com três dígitos na Computação, é `EF05CO11`; vuoo-base `ferramentas/METODO.md` §4) e o Currículo Paulista reaproveita e desdobra códigos (§2). No vuoo-base o id é `bncc-2018/<CODIGO>` ou `bncc-computacao-2022/<CODIGO>`, e o código é atributo.
 
 ## 2. Códigos do Currículo Paulista (EI/EF, 2019)
 

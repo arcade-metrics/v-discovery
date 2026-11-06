@@ -19,7 +19,6 @@ Estudo de linguagem visual, verbal, sonora e de jogo para os microjogos do VUOO 
 |---|---|
 | `guia-pratico-design.md` | **Guia prático de design, autocontido:** marca, Bot, cor, tipografia, pictogramas, ilustração, movimento, som, layout e componentes, anatomia de microjogo, tom de voz — condensado de `03`, `04` e `06`, sem citações de pesquisa nem referências cruzadas |
 | `transformar-em-vuoo.md` | Receita passo a passo para o agente: ler a entrada, simplificar, reconstruir com formas básicas, pintar com as rampas de ilustração, montar o SVG, testes de aceite e relatório |
-| `00-insumos.md` | 35 restrições tiradas dos documentos do VUOO e do CIATec, com a fonte de cada uma |
 | `01-brief.md` | Problema, personas, 6 hipóteses (onde cada uma roda, com braços seguros), riscos |
 | `02-gamificacao.md` | Duolingo → VUOO, mecânica por mecânica; métrica-norte e guarda-corpos |
 | `03-linguagem.md` | Marca, conceito, Bot, cor (3 modos), tipografia, pictogramas, ilustração, movimento, som, layout, tom de voz, painel do professor, DUA |

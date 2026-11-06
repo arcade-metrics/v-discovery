@@ -2,7 +2,7 @@
 
 > **Fonte:** repositório [bncc-dev/bncc-pacotes](https://github.com/bncc-dev/bncc-pacotes) (<https://github.com/bncc-dev/bncc-pacotes>), commit `e9b4985` (15/10/2026), 103 commits no histórico. Versões no commit: `@bncc/dados` 0.7.0, `@bncc/mcp` 0.5.0, `bncc` (PyPI) 0.6.0, dados embutidos `dados-2026.08` (commit `9c26897` do bncc-dados). Mantido pela Profy Tecnologias Educacionais Ltda. Código sob MIT, dados embutidos sob CC BY 4.0, nome e identidade visual "bncc.dev" não licenciados. Analisado em 2026-11-04.
 
-> **Inspirar, não copiar.** Este material existe para o VUOO **aprender com** o bncc-pacotes, não para reproduzi-lo. Não copiamos código, textos de documentação, descrições de tools, nomes de produto nem identidade visual. O texto desta pasta é análise nossa, com o arquivo de origem citado em cada seção. Onde o VUOO precisar do **dado** da BNCC, consome-se da fonte publicada (pacote, API ou release), com a atribuição exigida pela CC BY 4.0. Onde precisar de um mecanismo parecido, ele é redesenhado para o nosso contexto e registrado como ADR próprio em `produtos/vuoo/padroes/`.
+> **Inspirar, não copiar.** Este material existe para o VUOO **aprender com** o bncc-pacotes, não para reproduzi-lo. Não copiamos código, textos de documentação, descrições de tools, nomes de produto nem identidade visual. O texto desta pasta é análise nossa, com o arquivo de origem citado em cada seção. Onde o VUOO precisar do **dado** da BNCC, consome-se da fonte publicada (pacote, API ou release), com a atribuição exigida pela CC BY 4.0. Onde precisar de um mecanismo parecido, ele é redesenhado para o nosso contexto e registrado como ADR próprio em `produtos/vuoo-microjogos/padroes/`.
 
 ## Para que serve
 

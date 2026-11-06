@@ -14,7 +14,7 @@ A estratégia custa caro (pipeline, CI, governança). Ela compensa quando a font
 - **muda com o tempo** (portaria que altera portaria, resolução nova);
 - um erro de transcrição tem **custo real** (dado de aluno, conformidade legal, conteúdo pedagógico).
 
-Para fonte lida uma vez, só por gente, basta a mineração em `.md` desta pasta `PRD/`.
+Para fonte lida uma vez, só por gente, basta a mineração em `.md` de `base/camada-brasil/`.
 
 ---
 
@@ -210,7 +210,7 @@ Levantados por script sobre as tabelas mineradas:
 | Decisão | Opções |
 |---|---|
 | Onde vive o dataset replicado | Repositório próprio (como o bncc-dados) ou pasta dentro do discovery. O padrão do bncc-dados recomenda repositório próprio, porque o dado envelhece em ritmo diferente do produto |
-| Formato canônico × regra "tudo em `.md`" desta pasta | Manter `PRD/` como mineração em `.md` e o dataset canônico (JSON + schema) no repositório próprio, gerando os `.md` como derivados |
+| Formato canônico × regra "tudo em `.md`" desta pasta | Manter `base/camada-brasil/` como mineração em `.md` e o dataset canônico (JSON + schema) no repositório próprio, gerando os `.md` como derivados |
 | Arquivamento de fontes | Exige download de PDF e JSON; decidir caso a caso |
 | Licença da nossa curadoria | CC BY 4.0 (como o bncc-dados) ou outra |
 | Abertura | Público desde o início ou interno até a primeira auditoria |

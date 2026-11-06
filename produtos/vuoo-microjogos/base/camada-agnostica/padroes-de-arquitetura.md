@@ -231,8 +231,6 @@ Grafo curricular público (global, sem dado pessoal; replicável entre células)
 | China | célula própria, possivelmente com **operador local** e paridade de recursos reduzida | E45; PIPL art. 40 (fonte secundária, E54); a confirmar pela pasta [china/](../fora-da-fase-1/china/) |
 | Grafo curricular | global e público | o grafo conceitual "quer ser publicado" (camadas) |
 
-*Fora do produto desde 2026-11-05 (D14: não há base de pesquisa); mantido como registro do padrão.* Separação operacional × pesquisa [I]: o caminho é um pipeline unidirecional (operacional → pseudonimização com HMAC de chave guardada fora da base de pesquisa → base de pesquisa); a tabela de reidentificação fica no lado operacional e pode ser eliminada (ver `iop.fund.privacidade-e-seguranca`). Os modelos treinados na pesquisa voltam ao operacional como **artefato versionado** (modelo), nunca como dado de aluno.
-
 ---
 
 ## P5. Onde fica o grafo (OWL) em relação ao modelo operacional

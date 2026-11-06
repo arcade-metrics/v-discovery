@@ -14,7 +14,7 @@ Escrito primeiro para ser lido por modelos de linguagem (estrutura fixa, campos 
 | Paleta, tipografia, linguagem de forma, personagens, animação, som, copy | `03-estilo.md` |
 | Saber o que é fato, o que é dado da empresa e o que é crítica documentada | `04-evidencias-e-criticas.md` |
 | Avaliar o risco de cada mecânica para alunos da educação especial | `05-riscos-educacao-especial.md` |
-| Ver um exemplo de tradução já feita para um produto específico | `apendice-caso-vuoo.md` |
+| Traduzir uma mecânica para outro produto sem copiá-la | `00-visao-geral.md` §7 |
 | Achar uma captura de tela ou diagrama | `imagens/MANIFESTO.md` (tabela por capítulo) ou `imagens.json` |
 | Consultar o índice de mecânicas legível por máquina | `benchmark.json` |
 | Ler a pesquisa bruta de onde tudo saiu | `pesquisa/` |
@@ -38,7 +38,6 @@ benchmarks/duolingo/
   03-estilo.md                       paleta, tipografia, forma, personagens, movimento, som, tom de voz, telas
   04-evidencias-e-criticas.md        números, estudos, críticas, com força da evidência
   05-riscos-educacao-especial.md     lente por perfil: TEA, TDAH, dislexia, DCD, DI, deficiência visual, auditiva, motora
-  apendice-caso-vuoo.md              estudo de caso: tradução feita para o VUOO (crianças de 6 a 11, rede pública de SP)
   benchmark.json                     índice de mecânicas, campos, veredito e imagens
   imagens.json                       índice das imagens (arquivo, descrição, fonte, tipo)
   imagens/                           359 capturas, diagramas e ilustrações + MANIFESTO.md

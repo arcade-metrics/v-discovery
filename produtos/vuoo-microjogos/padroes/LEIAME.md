@@ -1,6 +1,6 @@
 # Padrões de desenvolvimento (ADR)
 
-Decisões de arquitetura, uma por arquivo, com código estável `ADR-nn`. Pasta criada em 05/11/2026; os ADRs nascem com o `04-plano.md`.
+Decisões de arquitetura, uma por arquivo, com código estável `ADR-nn`. Os ADRs nascem com o `04-plano.md`.
 
 ## Formato
 

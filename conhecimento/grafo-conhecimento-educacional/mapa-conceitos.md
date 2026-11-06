@@ -89,53 +89,47 @@ graph TD
 | `kg.std.shacl` | padrao | [standards/shacl.md](standards/shacl.md) | SHACL |
 | `kg.std.skos` | padrao | [standards/skos.md](standards/skos.md) | SKOS |
 | `kg.std.sparql` | padrao | [standards/sparql.md](standards/sparql.md) | SPARQL 1.1 |
-| `kg.voc.case` | redirecionamento | [vocabularies/case.md](vocabularies/case.md) | 1EdTech CASE (redirecionamento) |
 | `kg.voc.comparison` | comparacao | [vocabularies/comparison.md](vocabularies/comparison.md) | Vocabulários educacionais, comparação |
-| `kg.voc.ctdl` | redirecionamento | [vocabularies/ctdl.md](vocabularies/ctdl.md) | CTDL (Credential Transparency Description Language) (redirecionamento) |
-| `kg.voc.dublin-core` | redirecionamento | [vocabularies/dublin-core.md](vocabularies/dublin-core.md) | Dublin Core e DCMI Metadata Terms (redirecionamento) |
-| `kg.voc.esco` | redirecionamento | [vocabularies/esco.md](vocabularies/esco.md) | ESCO (redirecionamento) |
-| `kg.voc.ieee-lom` | redirecionamento | [vocabularies/ieee-lom.md](vocabularies/ieee-lom.md) | IEEE LOM (1484.12.1) (redirecionamento) |
-| `kg.voc.schema-org-learning-resource` | redirecionamento | [vocabularies/schema-org-learning-resource.md](vocabularies/schema-org-learning-resource.md) | schema.org LearningResource (redirecionamento) |
 
 ### Relações tipadas
 
 | Tipo | Quantidade |
 |---|---|
-| `relacionado-a` | 93 |
-| `complementa` | 50 |
-| `depende-de` | 33 |
-| `parte-de` | 27 |
-| `alternativa-a` | 13 |
+| `relacionado-a` | 79 |
+| `complementa` | 41 |
+| `depende-de` | 32 |
+| `parte-de` | 21 |
+| `alternativa-a` | 9 |
 | `especificado-por` | 7 |
 | `avaliado-por` | 6 |
-| `implementado-por` | 4 |
+| `implementado-por` | 3 |
 
 | Origem | Tipo | Alvo |
 |---|---|---|
 | `kg.curr.bncc` | complementa | `kg.mod.competencies-and-objectives` |
 | `kg.curr.bncc` | depende-de | `kg.std.skos` |
 | `kg.curr.bncc` | parte-de | `kg.curr.competency-frameworks` |
+| `kg.curr.bncc` | relacionado-a | `iop.comp.case` (outro domínio) |
 | `kg.curr.bncc` | relacionado-a | `kg.eng.construction` |
-| `kg.curr.bncc` | relacionado-a | `kg.voc.case` |
 | `kg.curr.cognitive-taxonomies` | depende-de | `kg.std.skos` |
 | `kg.curr.cognitive-taxonomies` | parte-de | `kg.mod.competencies-and-objectives` |
 | `kg.curr.cognitive-taxonomies` | relacionado-a | `adp.id.knowledge-components` (outro domínio) |
+| `kg.curr.cognitive-taxonomies` | relacionado-a | `iop.comp.case` (outro domínio) |
 | `kg.curr.cognitive-taxonomies` | relacionado-a | `kg.mod.conceptual-model` |
-| `kg.curr.cognitive-taxonomies` | relacionado-a | `kg.voc.case` |
 | `kg.curr.competency-frameworks` | complementa | `kg.curr.bncc` |
 | `kg.curr.competency-frameworks` | complementa | `kg.curr.prerequisites` |
 | `kg.curr.competency-frameworks` | depende-de | `kg.std.skos` |
 | `kg.curr.competency-frameworks` | parte-de | `kg.mod.conceptual-model` |
+| `kg.curr.competency-frameworks` | relacionado-a | `iop.comp.case` (outro domínio) |
+| `kg.curr.competency-frameworks` | relacionado-a | `iop.comp.esco` (outro domínio) |
 | `kg.curr.competency-frameworks` | relacionado-a | `kg.eng.versioning-and-provenance` |
-| `kg.curr.competency-frameworks` | relacionado-a | `kg.voc.case` |
-| `kg.curr.competency-frameworks` | relacionado-a | `kg.voc.esco` |
 | `kg.curr.prerequisites` | avaliado-por | `kg.std.shacl` |
 | `kg.curr.prerequisites` | complementa | `kg.curr.competency-frameworks` |
 | `kg.curr.prerequisites` | depende-de | `kg.found.reasoning` |
 | `kg.curr.prerequisites` | parte-de | `kg.mod.conceptual-model` |
 | `kg.curr.prerequisites` | relacionado-a | `adp.adapt.sequencing-policies` (outro domínio) |
+| `kg.curr.prerequisites` | relacionado-a | `iop.comp.case` (outro domínio) |
 | `kg.curr.prerequisites` | relacionado-a | `kg.eng.construction` |
-| `kg.curr.prerequisites` | relacionado-a | `kg.voc.case` |
 | `kg.eng.construction` | avaliado-por | `kg.eng.quality` |
 | `kg.eng.construction` | complementa | `kg.eng.methodologies` |
 | `kg.eng.construction` | depende-de | `kg.std.prov-o` |
@@ -202,7 +196,7 @@ graph TD
 | `kg.mod.competencies-and-objectives` | depende-de | `kg.std.skos` |
 | `kg.mod.competencies-and-objectives` | parte-de | `kg.mod.conceptual-model` |
 | `kg.mod.competencies-and-objectives` | relacionado-a | `adp.id.knowledge-components` (outro domínio) |
-| `kg.mod.competencies-and-objectives` | relacionado-a | `kg.voc.case` |
+| `kg.mod.competencies-and-objectives` | relacionado-a | `iop.comp.case` (outro domínio) |
 | `kg.mod.conceptual-model` | complementa | `kg.mod.competencies-and-objectives` |
 | `kg.mod.conceptual-model` | complementa | `kg.mod.evidence-and-mastery` |
 | `kg.mod.conceptual-model` | complementa | `kg.mod.layer-separation` |
@@ -259,10 +253,10 @@ graph TD
 | `kg.std.index` | relacionado-a | `kg.std.skos` |
 | `kg.std.index` | relacionado-a | `kg.std.sparql` |
 | `kg.std.index` | relacionado-a | `kg.voc.comparison` |
-| `kg.std.json-ld` | complementa | `kg.voc.schema-org-learning-resource` |
+| `kg.std.json-ld` | complementa | `iop.md.lrmi-schema-org` (outro domínio) |
 | `kg.std.json-ld` | depende-de | `kg.std.rdf` |
 | `kg.std.json-ld` | parte-de | `kg.std.index` |
-| `kg.std.json-ld` | relacionado-a | `kg.voc.case` |
+| `kg.std.json-ld` | relacionado-a | `iop.comp.case` (outro domínio) |
 | `kg.std.owl2` | alternativa-a | `kg.std.rdfs` |
 | `kg.std.owl2` | alternativa-a | `kg.std.skos` |
 | `kg.std.owl2` | avaliado-por | `kg.found.reasoning` |
@@ -294,7 +288,7 @@ graph TD
 | `kg.std.skos` | alternativa-a | `kg.std.owl2` |
 | `kg.std.skos` | complementa | `kg.curr.competency-frameworks` |
 | `kg.std.skos` | depende-de | `kg.std.rdf` |
-| `kg.std.skos` | implementado-por | `kg.voc.esco` |
+| `kg.std.skos` | implementado-por | `iop.comp.esco` (outro domínio) |
 | `kg.std.skos` | parte-de | `kg.std.index` |
 | `kg.std.skos` | relacionado-a | `kg.found.reasoning` |
 | `kg.std.sparql` | complementa | `kg.found.reasoning` |
@@ -302,13 +296,6 @@ graph TD
 | `kg.std.sparql` | implementado-por | `kg.eng.storage-and-query` |
 | `kg.std.sparql` | parte-de | `kg.std.index` |
 | `kg.std.sparql` | relacionado-a | `kg.ret.text-to-query` |
-| `kg.voc.case` | complementa | `kg.curr.competency-frameworks` |
-| `kg.voc.case` | complementa | `kg.curr.prerequisites` |
-| `kg.voc.case` | parte-de | `kg.voc.comparison` |
-| `kg.voc.case` | relacionado-a | `iop.comp.case` (outro domínio) |
-| `kg.voc.case` | relacionado-a | `kg.curr.bncc` |
-| `kg.voc.case` | relacionado-a | `kg.curr.cognitive-taxonomies` |
-| `kg.voc.case` | relacionado-a | `kg.std.skos` |
 | `kg.voc.comparison` | complementa | `kg.mod.conceptual-model` |
 | `kg.voc.comparison` | relacionado-a | `iop.comp.case` (outro domínio) |
 | `kg.voc.comparison` | relacionado-a | `iop.comp.ctdl` (outro domínio) |
@@ -317,34 +304,6 @@ graph TD
 | `kg.voc.comparison` | relacionado-a | `iop.md.ieee-lom` (outro domínio) |
 | `kg.voc.comparison` | relacionado-a | `iop.md.lrmi-schema-org` (outro domínio) |
 | `kg.voc.comparison` | relacionado-a | `kg.std.comparison` |
-| `kg.voc.ctdl` | alternativa-a | `kg.voc.esco` |
-| `kg.voc.ctdl` | complementa | `kg.curr.competency-frameworks` |
-| `kg.voc.ctdl` | parte-de | `kg.voc.comparison` |
-| `kg.voc.ctdl` | relacionado-a | `iop.comp.ctdl` (outro domínio) |
-| `kg.voc.ctdl` | relacionado-a | `kg.std.rdf` |
-| `kg.voc.dublin-core` | complementa | `kg.voc.ieee-lom` |
-| `kg.voc.dublin-core` | complementa | `kg.voc.schema-org-learning-resource` |
-| `kg.voc.dublin-core` | depende-de | `kg.std.rdf` |
-| `kg.voc.dublin-core` | parte-de | `kg.voc.comparison` |
-| `kg.voc.dublin-core` | relacionado-a | `iop.md.dublin-core` (outro domínio) |
-| `kg.voc.dublin-core` | relacionado-a | `kg.std.skos` |
-| `kg.voc.esco` | alternativa-a | `kg.voc.ctdl` |
-| `kg.voc.esco` | complementa | `kg.curr.competency-frameworks` |
-| `kg.voc.esco` | implementado-por | `kg.std.skos` |
-| `kg.voc.esco` | parte-de | `kg.voc.comparison` |
-| `kg.voc.esco` | relacionado-a | `iop.comp.esco` (outro domínio) |
-| `kg.voc.esco` | relacionado-a | `kg.found.identifiers-and-triples` |
-| `kg.voc.ieee-lom` | alternativa-a | `kg.voc.schema-org-learning-resource` |
-| `kg.voc.ieee-lom` | complementa | `kg.voc.dublin-core` |
-| `kg.voc.ieee-lom` | parte-de | `kg.voc.comparison` |
-| `kg.voc.ieee-lom` | relacionado-a | `iop.md.ieee-lom` (outro domínio) |
-| `kg.voc.ieee-lom` | relacionado-a | `kg.mod.conceptual-model` |
-| `kg.voc.schema-org-learning-resource` | alternativa-a | `kg.voc.ieee-lom` |
-| `kg.voc.schema-org-learning-resource` | complementa | `kg.std.json-ld` |
-| `kg.voc.schema-org-learning-resource` | complementa | `kg.voc.dublin-core` |
-| `kg.voc.schema-org-learning-resource` | parte-de | `kg.voc.comparison` |
-| `kg.voc.schema-org-learning-resource` | relacionado-a | `iop.md.lrmi-schema-org` (outro domínio) |
-| `kg.voc.schema-org-learning-resource` | relacionado-a | `kg.mod.conceptual-model` |
 
 ### Diagrama (relações estruturais)
 
@@ -418,20 +377,8 @@ graph LR
   kg_std_skos[kg.std.skos] -->|parte de| kg_std_index[kg.std.index]
   kg_std_skos[kg.std.skos] -.->|depende| kg_std_rdf[kg.std.rdf]
   kg_std_skos[kg.std.skos] <-->|alt| kg_std_owl2[kg.std.owl2]
-  kg_std_skos[kg.std.skos] -->|impl| kg_voc_esco[kg.voc.esco]
+  kg_std_skos[kg.std.skos] -->|impl| iop_comp_esco[iop.comp.esco]
   kg_std_sparql[kg.std.sparql] -->|parte de| kg_std_index[kg.std.index]
   kg_std_sparql[kg.std.sparql] -.->|depende| kg_std_rdf[kg.std.rdf]
   kg_std_sparql[kg.std.sparql] -->|impl| kg_eng_storage_and_query[kg.eng.storage-and-query]
-  kg_voc_case[kg.voc.case] -->|parte de| kg_voc_comparison[kg.voc.comparison]
-  kg_voc_ctdl[kg.voc.ctdl] -->|parte de| kg_voc_comparison[kg.voc.comparison]
-  kg_voc_ctdl[kg.voc.ctdl] <-->|alt| kg_voc_esco[kg.voc.esco]
-  kg_voc_dublin_core[kg.voc.dublin-core] -->|parte de| kg_voc_comparison[kg.voc.comparison]
-  kg_voc_dublin_core[kg.voc.dublin-core] -.->|depende| kg_std_rdf[kg.std.rdf]
-  kg_voc_esco[kg.voc.esco] -->|parte de| kg_voc_comparison[kg.voc.comparison]
-  kg_voc_esco[kg.voc.esco] -->|impl| kg_std_skos[kg.std.skos]
-  kg_voc_esco[kg.voc.esco] <-->|alt| kg_voc_ctdl[kg.voc.ctdl]
-  kg_voc_ieee_lom[kg.voc.ieee-lom] -->|parte de| kg_voc_comparison[kg.voc.comparison]
-  kg_voc_ieee_lom[kg.voc.ieee-lom] <-->|alt| kg_voc_schema_org_learning_resource[kg.voc.schema-org-learning-resource]
-  kg_voc_schema_org_learning_resource[kg.voc.schema-org-learning-resource] -->|parte de| kg_voc_comparison[kg.voc.comparison]
-  kg_voc_schema_org_learning_resource[kg.voc.schema-org-learning-resource] <-->|alt| kg_voc_ieee_lom[kg.voc.ieee-lom]
 ```

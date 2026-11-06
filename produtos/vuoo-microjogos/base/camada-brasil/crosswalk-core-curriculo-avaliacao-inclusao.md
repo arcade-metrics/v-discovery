@@ -11,7 +11,7 @@
 | Currículo Paulista | Del. CEE-SP | C.CFW (esfera estadual, `derivadoDe` BNCC) | exata | idem; a derivação é C.CAS |
 | Parâmetros dos IFAs (Anexo) | Res. CNE/CEB 4/2025 | C.CFW | aproximada | é parte de uma resolução, não documento curricular autônomo; itens sem código |
 | Matriz de referência do Saeb | Inep | C.CFW (tipo matriz) | aproximada | é framework de avaliação, não de ensino; versões coexistem (2001 e BNCC) |
-| Edição do texto (2017 × 2018) | bncc/, bncc-dados | C.CFW.version | parcial | o Core precisa distinguir edição do texto, ato e versão do dataset; uma só "versão" perde informação |
+| Edição do texto | vuoo-base v1.1 (`bncc-2018`, `bncc-computacao-2022`), bncc-dados | C.CFW.version | parcial | o Core precisa distinguir edição do texto, ato e versão do dataset; uma só "versão" perde informação |
 | Habilidade (EF, EM) | BNCC | C.CMP | exata | unidade de aprendizagem com código |
 | Objetivo de aprendizagem e desenvolvimento (EI) | BNCC | C.CMP | exata | idem, organizado por campo × grupo etário |
 | Objeto de conhecimento | BNCC | C.CMP (tipo conteúdo) | aproximada | não é resultado de aprendizagem; associado n:n às habilidades |
@@ -20,7 +20,7 @@
 | Área do conhecimento | BNCC, DCNEM art. 17 | C.CMP (organizador) **e** agrupamento de C.SUB | parcial | papel duplo: estrutura do currículo e agrupamento de componentes |
 | Componente curricular (BNCC) | BNCC | C.SUB | aproximada | o componente do documento curricular não é o componente ofertado pela rede ("Redação e Leitura" ⊂ LP) |
 | Componente de rede (Redação e Leitura, Educação Financeira) | Res. SEDUC 84/2024 | C.SUB + C.CAS (cobertura) | parcial | cobre parte das habilidades de outro componente |
-| Código BNCC (`EF67LP08`) | BNCC | C.IDN / `notation` em C.CMP | mais restrita | não é identificador único (duplicidades; reuso no CP) |
+| Código BNCC (`EF67LP08`) | BNCC | C.IDN / `notation` em C.CMP | mais restrita | não é identificador único (forma impressa diferente, ex. `EF05CO011`; reuso e desdobramento no CP) |
 | Habilidade CP reanuada (`EF01AR01`) | CP | C.CMP + C.CAS `derivaDe` | — | relação 1:n com a BNCC |
 | Habilidade CP desdobrada (`EF01LP10A`) | CP | C.CMP + C.CAS `derivaDe` | — | parte de uma habilidade |
 | Habilidade CP criada (`*`) | CP | C.CMP | — | sem C.CAS de origem |

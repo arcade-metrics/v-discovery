@@ -1,6 +1,6 @@
 ---
 produto: VUOO — Linguagem de produto dos microjogos
-slug: vuoo-linguagem
+slug: vuoo-microjogos
 etapa: revisão independente, rodada 2
 lente: segurança e respeito à criança
 data: 2026-10-27

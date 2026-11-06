@@ -30,7 +30,7 @@ Regras comuns a todas as pastas desta `base/`. O briefing completo está em [REA
   evidencias.md          registro: afirmação → fonte (URL), versão, data de acesso
 ```
 
-Fontes já mineradas (como `brasil/bncc/`, `brasil/cmdeb/`) mantêm sua estrutura própria e são **citadas**, não reescritas.
+Fontes já mineradas (como `camada-brasil/cmdeb/`) mantêm sua estrutura própria e são **citadas**, não reescritas. A BNCC é citada do repositório vuoo-base (release v1.1, https://github.com/arcade-metrics/v-base) pelos ids `bncc-2018/<CODIGO>` e `bncc-computacao-2022/<CODIGO>`.
 
 No Brasil a pesquisa tem duas frentes. A de organização e dados é dona de `modelo-de-dados.md` e `terminologia.md`, e seus demais arquivos levam o sufixo `-organizacao`. A de currículo, avaliação e inclusão usa o sufixo `-curriculo-avaliacao-inclusao` em todos os arquivos.
 
