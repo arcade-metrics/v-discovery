@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="guarda-chuva-titulo">
+  <title id="guarda-chuva-titulo">Guarda-chuva</title>
+  <defs>
+    <path id="guarda-chuva-corpo-forma" d="M200 520 C200 330 340 200 512 200 C684 200 824 330 824 520 C794 472 698 472 668 520 C638 472 542 472 512 520 C482 472 386 472 356 520 C326 472 230 472 200 520 Z" />
+    <clipPath id="guarda-chuva-corpo-recorte">
+      <use href="#guarda-chuva-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="guarda-chuva">
+    <g id="guarda-chuva-cabo" data-pivo="512,500">
+      <path d="M512 500 L512 800 C512 852 572 864 590 822" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M512 500 L512 800 C512 852 572 864 590 822" fill="none" stroke="#4A5468" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="guarda-chuva-corpo">
+      <use href="#guarda-chuva-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#guarda-chuva-corpo-recorte)">
+        <use href="#guarda-chuva-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M512 212 L512 504 M512 212 C440 300 380 420 356 512 M512 212 C584 300 644 420 668 512" fill="none" stroke="#C93830" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M512 196 L512 158" fill="none" stroke="#4A5468" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M262 440 C282 340 342 272 410 242" fill="none" stroke="#F7867C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

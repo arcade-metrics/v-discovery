@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="caderno-titulo">
+  <title id="caderno-titulo">Caderno</title>
+  <defs>
+    <path id="caderno-pagina-forma" d="M326 208 Q326 200 334 200 L754 200 Q780 200 780 226 L780 848 Q780 874 754 874 L334 874 Q326 874 326 866 Z" />
+    <clipPath id="caderno-pagina-recorte">
+      <use href="#caderno-pagina-forma" />
+    </clipPath>
+    <path id="caderno-corpo-forma-2" d="M300 184 Q300 176 308 176 L728 176 Q754 176 754 202 L754 824 Q754 850 728 850 L308 850 Q300 850 300 842 Z" />
+    <clipPath id="caderno-corpo-recorte-2">
+      <use href="#caderno-corpo-forma-2" />
+    </clipPath>
+    <path id="caderno-rotulo-forma-3" d="M430 318 Q430 300 448 300 L666 300 Q684 300 684 318 L684 414 Q684 432 666 432 L448 432 Q430 432 430 414 Z" />
+    <clipPath id="caderno-rotulo-recorte-3">
+      <use href="#caderno-rotulo-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="caderno">
+    <g id="caderno-pagina">
+      <use href="#caderno-pagina-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#caderno-pagina-recorte)">
+        <use href="#caderno-pagina-forma" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+    <g id="caderno-corpo">
+      <use href="#caderno-corpo-forma-2" fill="#A6242E" class="sombra" />
+      <g clip-path="url(#caderno-corpo-recorte-2)">
+        <use href="#caderno-corpo-forma-2" transform="translate(-14 -22)" fill="#D0343E" class="base" />
+      </g>
+      <path d="M366 240 L366 540" fill="none" stroke="#EE7078" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caderno-rotulo">
+      <use href="#caderno-rotulo-forma-3" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#caderno-rotulo-recorte-3)">
+        <use href="#caderno-rotulo-forma-3" transform="translate(-6 -10)" fill="#F4F6FA" class="base" />
+      </g>
+      <path d="M462 350 L652 350 M462 390 L610 390" fill="none" stroke="#D3DAE6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+    <g id="caderno-argola">
+      <path d="M330 214 C318 184 274 186 276 218 M330 266 C318 236 274 238 276 270 M330 318 C318 288 274 290 276 322 M330 370 C318 340 274 342 276 374 M330 422 C318 392 274 394 276 426 M330 474 C318 444 274 446 276 478 M330 526 C318 496 274 498 276 530 M330 578 C318 548 274 550 276 582 M330 630 C318 600 274 602 276 634 M330 682 C318 652 274 654 276 686 M330 734 C318 704 274 706 276 738 M330 786 C318 756 274 758 276 790" transform="translate(3 4)" fill="none" stroke="#8293B8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M330 214 C318 184 274 186 276 218 M330 266 C318 236 274 238 276 270 M330 318 C318 288 274 290 276 322 M330 370 C318 340 274 342 276 374 M330 422 C318 392 274 394 276 426 M330 474 C318 444 274 446 276 478 M330 526 C318 496 274 498 276 530 M330 578 C318 548 274 550 276 582 M330 630 C318 600 274 602 276 634 M330 682 C318 652 274 654 276 686 M330 734 C318 704 274 706 276 738 M330 786 C318 756 274 758 276 790" fill="none" stroke="#AEBEDB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <circle cx="330" cy="214" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="266" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="318" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="370" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="422" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="474" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="526" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="578" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="630" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="682" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="734" r="10" fill="#4A5468" class="marca" />
+      <circle cx="330" cy="786" r="10" fill="#4A5468" class="marca" />
+    </g>
+  </g>
+</svg>

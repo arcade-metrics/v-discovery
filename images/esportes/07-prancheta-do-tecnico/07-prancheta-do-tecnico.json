@@ -1,0 +1,88 @@
+{
+  "item": "prancheta-do-tecnico",
+  "numero": 7,
+  "categoria": "esportes",
+  "nome": "Prancheta do técnico",
+  "svg": "07-prancheta-do-tecnico.svg",
+  "png": "07-prancheta-do-tecnico.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "prancheta-do-tecnico-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "prancheta-do-tecnico-pagina": {
+      "parte": "pagina",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#4A5468",
+          "#4A62C8",
+          "#EA4A3F"
+        ]
+      },
+      "familias": [
+        "azul",
+        "branco",
+        "grafite",
+        "vermelho-vivo"
+      ]
+    },
+    "prancheta-do-tecnico-prendedor": {
+      "parte": "prendedor",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,41 @@
+{
+  "item": "borracha",
+  "numero": 3,
+  "categoria": "material-escolar",
+  "nome": "Borracha",
+  "svg": "03-borracha.svg",
+  "png": "03-borracha.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "borracha-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C",
+          "#C93830"
+        ],
+        "base": [
+          "#4A62C8",
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#8296E4",
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "azul",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

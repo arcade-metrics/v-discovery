@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="metro-titulo">
+  <title id="metro-titulo">Metrô</title>
+  <defs>
+    <path id="metro-corpo-forma" d="M170 648 Q170 640 178 640 L852 640 Q860 640 860 648 L860 692 Q860 700 852 700 L178 700 Q170 700 170 692 Z" />
+    <clipPath id="metro-corpo-recorte">
+      <use href="#metro-corpo-forma" />
+    </clipPath>
+    <path id="metro-corpo-forma-2" d="M180 300 L740 300 C800 300 840 330 866 390 L884 450 C890 470 890 490 890 510 L890 640 C890 664 872 680 848 680 L180 680 C156 680 140 664 140 640 L140 340 C140 316 156 300 180 300 Z" />
+    <clipPath id="metro-corpo-recorte-2">
+      <use href="#metro-corpo-forma-2" />
+    </clipPath>
+    <path id="metro-janela-forma-3" d="M184 366 Q184 350 200 350 L288 350 Q304 350 304 366 L304 454 Q304 470 288 470 L200 470 Q184 470 184 454 Z M354 366 Q354 350 370 350 L458 350 Q474 350 474 366 L474 454 Q474 470 458 470 L370 470 Q354 470 354 454 Z M524 366 Q524 350 540 350 L628 350 Q644 350 644 366 L644 454 Q644 470 628 470 L540 470 Q524 470 524 454 Z M700 356 Q700 340 716 340 L760 340 Q780 340 789 358 L836 448 Q842 460 828 460 L712 460 Q700 460 700 448 Z" />
+    <clipPath id="metro-janela-recorte-3">
+      <use href="#metro-janela-forma-3" />
+    </clipPath>
+    <path id="metro-farol-forma-4" d="M856 596 Q856 588 864 588 L878 588 Q884 588 884 594 L884 614 Q884 620 878 620 L864 620 Q856 620 856 612 Z" />
+    <clipPath id="metro-farol-recorte-4">
+      <use href="#metro-farol-forma-4" />
+    </clipPath>
+    <path id="metro-roda-1-forma-5" d="M202 712 A38 38 0 1 0 278 712 A38 38 0 1 0 202 712 Z" />
+    <clipPath id="metro-roda-1-recorte-5">
+      <use href="#metro-roda-1-forma-5" />
+    </clipPath>
+    <path id="metro-roda-1-forma-6" d="M222 712 A18 18 0 1 0 258 712 A18 18 0 1 0 222 712 Z" />
+    <clipPath id="metro-roda-1-recorte-6">
+      <use href="#metro-roda-1-forma-6" />
+    </clipPath>
+    <path id="metro-roda-2-forma-7" d="M292 712 A38 38 0 1 0 368 712 A38 38 0 1 0 292 712 Z" />
+    <clipPath id="metro-roda-2-recorte-7">
+      <use href="#metro-roda-2-forma-7" />
+    </clipPath>
+    <path id="metro-roda-2-forma-8" d="M312 712 A18 18 0 1 0 348 712 A18 18 0 1 0 312 712 Z" />
+    <clipPath id="metro-roda-2-recorte-8">
+      <use href="#metro-roda-2-forma-8" />
+    </clipPath>
+    <path id="metro-roda-3-forma-9" d="M662 712 A38 38 0 1 0 738 712 A38 38 0 1 0 662 712 Z" />
+    <clipPath id="metro-roda-3-recorte-9">
+      <use href="#metro-roda-3-forma-9" />
+    </clipPath>
+    <path id="metro-roda-3-forma-10" d="M682 712 A18 18 0 1 0 718 712 A18 18 0 1 0 682 712 Z" />
+    <clipPath id="metro-roda-3-recorte-10">
+      <use href="#metro-roda-3-forma-10" />
+    </clipPath>
+    <path id="metro-roda-4-forma-11" d="M752 712 A38 38 0 1 0 828 712 A38 38 0 1 0 752 712 Z" />
+    <clipPath id="metro-roda-4-recorte-11">
+      <use href="#metro-roda-4-forma-11" />
+    </clipPath>
+    <path id="metro-roda-4-forma-12" d="M772 712 A18 18 0 1 0 808 712 A18 18 0 1 0 772 712 Z" />
+    <clipPath id="metro-roda-4-recorte-12">
+      <use href="#metro-roda-4-forma-12" />
+    </clipPath>
+  </defs>
+  <g id="metro" transform="translate(-3 -16)">
+    <g id="metro-corpo">
+      <use href="#metro-corpo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#metro-corpo-recorte)">
+        <use href="#metro-corpo-forma" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#metro-corpo-forma-2" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#metro-corpo-recorte-2)">
+        <use href="#metro-corpo-forma-2" transform="translate(-14 -22)" fill="#AEBEDB" class="base" />
+      </g>
+      <rect x="140" y="510" width="750" height="40" fill="#EA4A3F" class="marca" />
+      <path d="M330 330 L330 640 M500 330 L500 640" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M150 752 L880 752" fill="none" stroke="#4A5468" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M168 340 L168 480" fill="none" stroke="#DCE5F5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M210 320 L660 320" fill="none" stroke="#DCE5F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="metro-janela">
+      <use href="#metro-janela-forma-3" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#metro-janela-recorte-3)">
+        <use href="#metro-janela-forma-3" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M204 370 L204 440 M374 370 L374 440 M544 370 L544 440 M720 360 L720 430" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="metro-farol">
+      <use href="#metro-farol-forma-4" fill="#EDB417" class="sombra" />
+      <g clip-path="url(#metro-farol-recorte-4)">
+        <use href="#metro-farol-forma-4" transform="translate(-3 -5)" fill="#FFD43B" class="base" />
+      </g>
+    </g>
+    <g id="metro-roda-1" data-pivo="240,712">
+      <use href="#metro-roda-1-forma-5" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#metro-roda-1-recorte-5)">
+        <use href="#metro-roda-1-forma-5" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#metro-roda-1-forma-6" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#metro-roda-1-recorte-6)">
+        <use href="#metro-roda-1-forma-6" transform="translate(-2 -3)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="240" cy="712" r="6" fill="#8293B8" class="marca" />
+      <path d="M211 704 A30 30 0 0 1 230 684" fill="none" stroke="#717D95" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="metro-roda-2" data-pivo="330,712">
+      <use href="#metro-roda-2-forma-7" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#metro-roda-2-recorte-7)">
+        <use href="#metro-roda-2-forma-7" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#metro-roda-2-forma-8" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#metro-roda-2-recorte-8)">
+        <use href="#metro-roda-2-forma-8" transform="translate(-2 -3)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="330" cy="712" r="6" fill="#8293B8" class="marca" />
+      <path d="M301 704 A30 30 0 0 1 320 684" fill="none" stroke="#717D95" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="metro-roda-3" data-pivo="700,712">
+      <use href="#metro-roda-3-forma-9" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#metro-roda-3-recorte-9)">
+        <use href="#metro-roda-3-forma-9" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#metro-roda-3-forma-10" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#metro-roda-3-recorte-10)">
+        <use href="#metro-roda-3-forma-10" transform="translate(-2 -3)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="700" cy="712" r="6" fill="#8293B8" class="marca" />
+      <path d="M671 704 A30 30 0 0 1 690 684" fill="none" stroke="#717D95" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="metro-roda-4" data-pivo="790,712">
+      <use href="#metro-roda-4-forma-11" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#metro-roda-4-recorte-11)">
+        <use href="#metro-roda-4-forma-11" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#metro-roda-4-forma-12" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#metro-roda-4-recorte-12)">
+        <use href="#metro-roda-4-forma-12" transform="translate(-2 -3)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="790" cy="712" r="6" fill="#8293B8" class="marca" />
+      <path d="M761 704 A30 30 0 0 1 780 684" fill="none" stroke="#717D95" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

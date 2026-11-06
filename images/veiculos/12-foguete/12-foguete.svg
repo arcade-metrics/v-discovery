@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="foguete-titulo">
+  <title id="foguete-titulo">Foguete</title>
+  <defs>
+    <path id="foguete-chama-forma" d="M440 770 C440 846 476 900 512 950 C548 900 584 846 584 770 Z" />
+    <clipPath id="foguete-chama-recorte">
+      <use href="#foguete-chama-forma" />
+    </clipPath>
+    <path id="foguete-chama-forma-2" d="M472 770 C472 822 490 860 512 896 C534 860 552 822 552 770 Z" />
+    <clipPath id="foguete-chama-recorte-2">
+      <use href="#foguete-chama-forma-2" />
+    </clipPath>
+    <path id="foguete-aleta-1-forma-3" d="M392 590 C340 620 300 690 296 800 C320 780 356 770 392 768 Z" />
+    <clipPath id="foguete-aleta-1-recorte-3">
+      <use href="#foguete-aleta-1-forma-3" />
+    </clipPath>
+    <path id="foguete-aleta-2-forma-4" d="M632 590 C684 620 724 690 728 800 C704 780 668 770 632 768 Z" />
+    <clipPath id="foguete-aleta-2-recorte-4">
+      <use href="#foguete-aleta-2-forma-4" />
+    </clipPath>
+    <path id="foguete-corpo-forma-5" d="M512 140 C590 200 640 300 640 420 L640 720 C640 744 624 760 600 760 L424 760 C400 760 384 744 384 720 L384 420 C384 300 434 200 512 140 Z" />
+    <clipPath id="foguete-corpo-recorte-5">
+      <use href="#foguete-corpo-forma-5" />
+    </clipPath>
+    <path id="foguete-corpo-forma-6" d="M512 140 C566 182 604 240 622 310 L402 310 C420 240 458 182 512 140 Z" />
+    <clipPath id="foguete-corpo-recorte-6">
+      <use href="#foguete-corpo-forma-6" />
+    </clipPath>
+    <path id="foguete-janela-forma-7" d="M436 450 A76 76 0 1 0 588 450 A76 76 0 1 0 436 450 Z" />
+    <clipPath id="foguete-janela-recorte-7">
+      <use href="#foguete-janela-forma-7" />
+    </clipPath>
+    <path id="foguete-janela-forma-8" d="M456 450 A56 56 0 1 0 568 450 A56 56 0 1 0 456 450 Z" />
+    <clipPath id="foguete-janela-recorte-8">
+      <use href="#foguete-janela-forma-8" />
+    </clipPath>
+  </defs>
+  <g id="foguete" transform="translate(0 -33)">
+    <g id="foguete-chama">
+      <use href="#foguete-chama-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#foguete-chama-recorte)">
+        <use href="#foguete-chama-forma" transform="translate(-6 -9)" fill="#FF9A2E" class="base" />
+      </g>
+      <use href="#foguete-chama-forma-2" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#foguete-chama-recorte-2)">
+        <use href="#foguete-chama-forma-2" transform="translate(-4 -6)" fill="#FFC93C" class="base" />
+      </g>
+    </g>
+    <g id="foguete-aleta-1">
+      <use href="#foguete-aleta-1-forma-3" fill="#C93830" class="sombra" />
+      <g clip-path="url(#foguete-aleta-1-recorte-3)">
+        <use href="#foguete-aleta-1-forma-3" transform="translate(-6 -9)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="foguete-aleta-2">
+      <use href="#foguete-aleta-2-forma-4" fill="#C93830" class="sombra" />
+      <g clip-path="url(#foguete-aleta-2-recorte-4)">
+        <use href="#foguete-aleta-2-forma-4" transform="translate(-6 -9)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="foguete-corpo">
+      <use href="#foguete-corpo-forma-5" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#foguete-corpo-recorte-5)">
+        <use href="#foguete-corpo-forma-5" transform="translate(-14 -22)" fill="#F4F6FA" class="base" />
+      </g>
+      <use href="#foguete-corpo-forma-6" fill="#C93830" class="sombra" />
+      <g clip-path="url(#foguete-corpo-recorte-6)">
+        <use href="#foguete-corpo-forma-6" transform="translate(-8 -12)" fill="#EA4A3F" class="base" />
+      </g>
+      <rect x="440" y="752" width="144" height="30" rx="8" fill="#4A5468" class="marca" />
+      <path d="M414 360 L414 700" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M462 230 C474 206 488 188 502 174" fill="none" stroke="#F7867C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="foguete-janela">
+      <use href="#foguete-janela-forma-7" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#foguete-janela-recorte-7)">
+        <use href="#foguete-janela-forma-7" transform="translate(-6 -9)" fill="#AEBEDB" class="base" />
+      </g>
+      <use href="#foguete-janela-forma-8" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#foguete-janela-recorte-8)">
+        <use href="#foguete-janela-forma-8" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <ellipse cx="492" cy="428" rx="12" ry="20" transform="rotate(35 492 428)" fill="#EEF9FD" class="brilho" />
+    </g>
+  </g>
+</svg>

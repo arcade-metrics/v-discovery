@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cola-titulo">
+  <title id="cola-titulo">Cola</title>
+  <defs>
+    <path id="cola-corpo-forma" d="M450 336 L574 336 L574 360 C574 384 652 394 652 452 L652 820 C652 848 630 866 600 866 L424 866 C394 866 372 848 372 820 L372 452 C372 394 450 384 450 360 Z" />
+    <clipPath id="cola-corpo-recorte">
+      <use href="#cola-corpo-forma" />
+    </clipPath>
+    <path id="cola-rotulo-forma-2" d="M372 520 L652 520 L652 748 L372 748 Z" />
+    <clipPath id="cola-rotulo-recorte-2">
+      <use href="#cola-rotulo-forma-2" />
+    </clipPath>
+    <path id="cola-tampa-forma-3" d="M436 344 L588 344 L588 300 C588 292 582 286 574 286 L560 286 L530 178 C526 162 498 162 494 178 L464 286 L450 286 C442 286 436 292 436 300 Z" />
+    <clipPath id="cola-tampa-recorte-3">
+      <use href="#cola-tampa-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="cola">
+    <g id="cola-corpo">
+      <use href="#cola-corpo-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#cola-corpo-recorte)">
+        <use href="#cola-corpo-forma" transform="translate(-14 -22)" fill="#F4F6FA" class="base" />
+      </g>
+      <path d="M402 470 L402 500" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M402 776 L402 830" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="cola-rotulo">
+      <use href="#cola-rotulo-forma-2" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#cola-rotulo-recorte-2)">
+        <use href="#cola-rotulo-forma-2" transform="translate(-10 -16)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M402 552 L402 716" fill="none" stroke="#FFC27A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="cola-tampa" data-pivo="512,320">
+      <use href="#cola-tampa-forma-3" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#cola-tampa-recorte-3)">
+        <use href="#cola-tampa-forma-3" transform="translate(-8 -12)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M440 300 L584 300" fill="none" stroke="#E87A12" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M488 268 L506 196" fill="none" stroke="#FFC27A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

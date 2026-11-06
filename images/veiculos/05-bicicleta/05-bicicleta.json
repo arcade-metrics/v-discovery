@@ -1,0 +1,157 @@
+{
+  "item": "bicicleta",
+  "numero": 5,
+  "categoria": "veiculos",
+  "nome": "Bicicleta",
+  "svg": "05-bicicleta.svg",
+  "png": "05-bicicleta.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "bicicleta-roda-1": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        300.0,
+        660.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#8293B8",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "bicicleta-roda-2": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        730.0,
+        660.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#8293B8",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "bicicleta-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal",
+        "turquesa"
+      ]
+    },
+    "bicicleta-selim": {
+      "parte": "selim",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "bicicleta-guidao": {
+      "parte": "guidao",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        692.0,
+        424.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

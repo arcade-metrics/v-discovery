@@ -1,0 +1,64 @@
+{
+  "item": "bota",
+  "numero": 21,
+  "categoria": "roupas",
+  "nome": "Bota",
+  "svg": "21-bota.svg",
+  "png": "21-bota.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "bota-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#5C311B",
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "madeira"
+      ]
+    },
+    "bota-sola": {
+      "parte": "sola",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

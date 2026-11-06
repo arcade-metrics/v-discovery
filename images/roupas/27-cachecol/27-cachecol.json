@@ -1,0 +1,43 @@
+{
+  "item": "cachecol",
+  "numero": 27,
+  "categoria": "roupas",
+  "nome": "Cachecol",
+  "svg": "27-cachecol.svg",
+  "png": "27-cachecol.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "cachecol-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#A6242E"
+        ],
+        "base": [
+          "#D0343E"
+        ],
+        "marca": [
+          "#A6242E",
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#EE7078"
+        ]
+      },
+      "familias": [
+        "branco",
+        "vermelho-fundo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="arara-titulo">
+  <title id="arara-titulo">Arara-vermelha</title>
+  <desc>Bioma: Amazônia</desc>
+  <defs>
+    <path id="arara-rabo-forma" d="M452 604 C486 610 508 636 500 676 L398 908 C390 926 362 926 360 904 C360 860 380 720 452 604 Z" />
+    <clipPath id="arara-rabo-recorte">
+      <use href="#arara-rabo-forma" />
+    </clipPath>
+    <path id="arara-rabo-forma-2" d="M430 790 L398 908 C390 926 362 926 360 904 C360 880 366 840 378 800 Z" />
+    <clipPath id="arara-rabo-recorte-2">
+      <use href="#arara-rabo-forma-2" />
+    </clipPath>
+    <path id="arara-haste-forma-3" d="M330 679 Q330 660 349 660 L701 660 Q720 660 720 679 L720 679 Q720 698 701 698 L349 698 Q330 698 330 679 Z" />
+    <clipPath id="arara-haste-recorte-3">
+      <use href="#arara-haste-forma-3" />
+    </clipPath>
+    <path id="arara-corpo-forma-4" d="M548 326 C626 318 668 380 660 470 C652 560 604 632 530 664 C478 686 436 666 436 614 C436 520 466 380 548 326 Z" />
+    <clipPath id="arara-corpo-recorte-4">
+      <use href="#arara-corpo-forma-4" />
+    </clipPath>
+    <path id="arara-asa-forma-5" d="M566 396 C626 412 640 500 610 568 L492 640 C478 580 490 480 516 432 C530 408 546 396 566 396 Z" />
+    <clipPath id="arara-asa-recorte-5">
+      <use href="#arara-asa-forma-5" />
+    </clipPath>
+    <path id="arara-asa-forma-6" d="M610 566 C590 630 532 700 452 752 C452 704 468 660 492 640 Z" />
+    <clipPath id="arara-asa-recorte-6">
+      <use href="#arara-asa-forma-6" />
+    </clipPath>
+    <path id="arara-pata-1-forma-7" d="M500 650 Q502 640 512 640 L528 640 Q538 640 540 650 L544 672 Q546 684 534 684 L506 684 Q494 684 496 672 Z" />
+    <clipPath id="arara-pata-1-recorte-7">
+      <use href="#arara-pata-1-forma-7" />
+    </clipPath>
+    <path id="arara-pata-2-forma-8" d="M548 650 Q550 640 560 640 L576 640 Q586 640 588 650 L592 672 Q594 684 582 684 L554 684 Q542 684 544 672 Z" />
+    <clipPath id="arara-pata-2-recorte-8">
+      <use href="#arara-pata-2-forma-8" />
+    </clipPath>
+    <path id="arara-cabeca-bico-forma-9" d="M680 252 C744 236 796 280 792 344 C790 382 770 404 746 410 C756 378 748 340 714 330 Z" />
+    <clipPath id="arara-cabeca-bico-recorte-9">
+      <use href="#arara-cabeca-bico-forma-9" />
+    </clipPath>
+    <path id="arara-cabeca-forma-10" d="M528 300 C528 244 572 206 624 206 C676 206 712 246 712 300 C712 352 676 392 624 392 C572 392 528 352 528 300 Z" />
+    <clipPath id="arara-cabeca-recorte-10">
+      <use href="#arara-cabeca-forma-10" />
+    </clipPath>
+  </defs>
+  <g id="arara" transform="translate(0 -50)">
+    <g id="arara-rabo" data-pivo="470,570">
+      <use href="#arara-rabo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#arara-rabo-recorte)">
+        <use href="#arara-rabo-forma" transform="translate(-8 -12)" fill="#EA4A3F" class="base" />
+      </g>
+      <use href="#arara-rabo-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#arara-rabo-recorte-2)">
+        <use href="#arara-rabo-forma-2" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M452 650 L406 780" fill="none" stroke="#F7867C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="arara-haste">
+      <use href="#arara-haste-forma-3" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#arara-haste-recorte-3)">
+        <use href="#arara-haste-forma-3" transform="translate(-6 -9)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M420 677.0 L480 681.0 M560 679.0 L610 676.0" fill="none" stroke="#5C311B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M360 670 L680 670" fill="none" stroke="#A0643F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="arara-corpo">
+      <use href="#arara-corpo-forma-4" fill="#C93830" class="sombra" />
+      <g clip-path="url(#arara-corpo-recorte-4)">
+        <use href="#arara-corpo-forma-4" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M470 470 C474 430 490 396 512 374" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="arara-asa" data-pivo="560,360">
+      <use href="#arara-asa-forma-5" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#arara-asa-recorte-5)">
+        <use href="#arara-asa-forma-5" transform="translate(-8 -12)" fill="#FFC93C" class="base" />
+      </g>
+      <use href="#arara-asa-forma-6" fill="#33479C" class="sombra" />
+      <g clip-path="url(#arara-asa-recorte-6)">
+        <use href="#arara-asa-forma-6" transform="translate(-8 -12)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M528 470 C560 470 590 480 612 500" fill="none" stroke="#EBA622" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M590 600 L500 690 M560 640 L480 720" fill="none" stroke="#33479C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M536 440 C548 422 562 414 578 414" fill="none" stroke="#FFDE73" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="arara-pata-1" data-pivo="520,590">
+      <use href="#arara-pata-1-forma-7" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#arara-pata-1-recorte-7)">
+        <use href="#arara-pata-1-forma-7" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+    <g id="arara-pata-2" data-pivo="568,590">
+      <use href="#arara-pata-2-forma-8" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#arara-pata-2-recorte-8)">
+        <use href="#arara-pata-2-forma-8" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+    <g id="arara-cabeca" data-pivo="590,330">
+      <use href="#arara-cabeca-forma-10" fill="#C93830" class="sombra" />
+      <g clip-path="url(#arara-cabeca-recorte-10)">
+        <use href="#arara-cabeca-forma-10" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <ellipse cx="650" cy="300" rx="46" ry="36" fill="#F4F6FA" class="marca" />
+      <path d="M624 296 L640 296 M622 316 L640 318" fill="none" stroke="#D3DAE6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="652" cy="292" r="14" fill="#353D4E" class="marca" />
+      <circle cx="647.1" cy="287.1" r="4.2" fill="#FFFFFF" class="brilho" />
+      <path d="M562 260 C574 238 594 224 616 220" fill="none" stroke="#F7867C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <g id="arara-cabeca-bico">
+      <use href="#arara-cabeca-bico-forma-9" fill="#E9E2D2" class="sombra" />
+      <g clip-path="url(#arara-cabeca-bico-recorte-9)">
+        <use href="#arara-cabeca-bico-forma-9" transform="translate(-6 -9)" fill="#FBF8F0" class="base" />
+      </g>
+      <path d="M690 336 C724 336 744 360 738 392 C718 396 696 384 686 362 Z" fill="#4A5468" class="marca" />
+      <path d="M714 334 C738 336 758 352 762 378" fill="none" stroke="#E9E2D2" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      </g>
+    </g>
+  </g>
+</svg>

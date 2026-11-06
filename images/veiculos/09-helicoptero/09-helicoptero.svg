@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="helicoptero-titulo">
+  <title id="helicoptero-titulo">Helicóptero</title>
+  <defs>
+    <path id="helicoptero-rabo-forma" d="M152 394 Q150 380 164 380 L206 380 Q220 380 222 394 L239 502 Q240 512 230 512 L180 512 Q170 512 169 502 Z" />
+    <clipPath id="helicoptero-rabo-recorte">
+      <use href="#helicoptero-rabo-forma" />
+    </clipPath>
+    <path id="helicoptero-corpo-forma-2" d="M190 480 Q190 466 204 465 L520 450 L520 540 L204 513 Q190 512 190 498 Z" />
+    <clipPath id="helicoptero-corpo-recorte-2">
+      <use href="#helicoptero-corpo-forma-2" />
+    </clipPath>
+    <path id="helicoptero-cabine-forma-3" d="M440 500 C440 420 520 370 620 370 C730 370 820 430 840 520 C850 580 820 640 760 650 L500 650 C460 650 440 620 440 580 Z" />
+    <clipPath id="helicoptero-cabine-recorte-3">
+      <use href="#helicoptero-cabine-forma-3" />
+    </clipPath>
+    <path id="helicoptero-janela-forma-4" d="M636 394 C716 394 786 440 810 512 L636 512 Z M520 450 Q520 434 536 431 L586 423 Q602 420 602 436 L602 500 Q602 512 590 512 L532 512 Q520 512 520 500 Z" />
+    <clipPath id="helicoptero-janela-recorte-4">
+      <use href="#helicoptero-janela-forma-4" />
+    </clipPath>
+    <path id="helicoptero-helice-1-forma-5" d="M330 302 Q330 290 342 290 L888 290 Q900 290 900 302 L900 304 Q900 314 890 314 L340 314 Q330 314 330 304 Z" />
+    <clipPath id="helicoptero-helice-1-recorte-5">
+      <use href="#helicoptero-helice-1-forma-5" />
+    </clipPath>
+  </defs>
+  <g id="helicoptero" transform="translate(-7 6)">
+    <g id="helicoptero-rabo" data-pivo="200,480">
+      <use href="#helicoptero-rabo-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#helicoptero-rabo-recorte)">
+        <use href="#helicoptero-rabo-forma" transform="translate(-6 -9)" fill="#FF9A2E" class="base" />
+      </g>
+    </g>
+    <g id="helicoptero-helice-2" data-pivo="190,440">
+      <path d="M146 398 L234 482 M234 398 L146 482" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M146 398 L234 482 M234 398 L146 482" fill="none" stroke="#4A5468" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <circle cx="190" cy="440" r="12" fill="#AEBEDB" class="marca" />
+    </g>
+    <g id="helicoptero-corpo">
+      <use href="#helicoptero-corpo-forma-2" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#helicoptero-corpo-recorte-2)">
+        <use href="#helicoptero-corpo-forma-2" transform="translate(-6 -9)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M240 474 L470 464" fill="none" stroke="#FFC27A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="helicoptero-pes">
+      <path d="M500 640 L488 716 M740 644 L752 716 M420 716 L812 716 C842 716 856 702 862 688" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M500 640 L488 716 M740 644 L752 716 M420 716 L812 716 C842 716 856 702 862 688" fill="none" stroke="#4A5468" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="helicoptero-cabine">
+      <use href="#helicoptero-cabine-forma-3" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#helicoptero-cabine-recorte-3)">
+        <use href="#helicoptero-cabine-forma-3" transform="translate(-14 -22)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M470 540 L470 610" fill="none" stroke="#FFC27A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="helicoptero-janela">
+      <use href="#helicoptero-janela-forma-4" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#helicoptero-janela-recorte-4)">
+        <use href="#helicoptero-janela-forma-4" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M660 420 C700 422 736 438 760 460" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="helicoptero-helice-1" data-pivo="620,302">
+      <path d="M620 374 L620 306" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M620 374 L620 306" fill="none" stroke="#4A5468" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <use href="#helicoptero-helice-1-forma-5" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#helicoptero-helice-1-recorte-5)">
+        <use href="#helicoptero-helice-1-forma-5" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <circle cx="620" cy="302" r="22" fill="#AEBEDB" class="marca" />
+    </g>
+  </g>
+</svg>

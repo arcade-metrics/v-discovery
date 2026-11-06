@@ -1,0 +1,41 @@
+{
+  "item": "vestido",
+  "numero": 5,
+  "categoria": "roupas",
+  "nome": "Vestido",
+  "svg": "05-vestido.svg",
+  "png": "05-vestido.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "vestido-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "marca": [
+          "#6C3A9E"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

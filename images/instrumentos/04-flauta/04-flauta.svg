@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="flauta-titulo">
+  <title id="flauta-titulo">Flauta doce</title>
+  <defs>
+    <path id="flauta-bico-forma" d="M486 150 C486 142 492 138 500 138 L524 138 C532 138 538 142 538 150 L548 254 L476 254 Z" />
+    <clipPath id="flauta-bico-recorte">
+      <use href="#flauta-bico-forma" />
+    </clipPath>
+    <path id="flauta-corpo-forma-2" d="M476 250 L548 250 C556 250 560 256 560 266 L560 344 C560 356 552 362 544 366 L542 760 C556 768 562 780 564 800 L570 864 C572 878 560 886 546 886 L478 886 C464 886 452 878 454 864 L460 800 C462 780 468 768 482 760 L480 366 C472 362 464 356 464 344 L464 266 C464 256 468 250 476 250 Z" />
+    <clipPath id="flauta-corpo-recorte-2">
+      <use href="#flauta-corpo-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="flauta">
+    <g id="flauta-bico">
+      <use href="#flauta-bico-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#flauta-bico-recorte)">
+        <use href="#flauta-bico-forma" transform="translate(-6 -10)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M494 160 L490 236" fill="none" stroke="#F0C68E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="flauta-corpo">
+      <use href="#flauta-corpo-forma-2" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#flauta-corpo-recorte-2)">
+        <use href="#flauta-corpo-forma-2" transform="translate(-8 -12)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M494 284 L530 284 L526 312 L498 312 Z" fill="#7A4426" class="marca" />
+      <path d="M482 366 L542 366 M482 760 L542 760" fill="none" stroke="#BE7F3E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="512" cy="420" r="12" fill="#7A4426" class="marca" />
+      <circle cx="512" cy="466" r="12" fill="#7A4426" class="marca" />
+      <circle cx="512" cy="512" r="12" fill="#7A4426" class="marca" />
+      <circle cx="512" cy="574" r="12" fill="#7A4426" class="marca" />
+      <circle cx="512" cy="620" r="12" fill="#7A4426" class="marca" />
+      <circle cx="512" cy="666" r="12" fill="#7A4426" class="marca" />
+      <circle cx="512" cy="710" r="9" fill="#7A4426" class="marca" />
+      <path d="M478 276 L478 344" fill="none" stroke="#F0C68E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M492 392 L494 740" fill="none" stroke="#F0C68E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+{
+  "item": "saia",
+  "numero": 9,
+  "categoria": "roupas",
+  "nome": "Saia",
+  "svg": "09-saia.svg",
+  "png": "09-saia.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "saia-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C0222B"
+        ],
+        "base": [
+          "#E8343A"
+        ],
+        "marca": [
+          "#C0222B"
+        ],
+        "brilho": [
+          "#FF7A7E"
+        ]
+      },
+      "familias": [
+        "vermelho-cereja"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

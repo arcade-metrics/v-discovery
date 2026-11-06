@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="livro-titulo">
+  <title id="livro-titulo">Livro</title>
+  <defs>
+    <path id="livro-tira-forma" d="M630 830 L676 830 L676 920 L653 900 L630 920 Z" />
+    <clipPath id="livro-tira-recorte">
+      <use href="#livro-tira-forma" />
+    </clipPath>
+    <path id="livro-pagina-forma-2" d="M320 196 L766 211 Q782 212 782 228 L782 854 Q782 870 766 870 L320 858 Z" />
+    <clipPath id="livro-pagina-recorte-2">
+      <use href="#livro-pagina-forma-2" />
+    </clipPath>
+    <path id="livro-corpo-forma-3" d="M256 180 Q256 170 266 170 L732 170 Q752 170 752 190 L752 824 Q752 844 732 844 L266 844 Q256 844 256 834 Z" />
+    <clipPath id="livro-corpo-recorte-3">
+      <use href="#livro-corpo-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="livro" transform="translate(0 -32)">
+    <g id="livro-tira">
+      <use href="#livro-tira-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#livro-tira-recorte)">
+        <use href="#livro-tira-forma" transform="translate(-4 -6)" fill="#EA4A3F" class="base" />
+      </g>
+    </g>
+    <g id="livro-pagina">
+      <use href="#livro-pagina-forma-2" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#livro-pagina-recorte-2)">
+        <use href="#livro-pagina-forma-2" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+      <path d="M768 260 L768 836" fill="none" stroke="#D3DAE6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+    <g id="livro-corpo">
+      <use href="#livro-corpo-forma-3" fill="#469A32" class="sombra" />
+      <g clip-path="url(#livro-corpo-recorte-3)">
+        <use href="#livro-corpo-forma-3" transform="translate(-14 -22)" fill="#5DBB43" class="base" />
+      </g>
+      <rect x="256" y="170" width="56" height="674" rx="10" fill="#469A32" class="marca" />
+      <path d="M352 250 L712 250 M352 764 L712 764" fill="none" stroke="#FFC93C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M346 300 L346 700" fill="none" stroke="#8ED06E" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

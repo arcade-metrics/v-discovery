@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="gravata-titulo">
+  <title id="gravata-titulo">Gravata</title>
+  <defs>
+    <path id="gravata-corpo-forma" d="M476 262 L548 262 L620 734 Q622 750 611 761 L523 851 Q512 862 501 851 L413 761 Q402 750 404 734 Z" />
+    <clipPath id="gravata-corpo-recorte">
+      <use href="#gravata-corpo-forma" />
+    </clipPath>
+    <path id="gravata-corpo-forma-2" d="M447 182 Q444 168 458 168 L566 168 Q580 168 577 182 L555 268 Q552 280 540 280 L484 280 Q472 280 469 268 Z" />
+    <clipPath id="gravata-corpo-recorte-2">
+      <use href="#gravata-corpo-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="gravata">
+    <g id="gravata-corpo">
+      <use href="#gravata-corpo-forma" fill="#C0222B" class="sombra" />
+      <g clip-path="url(#gravata-corpo-recorte)">
+        <use href="#gravata-corpo-forma" transform="translate(-14 -22)" fill="#E8343A" class="base" />
+      </g>
+      <use href="#gravata-corpo-forma-2" fill="#C0222B" class="sombra" />
+      <g clip-path="url(#gravata-corpo-recorte-2)">
+        <use href="#gravata-corpo-forma-2" transform="translate(-10 -16)" fill="#E8343A" class="base" />
+      </g>
+      <path d="M474 360 L540 300 M458 480 L556 420 M438 620 L578 560 M420 740 L596 680" fill="none" stroke="#FFC93C" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M484 330 L448 680" fill="none" stroke="#FF7A7E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M464 192 L478 258" fill="none" stroke="#FF7A7E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

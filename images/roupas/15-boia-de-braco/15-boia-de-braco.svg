@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="boia-de-braco-titulo">
+  <title id="boia-de-braco-titulo">Boia de braço</title>
+  <defs>
+    <path id="boia-de-braco-corpo-forma" d="M282 512 A230 270 0 1 0 742 512 A230 270 0 1 0 282 512 Z M412 512 A100 150 0 1 0 612 512 A100 150 0 1 0 412 512 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="boia-de-braco-corpo-recorte">
+      <use href="#boia-de-braco-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="boia-de-braco">
+    <g id="boia-de-braco-corpo">
+      <use href="#boia-de-braco-corpo-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#boia-de-braco-corpo-recorte)">
+        <use href="#boia-de-braco-corpo-forma" transform="translate(-16 -24)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M292 512 L408 512 M616 512 L732 512" fill="none" stroke="#E87A12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <rect x="620" y="290" width="34" height="44" rx="10" fill="#F4F6FA" class="marca" />
+      <path d="M330 380 C350 320 390 290 420 282" fill="none" stroke="#FFC27A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

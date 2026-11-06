@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="luva-titulo">
+  <title id="luva-titulo">Luva</title>
+  <defs>
+    <path id="luva-corpo-forma" d="M420 290 Q420 180 530 180 L550 180 Q660 180 660 290 L660 640 L420 640 Z M440 590 L370 530 C316 486 292 440 316 404 C340 370 400 380 440 430 Z" />
+    <clipPath id="luva-corpo-recorte">
+      <use href="#luva-corpo-forma" />
+    </clipPath>
+    <path id="luva-punho-forma-2" d="M400 636 Q400 620 416 620 L664 620 Q680 620 680 636 L680 796 Q680 820 656 820 L424 820 Q400 820 400 796 Z" />
+    <clipPath id="luva-punho-recorte-2">
+      <use href="#luva-punho-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="luva">
+    <g id="luva-corpo">
+      <use href="#luva-corpo-forma" fill="#682A6E" class="sombra" />
+      <g clip-path="url(#luva-corpo-recorte)">
+        <use href="#luva-corpo-forma" transform="translate(-14 -22)" fill="#8A3E8E" class="base" />
+      </g>
+      <path d="M452 260 L448 560" fill="none" stroke="#B672BA" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="luva-punho">
+      <use href="#luva-punho-forma-2" fill="#682A6E" class="sombra" />
+      <g clip-path="url(#luva-punho-recorte-2)">
+        <use href="#luva-punho-forma-2" transform="translate(-10 -16)" fill="#8A3E8E" class="base" />
+      </g>
+      <path d="M450 650 L450 790 M500 650 L500 790 M550 650 L550 790 M600 650 L600 790 M650 650 L650 790" fill="none" stroke="#682A6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+  </g>
+</svg>

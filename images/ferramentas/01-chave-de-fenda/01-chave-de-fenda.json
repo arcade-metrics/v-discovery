@@ -1,0 +1,69 @@
+{
+  "item": "chave-de-fenda",
+  "numero": 1,
+  "categoria": "ferramentas",
+  "nome": "Chave de fenda",
+  "svg": "01-chave-de-fenda.svg",
+  "png": "01-chave-de-fenda.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "chave-de-fenda-haste": {
+      "parte": "haste",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "chave-de-fenda-cabo": {
+      "parte": "cabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        560.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ],
+        "marca": [
+          "#EBA622"
+        ],
+        "brilho": [
+          "#FFDE73"
+        ]
+      },
+      "familias": [
+        "amarelo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

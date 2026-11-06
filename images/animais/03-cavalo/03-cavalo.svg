@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cavalo-titulo">
+  <title id="cavalo-titulo">Cavalo</title>
+  <defs>
+    <path id="cavalo-rabo-forma" d="M336 450 C284 462 252 524 256 604 C258 664 272 704 294 724 C304 700 304 652 312 612 C320 562 334 522 356 490 Z" />
+    <clipPath id="cavalo-rabo-recorte">
+      <use href="#cavalo-rabo-forma" />
+    </clipPath>
+    <path id="cavalo-pata-3-forma-2" d="M371 540 L425 540 L420 818 Q420 830 408 830 L388 830 Q376 830 376 818 Z" />
+    <clipPath id="cavalo-pata-3-recorte-2">
+      <use href="#cavalo-pata-3-forma-2" />
+    </clipPath>
+    <path id="cavalo-pata-1-forma-3" d="M593 540 L647 540 L642 818 Q642 830 630 830 L610 830 Q598 830 598 818 Z" />
+    <clipPath id="cavalo-pata-1-recorte-3">
+      <use href="#cavalo-pata-1-forma-3" />
+    </clipPath>
+    <path id="cavalo-corpo-forma-4" d="M300 500 Q300 408 392 408 L562 408 Q654 408 654 500 L654 502 Q654 594 562 594 L392 594 Q300 594 300 502 Z" />
+    <clipPath id="cavalo-corpo-recorte-4">
+      <use href="#cavalo-corpo-forma-4" />
+    </clipPath>
+    <path id="cavalo-cabeca-orelha-1-forma-5" d="M698 262 Q690 264 691 256 L702 200 Q704 186 711 198 L738 247 Q742 254 734 256 Z" />
+    <clipPath id="cavalo-cabeca-orelha-1-recorte-5">
+      <use href="#cavalo-cabeca-orelha-1-forma-5" />
+    </clipPath>
+    <path id="cavalo-cabeca-forma-6" d="M589 497 Q568 486 576 463 L617 352 Q638 296 686 300 L694 301 Q734 304 720 341 L658 506 Q650 528 629 517 Z" />
+    <clipPath id="cavalo-cabeca-recorte-6">
+      <use href="#cavalo-cabeca-forma-6" />
+    </clipPath>
+    <path id="cavalo-cabeca-forma-7" d="M679.6 246.2 A118 64 40 1 0 860.4 397.8 A118 64 40 1 0 679.6 246.2 Z" />
+    <clipPath id="cavalo-cabeca-recorte-7">
+      <use href="#cavalo-cabeca-forma-7" />
+    </clipPath>
+    <path id="cavalo-cabeca-juba-forma-8" d="M706 232 C662 248 636 290 624 330 L562 486 L598 494 L652 342 C664 302 690 274 724 262 Z" />
+    <clipPath id="cavalo-cabeca-juba-recorte-8">
+      <use href="#cavalo-cabeca-juba-forma-8" />
+    </clipPath>
+  </defs>
+  <g id="cavalo" transform="translate(-84.4 -29.3) scale(1.059)">
+    <g id="cavalo-rabo" data-pivo="272,463">
+      <use href="#cavalo-rabo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#cavalo-rabo-recorte)">
+        <use href="#cavalo-rabo-forma" transform="translate(-6 -10)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+    <g id="cavalo-pata-4" data-pivo="288,564">
+      <path d="M325 540 L379 540 L374 818 Q374 830 362 830 L342 830 Q330 830 330 818 Z" fill="#5C311B" class="base" />
+      <path d="M330 790 L374 790 L374 818 Q374 830 362 830 L342 830 Q330 830 330 818 Z" fill="#4A5468" class="marca" />
+    </g>
+    <g id="cavalo-pata-2" data-pivo="522,564">
+      <path d="M545 540 L599 540 L594 818 Q594 830 582 830 L562 830 Q550 830 550 818 Z" fill="#5C311B" class="base" />
+      <path d="M550 790 L594 790 L594 818 Q594 830 582 830 L562 830 Q550 830 550 818 Z" fill="#4A5468" class="marca" />
+    </g>
+    <g id="cavalo-pata-3" data-pivo="337,564">
+      <use href="#cavalo-pata-3-forma-2" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#cavalo-pata-3-recorte-2)">
+        <use href="#cavalo-pata-3-forma-2" transform="translate(-8 -12)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M376 790 L420 790 L420 818 Q420 830 408 830 L388 830 Q376 830 376 818 Z" fill="#4A5468" class="marca" />
+    </g>
+    <g id="cavalo-pata-1" data-pivo="572,564">
+      <use href="#cavalo-pata-1-forma-3" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#cavalo-pata-1-recorte-3)">
+        <use href="#cavalo-pata-1-forma-3" transform="translate(-8 -12)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M598 790 L642 790 L642 818 Q642 830 630 830 L610 830 Q598 830 598 818 Z" fill="#4A5468" class="marca" />
+    </g>
+    <g id="cavalo-corpo">
+      <use href="#cavalo-corpo-forma-4" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#cavalo-corpo-recorte-4)">
+        <use href="#cavalo-corpo-forma-4" transform="translate(-14 -22)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M352 452 C372 432 410 422 452 420" fill="none" stroke="#A0643F" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="cavalo-cabeca" data-pivo="572,479">
+    <g id="cavalo-cabeca-orelha-2">
+      <path d="M672 268 Q664 270 665 262 L669 210 Q670 196 677 208 L704 251 Q708 258 700 260 Z" fill="#5C311B" class="base" />
+    </g>
+    <g id="cavalo-cabeca-orelha-1">
+      <use href="#cavalo-cabeca-orelha-1-forma-5" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#cavalo-cabeca-orelha-1-recorte-5)">
+        <use href="#cavalo-cabeca-orelha-1-forma-5" transform="translate(-4 -8)" fill="#7A4426" class="base" />
+      </g>
+    </g>
+      <use href="#cavalo-cabeca-forma-6" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#cavalo-cabeca-recorte-6)">
+        <use href="#cavalo-cabeca-forma-6" transform="translate(-14 -22)" fill="#7A4426" class="base" />
+      </g>
+      <use href="#cavalo-cabeca-forma-7" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#cavalo-cabeca-recorte-7)">
+        <use href="#cavalo-cabeca-forma-7" transform="translate(-10 -16)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M829 382 A9 13 0 1 0 847 382 A9 13 0 1 0 829 382 Z" fill="#5C311B" class="marca" />
+      <circle cx="744" cy="290" r="16" fill="#353D4E" class="marca" />
+      <circle cx="739" cy="284" r="6" fill="#FFFFFF" class="brilho" />
+      <path d="M694 268 C710 254 730 248 750 250" fill="none" stroke="#A0643F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    <g id="cavalo-cabeca-juba">
+      <use href="#cavalo-cabeca-juba-forma-8" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#cavalo-cabeca-juba-recorte-8)">
+        <use href="#cavalo-cabeca-juba-forma-8" transform="translate(-6 -10)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+    </g>
+  </g>
+</svg>

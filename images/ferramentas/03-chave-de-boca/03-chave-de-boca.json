@@ -1,0 +1,41 @@
+{
+  "item": "chave-de-boca",
+  "numero": 3,
+  "categoria": "ferramentas",
+  "nome": "Chave de boca",
+  "svg": "03-chave-de-boca.svg",
+  "png": "03-chave-de-boca.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "chave-de-boca-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

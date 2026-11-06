@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="regua-titulo">
+  <title id="regua-titulo">Régua</title>
+  <defs>
+    <path id="regua-corpo-forma" d="M152 649 Q145 637 158 630 L791 264 Q804 257 811 269 L872 375 Q879 387 866 394 L233 760 Q220 767 213 755 Z" />
+    <clipPath id="regua-corpo-recorte">
+      <use href="#regua-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="regua">
+    <g id="regua-corpo">
+      <use href="#regua-corpo-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#regua-corpo-recorte)">
+        <use href="#regua-corpo-forma" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <circle cx="816" cy="359" r="18" fill="#BE7F3E" class="marca" />
+      <path d="M185 625 L208 665 M202 615 L214 636 M219 605 L231 626 M237 595 L249 616 M254 585 L266 606 M271 575 L294 615 M288 565 L300 586 M306 555 L318 576 M323 545 L335 566 M340 535 L352 556 M358 525 L381 565 M375 515 L387 536 M392 505 L404 526 M410 495 L422 516 M427 485 L439 506 M444 475 L467 515 M462 465 L474 486 M479 455 L491 476 M496 445 L508 466 M514 435 L526 456 M531 425 L554 465 M548 415 L560 436 M566 405 L578 426 M583 395 L595 416 M600 385 L612 406 M618 375 L641 415 M635 365 L647 386 M652 355 L664 376 M670 345 L682 366 M687 335 L699 356 M704 325 L727 365 M721 315 L733 336" fill="none" stroke="#BE7F3E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M223 683 L521 511" fill="none" stroke="#F0C68E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

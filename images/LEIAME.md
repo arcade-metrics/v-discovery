@@ -5,8 +5,8 @@ Cada ilustração é um objeto com três arquivos na mesma pasta:
 ```
 cozinha/29-chaleira/
   29-chaleira.ai     ← fonte: só este é editado à mão
-  29-chaleira.svg    ← gerado por ferramentas/normalizar.py
-  29-chaleira.json   ← gerado por ferramentas/validar.py
+  29-chaleira.svg    ← gerado por _ferramentas/normalizar.py
+  29-chaleira.json   ← gerado por _ferramentas/validar.py
   29-chaleira.png    ← render 1024 × 1024 para revisão
 ```
 
@@ -58,10 +58,10 @@ Os comandos são rodados a partir de `images/` e só precisam de Python 3.9 ou m
 
 ```sh
 # exportação do Illustrator → SVG no padrão + JSON + catálogo
-python3 ferramentas/normalizar.py _exportar/29-chaleira.svg --categoria cozinha --nome "Chaleira"
+python3 _ferramentas/normalizar.py _exportar/29-chaleira.svg --categoria cozinha --nome "Chaleira"
 
 # revalida tudo e regrava os JSON e o catálogo (rode depois de mexer no vocabulário)
-python3 ferramentas/validar.py
+python3 _ferramentas/validar.py
 ```
 
 O normalizador avisa tudo o que precisou deduzir ou corrigir: forma sem nome com o tom deduzido pela cor, forma fora de parte enviada para `<item>-corpo`, camada de nome desconhecido. Um **erro** impede gerar o JSON. Um **aviso** não impede, mas merece revisão. Cor fora da paleta é aviso.

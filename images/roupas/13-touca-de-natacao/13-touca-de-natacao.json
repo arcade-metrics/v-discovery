@@ -1,0 +1,41 @@
+{
+  "item": "touca-de-natacao",
+  "numero": 13,
+  "categoria": "roupas",
+  "nome": "Touca de natação",
+  "svg": "13-touca-de-natacao.svg",
+  "png": "13-touca-de-natacao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "touca-de-natacao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EDB417"
+        ],
+        "base": [
+          "#FFD43B"
+        ],
+        "marca": [
+          "#EDB417"
+        ],
+        "brilho": [
+          "#FFE98A"
+        ]
+      },
+      "familias": [
+        "amarelo-limao"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

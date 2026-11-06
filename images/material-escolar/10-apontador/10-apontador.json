@@ -1,0 +1,95 @@
+{
+  "item": "apontador",
+  "numero": 10,
+  "categoria": "material-escolar",
+  "nome": "Apontador",
+  "svg": "10-apontador.svg",
+  "png": "10-apontador.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "apontador-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#2F97CF"
+        ],
+        "base": [
+          "#4FB8EA"
+        ],
+        "marca": [
+          "#2F97CF",
+          "#4FB8EA"
+        ],
+        "brilho": [
+          "#93D6F5"
+        ]
+      },
+      "familias": [
+        "agua"
+      ]
+    },
+    "apontador-furo": {
+      "parte": "furo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#353D4E",
+          "#BE7F3E"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "madeira"
+      ]
+    },
+    "apontador-lamina": {
+      "parte": "lamina",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

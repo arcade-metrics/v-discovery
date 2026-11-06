@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="faixa-de-cabeca-titulo">
+  <title id="faixa-de-cabeca-titulo">Faixa de cabeça</title>
+  <defs>
+    <path id="faixa-de-cabeca-corpo-forma" d="M212 472 A300 150 0 0 1 812 472 L812 552 A300 150 0 0 1 212 552 Z M264 472 A248 108 0 0 0 760 472 A248 108 0 0 0 264 472 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="faixa-de-cabeca-corpo-recorte">
+      <use href="#faixa-de-cabeca-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="faixa-de-cabeca">
+    <g id="faixa-de-cabeca-corpo">
+      <use href="#faixa-de-cabeca-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#faixa-de-cabeca-corpo-recorte)">
+        <use href="#faixa-de-cabeca-corpo-forma" transform="translate(-10 -16)" fill="#EA4A3F" class="base" />
+      </g>
+      <g clip-path="url(#faixa-de-cabeca-corpo-recorte)">
+        <path d="M216 518 A300 150 0 0 0 808 518" fill="none" stroke="#F4F6FA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      </g>
+      <path d="M250 430 C290 380 360 352 430 338" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

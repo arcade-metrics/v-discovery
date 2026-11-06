@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="chinelo-titulo">
+  <title id="chinelo-titulo">Chinelo</title>
+  <defs>
+    <path id="chinelo-sola-forma" d="M512 150 C600 150 652 220 652 330 C652 420 630 470 626 540 C622 620 640 700 636 780 C632 850 584 884 520 884 C456 884 412 850 410 780 C406 700 410 620 400 540 C390 450 372 380 380 300 C390 210 440 150 512 150 Z" />
+    <clipPath id="chinelo-sola-recorte">
+      <use href="#chinelo-sola-forma" />
+    </clipPath>
+  </defs>
+  <g id="chinelo">
+    <g id="chinelo-sola">
+      <use href="#chinelo-sola-forma" fill="#8AAE28" class="sombra" />
+      <g clip-path="url(#chinelo-sola-recorte)">
+        <use href="#chinelo-sola-forma" transform="translate(-14 -22)" fill="#A8CC3C" class="base" />
+      </g>
+      <path d="M432 600 L438 790" fill="none" stroke="#D2E87C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="chinelo-tira">
+      <path d="M512 300 L418 566 M512 300 L626 566" transform="translate(5 7)" fill="none" stroke="#D3DAE6" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M512 300 L418 566 M512 300 L626 566" fill="none" stroke="#F4F6FA" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <circle cx="512" cy="300" r="20" fill="#D3DAE6" class="marca" />
+    </g>
+  </g>
+</svg>

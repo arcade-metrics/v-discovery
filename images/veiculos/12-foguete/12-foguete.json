@@ -1,0 +1,140 @@
+{
+  "item": "foguete",
+  "numero": 12,
+  "categoria": "veiculos",
+  "nome": "Foguete",
+  "svg": "12-foguete.svg",
+  "png": "12-foguete.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "foguete-chama": {
+      "parte": "chama",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12",
+          "#EBA622"
+        ],
+        "base": [
+          "#FF9A2E",
+          "#FFC93C"
+        ]
+      },
+      "familias": [
+        "amarelo",
+        "laranja"
+      ]
+    },
+    "foguete-aleta-1": {
+      "parte": "aleta",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "foguete-aleta-2": {
+      "parte": "aleta",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "foguete-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830",
+          "#D3DAE6"
+        ],
+        "base": [
+          "#EA4A3F",
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#4A5468"
+        ],
+        "brilho": [
+          "#F7867C",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "vermelho-vivo"
+      ]
+    },
+    "foguete-janela": {
+      "parte": "janela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8",
+          "#9FD0E4"
+        ],
+        "base": [
+          "#AEBEDB",
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "metal",
+        "vidro"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

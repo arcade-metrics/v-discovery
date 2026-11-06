@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="tatu-titulo">
+  <title id="tatu-titulo">Tatu-bola</title>
+  <desc>Bioma: Caatinga</desc>
+  <defs>
+    <path id="tatu-rabo-forma" d="M262 560 C230 570 190 600 160 650 C200 640 240 624 272 608 Z" />
+    <clipPath id="tatu-rabo-recorte">
+      <use href="#tatu-rabo-forma" />
+    </clipPath>
+    <path id="tatu-pata-1-forma-2" d="M648 600 L708 600 L727 697 Q733 724 705 724 L687 724 Q659 724 657 696 Z" />
+    <clipPath id="tatu-pata-1-recorte-2">
+      <use href="#tatu-pata-1-forma-2" />
+    </clipPath>
+    <path id="tatu-pata-3-forma-3" d="M317 600 L383 600 L386 696 Q387 724 359 724 L341 724 Q313 724 314 696 Z" />
+    <clipPath id="tatu-pata-3-recorte-3">
+      <use href="#tatu-pata-3-forma-3" />
+    </clipPath>
+    <path id="tatu-cabeca-orelha-1-forma-4" d="M720 462 A22 30 0 1 0 764 462 A22 30 0 1 0 720 462 Z" />
+    <clipPath id="tatu-cabeca-orelha-1-recorte-4">
+      <use href="#tatu-cabeca-orelha-1-forma-4" />
+    </clipPath>
+    <path id="tatu-cabeca-forma-5" d="M716 486 C770 462 840 482 880 540 C900 566 904 594 888 608 C870 622 836 622 804 618 L740 612 C716 590 704 520 716 486 Z" />
+    <clipPath id="tatu-cabeca-recorte-5">
+      <use href="#tatu-cabeca-forma-5" />
+    </clipPath>
+    <path id="tatu-carapaca-forma-6" d="M236 620 C236 430 360 300 520 300 C680 300 788 420 788 620 Z" />
+    <clipPath id="tatu-carapaca-recorte-6">
+      <use href="#tatu-carapaca-forma-6" />
+    </clipPath>
+  </defs>
+  <g id="tatu">
+    <g id="tatu-pata-2" data-pivo="640,600">
+      <path d="M613 600 L667 600 L682 686 Q687 712 661 712 L645 712 Q619 712 618 686 Z" fill="#BE7F3E" class="base" />
+    </g>
+    <g id="tatu-pata-4" data-pivo="400,600">
+      <path d="M371 600 L429 600 L434 686 Q435 712 409 712 L393 712 Q367 712 368 686 Z" fill="#BE7F3E" class="base" />
+    </g>
+    <g id="tatu-rabo" data-pivo="262,584">
+      <use href="#tatu-rabo-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#tatu-rabo-recorte)">
+        <use href="#tatu-rabo-forma" transform="translate(-4 -6)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M220 590 L232 610 M196 614 L206 630" fill="none" stroke="#BE7F3E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+    <g id="tatu-pata-1" data-pivo="678,600">
+      <use href="#tatu-pata-1-forma-2" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#tatu-pata-1-recorte-2)">
+        <use href="#tatu-pata-1-forma-2" transform="translate(-6 -9)" fill="#DDA15E" class="base" />
+      </g>
+    </g>
+    <g id="tatu-pata-3" data-pivo="350,600">
+      <use href="#tatu-pata-3-forma-3" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#tatu-pata-3-recorte-3)">
+        <use href="#tatu-pata-3-forma-3" transform="translate(-6 -9)" fill="#DDA15E" class="base" />
+      </g>
+    </g>
+    <g id="tatu-cabeca" data-pivo="730,560">
+      <g id="tatu-cabeca-orelha-1">
+      <use href="#tatu-cabeca-orelha-1-forma-4" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#tatu-cabeca-orelha-1-recorte-4)">
+        <use href="#tatu-cabeca-orelha-1-forma-4" transform="translate(-3 -5)" fill="#DDA15E" class="base" />
+      </g>
+      </g>
+      <use href="#tatu-cabeca-forma-5" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#tatu-cabeca-recorte-5)">
+        <use href="#tatu-cabeca-forma-5" transform="translate(-8 -12)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M760 500 C800 494 840 512 864 540" fill="none" stroke="#BE7F3E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="806" cy="552" r="12" fill="#353D4E" class="marca" />
+      <circle cx="801.8" cy="547.8" r="3.5999999999999996" fill="#FFFFFF" class="brilho" />
+      <circle cx="886" cy="590" r="6" fill="#5C311B" class="marca" />
+    </g>
+    <g id="tatu-carapaca">
+      <use href="#tatu-carapaca-forma-6" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#tatu-carapaca-recorte-6)">
+        <use href="#tatu-carapaca-forma-6" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M430 318 C440 428 438 520 430 620 M476 306 C486 416 484 520 476 620 M522 302 C532 412 530 520 522 620 M568 306 C578 416 576 520 568 620 M614 318 C624 428 622 520 614 620" fill="none" stroke="#BE7F3E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M310 470 L328 470 M300 540 L318 540 M350 420 L368 420 M680 440 L698 440 M712 510 L730 510 M720 570 L738 570 M340 590 L358 590 M690 600 L708 600" fill="none" stroke="#BE7F3E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M282 520 C300 430 350 370 410 340" fill="none" stroke="#F0C68E" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

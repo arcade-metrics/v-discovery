@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="alicate-titulo">
+  <title id="alicate-titulo">Alicate</title>
+  <defs>
+    <path id="alicate-braco-1-forma" d="M512 172 C548 180 570 236 574 300 L578 400 C580 440 566 470 540 486 L470 600 L432 584 L480 474 C458 452 448 430 448 400 L452 300 C456 236 476 180 512 172 Z" />
+    <clipPath id="alicate-braco-1-recorte">
+      <use href="#alicate-braco-1-forma" />
+    </clipPath>
+    <path id="alicate-braco-1-forma-2" d="M432 556 L482 572 L436 846 C432 870 414 882 394 878 C374 874 364 856 368 834 Z" />
+    <clipPath id="alicate-braco-1-recorte-2">
+      <use href="#alicate-braco-1-forma-2" />
+    </clipPath>
+    <path id="alicate-braco-2-forma-3" d="M452 430 A60 60 0 1 0 572 430 A60 60 0 1 0 452 430 Z M486 470 L554 600 L594 584 L538 468 Z" />
+    <clipPath id="alicate-braco-2-recorte-3">
+      <use href="#alicate-braco-2-forma-3" />
+    </clipPath>
+    <path id="alicate-braco-2-forma-4" d="M592 556 L542 572 L588 846 C592 870 610 882 630 878 C650 874 660 856 656 834 Z" />
+    <clipPath id="alicate-braco-2-recorte-4">
+      <use href="#alicate-braco-2-forma-4" />
+    </clipPath>
+  </defs>
+  <g id="alicate">
+    <g id="alicate-braco-1" data-pivo="512,430">
+      <use href="#alicate-braco-1-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#alicate-braco-1-recorte)">
+        <use href="#alicate-braco-1-forma" transform="translate(-10 -16)" fill="#AEBEDB" class="base" />
+      </g>
+      <use href="#alicate-braco-1-forma-2" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#alicate-braco-1-recorte-2)">
+        <use href="#alicate-braco-1-forma-2" transform="translate(-10 -16)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M446 600 L404 820" fill="none" stroke="#FFDE73" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="alicate-braco-2" data-pivo="512,430">
+      <use href="#alicate-braco-2-forma-3" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#alicate-braco-2-recorte-3)">
+        <use href="#alicate-braco-2-forma-3" transform="translate(-10 -16)" fill="#AEBEDB" class="base" />
+      </g>
+      <use href="#alicate-braco-2-forma-4" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#alicate-braco-2-recorte-4)">
+        <use href="#alicate-braco-2-forma-4" transform="translate(-10 -16)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M512 196 L512 368 M488 240 L536 240 M484 276 L540 276 M482 312 L542 312" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="512" cy="430" r="16" fill="#8293B8" class="marca" />
+      <path d="M476 250 L468 356" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M556 610 L596 810" fill="none" stroke="#FFDE73" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

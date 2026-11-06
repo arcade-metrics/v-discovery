@@ -1,0 +1,140 @@
+{
+  "item": "boto",
+  "numero": 9,
+  "categoria": "animais-brasil",
+  "nome": "Boto-cor-de-rosa",
+  "svg": "09-boto.svg",
+  "png": "09-boto.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "boto-nadadeira-2": {
+      "parte": "nadadeira",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        550.0,
+        523.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#C92E5E"
+        ]
+      },
+      "familias": [
+        "rosa"
+      ]
+    },
+    "boto-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        262.0,
+        473.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C92E5E"
+        ],
+        "base": [
+          "#F0457A"
+        ]
+      },
+      "familias": [
+        "rosa"
+      ]
+    },
+    "boto-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C92E5E"
+        ],
+        "base": [
+          "#F0457A"
+        ],
+        "marca": [
+          "#353D4E",
+          "#C92E5E",
+          "#FFC6A6"
+        ],
+        "brilho": [
+          "#F99CBE",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "pessego",
+        "rosa"
+      ]
+    },
+    "boto-focinho": {
+      "parte": "focinho",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#C92E5E"
+        ],
+        "base": [
+          "#F0457A"
+        ],
+        "marca": [
+          "#C92E5E"
+        ]
+      },
+      "familias": [
+        "rosa"
+      ]
+    },
+    "boto-nadadeira-1": {
+      "parte": "nadadeira",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        590.0,
+        529.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C92E5E"
+        ],
+        "base": [
+          "#F0457A"
+        ]
+      },
+      "familias": [
+        "rosa"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

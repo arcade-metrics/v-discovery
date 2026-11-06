@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="bermuda-titulo">
+  <title id="bermuda-titulo">Bermuda</title>
+  <defs>
+    <path id="bermuda-corpo-forma" d="M512 250 L672 250 Q684 250 685 262 L728 670 Q730 690 710 692 L564 705 Q548 706 547 690 L532 524 Q530 500 521 490 L512 480 L503 490 Q494 500 492 524 L477 690 Q476 706 460 705 L314 692 Q294 690 296 670 L339 262 Q340 250 352 250 Z" />
+    <clipPath id="bermuda-corpo-recorte">
+      <use href="#bermuda-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="bermuda">
+    <g id="bermuda-corpo">
+      <use href="#bermuda-corpo-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#bermuda-corpo-recorte)">
+        <use href="#bermuda-corpo-forma" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M348 302 L676 302" fill="none" stroke="#BE7F3E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M532 312 C532 380 526 420 514 450" fill="none" stroke="#BE7F3E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="512" cy="276" r="12" fill="#AEBEDB" class="marca" />
+      <path d="M364 360 L334 650" fill="none" stroke="#F0C68E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

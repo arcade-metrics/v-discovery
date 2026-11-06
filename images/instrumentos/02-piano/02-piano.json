@@ -1,0 +1,117 @@
+{
+  "item": "piano",
+  "numero": 2,
+  "categoria": "instrumentos",
+  "nome": "Piano",
+  "svg": "02-piano.svg",
+  "png": "02-piano.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "piano-tampa": {
+      "parte": "tampa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        214.0,
+        238.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "piano-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#5C311B"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    },
+    "piano-tecla": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#4A5468",
+          "#D3DAE6"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite"
+      ]
+    },
+    "piano-pes": {
+      "parte": "pes",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

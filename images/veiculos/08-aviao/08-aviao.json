@@ -1,0 +1,148 @@
+{
+  "item": "aviao",
+  "numero": 8,
+  "categoria": "veiculos",
+  "nome": "Avião",
+  "svg": "08-aviao.svg",
+  "png": "08-aviao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "aviao-asa-1": {
+      "parte": "asa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        520.0,
+        450.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    },
+    "aviao-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        240.0,
+        460.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    },
+    "aviao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#2F97CF"
+        ],
+        "base": [
+          "#4FB8EA"
+        ],
+        "marca": [
+          "#4A62C8",
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#93D6F5"
+        ]
+      },
+      "familias": [
+        "agua",
+        "azul",
+        "vidro"
+      ]
+    },
+    "aviao-asa-2": {
+      "parte": "asa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        520.0,
+        530.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A62C8",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul",
+        "metal"
+      ]
+    },
+    "aviao-janela": {
+      "parte": "janela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

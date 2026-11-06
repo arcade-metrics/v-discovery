@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="bicicleta-titulo">
+  <title id="bicicleta-titulo">Bicicleta</title>
+  <defs>
+    <path id="bicicleta-roda-1-forma" d="M160 660 A140 140 0 1 0 440 660 A140 140 0 1 0 160 660 Z M186 660 A114 114 0 1 0 414 660 A114 114 0 1 0 186 660 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="bicicleta-roda-1-recorte">
+      <use href="#bicicleta-roda-1-forma" />
+    </clipPath>
+    <path id="bicicleta-roda-2-forma-2" d="M590 660 A140 140 0 1 0 870 660 A140 140 0 1 0 590 660 Z M616 660 A114 114 0 1 0 844 660 A114 114 0 1 0 616 660 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="bicicleta-roda-2-recorte-2">
+      <use href="#bicicleta-roda-2-forma-2" />
+    </clipPath>
+    <path id="bicicleta-selim-forma-3" d="M420 409 Q414 394 430 395 L506 399 Q522 400 514 414 L512 418 Q506 428 494 428 L440 426 Q428 426 423 415 Z" />
+    <clipPath id="bicicleta-selim-recorte-3">
+      <use href="#bicicleta-selim-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="bicicleta" transform="translate(-3 -68)">
+    <g id="bicicleta-roda-1" data-pivo="300,660">
+      <use href="#bicicleta-roda-1-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#bicicleta-roda-1-recorte)">
+        <use href="#bicicleta-roda-1-forma" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M300 660 L414 660 M300 660 L381 741 M300 660 L300 774 M300 660 L219 741 M300 660 L186 660 M300 660 L219 579 M300 660 L300 546 M300 660 L381 579" fill="none" stroke="#8293B8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="300" cy="660" r="24" fill="#AEBEDB" class="marca" />
+      <circle cx="300" cy="660" r="9" fill="#8293B8" class="marca" />
+      <path d="M177 627 A127 127 0 0 1 257 541" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="bicicleta-roda-2" data-pivo="730,660">
+      <use href="#bicicleta-roda-2-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#bicicleta-roda-2-recorte-2)">
+        <use href="#bicicleta-roda-2-forma-2" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M730 660 L844 660 M730 660 L811 741 M730 660 L730 774 M730 660 L649 741 M730 660 L616 660 M730 660 L649 579 M730 660 L730 546 M730 660 L811 579" fill="none" stroke="#8293B8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="730" cy="660" r="24" fill="#AEBEDB" class="marca" />
+      <circle cx="730" cy="660" r="9" fill="#8293B8" class="marca" />
+      <path d="M607 627 A127 127 0 0 1 687 541" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="bicicleta-corpo">
+      <path d="M300 660 L500 660 L470 440 L300 660 M470 440 L690 432 M500 660 L686 454 M692 420 L730 660 M470 440 L466 412" transform="translate(5 7)" fill="none" stroke="#1EA396" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M300 660 L500 660 L470 440 L300 660 M470 440 L690 432 M500 660 L686 454 M692 420 L730 660 M470 440 L466 412" fill="none" stroke="#2EC4B6" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <circle cx="500" cy="660" r="34" fill="#AEBEDB" class="marca" />
+      <path d="M500 660 L540 724" fill="none" stroke="#4A5468" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M520 728 L568 722" fill="none" stroke="#4A5468" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M486 454 L654 448" fill="none" stroke="#7FE0D6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="bicicleta-selim">
+      <use href="#bicicleta-selim-forma-3" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#bicicleta-selim-recorte-3)">
+        <use href="#bicicleta-selim-forma-3" transform="translate(-5 -8)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+    <g id="bicicleta-guidao" data-pivo="692,424">
+      <path d="M692 424 L686 380 L640 370" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M692 424 L686 380 L640 370" fill="none" stroke="#4A5468" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+  </g>
+</svg>

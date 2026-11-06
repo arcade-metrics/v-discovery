@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="regata-titulo">
+  <title id="regata-titulo">Regata</title>
+  <defs>
+    <path id="regata-corpo-forma" d="M486 230 Q512 290 538 230 L560 179 Q564 170 574 170 L600 170 Q610 170 612 180 L629 271 Q640 330 667 360 L681 375 Q694 390 694 410 L700 804 Q700 830 674 830 L512 830 L350 830 Q324 830 324 804 L330 410 Q330 390 343 375 L357 360 Q384 330 395 271 L412 180 Q414 170 424 170 L450 170 Q460 170 464 179 Z" />
+    <clipPath id="regata-corpo-recorte">
+      <use href="#regata-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="regata">
+    <g id="regata-corpo">
+      <use href="#regata-corpo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#regata-corpo-recorte)">
+        <use href="#regata-corpo-forma" transform="translate(-14 -22)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M464 178 Q512 330 560 178" fill="none" stroke="#EBA622" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M356 450 L352 780" fill="none" stroke="#FFDE73" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

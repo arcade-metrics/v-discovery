@@ -1,0 +1,41 @@
+{
+  "item": "camiseta",
+  "numero": 1,
+  "categoria": "roupas",
+  "nome": "Camiseta",
+  "svg": "01-camiseta.svg",
+  "png": "01-camiseta.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "camiseta-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#C93830"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

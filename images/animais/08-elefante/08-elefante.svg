@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="elefante-titulo">
+  <title id="elefante-titulo">Elefante</title>
+  <defs>
+    <path id="elefante-pata-3-forma" d="M353 600 L439 600 L438 802 Q438 820 420 820 L372 820 Q354 820 354 802 Z" />
+    <clipPath id="elefante-pata-3-recorte">
+      <use href="#elefante-pata-3-forma" />
+    </clipPath>
+    <path id="elefante-pata-1-forma-2" d="M585 600 L671 600 L670 802 Q670 820 652 820 L604 820 Q586 820 586 802 Z" />
+    <clipPath id="elefante-pata-1-recorte-2">
+      <use href="#elefante-pata-1-forma-2" />
+    </clipPath>
+    <path id="elefante-corpo-forma-3" d="M270 532 Q270 398 404 398 L550 398 Q684 398 684 532 L684 548 Q684 682 550 682 L404 682 Q270 682 270 548 Z" />
+    <clipPath id="elefante-corpo-recorte-3">
+      <use href="#elefante-corpo-forma-3" />
+    </clipPath>
+    <path id="elefante-cabeca-forma-4" d="M578 410 A124 120 0 1 0 826 410 A124 120 0 1 0 578 410 Z" />
+    <clipPath id="elefante-cabeca-recorte-4">
+      <use href="#elefante-cabeca-forma-4" />
+    </clipPath>
+    <path id="elefante-cabeca-tromba-forma-5" d="M770 424 C830 440 850 504 846 584 C844 640 850 686 878 698 C896 706 902 688 890 676 C876 664 876 638 878 590 C882 500 860 404 796 384 Z" />
+    <clipPath id="elefante-cabeca-tromba-recorte-5">
+      <use href="#elefante-cabeca-tromba-forma-5" />
+    </clipPath>
+    <path id="elefante-cabeca-orelha-1-forma-6" d="M602 326 C642 288 704 298 724 360 C744 432 722 522 660 542 C608 558 578 512 578 460 C576 400 580 350 602 326 Z" />
+    <clipPath id="elefante-cabeca-orelha-1-recorte-6">
+      <use href="#elefante-cabeca-orelha-1-forma-6" />
+    </clipPath>
+  </defs>
+  <g id="elefante" transform="translate(-87.1 -67.7) scale(1.045)">
+    <g id="elefante-rabo" data-pivo="212,423">
+      <path d="M286 470 C262 502 256 552 262 602" transform="translate(5 7)" fill="none" stroke="#8293B8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M286 470 C262 502 256 552 262 602" fill="none" stroke="#AEBEDB" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <path d="M251.1 612.3 A12 22 8 1 0 274.9 615.7 A12 22 8 1 0 251.1 612.3 Z" fill="#4A5468" class="marca" />
+    </g>
+    <g id="elefante-pata-4" data-pivo="262,580">
+      <path d="M291 600 L377 600 L376 802 Q376 820 358 820 L310 820 Q292 820 292 802 Z" fill="#8293B8" class="base" />
+    </g>
+    <g id="elefante-pata-2" data-pivo="504,580">
+      <path d="M523 600 L609 600 L608 802 Q608 820 590 820 L542 820 Q524 820 524 802 Z" fill="#8293B8" class="base" />
+    </g>
+    <g id="elefante-pata-3" data-pivo="327,580">
+      <use href="#elefante-pata-3-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#elefante-pata-3-recorte)">
+        <use href="#elefante-pata-3-forma" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M400 808 A12 9 0 1 0 424 808 A12 9 0 1 0 400 808 Z" fill="#FBF8F0" class="marca" />
+      <path d="M370 810 A12 9 0 1 0 394 810 A12 9 0 1 0 370 810 Z" fill="#FBF8F0" class="marca" />
+    </g>
+    <g id="elefante-pata-1" data-pivo="569,580">
+      <use href="#elefante-pata-1-forma-2" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#elefante-pata-1-recorte-2)">
+        <use href="#elefante-pata-1-forma-2" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M632 808 A12 9 0 1 0 656 808 A12 9 0 1 0 632 808 Z" fill="#FBF8F0" class="marca" />
+      <path d="M602 810 A12 9 0 1 0 626 810 A12 9 0 1 0 602 810 Z" fill="#FBF8F0" class="marca" />
+    </g>
+    <g id="elefante-corpo">
+      <use href="#elefante-corpo-forma-3" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#elefante-corpo-recorte-3)">
+        <use href="#elefante-corpo-forma-3" transform="translate(-14 -22)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M322 482 C342 450 380 428 424 418" fill="none" stroke="#DCE5F5" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="elefante-cabeca" data-pivo="602,434">
+      <use href="#elefante-cabeca-forma-4" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#elefante-cabeca-recorte-4)">
+        <use href="#elefante-cabeca-forma-4" transform="translate(-14 -22)" fill="#AEBEDB" class="base" />
+      </g>
+    <g id="elefante-cabeca-tromba" data-pivo="738,381">
+      <use href="#elefante-cabeca-tromba-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#elefante-cabeca-tromba-recorte-5)">
+        <use href="#elefante-cabeca-tromba-forma-5" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+    </g>
+      <path d="M782 500 C800 522 820 524 836 510" fill="none" stroke="#FBF8F0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="748" cy="392" r="16" fill="#353D4E" class="marca" />
+      <circle cx="743" cy="386" r="6" fill="#FFFFFF" class="brilho" />
+      <path d="M694 310 C716 302 744 304 768 316" fill="none" stroke="#DCE5F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    <g id="elefante-cabeca-orelha-1">
+      <use href="#elefante-cabeca-orelha-1-forma-6" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#elefante-cabeca-orelha-1-recorte-6)">
+        <use href="#elefante-cabeca-orelha-1-forma-6" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M612 352 C626 334 646 326 664 326" fill="none" stroke="#DCE5F5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    </g>
+  </g>
+</svg>

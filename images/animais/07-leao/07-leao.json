@@ -1,0 +1,262 @@
+{
+  "item": "leao",
+  "numero": 7,
+  "categoria": "animais",
+  "nome": "Leão",
+  "svg": "07-leao.svg",
+  "png": "07-leao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "leao-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        265.0,
+        461.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#E87A12"
+        ]
+      },
+      "familias": [
+        "laranja",
+        "manga"
+      ]
+    },
+    "leao-pata-4": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        308.0,
+        614.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#F08F18"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "leao-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        568.0,
+        614.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#F08F18"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "leao-pata-3": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        363.0,
+        614.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "leao-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        622.0,
+        614.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "leao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "brilho": [
+          "#FFD983"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "leao-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        633.0,
+        461.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#FFD983",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "manga"
+      ]
+    },
+    "leao-cabeca-juba": {
+      "parte": "juba",
+      "pai": "leao-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "leao-cabeca-orelha-1": {
+      "parte": "orelha",
+      "pai": "leao-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#E87A12"
+        ]
+      },
+      "familias": [
+        "laranja",
+        "manga"
+      ]
+    },
+    "leao-cabeca-focinho": {
+      "parte": "focinho",
+      "pai": "leao-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#E9E2D2"
+        ],
+        "base": [
+          "#FBF8F0"
+        ],
+        "marca": [
+          "#7A4426"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "creme"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,64 @@
+{
+  "item": "camisa",
+  "numero": 3,
+  "categoria": "roupas",
+  "nome": "Camisa de botão",
+  "svg": "03-camisa.svg",
+  "png": "03-camisa.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "camisa-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#2F97CF"
+        ],
+        "base": [
+          "#4FB8EA"
+        ],
+        "marca": [
+          "#2F97CF",
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#93D6F5"
+        ]
+      },
+      "familias": [
+        "agua",
+        "branco"
+      ]
+    },
+    "camisa-gola": {
+      "parte": "gola",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

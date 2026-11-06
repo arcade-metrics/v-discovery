@@ -1,0 +1,190 @@
+{
+  "item": "helicoptero",
+  "numero": 9,
+  "categoria": "veiculos",
+  "nome": "Helicóptero",
+  "svg": "09-helicoptero.svg",
+  "png": "09-helicoptero.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "helicoptero-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        200.0,
+        480.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "helicoptero-helice-2": {
+      "parte": "helice",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        190.0,
+        440.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "helicoptero-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "helicoptero-pes": {
+      "parte": "pes",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite"
+      ]
+    },
+    "helicoptero-cabine": {
+      "parte": "cabine",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "helicoptero-janela": {
+      "parte": "janela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "helicoptero-helice-1": {
+      "parte": "helice",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        620.0,
+        302.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

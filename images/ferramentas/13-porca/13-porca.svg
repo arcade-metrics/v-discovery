@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="porca-titulo">
+  <title id="porca-titulo">Porca</title>
+  <defs>
+    <path id="porca-corpo-forma" d="M794 480 Q812 512 794 544 L680 740 Q662 772 626 772 L398 772 Q362 772 344 740 L230 544 Q212 512 230 480 L344 284 Q362 252 398 252 L626 252 Q662 252 680 284 L794 480 Z M382 512 A130 130 0 1 0 642 512 A130 130 0 1 0 382 512 Z" fill-rule="evenodd" clip-rule="evenodd" />
+    <clipPath id="porca-corpo-recorte">
+      <use href="#porca-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="porca">
+    <g id="porca-corpo">
+      <use href="#porca-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#porca-corpo-recorte)">
+        <use href="#porca-corpo-forma" transform="translate(-16 -24)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="512" cy="512" r="236" fill="none" stroke="#8293B8" stroke-width="8" class="marca" />
+      <path d="M276 478 L370 316" fill="none" stroke="#DCE5F5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

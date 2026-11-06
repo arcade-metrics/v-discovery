@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="jacare-titulo">
+  <title id="jacare-titulo">Jacaré</title>
+  <desc>Bioma: Pantanal</desc>
+  <defs>
+    <path id="jacare-rabo-forma" d="M340 500 C270 498 200 480 140 420 C126 406 112 414 118 432 C140 500 200 566 280 594 C306 602 326 604 344 604 Z" />
+    <clipPath id="jacare-rabo-recorte">
+      <use href="#jacare-rabo-forma" />
+    </clipPath>
+    <path id="jacare-corpo-forma-2" d="M330 520 C380 484 470 470 580 474 C660 478 700 500 712 536 C720 572 690 600 620 610 L400 612 C350 610 318 590 316 562 C316 546 320 532 330 520 Z" />
+    <clipPath id="jacare-corpo-recorte-2">
+      <use href="#jacare-corpo-forma-2" />
+    </clipPath>
+    <path id="jacare-pata-1-forma-3" d="M640 566 L686 566 L702 640 L736 648 C748 660 738 674 720 674 L660 674 Z" />
+    <clipPath id="jacare-pata-1-recorte-3">
+      <use href="#jacare-pata-1-forma-3" />
+    </clipPath>
+    <path id="jacare-pata-3-forma-4" d="M420 566 L470 566 L480 640 L514 648 C526 660 516 674 498 674 L436 674 Z" />
+    <clipPath id="jacare-pata-3-recorte-4">
+      <use href="#jacare-pata-3-forma-4" />
+    </clipPath>
+    <path id="jacare-cabeca-forma-5" d="M664 512 C700 488 744 480 780 490 L896 520 C916 526 920 552 900 560 L790 578 C744 584 696 580 668 566 C652 552 650 528 664 512 Z" />
+    <clipPath id="jacare-cabeca-recorte-5">
+      <use href="#jacare-cabeca-forma-5" />
+    </clipPath>
+  </defs>
+  <g id="jacare" transform="translate(0 -31)">
+    <g id="jacare-pata-2" data-pivo="630,529">
+      <path d="M610 560 L652 560 L668 632 L698 640 C708 652 700 664 684 664 L630 664 Z" fill="#469A32" class="base" />
+    </g>
+    <g id="jacare-pata-4" data-pivo="410,529">
+      <path d="M390 560 L436 560 L444 632 L474 640 C484 652 476 664 460 664 L404 664 Z" fill="#469A32" class="base" />
+    </g>
+    <g id="jacare-rabo" data-pivo="340,519">
+      <use href="#jacare-rabo-forma" fill="#469A32" class="sombra" />
+      <g clip-path="url(#jacare-rabo-recorte)">
+        <use href="#jacare-rabo-forma" transform="translate(-8 -12)" fill="#5DBB43" class="base" />
+      </g>
+      <circle cx="160" cy="440" r="9" fill="#469A32" class="marca" />
+      <circle cx="200" cy="474" r="9" fill="#469A32" class="marca" />
+      <circle cx="244" cy="494" r="9" fill="#469A32" class="marca" />
+      <circle cx="290" cy="504" r="9" fill="#469A32" class="marca" />
+      <path d="M180 470 C220 500 270 516 320 520" fill="none" stroke="#8ED06E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="jacare-corpo">
+      <use href="#jacare-corpo-forma-2" fill="#469A32" class="sombra" />
+      <g clip-path="url(#jacare-corpo-recorte-2)">
+        <use href="#jacare-corpo-forma-2" transform="translate(-8 -14)" fill="#5DBB43" class="base" />
+      </g>
+      <path d="M360 596 C420 604 560 604 660 594 C640 606 600 612 560 614 L400 614 C380 612 368 606 360 596 Z" fill="#A8CC3C" class="marca" />
+      <circle cx="370" cy="500" r="11" fill="#469A32" class="marca" />
+      <circle cx="420" cy="488" r="11" fill="#469A32" class="marca" />
+      <circle cx="470" cy="482" r="11" fill="#469A32" class="marca" />
+      <circle cx="520" cy="480" r="11" fill="#469A32" class="marca" />
+      <circle cx="570" cy="482" r="11" fill="#469A32" class="marca" />
+      <circle cx="620" cy="488" r="11" fill="#469A32" class="marca" />
+      <path d="M360 512 C420 496 500 490 580 492" fill="none" stroke="#8ED06E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="jacare-pata-1" data-pivo="660,535">
+      <use href="#jacare-pata-1-forma-3" fill="#469A32" class="sombra" />
+      <g clip-path="url(#jacare-pata-1-recorte-3)">
+        <use href="#jacare-pata-1-forma-3" transform="translate(-6 -9)" fill="#5DBB43" class="base" />
+      </g>
+    </g>
+    <g id="jacare-pata-3" data-pivo="440,535">
+      <use href="#jacare-pata-3-forma-4" fill="#469A32" class="sombra" />
+      <g clip-path="url(#jacare-pata-3-recorte-4)">
+        <use href="#jacare-pata-3-forma-4" transform="translate(-6 -9)" fill="#5DBB43" class="base" />
+      </g>
+    </g>
+    <g id="jacare-cabeca" data-pivo="690,509">
+      <use href="#jacare-cabeca-forma-5" fill="#469A32" class="sombra" />
+      <g clip-path="url(#jacare-cabeca-recorte-5)">
+        <use href="#jacare-cabeca-forma-5" transform="translate(-6 -10)" fill="#5DBB43" class="base" />
+      </g>
+      <circle cx="744" cy="484" r="24" fill="#5DBB43" class="marca" />
+      <path d="M780 562 L786 576 L792 562 Z M804 562 L810 576 L816 562 Z M828 562 L834 576 L840 562 Z M852 562 L858 576 L864 562 Z M876 562 L882 576 L888 562 Z" fill="#F4F6FA" class="marca" />
+      <path d="M780 562 L896 548" fill="none" stroke="#469A32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="898" cy="528" r="6" fill="#469A32" class="marca" />
+      <circle cx="746" cy="482" r="11" fill="#353D4E" class="marca" />
+      <circle cx="742.15" cy="478.15" r="3.3" fill="#FFFFFF" class="brilho" />
+      <path d="M790 506 L880 528" fill="none" stroke="#8ED06E" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

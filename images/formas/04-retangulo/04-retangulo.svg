@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="retangulo-titulo">
+  <title id="retangulo-titulo">Retângulo</title>
+  <defs>
+    <path id="retangulo-corpo-forma" d="M170 342 Q170 310 202 310 L822 310 Q854 310 854 342 L854 682 Q854 714 822 714 L202 714 Q170 714 170 682 Z" />
+    <clipPath id="retangulo-corpo-recorte">
+      <use href="#retangulo-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="retangulo">
+    <g id="retangulo-corpo">
+      <use href="#retangulo-corpo-forma" fill="#469A32" class="sombra" />
+      <g clip-path="url(#retangulo-corpo-recorte)">
+        <use href="#retangulo-corpo-forma" transform="translate(-14 -22)" fill="#5DBB43" class="base" />
+      </g>
+      <path d="M220 370 L220 500" fill="none" stroke="#8ED06E" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

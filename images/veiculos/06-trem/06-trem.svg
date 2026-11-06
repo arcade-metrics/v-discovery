@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="trem-titulo">
+  <title id="trem-titulo">Trem</title>
+  <defs>
+    <path id="trem-vapor-forma" d="M660 196 A40 40 0 1 0 740 196 A40 40 0 1 0 660 196 Z M578 150 A52 52 0 1 0 682 150 A52 52 0 1 0 578 150 Z M508 116 A40 40 0 1 0 588 116 A40 40 0 1 0 508 116 Z" />
+    <clipPath id="trem-vapor-recorte">
+      <use href="#trem-vapor-forma" />
+    </clipPath>
+    <path id="trem-chamine-forma-2" d="M690 250 L770 250 C778 250 782 256 780 264 L760 300 L752 404 L708 404 L700 300 L680 264 C678 256 682 250 690 250 Z" />
+    <clipPath id="trem-chamine-recorte-2">
+      <use href="#trem-chamine-forma-2" />
+    </clipPath>
+    <path id="trem-corpo-forma-3" d="M170 610 Q170 600 180 600 L810 600 Q820 600 820 610 L820 640 Q820 650 810 650 L180 650 Q170 650 170 640 Z M800 600 L840 600 L896 694 L800 694 Z" />
+    <clipPath id="trem-corpo-recorte-3">
+      <use href="#trem-corpo-forma-3" />
+    </clipPath>
+    <path id="trem-corpo-forma-4" d="M400 400 L740 400 C780 400 810 450 810 510 C810 570 780 620 740 620 L400 620 Z M540 402 C540 356 600 356 600 402 Z" />
+    <clipPath id="trem-corpo-recorte-4">
+      <use href="#trem-corpo-forma-4" />
+    </clipPath>
+    <path id="trem-cabine-forma-5" d="M190 314 Q190 300 204 300 L406 300 Q420 300 420 314 L420 610 L190 610 Z" />
+    <clipPath id="trem-cabine-recorte-5">
+      <use href="#trem-cabine-forma-5" />
+    </clipPath>
+    <path id="trem-cabine-forma-6" d="M160 270 Q160 250 180 250 L430 250 Q450 250 450 270 L450 292 Q450 300 442 300 L168 300 Q160 300 160 292 Z" />
+    <clipPath id="trem-cabine-recorte-6">
+      <use href="#trem-cabine-forma-6" />
+    </clipPath>
+    <path id="trem-janela-forma-7" d="M236 360 Q236 340 256 340 L354 340 Q374 340 374 360 L374 446 Q374 460 360 460 L250 460 Q236 460 236 446 Z" />
+    <clipPath id="trem-janela-recorte-7">
+      <use href="#trem-janela-forma-7" />
+    </clipPath>
+    <path id="trem-roda-1-forma-8" d="M208 670 A72 72 0 1 0 352 670 A72 72 0 1 0 208 670 Z" />
+    <clipPath id="trem-roda-1-recorte-8">
+      <use href="#trem-roda-1-forma-8" />
+    </clipPath>
+    <path id="trem-roda-1-forma-9" d="M245 670 A35 35 0 1 0 315 670 A35 35 0 1 0 245 670 Z" />
+    <clipPath id="trem-roda-1-recorte-9">
+      <use href="#trem-roda-1-forma-9" />
+    </clipPath>
+    <path id="trem-roda-2-forma-10" d="M378 670 A72 72 0 1 0 522 670 A72 72 0 1 0 378 670 Z" />
+    <clipPath id="trem-roda-2-recorte-10">
+      <use href="#trem-roda-2-forma-10" />
+    </clipPath>
+    <path id="trem-roda-2-forma-11" d="M415 670 A35 35 0 1 0 485 670 A35 35 0 1 0 415 670 Z" />
+    <clipPath id="trem-roda-2-recorte-11">
+      <use href="#trem-roda-2-forma-11" />
+    </clipPath>
+    <path id="trem-roda-3-forma-12" d="M668 690 A52 52 0 1 0 772 690 A52 52 0 1 0 668 690 Z" />
+    <clipPath id="trem-roda-3-recorte-12">
+      <use href="#trem-roda-3-forma-12" />
+    </clipPath>
+    <path id="trem-roda-3-forma-13" d="M695 690 A25 25 0 1 0 745 690 A25 25 0 1 0 695 690 Z" />
+    <clipPath id="trem-roda-3-recorte-13">
+      <use href="#trem-roda-3-forma-13" />
+    </clipPath>
+  </defs>
+  <g id="trem" transform="translate(-16 103)">
+    <g id="trem-vapor">
+      <use href="#trem-vapor-forma" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#trem-vapor-recorte)">
+        <use href="#trem-vapor-forma" transform="translate(-6 -9)" fill="#F4F6FA" class="base" />
+      </g>
+      <ellipse cx="612" cy="130" rx="14" ry="22" transform="rotate(30 612 130)" fill="#FFFFFF" class="brilho" />
+    </g>
+    <g id="trem-chamine">
+      <use href="#trem-chamine-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#trem-chamine-recorte-2)">
+        <use href="#trem-chamine-forma-2" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M700 262 L740 262" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-corpo">
+      <use href="#trem-corpo-forma-3" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#trem-corpo-recorte-3)">
+        <use href="#trem-corpo-forma-3" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#trem-corpo-forma-4" fill="#33479C" class="sombra" />
+      <g clip-path="url(#trem-corpo-recorte-4)">
+        <use href="#trem-corpo-forma-4" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M500 406 L500 614 M650 406 L650 614" fill="none" stroke="#FFC93C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M420 428 L720 428" fill="none" stroke="#8296E4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-cabine">
+      <use href="#trem-cabine-forma-5" fill="#C93830" class="sombra" />
+      <g clip-path="url(#trem-cabine-recorte-5)">
+        <use href="#trem-cabine-forma-5" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <use href="#trem-cabine-forma-6" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#trem-cabine-recorte-6)">
+        <use href="#trem-cabine-forma-6" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M214 490 L214 580" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-janela">
+      <use href="#trem-janela-forma-7" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#trem-janela-recorte-7)">
+        <use href="#trem-janela-forma-7" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M258 362 L258 430" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-roda-1" data-pivo="280,670">
+      <use href="#trem-roda-1-forma-8" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#trem-roda-1-recorte-8)">
+        <use href="#trem-roda-1-forma-8" transform="translate(-7 -11)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#trem-roda-1-forma-9" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#trem-roda-1-recorte-9)">
+        <use href="#trem-roda-1-forma-9" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="280" cy="670" r="12" fill="#8293B8" class="marca" />
+      <path d="M226 655 A56 56 0 0 1 261 617" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-roda-2" data-pivo="450,670">
+      <use href="#trem-roda-2-forma-10" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#trem-roda-2-recorte-10)">
+        <use href="#trem-roda-2-forma-10" transform="translate(-7 -11)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#trem-roda-2-forma-11" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#trem-roda-2-recorte-11)">
+        <use href="#trem-roda-2-forma-11" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="450" cy="670" r="12" fill="#8293B8" class="marca" />
+      <path d="M396 655 A56 56 0 0 1 431 617" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-roda-3" data-pivo="720,690">
+      <use href="#trem-roda-3-forma-12" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#trem-roda-3-recorte-12)">
+        <use href="#trem-roda-3-forma-12" transform="translate(-5 -8)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#trem-roda-3-forma-13" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#trem-roda-3-recorte-13)">
+        <use href="#trem-roda-3-forma-13" transform="translate(-3 -4)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="720" cy="690" r="8" fill="#8293B8" class="marca" />
+      <path d="M681 680 A41 41 0 0 1 706 652" fill="none" stroke="#717D95" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trem-haste">
+      <path d="M280 690 L450 690" transform="translate(5 7)" fill="none" stroke="#8293B8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M280 690 L450 690" fill="none" stroke="#AEBEDB" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+  </g>
+</svg>
