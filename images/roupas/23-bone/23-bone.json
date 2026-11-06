@@ -1,0 +1,62 @@
+{
+  "item": "bone",
+  "numero": 23,
+  "categoria": "roupas",
+  "nome": "Boné",
+  "svg": "23-bone.svg",
+  "png": "23-bone.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "bone-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "marca": [
+          "#33479C"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    },
+    "bone-aba": {
+      "parte": "aba",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ]
+      },
+      "familias": [
+        "azul"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,42 @@
+{
+  "item": "meia",
+  "numero": 17,
+  "categoria": "roupas",
+  "nome": "Meia",
+  "svg": "17-meia.svg",
+  "png": "17-meia.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "meia-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "branco",
+        "turquesa"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

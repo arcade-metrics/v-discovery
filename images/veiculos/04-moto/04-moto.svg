@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="moto-titulo">
+  <title id="moto-titulo">Moto</title>
+  <defs>
+    <path id="moto-roda-1-forma" d="M192 690 A108 108 0 1 0 408 690 A108 108 0 1 0 192 690 Z" />
+    <clipPath id="moto-roda-1-recorte">
+      <use href="#moto-roda-1-forma" />
+    </clipPath>
+    <path id="moto-roda-1-forma-2" d="M248 690 A52 52 0 1 0 352 690 A52 52 0 1 0 248 690 Z" />
+    <clipPath id="moto-roda-1-recorte-2">
+      <use href="#moto-roda-1-forma-2" />
+    </clipPath>
+    <path id="moto-roda-2-forma-3" d="M632 690 A108 108 0 1 0 848 690 A108 108 0 1 0 632 690 Z" />
+    <clipPath id="moto-roda-2-recorte-3">
+      <use href="#moto-roda-2-forma-3" />
+    </clipPath>
+    <path id="moto-roda-2-forma-4" d="M688 690 A52 52 0 1 0 792 690 A52 52 0 1 0 688 690 Z" />
+    <clipPath id="moto-roda-2-recorte-4">
+      <use href="#moto-roda-2-forma-4" />
+    </clipPath>
+    <path id="moto-motor-forma-5" d="M421 614 Q420 596 438 596 L572 596 Q590 596 589 614 L581 698 Q580 716 562 716 L448 716 Q430 716 429 698 Z" />
+    <clipPath id="moto-motor-recorte-5">
+      <use href="#moto-motor-forma-5" />
+    </clipPath>
+    <path id="moto-corpo-forma-6" d="M210 560 C240 520 300 506 360 510 L470 520 C490 470 530 444 590 444 L640 444 C670 444 690 464 690 494 L690 520 C690 560 660 600 610 610 L430 620 C380 624 330 616 290 600 L230 590 C214 586 206 574 210 560 Z" />
+    <clipPath id="moto-corpo-recorte-6">
+      <use href="#moto-corpo-forma-6" />
+    </clipPath>
+    <path id="moto-corpo-forma-7" d="M650 590 C680 556 760 552 802 584 C812 592 808 606 794 606 C760 588 702 590 672 606 C656 614 642 600 650 590 Z" />
+    <clipPath id="moto-corpo-recorte-7">
+      <use href="#moto-corpo-forma-7" />
+    </clipPath>
+    <path id="moto-selim-forma-8" d="M296 518 Q296 496 318 496 L454 498 Q472 498 472 514 L472 518 Q472 530 460 531 L318 539 Q296 540 296 518 Z" />
+    <clipPath id="moto-selim-recorte-8">
+      <use href="#moto-selim-forma-8" />
+    </clipPath>
+    <path id="moto-farol-forma-9" d="M668 476 A26 32 0 1 0 720 476 A26 32 0 1 0 668 476 Z" />
+    <clipPath id="moto-farol-recorte-9">
+      <use href="#moto-farol-forma-9" />
+    </clipPath>
+  </defs>
+  <g id="moto" transform="translate(-8 -68)">
+    <g id="moto-roda-1" data-pivo="300,690">
+      <use href="#moto-roda-1-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#moto-roda-1-recorte)">
+        <use href="#moto-roda-1-forma" transform="translate(-11 -16)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#moto-roda-1-forma-2" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#moto-roda-1-recorte-2)">
+        <use href="#moto-roda-1-forma-2" transform="translate(-5 -9)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="300" cy="690" r="17" fill="#8293B8" class="marca" />
+      <path d="M219 668 A84 84 0 0 1 271 611" fill="none" stroke="#717D95" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="moto-roda-2" data-pivo="740,690">
+      <use href="#moto-roda-2-forma-3" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#moto-roda-2-recorte-3)">
+        <use href="#moto-roda-2-forma-3" transform="translate(-11 -16)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#moto-roda-2-forma-4" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#moto-roda-2-recorte-4)">
+        <use href="#moto-roda-2-forma-4" transform="translate(-5 -9)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="740" cy="690" r="17" fill="#8293B8" class="marca" />
+      <path d="M659 668 A84 84 0 0 1 711 611" fill="none" stroke="#717D95" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="moto-haste">
+      <path d="M740 690 L650 432" transform="translate(5 7)" fill="none" stroke="#8293B8" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M740 690 L650 432" fill="none" stroke="#AEBEDB" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="moto-motor">
+      <use href="#moto-motor-forma-5" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#moto-motor-recorte-5)">
+        <use href="#moto-motor-forma-5" transform="translate(-8 -12)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M444 630 L566 630 M446 660 L564 660 M448 690 L562 690" fill="none" stroke="#8293B8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M436 612 L436 700" fill="none" stroke="#DCE5F5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="moto-corpo">
+      <use href="#moto-corpo-forma-6" fill="#6C3A9E" class="sombra" />
+      <g clip-path="url(#moto-corpo-recorte-6)">
+        <use href="#moto-corpo-forma-6" transform="translate(-14 -22)" fill="#9056C2" class="base" />
+      </g>
+      <use href="#moto-corpo-forma-7" fill="#6C3A9E" class="sombra" />
+      <g clip-path="url(#moto-corpo-recorte-7)">
+        <use href="#moto-corpo-forma-7" transform="translate(-6 -9)" fill="#9056C2" class="base" />
+      </g>
+      <path d="M512 468 C540 456 576 452 612 454" fill="none" stroke="#B98BE2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M238 560 C270 540 310 532 350 532" fill="none" stroke="#B98BE2" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="moto-selim">
+      <use href="#moto-selim-forma-8" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#moto-selim-recorte-8)">
+        <use href="#moto-selim-forma-8" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M320 508 L440 508" fill="none" stroke="#717D95" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="moto-guidao" data-pivo="652,436">
+      <path d="M652 436 L624 384 L566 374" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M652 436 L624 384 L566 374" fill="none" stroke="#4A5468" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="moto-farol">
+      <use href="#moto-farol-forma-9" fill="#EDB417" class="sombra" />
+      <g clip-path="url(#moto-farol-recorte-9)">
+        <use href="#moto-farol-forma-9" transform="translate(-3 -5)" fill="#FFD43B" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

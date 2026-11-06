@@ -1,0 +1,130 @@
+{
+  "item": "cronometro",
+  "numero": 2,
+  "categoria": "esportes",
+  "nome": "Cronômetro",
+  "svg": "02-cronometro.svg",
+  "png": "02-cronometro.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "cronometro-botao-1": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "cronometro-botao-2": {
+      "parte": "botao",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8"
+        ],
+        "base": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "metal"
+      ]
+    },
+    "cronometro-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "cronometro-visor": {
+      "parte": "visor",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite"
+      ]
+    },
+    "cronometro-ponteiro": {
+      "parte": "ponteiro",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        560.0
+      ],
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#4A5468"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

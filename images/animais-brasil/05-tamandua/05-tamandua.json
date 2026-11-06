@@ -1,0 +1,272 @@
+{
+  "item": "tamandua",
+  "numero": 5,
+  "categoria": "animais-brasil",
+  "nome": "Tamanduá-bandeira",
+  "svg": "05-tamandua.svg",
+  "png": "05-tamandua.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "tamandua-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        580.0,
+        480.0
+      ],
+      "tons": [
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "base": [
+          "#E9E2D2"
+        ],
+        "marca": [
+          "#353D4E"
+        ]
+      },
+      "familias": [
+        "creme",
+        "grafite"
+      ]
+    },
+    "tamandua-pata-4": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        380.0,
+        480.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#6B4423"
+        ]
+      },
+      "familias": [
+        "marrom"
+      ]
+    },
+    "tamandua-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        330.0,
+        430.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ],
+        "marca": [
+          "#6B4423"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "marrom"
+      ]
+    },
+    "tamandua-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        626.0,
+        470.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E9E2D2"
+        ],
+        "base": [
+          "#FBF8F0"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "creme",
+        "grafite"
+      ]
+    },
+    "tamandua-pata-3": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        340.0,
+        470.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "marrom"
+      ]
+    },
+    "tamandua-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ],
+        "marca": [
+          "#353D4E",
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "branco",
+        "cafe",
+        "grafite",
+        "marrom"
+      ]
+    },
+    "tamandua-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        640.0,
+        410.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#A0643F",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "cafe",
+        "grafite",
+        "marrom"
+      ]
+    },
+    "tamandua-cabeca-orelha-1": {
+      "parte": "orelha",
+      "pai": "tamandua-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ]
+      },
+      "familias": [
+        "marrom"
+      ]
+    },
+    "tamandua-cabeca-tromba": {
+      "parte": "tromba",
+      "pai": "tamandua-cabeca",
+      "move": true,
+      "pivo": [
+        730.0,
+        410.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6B4423"
+        ],
+        "base": [
+          "#8A5A33"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "marrom"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

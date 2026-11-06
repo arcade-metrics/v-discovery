@@ -1,0 +1,259 @@
+{
+  "item": "gato",
+  "numero": 2,
+  "categoria": "animais",
+  "nome": "Gato",
+  "svg": "02-gato.svg",
+  "png": "02-gato.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "gato-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        287.0,
+        509.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-pata-4": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        311.0,
+        616.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#E87A12"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        547.0,
+        616.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#E87A12"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-pata-3": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        360.0,
+        616.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        598.0,
+        616.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "marca": [
+          "#E87A12"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        620.0,
+        467.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "marca": [
+          "#353D4E"
+        ],
+        "brilho": [
+          "#FFC27A",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "laranja"
+      ]
+    },
+    "gato-cabeca-orelha-2": {
+      "parte": "orelha",
+      "pai": "gato-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#E87A12"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "gato-cabeca-orelha-1": {
+      "parte": "orelha",
+      "pai": "gato-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "marca": [
+          "#FF9E6E"
+        ]
+      },
+      "familias": [
+        "laranja",
+        "pessego"
+      ]
+    },
+    "gato-cabeca-focinho": {
+      "parte": "focinho",
+      "pai": "gato-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#E9E2D2"
+        ],
+        "base": [
+          "#FBF8F0"
+        ],
+        "marca": [
+          "#4A5468",
+          "#F0457A"
+        ]
+      },
+      "familias": [
+        "creme",
+        "grafite",
+        "rosa"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

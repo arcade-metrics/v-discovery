@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="estrela-titulo">
+  <title id="estrela-titulo">Estrela</title>
+  <defs>
+    <path id="estrela-corpo-forma" d="M507 195 Q512 182 517 195 L587 389 Q592 402 606 402 L812 410 Q826 410 815 419 L652 545 Q641 554 645 567 L702 766 Q706 779 694 771 L524 656 Q512 648 500 656 L330 771 Q318 779 322 766 L379 567 Q383 554 372 545 L209 419 Q198 410 212 410 L418 402 Q432 402 437 389 Z" />
+    <clipPath id="estrela-corpo-recorte">
+      <use href="#estrela-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="estrela">
+    <g id="estrela-corpo">
+      <use href="#estrela-corpo-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#estrela-corpo-recorte)">
+        <use href="#estrela-corpo-forma" transform="translate(-14 -22)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M412 340 L452 420" fill="none" stroke="#FFC27A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

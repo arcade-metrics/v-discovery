@@ -1,0 +1,41 @@
+{
+  "item": "roupao",
+  "numero": 16,
+  "categoria": "roupas",
+  "nome": "Roupão",
+  "svg": "16-roupao.svg",
+  "png": "16-roupao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "roupao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EE7C4C"
+        ],
+        "base": [
+          "#FF9E6E"
+        ],
+        "marca": [
+          "#EE7C4C"
+        ],
+        "brilho": [
+          "#FFC6A6"
+        ]
+      },
+      "familias": [
+        "pessego"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="lata-de-tinta-titulo">
+  <title id="lata-de-tinta-titulo">Lata de tinta</title>
+  <defs>
+    <path id="lata-de-tinta-corpo-forma" d="M332 360 L332 780 C332 812 412 836 512 836 C612 836 692 812 692 780 L692 360 Z" />
+    <clipPath id="lata-de-tinta-corpo-recorte">
+      <use href="#lata-de-tinta-corpo-forma" />
+    </clipPath>
+    <path id="lata-de-tinta-rotulo-forma-2" d="M332 480 C332 500 412 520 512 520 C612 520 692 500 692 480 L692 700 C692 724 612 744 512 744 C412 744 332 724 332 700 Z" />
+    <clipPath id="lata-de-tinta-rotulo-recorte-2">
+      <use href="#lata-de-tinta-rotulo-forma-2" />
+    </clipPath>
+    <path id="lata-de-tinta-tampa-forma-3" d="M326 360 A186 50 0 1 0 698 360 A186 50 0 1 0 326 360 Z" />
+    <clipPath id="lata-de-tinta-tampa-recorte-3">
+      <use href="#lata-de-tinta-tampa-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="lata-de-tinta">
+    <g id="lata-de-tinta-corpo">
+      <use href="#lata-de-tinta-corpo-forma" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#lata-de-tinta-corpo-recorte)">
+        <use href="#lata-de-tinta-corpo-forma" transform="translate(-14 -22)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M358 420 L358 466" fill="none" stroke="#DCE5F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M358 760 L358 790" fill="none" stroke="#DCE5F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="lata-de-tinta-rotulo">
+      <use href="#lata-de-tinta-rotulo-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#lata-de-tinta-rotulo-recorte-2)">
+        <use href="#lata-de-tinta-rotulo-forma-2" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M356 540 L356 690" fill="none" stroke="#8296E4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="lata-de-tinta-tampa" data-pivo="330,360">
+      <use href="#lata-de-tinta-tampa-forma-3" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#lata-de-tinta-tampa-recorte-3)">
+        <use href="#lata-de-tinta-tampa-forma-3" transform="translate(-8 -10)" fill="#AEBEDB" class="base" />
+      </g>
+      <ellipse cx="510" cy="356" rx="150" ry="34" fill="none" stroke="#8293B8" stroke-width="10" class="marca" />
+      <ellipse cx="420" cy="342" rx="42" ry="9" fill="#DCE5F5" class="brilho" />
+    </g>
+    <g id="lata-de-tinta-alca" data-pivo="512,432">
+      <path d="M346 432 C346 230 420 172 512 172 C604 172 678 230 678 432" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="16" stroke-linecap="round" class="sombra" />
+      <path d="M346 432 C346 230 420 172 512 172 C604 172 678 230 678 432" fill="none" stroke="#4A5468" stroke-width="16" stroke-linecap="round" class="base" />
+      <circle cx="346" cy="432" r="18" fill="#8293B8" class="marca" />
+      <circle cx="678" cy="432" r="18" fill="#8293B8" class="marca" />
+      <path d="M420 210 C450 186 480 180 506 180" fill="none" stroke="#717D95" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

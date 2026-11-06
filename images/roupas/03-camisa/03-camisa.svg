@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="camisa-titulo">
+  <title id="camisa-titulo">Camisa de botão</title>
+  <defs>
+    <path id="camisa-corpo-forma" d="M512 250 L569 188 Q578 178 591 182 L667 204 Q700 214 709 247 L800 577 Q806 600 783 608 L763 615 Q744 622 738 603 L680 411 Q676 400 676 412 L684 822 Q684 846 660 846 L512 846 L364 846 Q340 846 340 822 L348 412 Q348 400 344 411 L286 603 Q280 622 261 615 L241 608 Q218 600 224 577 L315 247 Q324 214 357 204 L433 182 Q446 178 455 188 Z" />
+    <clipPath id="camisa-corpo-recorte">
+      <use href="#camisa-corpo-forma" />
+    </clipPath>
+    <path id="camisa-gola-forma-2" d="M519 316 Q512 320 515 313 L573 183 Q578 172 585 181 L626 233 Q636 246 622 254 Z M509 313 Q512 320 505 316 L408 255 Q394 246 403 233 L439 182 Q446 172 451 183 Z" />
+    <clipPath id="camisa-gola-recorte-2">
+      <use href="#camisa-gola-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="camisa">
+    <g id="camisa-corpo">
+      <use href="#camisa-corpo-forma" fill="#2F97CF" class="sombra" />
+      <g clip-path="url(#camisa-corpo-recorte)">
+        <use href="#camisa-corpo-forma" transform="translate(-14 -22)" fill="#4FB8EA" class="base" />
+      </g>
+      <path d="M512 320 L512 846" fill="none" stroke="#2F97CF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="512" cy="400" r="12" fill="#F4F6FA" class="marca" />
+      <circle cx="512" cy="490" r="12" fill="#F4F6FA" class="marca" />
+      <circle cx="512" cy="580" r="12" fill="#F4F6FA" class="marca" />
+      <circle cx="512" cy="670" r="12" fill="#F4F6FA" class="marca" />
+      <circle cx="512" cy="760" r="12" fill="#F4F6FA" class="marca" />
+      <path d="M372 430 L368 800" fill="none" stroke="#93D6F5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M318 300 L266 520" fill="none" stroke="#93D6F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="camisa-gola">
+      <use href="#camisa-gola-forma-2" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#camisa-gola-recorte-2)">
+        <use href="#camisa-gola-forma-2" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+{
+  "item": "sandalia",
+  "numero": 19,
+  "categoria": "roupas",
+  "nome": "Sandália",
+  "svg": "19-sandalia.svg",
+  "png": "19-sandalia.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "sandalia-sola": {
+      "parte": "sola",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "sandalia-tira": {
+      "parte": "tira",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

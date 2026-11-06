@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="bola-de-basquete-titulo">
+  <title id="bola-de-basquete-titulo">Bola de basquete</title>
+  <defs>
+    <path id="bola-de-basquete-corpo-forma" d="M192 512 A320 320 0 1 0 832 512 A320 320 0 1 0 192 512 Z" />
+    <clipPath id="bola-de-basquete-corpo-recorte">
+      <use href="#bola-de-basquete-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="bola-de-basquete">
+    <g id="bola-de-basquete-corpo">
+      <use href="#bola-de-basquete-corpo-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#bola-de-basquete-corpo-recorte)">
+        <use href="#bola-de-basquete-corpo-forma" transform="translate(-14 -22)" fill="#FF9A2E" class="base" />
+      </g>
+      <g clip-path="url(#bola-de-basquete-corpo-recorte)">
+        <path d="M512 180 L512 844 M180 512 L844 512 M300 250 C410 380 410 644 300 774 M724 250 C614 380 614 644 724 774" fill="none" stroke="#7A4426" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      </g>
+      <path d="M300 400 C326 320 380 266 440 244" fill="none" stroke="#FFC27A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

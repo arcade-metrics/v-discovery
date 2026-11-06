@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="medalha-titulo">
+  <title id="medalha-titulo">Medalha</title>
+  <defs>
+    <path id="medalha-corpo-forma" d="M336 640 A176 176 0 1 0 688 640 A176 176 0 1 0 336 640 Z M490 446 L534 446 Q546 446 546 458 L546 474 Q546 486 534 486 L490 486 Q478 486 478 474 L478 458 Q478 446 490 446 Z" />
+    <clipPath id="medalha-corpo-recorte">
+      <use href="#medalha-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="medalha">
+    <g id="medalha-tira">
+      <path d="M600 168 L690 168 L560 490 L486 470 Z" fill="#33479C" class="sombra" />
+      <path d="M334 168 L424 168 L538 470 L464 490 Z" fill="#4A62C8" class="base" />
+      <path d="M366 168 L392 168 L500 470 L478 476 Z" fill="#F4F6FA" class="marca" />
+    </g>
+    <g id="medalha-corpo">
+      <use href="#medalha-corpo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#medalha-corpo-recorte)">
+        <use href="#medalha-corpo-forma" transform="translate(-14 -22)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M382 622 A118 118 0 1 0 618 622 A118 118 0 1 0 382 622 Z" fill="none" stroke="#EBA622" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M500 548 L522 594 L572 600 L534 634 L546 684 L500 658 L454 684 L466 634 L428 600 L478 594 Z" fill="#EBA622" class="marca" />
+      <path d="M392 640 C392 580 420 534 466 512" fill="none" stroke="#FFDE73" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

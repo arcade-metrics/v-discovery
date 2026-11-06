@@ -1,0 +1,87 @@
+{
+  "item": "gorro",
+  "numero": 25,
+  "categoria": "roupas",
+  "nome": "Gorro",
+  "svg": "25-gorro.svg",
+  "png": "25-gorro.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "gorro-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "gorro-punho": {
+      "parte": "punho",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "marca": [
+          "#6C3A9E"
+        ]
+      },
+      "familias": [
+        "roxo"
+      ]
+    },
+    "gorro-pompom": {
+      "parte": "pompom",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

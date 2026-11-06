@@ -1,0 +1,37 @@
+{
+  "item": "cruz",
+  "numero": 10,
+  "categoria": "formas",
+  "nome": "Cruz",
+  "svg": "10-cruz.svg",
+  "png": "10-cruz.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "cruz-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "brilho": [
+          "#FFD983"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

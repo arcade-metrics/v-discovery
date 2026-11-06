@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="circulo-titulo">
+  <title id="circulo-titulo">Círculo</title>
+  <defs>
+    <path id="circulo-corpo-forma" d="M192 512 A320 320 0 1 0 832 512 A320 320 0 1 0 192 512 Z" />
+    <clipPath id="circulo-corpo-recorte">
+      <use href="#circulo-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="circulo">
+    <g id="circulo-corpo">
+      <use href="#circulo-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#circulo-corpo-recorte)">
+        <use href="#circulo-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M330 420 C350 340 400 290 470 272" fill="none" stroke="#F7867C" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

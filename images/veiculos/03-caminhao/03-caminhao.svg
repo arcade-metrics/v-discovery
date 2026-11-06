@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="caminhao-titulo">
+  <title id="caminhao-titulo">Caminhão</title>
+  <defs>
+    <path id="caminhao-corpo-forma" d="M170 636 Q170 626 180 626 L850 626 Q860 626 860 636 L860 680 Q860 690 850 690 L180 690 Q170 690 170 680 Z" />
+    <clipPath id="caminhao-corpo-recorte">
+      <use href="#caminhao-corpo-forma" />
+    </clipPath>
+    <path id="caminhao-corpo-forma-2" d="M150 294 Q150 270 174 270 L602 270 Q626 270 626 294 L626 630 Q626 640 616 640 L160 640 Q150 640 150 630 Z" />
+    <clipPath id="caminhao-corpo-recorte-2">
+      <use href="#caminhao-corpo-forma-2" />
+    </clipPath>
+    <path id="caminhao-cabine-forma-3" d="M650 360 C650 342 664 330 682 330 L770 330 C800 330 816 344 828 370 L862 470 C866 480 868 492 868 504 L868 660 C868 680 854 694 834 694 L650 694 Z" />
+    <clipPath id="caminhao-cabine-recorte-3">
+      <use href="#caminhao-cabine-forma-3" />
+    </clipPath>
+    <path id="caminhao-janela-forma-4" d="M686 384 Q686 370 700 370 L768 370 Q782 370 786 384 L805 458 Q808 468 798 468 L696 468 Q686 468 686 458 Z" />
+    <clipPath id="caminhao-janela-recorte-4">
+      <use href="#caminhao-janela-forma-4" />
+    </clipPath>
+    <path id="caminhao-farol-forma-5" d="M844 588 Q844 580 852 580 L864 580 Q868 580 868 584 L868 618 Q868 622 864 622 L852 622 Q844 622 844 614 Z" />
+    <clipPath id="caminhao-farol-recorte-5">
+      <use href="#caminhao-farol-forma-5" />
+    </clipPath>
+    <path id="caminhao-roda-1-forma-6" d="M216 704 A66 66 0 1 0 348 704 A66 66 0 1 0 216 704 Z" />
+    <clipPath id="caminhao-roda-1-recorte-6">
+      <use href="#caminhao-roda-1-forma-6" />
+    </clipPath>
+    <path id="caminhao-roda-1-forma-7" d="M250 704 A32 32 0 1 0 314 704 A32 32 0 1 0 250 704 Z" />
+    <clipPath id="caminhao-roda-1-recorte-7">
+      <use href="#caminhao-roda-1-forma-7" />
+    </clipPath>
+    <path id="caminhao-roda-2-forma-8" d="M364 704 A66 66 0 1 0 496 704 A66 66 0 1 0 364 704 Z" />
+    <clipPath id="caminhao-roda-2-recorte-8">
+      <use href="#caminhao-roda-2-forma-8" />
+    </clipPath>
+    <path id="caminhao-roda-2-forma-9" d="M398 704 A32 32 0 1 0 462 704 A32 32 0 1 0 398 704 Z" />
+    <clipPath id="caminhao-roda-2-recorte-9">
+      <use href="#caminhao-roda-2-forma-9" />
+    </clipPath>
+    <path id="caminhao-roda-3-forma-10" d="M694 704 A66 66 0 1 0 826 704 A66 66 0 1 0 694 704 Z" />
+    <clipPath id="caminhao-roda-3-recorte-10">
+      <use href="#caminhao-roda-3-forma-10" />
+    </clipPath>
+    <path id="caminhao-roda-3-forma-11" d="M728 704 A32 32 0 1 0 792 704 A32 32 0 1 0 728 704 Z" />
+    <clipPath id="caminhao-roda-3-recorte-11">
+      <use href="#caminhao-roda-3-forma-11" />
+    </clipPath>
+  </defs>
+  <g id="caminhao" transform="translate(3 -8)">
+    <g id="caminhao-corpo">
+      <use href="#caminhao-corpo-forma" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#caminhao-corpo-recorte)">
+        <use href="#caminhao-corpo-forma" transform="translate(-6 -9)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#caminhao-corpo-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#caminhao-corpo-recorte-2)">
+        <use href="#caminhao-corpo-forma-2" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M270 300 L270 610 M390 300 L390 610 M510 300 L510 610" fill="none" stroke="#33479C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M184 310 L184 600" fill="none" stroke="#8296E4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M220 290 L560 290" fill="none" stroke="#8296E4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caminhao-cabine">
+      <use href="#caminhao-cabine-forma-3" fill="#C93830" class="sombra" />
+      <g clip-path="url(#caminhao-cabine-recorte-3)">
+        <use href="#caminhao-cabine-forma-3" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M676 694 A84 84 0 0 1 844 694 Z" fill="#353D4E" class="marca" />
+      <path d="M672 500 L672 650" fill="none" stroke="#C93830" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M694 524 L726 524" fill="none" stroke="#C93830" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M668 380 L668 470" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caminhao-janela">
+      <use href="#caminhao-janela-forma-4" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#caminhao-janela-recorte-4)">
+        <use href="#caminhao-janela-forma-4" transform="translate(-6 -9)" fill="#C8E8F4" class="base" />
+      </g>
+      <path d="M708 388 L708 446" fill="none" stroke="#EEF9FD" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caminhao-farol">
+      <use href="#caminhao-farol-forma-5" fill="#EDB417" class="sombra" />
+      <g clip-path="url(#caminhao-farol-recorte-5)">
+        <use href="#caminhao-farol-forma-5" transform="translate(-3 -5)" fill="#FFD43B" class="base" />
+      </g>
+    </g>
+    <g id="caminhao-roda-1" data-pivo="282,704">
+      <use href="#caminhao-roda-1-forma-6" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#caminhao-roda-1-recorte-6)">
+        <use href="#caminhao-roda-1-forma-6" transform="translate(-7 -10)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#caminhao-roda-1-forma-7" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#caminhao-roda-1-recorte-7)">
+        <use href="#caminhao-roda-1-forma-7" transform="translate(-3 -5)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="282" cy="704" r="11" fill="#8293B8" class="marca" />
+      <path d="M232 691 A51 51 0 0 1 264 656" fill="none" stroke="#717D95" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caminhao-roda-2" data-pivo="430,704">
+      <use href="#caminhao-roda-2-forma-8" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#caminhao-roda-2-recorte-8)">
+        <use href="#caminhao-roda-2-forma-8" transform="translate(-7 -10)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#caminhao-roda-2-forma-9" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#caminhao-roda-2-recorte-9)">
+        <use href="#caminhao-roda-2-forma-9" transform="translate(-3 -5)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="430" cy="704" r="11" fill="#8293B8" class="marca" />
+      <path d="M380 691 A51 51 0 0 1 412 656" fill="none" stroke="#717D95" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="caminhao-roda-3" data-pivo="760,704">
+      <use href="#caminhao-roda-3-forma-10" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#caminhao-roda-3-recorte-10)">
+        <use href="#caminhao-roda-3-forma-10" transform="translate(-7 -10)" fill="#4A5468" class="base" />
+      </g>
+      <use href="#caminhao-roda-3-forma-11" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#caminhao-roda-3-recorte-11)">
+        <use href="#caminhao-roda-3-forma-11" transform="translate(-3 -5)" fill="#AEBEDB" class="base" />
+      </g>
+      <circle cx="760" cy="704" r="11" fill="#8293B8" class="marca" />
+      <path d="M710 691 A51 51 0 0 1 742 656" fill="none" stroke="#717D95" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

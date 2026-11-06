@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="tenis-titulo">
+  <title id="tenis-titulo">Tênis</title>
+  <defs>
+    <path id="tenis-corpo-forma" d="M290 720 L290 540 C290 484 318 456 366 456 L452 456 C484 456 504 470 522 494 L566 546 C612 590 700 604 774 616 C820 626 840 656 840 694 L840 720 Z" />
+    <clipPath id="tenis-corpo-recorte">
+      <use href="#tenis-corpo-forma" />
+    </clipPath>
+    <path id="tenis-sola-forma-2" d="M298 704 L854 704 C862 704 868 710 868 720 L868 750 C868 776 850 790 824 790 L324 790 C302 790 286 774 286 752 L286 712 C286 708 290 704 298 704 Z" />
+    <clipPath id="tenis-sola-recorte-2">
+      <use href="#tenis-sola-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="tenis" transform="translate(-64 -110)">
+    <g id="tenis-corpo">
+      <use href="#tenis-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#tenis-corpo-recorte)">
+        <use href="#tenis-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M478 500 L526 482 M506 538 L556 518 M540 574 L590 552" fill="none" stroke="#F4F6FA" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M322 540 L322 690" fill="none" stroke="#F7867C" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="tenis-sola">
+      <use href="#tenis-sola-forma-2" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#tenis-sola-recorte-2)">
+        <use href="#tenis-sola-forma-2" transform="translate(-8 -12)" fill="#F4F6FA" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

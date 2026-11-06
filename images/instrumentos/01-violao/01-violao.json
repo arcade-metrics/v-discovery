@@ -1,0 +1,122 @@
+{
+  "item": "violao",
+  "numero": 1,
+  "categoria": "instrumentos",
+  "nome": "Violão",
+  "svg": "01-violao.svg",
+  "png": "01-violao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "violao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#7A4426",
+          "#BE7F3E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "madeira"
+      ]
+    },
+    "violao-braco": {
+      "parte": "braco",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        584.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "metal"
+      ]
+    },
+    "violao-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        512.0,
+        240.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#5C311B"
+        ],
+        "base": [
+          "#7A4426"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#A0643F"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "metal"
+      ]
+    },
+    "violao-corda": {
+      "parte": "corda",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "marca"
+      ],
+      "cores": {
+        "marca": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

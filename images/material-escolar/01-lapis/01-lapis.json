@@ -1,0 +1,101 @@
+{
+  "item": "lapis",
+  "numero": 1,
+  "categoria": "material-escolar",
+  "nome": "Lápis",
+  "svg": "01-lapis.svg",
+  "png": "01-lapis.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "lapis-ponta": {
+      "parte": "ponta",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#BE7F3E"
+        ],
+        "base": [
+          "#4A5468",
+          "#DDA15E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "madeira"
+      ]
+    },
+    "lapis-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ],
+        "marca": [
+          "#EBA622"
+        ],
+        "brilho": [
+          "#FFDE73"
+        ]
+      },
+      "familias": [
+        "amarelo"
+      ]
+    },
+    "lapis-aro": {
+      "parte": "aro",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8293B8",
+          "#C92E5E"
+        ],
+        "base": [
+          "#AEBEDB",
+          "#F0457A"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#DCE5F5"
+        ]
+      },
+      "familias": [
+        "metal",
+        "rosa"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

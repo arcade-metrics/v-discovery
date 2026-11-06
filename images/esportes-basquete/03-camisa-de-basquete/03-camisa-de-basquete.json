@@ -1,0 +1,63 @@
+{
+  "item": "camisa-de-basquete",
+  "numero": 3,
+  "categoria": "esportes-basquete",
+  "nome": "Camisa de basquete",
+  "svg": "03-camisa-de-basquete.svg",
+  "png": "03-camisa-de-basquete.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "camisa-de-basquete-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "marca": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul",
+        "branco"
+      ]
+    },
+    "camisa-de-basquete-gola": {
+      "parte": "gola",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

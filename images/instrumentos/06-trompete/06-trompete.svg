@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="trompete-titulo">
+  <title id="trompete-titulo">Trompete</title>
+  <defs>
+    <path id="trompete-corpo-forma" d="M690 461 L740 461 C800 461 840 420 870 362 C878 346 896 348 898 364 L898 584 C896 600 878 602 870 586 C840 528 800 487 740 487 L690 487 Z" />
+    <clipPath id="trompete-corpo-recorte">
+      <use href="#trompete-corpo-forma" />
+    </clipPath>
+    <path id="trompete-corpo-forma-2" d="M470 448 Q470 440 478 440 L502 440 Q510 440 510 448 L510 632 Q510 640 502 640 L478 640 Q470 640 470 632 Z M520 448 Q520 440 528 440 L552 440 Q560 440 560 448 L560 632 Q560 640 552 640 L528 640 Q520 640 520 632 Z M570 448 Q570 440 578 440 L602 440 Q610 440 610 448 L610 632 Q610 640 602 640 L578 640 Q570 640 570 632 Z" />
+    <clipPath id="trompete-corpo-recorte-2">
+      <use href="#trompete-corpo-forma-2" />
+    </clipPath>
+    <path id="trompete-bico-forma-3" d="M150 440 C140 440 134 452 134 474 C134 496 140 508 150 508 C162 508 168 496 170 486 L206 480 L206 468 L170 462 C168 452 162 440 150 440 Z" />
+    <clipPath id="trompete-bico-recorte-3">
+      <use href="#trompete-bico-forma-3" />
+    </clipPath>
+    <path id="trompete-botao-forma-4" d="M472 390 Q472 380 482 380 L498 380 Q508 380 508 390 L508 398 Q508 404 502 404 L478 404 Q472 404 472 398 Z M522 390 Q522 380 532 380 L548 380 Q558 380 558 390 L558 398 Q558 404 552 404 L528 404 Q522 404 522 398 Z M572 390 Q572 380 582 380 L598 380 Q608 380 608 390 L608 398 Q608 404 602 404 L578 404 Q572 404 572 398 Z" />
+    <clipPath id="trompete-botao-recorte-4">
+      <use href="#trompete-botao-forma-4" />
+    </clipPath>
+  </defs>
+  <g id="trompete" transform="translate(-4 -12)">
+    <g id="trompete-corpo">
+      <path d="M196 474 L470 474 M470 602 L392 602 C350 602 350 474 392 474 M610 602 L690 602 C732 602 732 474 690 474 L610 474" transform="translate(3 5)" fill="none" stroke="#EBA622" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M196 474 L470 474 M470 602 L392 602 C350 602 350 474 392 474 M610 602 L690 602 C732 602 732 474 690 474 L610 474" fill="none" stroke="#FFC93C" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <use href="#trompete-corpo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#trompete-corpo-recorte)">
+        <use href="#trompete-corpo-forma" transform="translate(-6 -10)" fill="#FFC93C" class="base" />
+      </g>
+      <use href="#trompete-corpo-forma-2" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#trompete-corpo-recorte-2)">
+        <use href="#trompete-corpo-forma-2" transform="translate(-5 -8)" fill="#FFC93C" class="base" />
+      </g>
+      <ellipse cx="886" cy="474" rx="16" ry="110" fill="#EBA622" class="marca" />
+      <path d="M472 470 L508 470 M522 470 L558 470 M572 470 L608 470 M472 612 L508 612 M522 612 L558 612 M572 612 L608 612" fill="none" stroke="#EBA622" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M230 468 L450 468" fill="none" stroke="#FFDE73" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M478 456 L478 620 M528 456 L528 620 M578 456 L578 620" fill="none" stroke="#FFDE73" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trompete-bico">
+      <use href="#trompete-bico-forma-3" fill="#8293B8" class="sombra" />
+      <g clip-path="url(#trompete-bico-recorte-3)">
+        <use href="#trompete-bico-forma-3" transform="translate(-4 -6)" fill="#AEBEDB" class="base" />
+      </g>
+      <path d="M146 456 L146 490" fill="none" stroke="#DCE5F5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="trompete-botao">
+      <use href="#trompete-botao-forma-4" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#trompete-botao-recorte-4)">
+        <use href="#trompete-botao-forma-4" transform="translate(-3 -5)" fill="#F4F6FA" class="base" />
+      </g>
+      <rect x="484" y="404" width="12" height="36" rx="0" fill="#AEBEDB" class="marca" />
+      <rect x="534" y="404" width="12" height="36" rx="0" fill="#AEBEDB" class="marca" />
+      <rect x="584" y="404" width="12" height="36" rx="0" fill="#AEBEDB" class="marca" />
+    </g>
+  </g>
+</svg>

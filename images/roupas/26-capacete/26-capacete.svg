@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="capacete-titulo">
+  <title id="capacete-titulo">Capacete</title>
+  <defs>
+    <path id="capacete-corpo-forma" d="M296 610 C296 390 394 270 512 270 C630 270 728 390 728 610 Z" />
+    <clipPath id="capacete-corpo-recorte">
+      <use href="#capacete-corpo-forma" />
+    </clipPath>
+    <path id="capacete-aba-forma-2" d="M215 621 Q220 598 244 598 L780 598 Q804 598 809 621 L814 643 Q820 672 790 672 L234 672 Q204 672 210 643 Z" />
+    <clipPath id="capacete-aba-recorte-2">
+      <use href="#capacete-aba-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="capacete">
+    <g id="capacete-corpo">
+      <use href="#capacete-corpo-forma" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#capacete-corpo-recorte)">
+        <use href="#capacete-corpo-forma" transform="translate(-14 -22)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M512 300 L512 596" fill="none" stroke="#E87A12" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M354 470 C372 390 412 334 452 310" fill="none" stroke="#FFC27A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="capacete-aba">
+      <use href="#capacete-aba-forma-2" fill="#E87A12" class="sombra" />
+      <g clip-path="url(#capacete-aba-recorte-2)">
+        <use href="#capacete-aba-forma-2" transform="translate(-10 -16)" fill="#FF9A2E" class="base" />
+      </g>
+      <path d="M240 620 L460 620" fill="none" stroke="#FFC27A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

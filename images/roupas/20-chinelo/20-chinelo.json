@@ -1,0 +1,62 @@
+{
+  "item": "chinelo",
+  "numero": 20,
+  "categoria": "roupas",
+  "nome": "Chinelo",
+  "svg": "20-chinelo.svg",
+  "png": "20-chinelo.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "chinelo-sola": {
+      "parte": "sola",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8AAE28"
+        ],
+        "base": [
+          "#A8CC3C"
+        ],
+        "brilho": [
+          "#D2E87C"
+        ]
+      },
+      "familias": [
+        "verde-claro"
+      ]
+    },
+    "chinelo-tira": {
+      "parte": "tira",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#D3DAE6"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

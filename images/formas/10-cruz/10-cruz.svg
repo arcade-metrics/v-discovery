@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="cruz-titulo">
+  <title id="cruz-titulo">Cruz</title>
+  <defs>
+    <path id="cruz-corpo-forma" d="M392 200 Q392 180 412 180 L612 180 Q632 180 632 200 L632 372 Q632 392 652 392 L824 392 Q844 392 844 412 L844 612 Q844 632 824 632 L652 632 Q632 632 632 652 L632 824 Q632 844 612 844 L412 844 Q392 844 392 824 L392 652 Q392 632 372 632 L200 632 Q180 632 180 612 L180 412 Q180 392 200 392 L372 392 Q392 392 392 372 Z" />
+    <clipPath id="cruz-corpo-recorte">
+      <use href="#cruz-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="cruz">
+    <g id="cruz-corpo">
+      <use href="#cruz-corpo-forma" fill="#F08F18" class="sombra" />
+      <g clip-path="url(#cruz-corpo-recorte)">
+        <use href="#cruz-corpo-forma" transform="translate(-14 -22)" fill="#FFB632" class="base" />
+      </g>
+      <path d="M420 230 L420 370" fill="none" stroke="#FFD983" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

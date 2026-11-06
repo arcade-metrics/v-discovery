@@ -1,0 +1,62 @@
+{
+  "item": "luva",
+  "numero": 28,
+  "categoria": "roupas",
+  "nome": "Luva",
+  "svg": "28-luva.svg",
+  "png": "28-luva.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "luva-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#682A6E"
+        ],
+        "base": [
+          "#8A3E8E"
+        ],
+        "brilho": [
+          "#B672BA"
+        ]
+      },
+      "familias": [
+        "roxo-ameixa"
+      ]
+    },
+    "luva-punho": {
+      "parte": "punho",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#682A6E"
+        ],
+        "base": [
+          "#8A3E8E"
+        ],
+        "marca": [
+          "#682A6E"
+        ]
+      },
+      "familias": [
+        "roxo-ameixa"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

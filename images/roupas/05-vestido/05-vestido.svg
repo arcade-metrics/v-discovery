@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="vestido-titulo">
+  <title id="vestido-titulo">Vestido</title>
+  <defs>
+    <path id="vestido-corpo-forma" d="M485 200 Q512 232 539 200 L560 176 Q566 168 576 168 L596 168 Q606 168 608 178 L632 291 Q640 330 632 369 L619 434 Q616 450 623 465 L779 803 Q792 830 762 830 L512 830 L262 830 Q232 830 245 803 L401 465 Q408 450 405 434 L392 369 Q384 330 392 291 L416 178 Q418 168 428 168 L448 168 Q458 168 464 176 Z" />
+    <clipPath id="vestido-corpo-recorte">
+      <use href="#vestido-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="vestido">
+    <g id="vestido-corpo">
+      <use href="#vestido-corpo-forma" fill="#6C3A9E" class="sombra" />
+      <g clip-path="url(#vestido-corpo-recorte)">
+        <use href="#vestido-corpo-forma" transform="translate(-14 -22)" fill="#9056C2" class="base" />
+      </g>
+      <path d="M412 452 L612 452" fill="none" stroke="#6C3A9E" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M402 520 L332 780" fill="none" stroke="#B98BE2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

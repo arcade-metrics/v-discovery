@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="saia-titulo">
+  <title id="saia-titulo">Saia</title>
+  <defs>
+    <path id="saia-corpo-forma" d="M512 250 L612 250 Q624 250 628 261 L781 741 Q790 770 760 773 L512 800 L264 773 Q234 770 243 741 L396 261 Q400 250 412 250 Z" />
+    <clipPath id="saia-corpo-recorte">
+      <use href="#saia-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="saia">
+    <g id="saia-corpo">
+      <use href="#saia-corpo-forma" fill="#C0222B" class="sombra" />
+      <g clip-path="url(#saia-corpo-recorte)">
+        <use href="#saia-corpo-forma" transform="translate(-14 -22)" fill="#E8343A" class="base" />
+      </g>
+      <path d="M396 304 L628 304" fill="none" stroke="#C0222B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M456 320 L400 780 M568 320 L624 780" fill="none" stroke="#C0222B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M382 360 L292 720" fill="none" stroke="#FF7A7E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,215 @@
+{
+  "item": "tatu",
+  "numero": 6,
+  "categoria": "animais-brasil",
+  "nome": "Tatu-bola",
+  "svg": "06-tatu.svg",
+  "png": "06-tatu.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "tatu-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        640.0,
+        600.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#BE7F3E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "tatu-pata-4": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        400.0,
+        600.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#BE7F3E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "tatu-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        262.0,
+        584.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#BE7F3E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "tatu-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        678.0,
+        600.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "tatu-pata-3": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        350.0,
+        600.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "tatu-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        730.0,
+        560.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#353D4E",
+          "#5C311B",
+          "#BE7F3E"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "cafe",
+        "grafite",
+        "madeira"
+      ]
+    },
+    "tatu-cabeca-orelha-1": {
+      "parte": "orelha",
+      "pai": "tatu-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "tatu-carapaca": {
+      "parte": "carapaca",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#BE7F3E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

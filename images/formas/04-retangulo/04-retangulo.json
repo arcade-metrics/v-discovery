@@ -1,0 +1,37 @@
+{
+  "item": "retangulo",
+  "numero": 4,
+  "categoria": "formas",
+  "nome": "Retângulo",
+  "svg": "04-retangulo.svg",
+  "png": "04-retangulo.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "retangulo-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#469A32"
+        ],
+        "base": [
+          "#5DBB43"
+        ],
+        "brilho": [
+          "#8ED06E"
+        ]
+      },
+      "familias": [
+        "verde-folha"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

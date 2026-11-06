@@ -1,0 +1,301 @@
+{
+  "item": "xilofone",
+  "numero": 10,
+  "categoria": "instrumentos",
+  "nome": "Xilofone",
+  "svg": "10-xilofone.svg",
+  "png": "10-xilofone.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "xilofone-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ]
+      },
+      "familias": [
+        "madeira"
+      ]
+    },
+    "xilofone-tecla-1": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "metal",
+        "vermelho-vivo"
+      ]
+    },
+    "xilofone-tecla-2": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#FFC27A"
+        ]
+      },
+      "familias": [
+        "laranja",
+        "metal"
+      ]
+    },
+    "xilofone-tecla-3": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#FFDE73"
+        ]
+      },
+      "familias": [
+        "amarelo",
+        "metal"
+      ]
+    },
+    "xilofone-tecla-4": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8AAE28"
+        ],
+        "base": [
+          "#A8CC3C"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#D2E87C"
+        ]
+      },
+      "familias": [
+        "metal",
+        "verde-claro"
+      ]
+    },
+    "xilofone-tecla-5": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#469A32"
+        ],
+        "base": [
+          "#5DBB43"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#8ED06E"
+        ]
+      },
+      "familias": [
+        "metal",
+        "verde-folha"
+      ]
+    },
+    "xilofone-tecla-6": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#1EA396"
+        ],
+        "base": [
+          "#2EC4B6"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#7FE0D6"
+        ]
+      },
+      "familias": [
+        "metal",
+        "turquesa"
+      ]
+    },
+    "xilofone-tecla-7": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C"
+        ],
+        "base": [
+          "#4A62C8"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul",
+        "metal"
+      ]
+    },
+    "xilofone-tecla-8": {
+      "parte": "tecla",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "marca": [
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "metal",
+        "roxo"
+      ]
+    },
+    "xilofone-baqueta": {
+      "parte": "baqueta",
+      "pai": null,
+      "move": true,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E",
+          "#C0222B"
+        ],
+        "base": [
+          "#DDA15E",
+          "#E8343A"
+        ],
+        "brilho": [
+          "#FF7A7E"
+        ]
+      },
+      "familias": [
+        "madeira",
+        "vermelho-cereja"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

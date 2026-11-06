@@ -1,0 +1,210 @@
+{
+  "item": "galinha",
+  "numero": 6,
+  "categoria": "animais",
+  "nome": "Galinha",
+  "svg": "06-galinha.svg",
+  "png": "06-galinha.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "galinha-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        346.0,
+        406.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "galinha-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        463.0,
+        689.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#E87A12"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "galinha-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "galinha-asa": {
+      "parte": "asa",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        425.0,
+        508.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#D3DAE6"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    },
+    "galinha-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        522.0,
+        698.0
+      ],
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#E87A12"
+        ],
+        "base": [
+          "#FF9A2E"
+        ]
+      },
+      "familias": [
+        "laranja"
+      ]
+    },
+    "galinha-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        595.0,
+        406.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ],
+        "marca": [
+          "#353D4E",
+          "#EA4A3F"
+        ],
+        "brilho": [
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "grafite",
+        "vermelho-vivo"
+      ]
+    },
+    "galinha-cabeca-crista": {
+      "parte": "crista",
+      "pai": "galinha-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ]
+      },
+      "familias": [
+        "vermelho-vivo"
+      ]
+    },
+    "galinha-cabeca-bico": {
+      "parte": "bico",
+      "pai": "galinha-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#EBA622"
+        ],
+        "base": [
+          "#FFC93C"
+        ]
+      },
+      "familias": [
+        "amarelo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

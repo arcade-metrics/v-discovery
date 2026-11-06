@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="bota-titulo">
+  <title id="bota-titulo">Bota</title>
+  <defs>
+    <path id="bota-corpo-forma" d="M350 150 L560 150 C576 150 584 158 584 174 L588 560 C640 592 720 612 784 632 C828 646 848 680 848 720 L848 756 L338 756 L338 162 C338 156 342 150 350 150 Z" />
+    <clipPath id="bota-corpo-recorte">
+      <use href="#bota-corpo-forma" />
+    </clipPath>
+    <path id="bota-sola-forma-2" d="M330 740 L860 740 C868 740 874 746 874 756 L874 786 C874 812 856 826 830 826 L356 826 C334 826 318 810 318 788 L318 748 C318 744 322 740 330 740 Z" />
+    <clipPath id="bota-sola-recorte-2">
+      <use href="#bota-sola-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="bota">
+    <g id="bota-corpo">
+      <use href="#bota-corpo-forma" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#bota-corpo-recorte)">
+        <use href="#bota-corpo-forma" transform="translate(-14 -22)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M342 212 L582 212" fill="none" stroke="#5C311B" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M548 330 L590 316 M550 400 L592 386 M552 470 L594 456" fill="none" stroke="#DDA15E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M372 250 L372 700" fill="none" stroke="#A0643F" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="bota-sola">
+      <use href="#bota-sola-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#bota-sola-recorte-2)">
+        <use href="#bota-sola-forma-2" transform="translate(-8 -12)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

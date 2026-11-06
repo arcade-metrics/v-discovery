@@ -1,6 +1,442 @@
 {
-  "gerado_por": "ferramentas/validar.py; não edite à mão",
+  "gerado_por": "_ferramentas/validar.py; não edite à mão",
   "itens": [
+    {
+      "item": "cachorro",
+      "numero": 1,
+      "categoria": "animais",
+      "nome": "Cachorro",
+      "svg": "animais/01-cachorro/01-cachorro.svg",
+      "json": "animais/01-cachorro/01-cachorro.json",
+      "png": "animais/01-cachorro/01-cachorro.png",
+      "partes": [
+        "cachorro-rabo",
+        "cachorro-pata-4",
+        "cachorro-pata-2",
+        "cachorro-pata-3",
+        "cachorro-pata-1",
+        "cachorro-corpo",
+        "cachorro-cabeca",
+        "cachorro-cabeca-orelha-2",
+        "cachorro-cabeca-focinho",
+        "cachorro-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "gato",
+      "numero": 2,
+      "categoria": "animais",
+      "nome": "Gato",
+      "svg": "animais/02-gato/02-gato.svg",
+      "json": "animais/02-gato/02-gato.json",
+      "png": "animais/02-gato/02-gato.png",
+      "partes": [
+        "gato-rabo",
+        "gato-pata-4",
+        "gato-pata-2",
+        "gato-pata-3",
+        "gato-pata-1",
+        "gato-corpo",
+        "gato-cabeca",
+        "gato-cabeca-orelha-2",
+        "gato-cabeca-orelha-1",
+        "gato-cabeca-focinho"
+      ]
+    },
+    {
+      "item": "cavalo",
+      "numero": 3,
+      "categoria": "animais",
+      "nome": "Cavalo",
+      "svg": "animais/03-cavalo/03-cavalo.svg",
+      "json": "animais/03-cavalo/03-cavalo.json",
+      "png": "animais/03-cavalo/03-cavalo.png",
+      "partes": [
+        "cavalo-rabo",
+        "cavalo-pata-4",
+        "cavalo-pata-2",
+        "cavalo-pata-3",
+        "cavalo-pata-1",
+        "cavalo-corpo",
+        "cavalo-cabeca",
+        "cavalo-cabeca-orelha-2",
+        "cavalo-cabeca-orelha-1",
+        "cavalo-cabeca-juba"
+      ]
+    },
+    {
+      "item": "vaca",
+      "numero": 4,
+      "categoria": "animais",
+      "nome": "Vaca",
+      "svg": "animais/04-vaca/04-vaca.svg",
+      "json": "animais/04-vaca/04-vaca.json",
+      "png": "animais/04-vaca/04-vaca.png",
+      "partes": [
+        "vaca-rabo",
+        "vaca-pata-4",
+        "vaca-pata-2",
+        "vaca-pata-3",
+        "vaca-pata-1",
+        "vaca-corpo",
+        "vaca-cabeca",
+        "vaca-cabeca-chifre-2",
+        "vaca-cabeca-orelha-2",
+        "vaca-cabeca-focinho",
+        "vaca-cabeca-chifre-1",
+        "vaca-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "porco",
+      "numero": 5,
+      "categoria": "animais",
+      "nome": "Porco",
+      "svg": "animais/05-porco/05-porco.svg",
+      "json": "animais/05-porco/05-porco.json",
+      "png": "animais/05-porco/05-porco.png",
+      "partes": [
+        "porco-rabo",
+        "porco-pata-4",
+        "porco-pata-2",
+        "porco-pata-3",
+        "porco-pata-1",
+        "porco-corpo",
+        "porco-cabeca",
+        "porco-cabeca-orelha-2",
+        "porco-cabeca-orelha-1",
+        "porco-cabeca-focinho"
+      ]
+    },
+    {
+      "item": "galinha",
+      "numero": 6,
+      "categoria": "animais",
+      "nome": "Galinha",
+      "svg": "animais/06-galinha/06-galinha.svg",
+      "json": "animais/06-galinha/06-galinha.json",
+      "png": "animais/06-galinha/06-galinha.png",
+      "partes": [
+        "galinha-rabo",
+        "galinha-pata-2",
+        "galinha-corpo",
+        "galinha-asa",
+        "galinha-pata-1",
+        "galinha-cabeca",
+        "galinha-cabeca-crista",
+        "galinha-cabeca-bico"
+      ]
+    },
+    {
+      "item": "leao",
+      "numero": 7,
+      "categoria": "animais",
+      "nome": "Leão",
+      "svg": "animais/07-leao/07-leao.svg",
+      "json": "animais/07-leao/07-leao.json",
+      "png": "animais/07-leao/07-leao.png",
+      "partes": [
+        "leao-rabo",
+        "leao-pata-4",
+        "leao-pata-2",
+        "leao-pata-3",
+        "leao-pata-1",
+        "leao-corpo",
+        "leao-cabeca",
+        "leao-cabeca-juba",
+        "leao-cabeca-orelha-1",
+        "leao-cabeca-focinho"
+      ]
+    },
+    {
+      "item": "elefante",
+      "numero": 8,
+      "categoria": "animais",
+      "nome": "Elefante",
+      "svg": "animais/08-elefante/08-elefante.svg",
+      "json": "animais/08-elefante/08-elefante.json",
+      "png": "animais/08-elefante/08-elefante.png",
+      "partes": [
+        "elefante-rabo",
+        "elefante-pata-4",
+        "elefante-pata-2",
+        "elefante-pata-3",
+        "elefante-pata-1",
+        "elefante-corpo",
+        "elefante-cabeca",
+        "elefante-cabeca-tromba",
+        "elefante-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "girafa",
+      "numero": 9,
+      "categoria": "animais",
+      "nome": "Girafa",
+      "svg": "animais/09-girafa/09-girafa.svg",
+      "json": "animais/09-girafa/09-girafa.json",
+      "png": "animais/09-girafa/09-girafa.png",
+      "partes": [
+        "girafa-rabo",
+        "girafa-pata-4",
+        "girafa-pata-2",
+        "girafa-pata-3",
+        "girafa-pata-1",
+        "girafa-corpo",
+        "girafa-pescoco",
+        "girafa-pescoco-juba",
+        "girafa-pescoco-cabeca",
+        "girafa-pescoco-cabeca-chifre-2",
+        "girafa-pescoco-cabeca-orelha-1",
+        "girafa-pescoco-cabeca-chifre-1"
+      ]
+    },
+    {
+      "item": "macaco",
+      "numero": 10,
+      "categoria": "animais",
+      "nome": "Macaco",
+      "svg": "animais/10-macaco/10-macaco.svg",
+      "json": "animais/10-macaco/10-macaco.json",
+      "png": "animais/10-macaco/10-macaco.png",
+      "partes": [
+        "macaco-rabo",
+        "macaco-corpo",
+        "macaco-pata-3",
+        "macaco-pata-1",
+        "macaco-cabeca",
+        "macaco-cabeca-orelha-1",
+        "macaco-cabeca-orelha-2",
+        "macaco-cabeca-focinho"
+      ]
+    },
+    {
+      "item": "urso",
+      "numero": 11,
+      "categoria": "animais",
+      "nome": "Urso",
+      "svg": "animais/11-urso/11-urso.svg",
+      "json": "animais/11-urso/11-urso.json",
+      "png": "animais/11-urso/11-urso.png",
+      "partes": [
+        "urso-pata-4",
+        "urso-pata-2",
+        "urso-pata-3",
+        "urso-pata-1",
+        "urso-rabo",
+        "urso-corpo",
+        "urso-cabeca",
+        "urso-cabeca-orelha-2",
+        "urso-cabeca-orelha-1",
+        "urso-cabeca-focinho"
+      ]
+    },
+    {
+      "item": "coelho",
+      "numero": 12,
+      "categoria": "animais",
+      "nome": "Coelho",
+      "svg": "animais/12-coelho/12-coelho.svg",
+      "json": "animais/12-coelho/12-coelho.json",
+      "png": "animais/12-coelho/12-coelho.png",
+      "partes": [
+        "coelho-pata-4",
+        "coelho-pata-1",
+        "coelho-corpo",
+        "coelho-rabo",
+        "coelho-pata-3",
+        "coelho-cabeca",
+        "coelho-cabeca-orelha-2",
+        "coelho-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "onca-pintada",
+      "numero": 1,
+      "categoria": "animais-brasil",
+      "nome": "Onça-pintada",
+      "svg": "animais-brasil/01-onca-pintada/01-onca-pintada.svg",
+      "json": "animais-brasil/01-onca-pintada/01-onca-pintada.json",
+      "png": "animais-brasil/01-onca-pintada/01-onca-pintada.png",
+      "partes": [
+        "onca-pintada-pata-2",
+        "onca-pintada-pata-4",
+        "onca-pintada-rabo",
+        "onca-pintada-pata-1",
+        "onca-pintada-pata-3",
+        "onca-pintada-corpo",
+        "onca-pintada-cabeca",
+        "onca-pintada-cabeca-orelha-2",
+        "onca-pintada-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "arara",
+      "numero": 2,
+      "categoria": "animais-brasil",
+      "nome": "Arara-vermelha",
+      "svg": "animais-brasil/02-arara/02-arara.svg",
+      "json": "animais-brasil/02-arara/02-arara.json",
+      "png": "animais-brasil/02-arara/02-arara.png",
+      "partes": [
+        "arara-rabo",
+        "arara-haste",
+        "arara-corpo",
+        "arara-asa",
+        "arara-pata-1",
+        "arara-pata-2",
+        "arara-cabeca",
+        "arara-cabeca-bico"
+      ]
+    },
+    {
+      "item": "tucano",
+      "numero": 3,
+      "categoria": "animais-brasil",
+      "nome": "Tucano",
+      "svg": "animais-brasil/03-tucano/03-tucano.svg",
+      "json": "animais-brasil/03-tucano/03-tucano.json",
+      "png": "animais-brasil/03-tucano/03-tucano.png",
+      "partes": [
+        "tucano-rabo",
+        "tucano-haste",
+        "tucano-corpo",
+        "tucano-asa",
+        "tucano-pata-1",
+        "tucano-pata-2",
+        "tucano-cabeca",
+        "tucano-cabeca-bico"
+      ]
+    },
+    {
+      "item": "capivara",
+      "numero": 4,
+      "categoria": "animais-brasil",
+      "nome": "Capivara",
+      "svg": "animais-brasil/04-capivara/04-capivara.svg",
+      "json": "animais-brasil/04-capivara/04-capivara.json",
+      "png": "animais-brasil/04-capivara/04-capivara.png",
+      "partes": [
+        "capivara-pata-2",
+        "capivara-pata-4",
+        "capivara-pata-1",
+        "capivara-pata-3",
+        "capivara-corpo",
+        "capivara-cabeca",
+        "capivara-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "tamandua",
+      "numero": 5,
+      "categoria": "animais-brasil",
+      "nome": "Tamanduá-bandeira",
+      "svg": "animais-brasil/05-tamandua/05-tamandua.svg",
+      "json": "animais-brasil/05-tamandua/05-tamandua.json",
+      "png": "animais-brasil/05-tamandua/05-tamandua.png",
+      "partes": [
+        "tamandua-pata-2",
+        "tamandua-pata-4",
+        "tamandua-rabo",
+        "tamandua-pata-1",
+        "tamandua-pata-3",
+        "tamandua-corpo",
+        "tamandua-cabeca",
+        "tamandua-cabeca-orelha-1",
+        "tamandua-cabeca-tromba"
+      ]
+    },
+    {
+      "item": "tatu",
+      "numero": 6,
+      "categoria": "animais-brasil",
+      "nome": "Tatu-bola",
+      "svg": "animais-brasil/06-tatu/06-tatu.svg",
+      "json": "animais-brasil/06-tatu/06-tatu.json",
+      "png": "animais-brasil/06-tatu/06-tatu.png",
+      "partes": [
+        "tatu-pata-2",
+        "tatu-pata-4",
+        "tatu-rabo",
+        "tatu-pata-1",
+        "tatu-pata-3",
+        "tatu-cabeca",
+        "tatu-cabeca-orelha-1",
+        "tatu-carapaca"
+      ]
+    },
+    {
+      "item": "jacare",
+      "numero": 7,
+      "categoria": "animais-brasil",
+      "nome": "Jacaré",
+      "svg": "animais-brasil/07-jacare/07-jacare.svg",
+      "json": "animais-brasil/07-jacare/07-jacare.json",
+      "png": "animais-brasil/07-jacare/07-jacare.png",
+      "partes": [
+        "jacare-pata-2",
+        "jacare-pata-4",
+        "jacare-rabo",
+        "jacare-corpo",
+        "jacare-pata-1",
+        "jacare-pata-3",
+        "jacare-cabeca"
+      ]
+    },
+    {
+      "item": "sagui",
+      "numero": 8,
+      "categoria": "animais-brasil",
+      "nome": "Sagui",
+      "svg": "animais-brasil/08-sagui/08-sagui.svg",
+      "json": "animais-brasil/08-sagui/08-sagui.json",
+      "png": "animais-brasil/08-sagui/08-sagui.png",
+      "partes": [
+        "sagui-rabo",
+        "sagui-pata-2",
+        "sagui-pata-4",
+        "sagui-haste",
+        "sagui-pata-3",
+        "sagui-pata-1",
+        "sagui-corpo",
+        "sagui-cabeca",
+        "sagui-cabeca-orelha-1"
+      ]
+    },
+    {
+      "item": "boto",
+      "numero": 9,
+      "categoria": "animais-brasil",
+      "nome": "Boto-cor-de-rosa",
+      "svg": "animais-brasil/09-boto/09-boto.svg",
+      "json": "animais-brasil/09-boto/09-boto.json",
+      "png": "animais-brasil/09-boto/09-boto.png",
+      "partes": [
+        "boto-nadadeira-2",
+        "boto-rabo",
+        "boto-corpo",
+        "boto-focinho",
+        "boto-nadadeira-1"
+      ]
+    },
+    {
+      "item": "preguica",
+      "numero": 10,
+      "categoria": "animais-brasil",
+      "nome": "Preguiça",
+      "svg": "animais-brasil/10-preguica/10-preguica.svg",
+      "json": "animais-brasil/10-preguica/10-preguica.json",
+      "png": "animais-brasil/10-preguica/10-preguica.png",
+      "partes": [
+        "preguica-pata-2",
+        "preguica-pata-4",
+        "preguica-haste",
+        "preguica-corpo",
+        "preguica-pata-1",
+        "preguica-pata-3",
+        "preguica-cabeca"
+      ]
+    },
     {
       "item": "colher",
       "numero": 1,
@@ -794,6 +1230,516 @@
       ]
     },
     {
+      "item": "apito",
+      "numero": 1,
+      "categoria": "esportes",
+      "nome": "Apito",
+      "svg": "esportes/01-apito/01-apito.svg",
+      "json": "esportes/01-apito/01-apito.json",
+      "png": "esportes/01-apito/01-apito.png",
+      "partes": [
+        "apito-tira",
+        "apito-bico",
+        "apito-corpo"
+      ]
+    },
+    {
+      "item": "cronometro",
+      "numero": 2,
+      "categoria": "esportes",
+      "nome": "Cronômetro",
+      "svg": "esportes/02-cronometro/02-cronometro.svg",
+      "json": "esportes/02-cronometro/02-cronometro.json",
+      "png": "esportes/02-cronometro/02-cronometro.png",
+      "partes": [
+        "cronometro-botao-1",
+        "cronometro-botao-2",
+        "cronometro-corpo",
+        "cronometro-visor",
+        "cronometro-ponteiro"
+      ]
+    },
+    {
+      "item": "placar",
+      "numero": 3,
+      "categoria": "esportes",
+      "nome": "Placar",
+      "svg": "esportes/03-placar/03-placar.svg",
+      "json": "esportes/03-placar/03-placar.json",
+      "png": "esportes/03-placar/03-placar.png",
+      "partes": [
+        "placar-corpo",
+        "placar-visor-1",
+        "placar-visor-2"
+      ]
+    },
+    {
+      "item": "garrafa-esportiva",
+      "numero": 4,
+      "categoria": "esportes",
+      "nome": "Garrafa esportiva",
+      "svg": "esportes/04-garrafa-esportiva/04-garrafa-esportiva.svg",
+      "json": "esportes/04-garrafa-esportiva/04-garrafa-esportiva.json",
+      "png": "esportes/04-garrafa-esportiva/04-garrafa-esportiva.png",
+      "partes": [
+        "garrafa-esportiva-corpo",
+        "garrafa-esportiva-tampa",
+        "garrafa-esportiva-tampa-bico"
+      ]
+    },
+    {
+      "item": "bomba-de-ar",
+      "numero": 5,
+      "categoria": "esportes",
+      "nome": "Bomba de ar",
+      "svg": "esportes/05-bomba-de-ar/05-bomba-de-ar.svg",
+      "json": "esportes/05-bomba-de-ar/05-bomba-de-ar.json",
+      "png": "esportes/05-bomba-de-ar/05-bomba-de-ar.png",
+      "partes": [
+        "bomba-de-ar-mangueira",
+        "bomba-de-ar-pes",
+        "bomba-de-ar-corpo",
+        "bomba-de-ar-visor",
+        "bomba-de-ar-cabo",
+        "bomba-de-ar-cabo-haste"
+      ]
+    },
+    {
+      "item": "cone",
+      "numero": 6,
+      "categoria": "esportes",
+      "nome": "Cone",
+      "svg": "esportes/06-cone/06-cone.svg",
+      "json": "esportes/06-cone/06-cone.json",
+      "png": "esportes/06-cone/06-cone.png",
+      "partes": [
+        "cone-pes",
+        "cone-corpo"
+      ]
+    },
+    {
+      "item": "prancheta-do-tecnico",
+      "numero": 7,
+      "categoria": "esportes",
+      "nome": "Prancheta do técnico",
+      "svg": "esportes/07-prancheta-do-tecnico/07-prancheta-do-tecnico.svg",
+      "json": "esportes/07-prancheta-do-tecnico/07-prancheta-do-tecnico.json",
+      "png": "esportes/07-prancheta-do-tecnico/07-prancheta-do-tecnico.png",
+      "partes": [
+        "prancheta-do-tecnico-corpo",
+        "prancheta-do-tecnico-pagina",
+        "prancheta-do-tecnico-prendedor"
+      ]
+    },
+    {
+      "item": "trofeu",
+      "numero": 8,
+      "categoria": "esportes",
+      "nome": "Troféu",
+      "svg": "esportes/08-trofeu/08-trofeu.svg",
+      "json": "esportes/08-trofeu/08-trofeu.json",
+      "png": "esportes/08-trofeu/08-trofeu.png",
+      "partes": [
+        "trofeu-alca-1",
+        "trofeu-alca-2",
+        "trofeu-pedestal",
+        "trofeu-haste",
+        "trofeu-corpo"
+      ]
+    },
+    {
+      "item": "medalha",
+      "numero": 9,
+      "categoria": "esportes",
+      "nome": "Medalha",
+      "svg": "esportes/09-medalha/09-medalha.svg",
+      "json": "esportes/09-medalha/09-medalha.json",
+      "png": "esportes/09-medalha/09-medalha.png",
+      "partes": [
+        "medalha-tira",
+        "medalha-corpo"
+      ]
+    },
+    {
+      "item": "faixa-de-cabeca",
+      "numero": 10,
+      "categoria": "esportes",
+      "nome": "Faixa de cabeça",
+      "svg": "esportes/10-faixa-de-cabeca/10-faixa-de-cabeca.svg",
+      "json": "esportes/10-faixa-de-cabeca/10-faixa-de-cabeca.json",
+      "png": "esportes/10-faixa-de-cabeca/10-faixa-de-cabeca.png",
+      "partes": [
+        "faixa-de-cabeca-corpo"
+      ]
+    },
+    {
+      "item": "toalha",
+      "numero": 11,
+      "categoria": "esportes",
+      "nome": "Toalha",
+      "svg": "esportes/11-toalha/11-toalha.svg",
+      "json": "esportes/11-toalha/11-toalha.json",
+      "png": "esportes/11-toalha/11-toalha.png",
+      "partes": [
+        "toalha-haste",
+        "toalha-corpo"
+      ]
+    },
+    {
+      "item": "bola-de-basquete",
+      "numero": 1,
+      "categoria": "esportes-basquete",
+      "nome": "Bola de basquete",
+      "svg": "esportes-basquete/01-bola-de-basquete/01-bola-de-basquete.svg",
+      "json": "esportes-basquete/01-bola-de-basquete/01-bola-de-basquete.json",
+      "png": "esportes-basquete/01-bola-de-basquete/01-bola-de-basquete.png",
+      "partes": [
+        "bola-de-basquete-corpo"
+      ]
+    },
+    {
+      "item": "cesta-de-basquete",
+      "numero": 2,
+      "categoria": "esportes-basquete",
+      "nome": "Cesta de basquete",
+      "svg": "esportes-basquete/02-cesta-de-basquete/02-cesta-de-basquete.svg",
+      "json": "esportes-basquete/02-cesta-de-basquete/02-cesta-de-basquete.json",
+      "png": "esportes-basquete/02-cesta-de-basquete/02-cesta-de-basquete.png",
+      "partes": [
+        "cesta-de-basquete-poste",
+        "cesta-de-basquete-tabela",
+        "cesta-de-basquete-rede",
+        "cesta-de-basquete-aro"
+      ]
+    },
+    {
+      "item": "camisa-de-basquete",
+      "numero": 3,
+      "categoria": "esportes-basquete",
+      "nome": "Camisa de basquete",
+      "svg": "esportes-basquete/03-camisa-de-basquete/03-camisa-de-basquete.svg",
+      "json": "esportes-basquete/03-camisa-de-basquete/03-camisa-de-basquete.json",
+      "png": "esportes-basquete/03-camisa-de-basquete/03-camisa-de-basquete.png",
+      "partes": [
+        "camisa-de-basquete-corpo",
+        "camisa-de-basquete-gola"
+      ]
+    },
+    {
+      "item": "tenis-de-basquete",
+      "numero": 4,
+      "categoria": "esportes-basquete",
+      "nome": "Tênis de basquete",
+      "svg": "esportes-basquete/04-tenis-de-basquete/04-tenis-de-basquete.svg",
+      "json": "esportes-basquete/04-tenis-de-basquete/04-tenis-de-basquete.json",
+      "png": "esportes-basquete/04-tenis-de-basquete/04-tenis-de-basquete.png",
+      "partes": [
+        "tenis-de-basquete-corpo",
+        "tenis-de-basquete-sola"
+      ]
+    },
+    {
+      "item": "quadra-de-basquete",
+      "numero": 5,
+      "categoria": "esportes-basquete",
+      "nome": "Quadra de basquete",
+      "svg": "esportes-basquete/05-quadra-de-basquete/05-quadra-de-basquete.svg",
+      "json": "esportes-basquete/05-quadra-de-basquete/05-quadra-de-basquete.json",
+      "png": "esportes-basquete/05-quadra-de-basquete/05-quadra-de-basquete.png",
+      "partes": [
+        "quadra-de-basquete-corpo"
+      ]
+    },
+    {
+      "item": "chave-de-fenda",
+      "numero": 1,
+      "categoria": "ferramentas",
+      "nome": "Chave de fenda",
+      "svg": "ferramentas/01-chave-de-fenda/01-chave-de-fenda.svg",
+      "json": "ferramentas/01-chave-de-fenda/01-chave-de-fenda.json",
+      "png": "ferramentas/01-chave-de-fenda/01-chave-de-fenda.png",
+      "partes": [
+        "chave-de-fenda-haste",
+        "chave-de-fenda-cabo"
+      ]
+    },
+    {
+      "item": "alicate",
+      "numero": 2,
+      "categoria": "ferramentas",
+      "nome": "Alicate",
+      "svg": "ferramentas/02-alicate/02-alicate.svg",
+      "json": "ferramentas/02-alicate/02-alicate.json",
+      "png": "ferramentas/02-alicate/02-alicate.png",
+      "partes": [
+        "alicate-braco-1",
+        "alicate-braco-2"
+      ]
+    },
+    {
+      "item": "chave-de-boca",
+      "numero": 3,
+      "categoria": "ferramentas",
+      "nome": "Chave de boca",
+      "svg": "ferramentas/03-chave-de-boca/03-chave-de-boca.svg",
+      "json": "ferramentas/03-chave-de-boca/03-chave-de-boca.json",
+      "png": "ferramentas/03-chave-de-boca/03-chave-de-boca.png",
+      "partes": [
+        "chave-de-boca-corpo"
+      ]
+    },
+    {
+      "item": "martelo",
+      "numero": 4,
+      "categoria": "ferramentas",
+      "nome": "Martelo",
+      "svg": "ferramentas/04-martelo/04-martelo.svg",
+      "json": "ferramentas/04-martelo/04-martelo.json",
+      "png": "ferramentas/04-martelo/04-martelo.png",
+      "partes": [
+        "martelo-cabo",
+        "martelo-cabeca"
+      ]
+    },
+    {
+      "item": "serrote",
+      "numero": 5,
+      "categoria": "ferramentas",
+      "nome": "Serrote",
+      "svg": "ferramentas/05-serrote/05-serrote.svg",
+      "json": "ferramentas/05-serrote/05-serrote.json",
+      "png": "ferramentas/05-serrote/05-serrote.png",
+      "partes": [
+        "serrote-lamina",
+        "serrote-cabo"
+      ]
+    },
+    {
+      "item": "pincel",
+      "numero": 6,
+      "categoria": "ferramentas",
+      "nome": "Pincel",
+      "svg": "ferramentas/06-pincel/06-pincel.svg",
+      "json": "ferramentas/06-pincel/06-pincel.json",
+      "png": "ferramentas/06-pincel/06-pincel.png",
+      "partes": [
+        "pincel-cabo",
+        "pincel-cerdas",
+        "pincel-aro"
+      ]
+    },
+    {
+      "item": "lata-de-tinta",
+      "numero": 7,
+      "categoria": "ferramentas",
+      "nome": "Lata de tinta",
+      "svg": "ferramentas/07-lata-de-tinta/07-lata-de-tinta.svg",
+      "json": "ferramentas/07-lata-de-tinta/07-lata-de-tinta.json",
+      "png": "ferramentas/07-lata-de-tinta/07-lata-de-tinta.png",
+      "partes": [
+        "lata-de-tinta-corpo",
+        "lata-de-tinta-rotulo",
+        "lata-de-tinta-tampa",
+        "lata-de-tinta-alca"
+      ]
+    },
+    {
+      "item": "rolo-de-pintura",
+      "numero": 8,
+      "categoria": "ferramentas",
+      "nome": "Rolo de pintura",
+      "svg": "ferramentas/08-rolo-de-pintura/08-rolo-de-pintura.svg",
+      "json": "ferramentas/08-rolo-de-pintura/08-rolo-de-pintura.json",
+      "png": "ferramentas/08-rolo-de-pintura/08-rolo-de-pintura.png",
+      "partes": [
+        "rolo-de-pintura-haste",
+        "rolo-de-pintura-rolo",
+        "rolo-de-pintura-cabo"
+      ]
+    },
+    {
+      "item": "escada",
+      "numero": 9,
+      "categoria": "ferramentas",
+      "nome": "Escada",
+      "svg": "ferramentas/09-escada/09-escada.svg",
+      "json": "ferramentas/09-escada/09-escada.json",
+      "png": "ferramentas/09-escada/09-escada.png",
+      "partes": [
+        "escada-corpo"
+      ]
+    },
+    {
+      "item": "caixa-de-ferramentas",
+      "numero": 10,
+      "categoria": "ferramentas",
+      "nome": "Caixa de ferramentas",
+      "svg": "ferramentas/10-caixa-de-ferramentas/10-caixa-de-ferramentas.svg",
+      "json": "ferramentas/10-caixa-de-ferramentas/10-caixa-de-ferramentas.json",
+      "png": "ferramentas/10-caixa-de-ferramentas/10-caixa-de-ferramentas.png",
+      "partes": [
+        "caixa-de-ferramentas-alca",
+        "caixa-de-ferramentas-corpo",
+        "caixa-de-ferramentas-tampa"
+      ]
+    },
+    {
+      "item": "parafuso",
+      "numero": 11,
+      "categoria": "ferramentas",
+      "nome": "Parafuso",
+      "svg": "ferramentas/11-parafuso/11-parafuso.svg",
+      "json": "ferramentas/11-parafuso/11-parafuso.json",
+      "png": "ferramentas/11-parafuso/11-parafuso.png",
+      "partes": [
+        "parafuso-corpo"
+      ]
+    },
+    {
+      "item": "prego",
+      "numero": 12,
+      "categoria": "ferramentas",
+      "nome": "Prego",
+      "svg": "ferramentas/12-prego/12-prego.svg",
+      "json": "ferramentas/12-prego/12-prego.json",
+      "png": "ferramentas/12-prego/12-prego.png",
+      "partes": [
+        "prego-corpo"
+      ]
+    },
+    {
+      "item": "porca",
+      "numero": 13,
+      "categoria": "ferramentas",
+      "nome": "Porca",
+      "svg": "ferramentas/13-porca/13-porca.svg",
+      "json": "ferramentas/13-porca/13-porca.json",
+      "png": "ferramentas/13-porca/13-porca.png",
+      "partes": [
+        "porca-corpo"
+      ]
+    },
+    {
+      "item": "circulo",
+      "numero": 1,
+      "categoria": "formas",
+      "nome": "Círculo",
+      "svg": "formas/01-circulo/01-circulo.svg",
+      "json": "formas/01-circulo/01-circulo.json",
+      "png": "formas/01-circulo/01-circulo.png",
+      "partes": [
+        "circulo-corpo"
+      ]
+    },
+    {
+      "item": "quadrado",
+      "numero": 2,
+      "categoria": "formas",
+      "nome": "Quadrado",
+      "svg": "formas/02-quadrado/02-quadrado.svg",
+      "json": "formas/02-quadrado/02-quadrado.json",
+      "png": "formas/02-quadrado/02-quadrado.png",
+      "partes": [
+        "quadrado-corpo"
+      ]
+    },
+    {
+      "item": "triangulo",
+      "numero": 3,
+      "categoria": "formas",
+      "nome": "Triângulo",
+      "svg": "formas/03-triangulo/03-triangulo.svg",
+      "json": "formas/03-triangulo/03-triangulo.json",
+      "png": "formas/03-triangulo/03-triangulo.png",
+      "partes": [
+        "triangulo-corpo"
+      ]
+    },
+    {
+      "item": "retangulo",
+      "numero": 4,
+      "categoria": "formas",
+      "nome": "Retângulo",
+      "svg": "formas/04-retangulo/04-retangulo.svg",
+      "json": "formas/04-retangulo/04-retangulo.json",
+      "png": "formas/04-retangulo/04-retangulo.png",
+      "partes": [
+        "retangulo-corpo"
+      ]
+    },
+    {
+      "item": "estrela",
+      "numero": 5,
+      "categoria": "formas",
+      "nome": "Estrela",
+      "svg": "formas/05-estrela/05-estrela.svg",
+      "json": "formas/05-estrela/05-estrela.json",
+      "png": "formas/05-estrela/05-estrela.png",
+      "partes": [
+        "estrela-corpo"
+      ]
+    },
+    {
+      "item": "coracao",
+      "numero": 6,
+      "categoria": "formas",
+      "nome": "Coração",
+      "svg": "formas/06-coracao/06-coracao.svg",
+      "json": "formas/06-coracao/06-coracao.json",
+      "png": "formas/06-coracao/06-coracao.png",
+      "partes": [
+        "coracao-corpo"
+      ]
+    },
+    {
+      "item": "losango",
+      "numero": 7,
+      "categoria": "formas",
+      "nome": "Losango",
+      "svg": "formas/07-losango/07-losango.svg",
+      "json": "formas/07-losango/07-losango.json",
+      "png": "formas/07-losango/07-losango.png",
+      "partes": [
+        "losango-corpo"
+      ]
+    },
+    {
+      "item": "hexagono",
+      "numero": 8,
+      "categoria": "formas",
+      "nome": "Hexágono",
+      "svg": "formas/08-hexagono/08-hexagono.svg",
+      "json": "formas/08-hexagono/08-hexagono.json",
+      "png": "formas/08-hexagono/08-hexagono.png",
+      "partes": [
+        "hexagono-corpo"
+      ]
+    },
+    {
+      "item": "oval",
+      "numero": 9,
+      "categoria": "formas",
+      "nome": "Oval",
+      "svg": "formas/09-oval/09-oval.svg",
+      "json": "formas/09-oval/09-oval.json",
+      "png": "formas/09-oval/09-oval.png",
+      "partes": [
+        "oval-corpo"
+      ]
+    },
+    {
+      "item": "cruz",
+      "numero": 10,
+      "categoria": "formas",
+      "nome": "Cruz",
+      "svg": "formas/10-cruz/10-cruz.svg",
+      "json": "formas/10-cruz/10-cruz.json",
+      "png": "formas/10-cruz/10-cruz.png",
+      "partes": [
+        "cruz-corpo"
+      ]
+    },
+    {
       "item": "maca",
       "numero": 1,
       "categoria": "frutas",
@@ -1081,6 +2027,876 @@
         "pitaya-escama",
         "pitaya-casca",
         "pitaya-polpa"
+      ]
+    },
+    {
+      "item": "violao",
+      "numero": 1,
+      "categoria": "instrumentos",
+      "nome": "Violão",
+      "svg": "instrumentos/01-violao/01-violao.svg",
+      "json": "instrumentos/01-violao/01-violao.json",
+      "png": "instrumentos/01-violao/01-violao.png",
+      "partes": [
+        "violao-corpo",
+        "violao-braco",
+        "violao-cabeca",
+        "violao-corda"
+      ]
+    },
+    {
+      "item": "piano",
+      "numero": 2,
+      "categoria": "instrumentos",
+      "nome": "Piano",
+      "svg": "instrumentos/02-piano/02-piano.svg",
+      "json": "instrumentos/02-piano/02-piano.json",
+      "png": "instrumentos/02-piano/02-piano.png",
+      "partes": [
+        "piano-tampa",
+        "piano-corpo",
+        "piano-tecla",
+        "piano-pes"
+      ]
+    },
+    {
+      "item": "bateria",
+      "numero": 3,
+      "categoria": "instrumentos",
+      "nome": "Bateria",
+      "svg": "instrumentos/03-bateria/03-bateria.svg",
+      "json": "instrumentos/03-bateria/03-bateria.json",
+      "png": "instrumentos/03-bateria/03-bateria.png",
+      "partes": [
+        "bateria-haste",
+        "bateria-corpo",
+        "bateria-pele-1",
+        "bateria-pele-2",
+        "bateria-pele-3",
+        "bateria-prato"
+      ]
+    },
+    {
+      "item": "flauta",
+      "numero": 4,
+      "categoria": "instrumentos",
+      "nome": "Flauta doce",
+      "svg": "instrumentos/04-flauta/04-flauta.svg",
+      "json": "instrumentos/04-flauta/04-flauta.json",
+      "png": "instrumentos/04-flauta/04-flauta.png",
+      "partes": [
+        "flauta-bico",
+        "flauta-corpo"
+      ]
+    },
+    {
+      "item": "violino",
+      "numero": 5,
+      "categoria": "instrumentos",
+      "nome": "Violino",
+      "svg": "instrumentos/05-violino/05-violino.svg",
+      "json": "instrumentos/05-violino/05-violino.json",
+      "png": "instrumentos/05-violino/05-violino.png",
+      "partes": [
+        "violino-haste",
+        "violino-corpo",
+        "violino-braco",
+        "violino-cabeca",
+        "violino-corda"
+      ]
+    },
+    {
+      "item": "trompete",
+      "numero": 6,
+      "categoria": "instrumentos",
+      "nome": "Trompete",
+      "svg": "instrumentos/06-trompete/06-trompete.svg",
+      "json": "instrumentos/06-trompete/06-trompete.json",
+      "png": "instrumentos/06-trompete/06-trompete.png",
+      "partes": [
+        "trompete-corpo",
+        "trompete-bico",
+        "trompete-botao"
+      ]
+    },
+    {
+      "item": "tambor",
+      "numero": 7,
+      "categoria": "instrumentos",
+      "nome": "Tambor",
+      "svg": "instrumentos/07-tambor/07-tambor.svg",
+      "json": "instrumentos/07-tambor/07-tambor.json",
+      "png": "instrumentos/07-tambor/07-tambor.png",
+      "partes": [
+        "tambor-corpo",
+        "tambor-pele",
+        "tambor-aro",
+        "tambor-baqueta"
+      ]
+    },
+    {
+      "item": "pandeiro",
+      "numero": 8,
+      "categoria": "instrumentos",
+      "nome": "Pandeiro",
+      "svg": "instrumentos/08-pandeiro/08-pandeiro.svg",
+      "json": "instrumentos/08-pandeiro/08-pandeiro.json",
+      "png": "instrumentos/08-pandeiro/08-pandeiro.png",
+      "partes": [
+        "pandeiro-pele",
+        "pandeiro-corpo",
+        "pandeiro-prato"
+      ]
+    },
+    {
+      "item": "triangulo-musical",
+      "numero": 9,
+      "categoria": "instrumentos",
+      "nome": "Triângulo",
+      "svg": "instrumentos/09-triangulo-musical/09-triangulo-musical.svg",
+      "json": "instrumentos/09-triangulo-musical/09-triangulo-musical.json",
+      "png": "instrumentos/09-triangulo-musical/09-triangulo-musical.png",
+      "partes": [
+        "triangulo-musical-tira",
+        "triangulo-musical-corpo",
+        "triangulo-musical-baqueta"
+      ]
+    },
+    {
+      "item": "xilofone",
+      "numero": 10,
+      "categoria": "instrumentos",
+      "nome": "Xilofone",
+      "svg": "instrumentos/10-xilofone/10-xilofone.svg",
+      "json": "instrumentos/10-xilofone/10-xilofone.json",
+      "png": "instrumentos/10-xilofone/10-xilofone.png",
+      "partes": [
+        "xilofone-corpo",
+        "xilofone-tecla-1",
+        "xilofone-tecla-2",
+        "xilofone-tecla-3",
+        "xilofone-tecla-4",
+        "xilofone-tecla-5",
+        "xilofone-tecla-6",
+        "xilofone-tecla-7",
+        "xilofone-tecla-8",
+        "xilofone-baqueta"
+      ]
+    },
+    {
+      "item": "lapis",
+      "numero": 1,
+      "categoria": "material-escolar",
+      "nome": "Lápis",
+      "svg": "material-escolar/01-lapis/01-lapis.svg",
+      "json": "material-escolar/01-lapis/01-lapis.json",
+      "png": "material-escolar/01-lapis/01-lapis.png",
+      "partes": [
+        "lapis-ponta",
+        "lapis-corpo",
+        "lapis-aro"
+      ]
+    },
+    {
+      "item": "caneta",
+      "numero": 2,
+      "categoria": "material-escolar",
+      "nome": "Caneta",
+      "svg": "material-escolar/02-caneta/02-caneta.svg",
+      "json": "material-escolar/02-caneta/02-caneta.json",
+      "png": "material-escolar/02-caneta/02-caneta.png",
+      "partes": [
+        "caneta-ponta",
+        "caneta-corpo",
+        "caneta-tampa"
+      ]
+    },
+    {
+      "item": "borracha",
+      "numero": 3,
+      "categoria": "material-escolar",
+      "nome": "Borracha",
+      "svg": "material-escolar/03-borracha/03-borracha.svg",
+      "json": "material-escolar/03-borracha/03-borracha.json",
+      "png": "material-escolar/03-borracha/03-borracha.png",
+      "partes": [
+        "borracha-corpo"
+      ]
+    },
+    {
+      "item": "regua",
+      "numero": 4,
+      "categoria": "material-escolar",
+      "nome": "Régua",
+      "svg": "material-escolar/04-regua/04-regua.svg",
+      "json": "material-escolar/04-regua/04-regua.json",
+      "png": "material-escolar/04-regua/04-regua.png",
+      "partes": [
+        "regua-corpo"
+      ]
+    },
+    {
+      "item": "tesoura",
+      "numero": 5,
+      "categoria": "material-escolar",
+      "nome": "Tesoura",
+      "svg": "material-escolar/05-tesoura/05-tesoura.svg",
+      "json": "material-escolar/05-tesoura/05-tesoura.json",
+      "png": "material-escolar/05-tesoura/05-tesoura.png",
+      "partes": [
+        "tesoura-braco-1",
+        "tesoura-braco-2"
+      ]
+    },
+    {
+      "item": "cola",
+      "numero": 6,
+      "categoria": "material-escolar",
+      "nome": "Cola",
+      "svg": "material-escolar/06-cola/06-cola.svg",
+      "json": "material-escolar/06-cola/06-cola.json",
+      "png": "material-escolar/06-cola/06-cola.png",
+      "partes": [
+        "cola-corpo",
+        "cola-rotulo",
+        "cola-tampa"
+      ]
+    },
+    {
+      "item": "caderno",
+      "numero": 7,
+      "categoria": "material-escolar",
+      "nome": "Caderno",
+      "svg": "material-escolar/07-caderno/07-caderno.svg",
+      "json": "material-escolar/07-caderno/07-caderno.json",
+      "png": "material-escolar/07-caderno/07-caderno.png",
+      "partes": [
+        "caderno-pagina",
+        "caderno-corpo",
+        "caderno-rotulo",
+        "caderno-argola"
+      ]
+    },
+    {
+      "item": "livro",
+      "numero": 8,
+      "categoria": "material-escolar",
+      "nome": "Livro",
+      "svg": "material-escolar/08-livro/08-livro.svg",
+      "json": "material-escolar/08-livro/08-livro.json",
+      "png": "material-escolar/08-livro/08-livro.png",
+      "partes": [
+        "livro-tira",
+        "livro-pagina",
+        "livro-corpo"
+      ]
+    },
+    {
+      "item": "mochila",
+      "numero": 9,
+      "categoria": "material-escolar",
+      "nome": "Mochila",
+      "svg": "material-escolar/09-mochila/09-mochila.svg",
+      "json": "material-escolar/09-mochila/09-mochila.json",
+      "png": "material-escolar/09-mochila/09-mochila.png",
+      "partes": [
+        "mochila-tira",
+        "mochila-alca",
+        "mochila-corpo",
+        "mochila-bolso"
+      ]
+    },
+    {
+      "item": "apontador",
+      "numero": 10,
+      "categoria": "material-escolar",
+      "nome": "Apontador",
+      "svg": "material-escolar/10-apontador/10-apontador.svg",
+      "json": "material-escolar/10-apontador/10-apontador.json",
+      "png": "material-escolar/10-apontador/10-apontador.png",
+      "partes": [
+        "apontador-corpo",
+        "apontador-furo",
+        "apontador-lamina"
+      ]
+    },
+    {
+      "item": "camiseta",
+      "numero": 1,
+      "categoria": "roupas",
+      "nome": "Camiseta",
+      "svg": "roupas/01-camiseta/01-camiseta.svg",
+      "json": "roupas/01-camiseta/01-camiseta.json",
+      "png": "roupas/01-camiseta/01-camiseta.png",
+      "partes": [
+        "camiseta-corpo"
+      ]
+    },
+    {
+      "item": "regata",
+      "numero": 2,
+      "categoria": "roupas",
+      "nome": "Regata",
+      "svg": "roupas/02-regata/02-regata.svg",
+      "json": "roupas/02-regata/02-regata.json",
+      "png": "roupas/02-regata/02-regata.png",
+      "partes": [
+        "regata-corpo"
+      ]
+    },
+    {
+      "item": "camisa",
+      "numero": 3,
+      "categoria": "roupas",
+      "nome": "Camisa de botão",
+      "svg": "roupas/03-camisa/03-camisa.svg",
+      "json": "roupas/03-camisa/03-camisa.json",
+      "png": "roupas/03-camisa/03-camisa.png",
+      "partes": [
+        "camisa-corpo",
+        "camisa-gola"
+      ]
+    },
+    {
+      "item": "casaco",
+      "numero": 4,
+      "categoria": "roupas",
+      "nome": "Casaco com capuz",
+      "svg": "roupas/04-casaco/04-casaco.svg",
+      "json": "roupas/04-casaco/04-casaco.json",
+      "png": "roupas/04-casaco/04-casaco.png",
+      "partes": [
+        "casaco-capuz",
+        "casaco-corpo"
+      ]
+    },
+    {
+      "item": "vestido",
+      "numero": 5,
+      "categoria": "roupas",
+      "nome": "Vestido",
+      "svg": "roupas/05-vestido/05-vestido.svg",
+      "json": "roupas/05-vestido/05-vestido.json",
+      "png": "roupas/05-vestido/05-vestido.png",
+      "partes": [
+        "vestido-corpo"
+      ]
+    },
+    {
+      "item": "macacao",
+      "numero": 6,
+      "categoria": "roupas",
+      "nome": "Macacão",
+      "svg": "roupas/06-macacao/06-macacao.svg",
+      "json": "roupas/06-macacao/06-macacao.json",
+      "png": "roupas/06-macacao/06-macacao.png",
+      "partes": [
+        "macacao-tira",
+        "macacao-corpo"
+      ]
+    },
+    {
+      "item": "calca",
+      "numero": 7,
+      "categoria": "roupas",
+      "nome": "Calça",
+      "svg": "roupas/07-calca/07-calca.svg",
+      "json": "roupas/07-calca/07-calca.json",
+      "png": "roupas/07-calca/07-calca.png",
+      "partes": [
+        "calca-corpo"
+      ]
+    },
+    {
+      "item": "bermuda",
+      "numero": 8,
+      "categoria": "roupas",
+      "nome": "Bermuda",
+      "svg": "roupas/08-bermuda/08-bermuda.svg",
+      "json": "roupas/08-bermuda/08-bermuda.json",
+      "png": "roupas/08-bermuda/08-bermuda.png",
+      "partes": [
+        "bermuda-corpo"
+      ]
+    },
+    {
+      "item": "saia",
+      "numero": 9,
+      "categoria": "roupas",
+      "nome": "Saia",
+      "svg": "roupas/09-saia/09-saia.svg",
+      "json": "roupas/09-saia/09-saia.json",
+      "png": "roupas/09-saia/09-saia.png",
+      "partes": [
+        "saia-corpo"
+      ]
+    },
+    {
+      "item": "colete",
+      "numero": 10,
+      "categoria": "roupas",
+      "nome": "Colete",
+      "svg": "roupas/10-colete/10-colete.svg",
+      "json": "roupas/10-colete/10-colete.json",
+      "png": "roupas/10-colete/10-colete.png",
+      "partes": [
+        "colete-corpo"
+      ]
+    },
+    {
+      "item": "maio",
+      "numero": 11,
+      "categoria": "roupas",
+      "nome": "Maiô",
+      "svg": "roupas/11-maio/11-maio.svg",
+      "json": "roupas/11-maio/11-maio.json",
+      "png": "roupas/11-maio/11-maio.png",
+      "partes": [
+        "maio-corpo"
+      ]
+    },
+    {
+      "item": "sunga",
+      "numero": 12,
+      "categoria": "roupas",
+      "nome": "Sunga",
+      "svg": "roupas/12-sunga/12-sunga.svg",
+      "json": "roupas/12-sunga/12-sunga.json",
+      "png": "roupas/12-sunga/12-sunga.png",
+      "partes": [
+        "sunga-corpo"
+      ]
+    },
+    {
+      "item": "touca-de-natacao",
+      "numero": 13,
+      "categoria": "roupas",
+      "nome": "Touca de natação",
+      "svg": "roupas/13-touca-de-natacao/13-touca-de-natacao.svg",
+      "json": "roupas/13-touca-de-natacao/13-touca-de-natacao.json",
+      "png": "roupas/13-touca-de-natacao/13-touca-de-natacao.png",
+      "partes": [
+        "touca-de-natacao-corpo"
+      ]
+    },
+    {
+      "item": "oculos-de-natacao",
+      "numero": 14,
+      "categoria": "roupas",
+      "nome": "Óculos de natação",
+      "svg": "roupas/14-oculos-de-natacao/14-oculos-de-natacao.svg",
+      "json": "roupas/14-oculos-de-natacao/14-oculos-de-natacao.json",
+      "png": "roupas/14-oculos-de-natacao/14-oculos-de-natacao.png",
+      "partes": [
+        "oculos-de-natacao-tira",
+        "oculos-de-natacao-corpo",
+        "oculos-de-natacao-visor-1",
+        "oculos-de-natacao-visor-2"
+      ]
+    },
+    {
+      "item": "boia-de-braco",
+      "numero": 15,
+      "categoria": "roupas",
+      "nome": "Boia de braço",
+      "svg": "roupas/15-boia-de-braco/15-boia-de-braco.svg",
+      "json": "roupas/15-boia-de-braco/15-boia-de-braco.json",
+      "png": "roupas/15-boia-de-braco/15-boia-de-braco.png",
+      "partes": [
+        "boia-de-braco-corpo"
+      ]
+    },
+    {
+      "item": "roupao",
+      "numero": 16,
+      "categoria": "roupas",
+      "nome": "Roupão",
+      "svg": "roupas/16-roupao/16-roupao.svg",
+      "json": "roupas/16-roupao/16-roupao.json",
+      "png": "roupas/16-roupao/16-roupao.png",
+      "partes": [
+        "roupao-corpo"
+      ]
+    },
+    {
+      "item": "meia",
+      "numero": 17,
+      "categoria": "roupas",
+      "nome": "Meia",
+      "svg": "roupas/17-meia/17-meia.svg",
+      "json": "roupas/17-meia/17-meia.json",
+      "png": "roupas/17-meia/17-meia.png",
+      "partes": [
+        "meia-corpo"
+      ]
+    },
+    {
+      "item": "tenis",
+      "numero": 18,
+      "categoria": "roupas",
+      "nome": "Tênis",
+      "svg": "roupas/18-tenis/18-tenis.svg",
+      "json": "roupas/18-tenis/18-tenis.json",
+      "png": "roupas/18-tenis/18-tenis.png",
+      "partes": [
+        "tenis-corpo",
+        "tenis-sola"
+      ]
+    },
+    {
+      "item": "sandalia",
+      "numero": 19,
+      "categoria": "roupas",
+      "nome": "Sandália",
+      "svg": "roupas/19-sandalia/19-sandalia.svg",
+      "json": "roupas/19-sandalia/19-sandalia.json",
+      "png": "roupas/19-sandalia/19-sandalia.png",
+      "partes": [
+        "sandalia-sola",
+        "sandalia-tira"
+      ]
+    },
+    {
+      "item": "chinelo",
+      "numero": 20,
+      "categoria": "roupas",
+      "nome": "Chinelo",
+      "svg": "roupas/20-chinelo/20-chinelo.svg",
+      "json": "roupas/20-chinelo/20-chinelo.json",
+      "png": "roupas/20-chinelo/20-chinelo.png",
+      "partes": [
+        "chinelo-sola",
+        "chinelo-tira"
+      ]
+    },
+    {
+      "item": "bota",
+      "numero": 21,
+      "categoria": "roupas",
+      "nome": "Bota",
+      "svg": "roupas/21-bota/21-bota.svg",
+      "json": "roupas/21-bota/21-bota.json",
+      "png": "roupas/21-bota/21-bota.png",
+      "partes": [
+        "bota-corpo",
+        "bota-sola"
+      ]
+    },
+    {
+      "item": "galocha",
+      "numero": 22,
+      "categoria": "roupas",
+      "nome": "Galocha",
+      "svg": "roupas/22-galocha/22-galocha.svg",
+      "json": "roupas/22-galocha/22-galocha.json",
+      "png": "roupas/22-galocha/22-galocha.png",
+      "partes": [
+        "galocha-corpo",
+        "galocha-sola"
+      ]
+    },
+    {
+      "item": "bone",
+      "numero": 23,
+      "categoria": "roupas",
+      "nome": "Boné",
+      "svg": "roupas/23-bone/23-bone.svg",
+      "json": "roupas/23-bone/23-bone.json",
+      "png": "roupas/23-bone/23-bone.png",
+      "partes": [
+        "bone-corpo",
+        "bone-aba"
+      ]
+    },
+    {
+      "item": "chapeu",
+      "numero": 24,
+      "categoria": "roupas",
+      "nome": "Chapéu",
+      "svg": "roupas/24-chapeu/24-chapeu.svg",
+      "json": "roupas/24-chapeu/24-chapeu.json",
+      "png": "roupas/24-chapeu/24-chapeu.png",
+      "partes": [
+        "chapeu-aba",
+        "chapeu-corpo"
+      ]
+    },
+    {
+      "item": "gorro",
+      "numero": 25,
+      "categoria": "roupas",
+      "nome": "Gorro",
+      "svg": "roupas/25-gorro/25-gorro.svg",
+      "json": "roupas/25-gorro/25-gorro.json",
+      "png": "roupas/25-gorro/25-gorro.png",
+      "partes": [
+        "gorro-corpo",
+        "gorro-punho",
+        "gorro-pompom"
+      ]
+    },
+    {
+      "item": "capacete",
+      "numero": 26,
+      "categoria": "roupas",
+      "nome": "Capacete",
+      "svg": "roupas/26-capacete/26-capacete.svg",
+      "json": "roupas/26-capacete/26-capacete.json",
+      "png": "roupas/26-capacete/26-capacete.png",
+      "partes": [
+        "capacete-corpo",
+        "capacete-aba"
+      ]
+    },
+    {
+      "item": "cachecol",
+      "numero": 27,
+      "categoria": "roupas",
+      "nome": "Cachecol",
+      "svg": "roupas/27-cachecol/27-cachecol.svg",
+      "json": "roupas/27-cachecol/27-cachecol.json",
+      "png": "roupas/27-cachecol/27-cachecol.png",
+      "partes": [
+        "cachecol-corpo"
+      ]
+    },
+    {
+      "item": "luva",
+      "numero": 28,
+      "categoria": "roupas",
+      "nome": "Luva",
+      "svg": "roupas/28-luva/28-luva.svg",
+      "json": "roupas/28-luva/28-luva.json",
+      "png": "roupas/28-luva/28-luva.png",
+      "partes": [
+        "luva-corpo",
+        "luva-punho"
+      ]
+    },
+    {
+      "item": "gravata",
+      "numero": 29,
+      "categoria": "roupas",
+      "nome": "Gravata",
+      "svg": "roupas/29-gravata/29-gravata.svg",
+      "json": "roupas/29-gravata/29-gravata.json",
+      "png": "roupas/29-gravata/29-gravata.png",
+      "partes": [
+        "gravata-corpo"
+      ]
+    },
+    {
+      "item": "guarda-chuva",
+      "numero": 30,
+      "categoria": "roupas",
+      "nome": "Guarda-chuva",
+      "svg": "roupas/30-guarda-chuva/30-guarda-chuva.svg",
+      "json": "roupas/30-guarda-chuva/30-guarda-chuva.json",
+      "png": "roupas/30-guarda-chuva/30-guarda-chuva.png",
+      "partes": [
+        "guarda-chuva-cabo",
+        "guarda-chuva-corpo"
+      ]
+    },
+    {
+      "item": "carro",
+      "numero": 1,
+      "categoria": "veiculos",
+      "nome": "Carro",
+      "svg": "veiculos/01-carro/01-carro.svg",
+      "json": "veiculos/01-carro/01-carro.json",
+      "png": "veiculos/01-carro/01-carro.png",
+      "partes": [
+        "carro-corpo",
+        "carro-janela",
+        "carro-farol",
+        "carro-roda-1",
+        "carro-roda-2"
+      ]
+    },
+    {
+      "item": "onibus",
+      "numero": 2,
+      "categoria": "veiculos",
+      "nome": "Ônibus",
+      "svg": "veiculos/02-onibus/02-onibus.svg",
+      "json": "veiculos/02-onibus/02-onibus.json",
+      "png": "veiculos/02-onibus/02-onibus.png",
+      "partes": [
+        "onibus-corpo",
+        "onibus-janela",
+        "onibus-farol",
+        "onibus-roda-1",
+        "onibus-roda-2"
+      ]
+    },
+    {
+      "item": "caminhao",
+      "numero": 3,
+      "categoria": "veiculos",
+      "nome": "Caminhão",
+      "svg": "veiculos/03-caminhao/03-caminhao.svg",
+      "json": "veiculos/03-caminhao/03-caminhao.json",
+      "png": "veiculos/03-caminhao/03-caminhao.png",
+      "partes": [
+        "caminhao-corpo",
+        "caminhao-cabine",
+        "caminhao-janela",
+        "caminhao-farol",
+        "caminhao-roda-1",
+        "caminhao-roda-2",
+        "caminhao-roda-3"
+      ]
+    },
+    {
+      "item": "moto",
+      "numero": 4,
+      "categoria": "veiculos",
+      "nome": "Moto",
+      "svg": "veiculos/04-moto/04-moto.svg",
+      "json": "veiculos/04-moto/04-moto.json",
+      "png": "veiculos/04-moto/04-moto.png",
+      "partes": [
+        "moto-roda-1",
+        "moto-roda-2",
+        "moto-haste",
+        "moto-motor",
+        "moto-corpo",
+        "moto-selim",
+        "moto-guidao",
+        "moto-farol"
+      ]
+    },
+    {
+      "item": "bicicleta",
+      "numero": 5,
+      "categoria": "veiculos",
+      "nome": "Bicicleta",
+      "svg": "veiculos/05-bicicleta/05-bicicleta.svg",
+      "json": "veiculos/05-bicicleta/05-bicicleta.json",
+      "png": "veiculos/05-bicicleta/05-bicicleta.png",
+      "partes": [
+        "bicicleta-roda-1",
+        "bicicleta-roda-2",
+        "bicicleta-corpo",
+        "bicicleta-selim",
+        "bicicleta-guidao"
+      ]
+    },
+    {
+      "item": "trem",
+      "numero": 6,
+      "categoria": "veiculos",
+      "nome": "Trem",
+      "svg": "veiculos/06-trem/06-trem.svg",
+      "json": "veiculos/06-trem/06-trem.json",
+      "png": "veiculos/06-trem/06-trem.png",
+      "partes": [
+        "trem-vapor",
+        "trem-chamine",
+        "trem-corpo",
+        "trem-cabine",
+        "trem-janela",
+        "trem-roda-1",
+        "trem-roda-2",
+        "trem-roda-3",
+        "trem-haste"
+      ]
+    },
+    {
+      "item": "metro",
+      "numero": 7,
+      "categoria": "veiculos",
+      "nome": "Metrô",
+      "svg": "veiculos/07-metro/07-metro.svg",
+      "json": "veiculos/07-metro/07-metro.json",
+      "png": "veiculos/07-metro/07-metro.png",
+      "partes": [
+        "metro-corpo",
+        "metro-janela",
+        "metro-farol",
+        "metro-roda-1",
+        "metro-roda-2",
+        "metro-roda-3",
+        "metro-roda-4"
+      ]
+    },
+    {
+      "item": "aviao",
+      "numero": 8,
+      "categoria": "veiculos",
+      "nome": "Avião",
+      "svg": "veiculos/08-aviao/08-aviao.svg",
+      "json": "veiculos/08-aviao/08-aviao.json",
+      "png": "veiculos/08-aviao/08-aviao.png",
+      "partes": [
+        "aviao-asa-1",
+        "aviao-rabo",
+        "aviao-corpo",
+        "aviao-asa-2",
+        "aviao-janela"
+      ]
+    },
+    {
+      "item": "helicoptero",
+      "numero": 9,
+      "categoria": "veiculos",
+      "nome": "Helicóptero",
+      "svg": "veiculos/09-helicoptero/09-helicoptero.svg",
+      "json": "veiculos/09-helicoptero/09-helicoptero.json",
+      "png": "veiculos/09-helicoptero/09-helicoptero.png",
+      "partes": [
+        "helicoptero-rabo",
+        "helicoptero-helice-2",
+        "helicoptero-corpo",
+        "helicoptero-pes",
+        "helicoptero-cabine",
+        "helicoptero-janela",
+        "helicoptero-helice-1"
+      ]
+    },
+    {
+      "item": "barco",
+      "numero": 10,
+      "categoria": "veiculos",
+      "nome": "Barco",
+      "svg": "veiculos/10-barco/10-barco.svg",
+      "json": "veiculos/10-barco/10-barco.json",
+      "png": "veiculos/10-barco/10-barco.png",
+      "partes": [
+        "barco-mastro",
+        "barco-vela",
+        "barco-corpo"
+      ]
+    },
+    {
+      "item": "navio",
+      "numero": 11,
+      "categoria": "veiculos",
+      "nome": "Navio",
+      "svg": "veiculos/11-navio/11-navio.svg",
+      "json": "veiculos/11-navio/11-navio.json",
+      "png": "veiculos/11-navio/11-navio.png",
+      "partes": [
+        "navio-chamine",
+        "navio-cabine",
+        "navio-corpo"
+      ]
+    },
+    {
+      "item": "foguete",
+      "numero": 12,
+      "categoria": "veiculos",
+      "nome": "Foguete",
+      "svg": "veiculos/12-foguete/12-foguete.svg",
+      "json": "veiculos/12-foguete/12-foguete.json",
+      "png": "veiculos/12-foguete/12-foguete.png",
+      "partes": [
+        "foguete-chama",
+        "foguete-aleta-1",
+        "foguete-aleta-2",
+        "foguete-corpo",
+        "foguete-janela"
       ]
     }
   ]

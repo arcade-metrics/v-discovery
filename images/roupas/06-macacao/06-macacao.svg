@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="macacao-titulo">
+  <title id="macacao-titulo">Macacão</title>
+  <defs>
+    <path id="macacao-corpo-forma" d="M512 330 L588 330 Q600 330 600 342 L604 450 L660 450 Q676 450 677 466 L689 842 Q690 862 670 862 L564 862 Q548 862 547 846 L532 670 Q530 640 521 630 L512 620 L503 630 Q494 640 492 670 L477 846 Q476 862 460 862 L354 862 Q334 862 335 842 L347 466 Q348 450 364 450 L420 450 L424 342 Q424 330 436 330 Z" />
+    <clipPath id="macacao-corpo-recorte">
+      <use href="#macacao-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="macacao">
+    <g id="macacao-tira">
+      <path d="M590 350 L640 196 M434 350 L384 196" transform="translate(5 7)" fill="none" stroke="#1EA396" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M590 350 L640 196 M434 350 L384 196" fill="none" stroke="#2EC4B6" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="macacao-corpo">
+      <use href="#macacao-corpo-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#macacao-corpo-recorte)">
+        <use href="#macacao-corpo-forma" transform="translate(-14 -22)" fill="#2EC4B6" class="base" />
+      </g>
+      <path d="M462 372 L562 372 L562 430 L462 430 Z" fill="none" stroke="#1EA396" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <circle cx="588" cy="352" r="14" fill="#AEBEDB" class="marca" />
+      <circle cx="436" cy="352" r="14" fill="#AEBEDB" class="marca" />
+      <path d="M368 500 L358 830" fill="none" stroke="#7FE0D6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

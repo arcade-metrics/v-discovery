@@ -1,0 +1,43 @@
+{
+  "item": "colete",
+  "numero": 10,
+  "categoria": "roupas",
+  "nome": "Colete",
+  "svg": "10-colete.svg",
+  "png": "10-colete.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "colete-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#8AAE28"
+        ],
+        "base": [
+          "#A8CC3C"
+        ],
+        "marca": [
+          "#8AAE28",
+          "#AEBEDB"
+        ],
+        "brilho": [
+          "#D2E87C"
+        ]
+      },
+      "familias": [
+        "metal",
+        "verde-claro"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

@@ -1,0 +1,226 @@
+{
+  "item": "caminhao",
+  "numero": 3,
+  "categoria": "veiculos",
+  "nome": "Caminhão",
+  "svg": "03-caminhao.svg",
+  "png": "03-caminhao.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "caminhao-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#33479C",
+          "#353D4E"
+        ],
+        "base": [
+          "#4A5468",
+          "#4A62C8"
+        ],
+        "marca": [
+          "#33479C"
+        ],
+        "brilho": [
+          "#8296E4"
+        ]
+      },
+      "familias": [
+        "azul",
+        "grafite"
+      ]
+    },
+    "caminhao-cabine": {
+      "parte": "cabine",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#353D4E",
+          "#C93830"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "vermelho-vivo"
+      ]
+    },
+    "caminhao-janela": {
+      "parte": "janela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#9FD0E4"
+        ],
+        "base": [
+          "#C8E8F4"
+        ],
+        "brilho": [
+          "#EEF9FD"
+        ]
+      },
+      "familias": [
+        "vidro"
+      ]
+    },
+    "caminhao-farol": {
+      "parte": "farol",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#EDB417"
+        ],
+        "base": [
+          "#FFD43B"
+        ]
+      },
+      "familias": [
+        "amarelo-limao"
+      ]
+    },
+    "caminhao-roda-1": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        282.0,
+        704.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "caminhao-roda-2": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        430.0,
+        704.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    },
+    "caminhao-roda-3": {
+      "parte": "roda",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        760.0,
+        704.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#353D4E",
+          "#8293B8"
+        ],
+        "base": [
+          "#4A5468",
+          "#AEBEDB"
+        ],
+        "marca": [
+          "#8293B8"
+        ],
+        "brilho": [
+          "#717D95"
+        ]
+      },
+      "familias": [
+        "grafite",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

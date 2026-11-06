@@ -1,0 +1,37 @@
+{
+  "item": "maio",
+  "numero": 11,
+  "categoria": "roupas",
+  "nome": "Maiô",
+  "svg": "11-maio.svg",
+  "png": "11-maio.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "maio-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C92E28"
+        ],
+        "base": [
+          "#F0423A"
+        ],
+        "brilho": [
+          "#FF8078"
+        ]
+      },
+      "familias": [
+        "vermelho-claro"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

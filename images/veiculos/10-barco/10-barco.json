@@ -1,0 +1,97 @@
+{
+  "item": "barco",
+  "numero": 10,
+  "categoria": "veiculos",
+  "nome": "Barco",
+  "svg": "10-barco.svg",
+  "png": "10-barco.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "barco-mastro": {
+      "parte": "mastro",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#EA4A3F"
+        ]
+      },
+      "familias": [
+        "madeira",
+        "vermelho-vivo"
+      ]
+    },
+    "barco-vela": {
+      "parte": "vela",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6",
+          "#EBA622"
+        ],
+        "base": [
+          "#F4F6FA",
+          "#FFC93C"
+        ],
+        "brilho": [
+          "#FFDE73",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "amarelo",
+        "branco"
+      ]
+    },
+    "barco-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#C93830"
+        ],
+        "base": [
+          "#EA4A3F"
+        ],
+        "marca": [
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#F7867C"
+        ]
+      },
+      "familias": [
+        "branco",
+        "vermelho-vivo"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

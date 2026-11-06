@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="chapeu-titulo">
+  <title id="chapeu-titulo">Chapéu</title>
+  <defs>
+    <path id="chapeu-aba-forma" d="M172 660 A340 84 0 1 0 852 660 A340 84 0 1 0 172 660 Z" />
+    <clipPath id="chapeu-aba-recorte">
+      <use href="#chapeu-aba-forma" />
+    </clipPath>
+    <path id="chapeu-corpo-forma-2" d="M352 636 L382 356 C388 306 440 284 512 284 C584 284 636 306 642 356 L672 636 C620 668 404 668 352 636 Z" />
+    <clipPath id="chapeu-corpo-recorte-2">
+      <use href="#chapeu-corpo-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="chapeu">
+    <g id="chapeu-aba">
+      <use href="#chapeu-aba-forma" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#chapeu-aba-recorte)">
+        <use href="#chapeu-aba-forma" transform="translate(-10 -16)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M222 650 C262 630 322 618 382 612" fill="none" stroke="#F0C68E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="chapeu-corpo">
+      <use href="#chapeu-corpo-forma-2" fill="#BE7F3E" class="sombra" />
+      <g clip-path="url(#chapeu-corpo-recorte-2)">
+        <use href="#chapeu-corpo-forma-2" transform="translate(-14 -22)" fill="#DDA15E" class="base" />
+      </g>
+      <path d="M362 540 L662 540 L670 604 C620 634 404 634 354 604 Z" fill="#EA4A3F" class="marca" />
+      <path d="M470 300 C490 330 534 330 554 300" fill="none" stroke="#BE7F3E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M410 380 L396 510" fill="none" stroke="#F0C68E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

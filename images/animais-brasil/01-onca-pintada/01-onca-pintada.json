@@ -1,0 +1,261 @@
+{
+  "item": "onca-pintada",
+  "numero": 1,
+  "categoria": "animais-brasil",
+  "nome": "Onça-pintada",
+  "svg": "01-onca-pintada.svg",
+  "png": "01-onca-pintada.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "onca-pintada-pata-2": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        592.0,
+        526.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#F08F18"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "onca-pintada-pata-4": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        352.0,
+        516.0
+      ],
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#F08F18"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "onca-pintada-rabo": {
+      "parte": "rabo",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        246.0,
+        436.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#5C311B"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "manga"
+      ]
+    },
+    "onca-pintada-pata-1": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        640.0,
+        526.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#5C311B"
+        ],
+        "brilho": [
+          "#FFD983"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "manga"
+      ]
+    },
+    "onca-pintada-pata-3": {
+      "parte": "pata",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        306.0,
+        506.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#5C311B"
+        ],
+        "brilho": [
+          "#FFD983"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "manga"
+      ]
+    },
+    "onca-pintada-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#5C311B",
+          "#F08F18"
+        ],
+        "brilho": [
+          "#FFD983"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "manga"
+      ]
+    },
+    "onca-pintada-cabeca": {
+      "parte": "cabeca",
+      "pai": null,
+      "move": true,
+      "pivo": [
+        680.0,
+        436.0
+      ],
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#353D4E",
+          "#5C311B",
+          "#7A4426",
+          "#FBF8F0"
+        ],
+        "brilho": [
+          "#FFD983",
+          "#FFFFFF"
+        ]
+      },
+      "familias": [
+        "branco",
+        "cafe",
+        "creme",
+        "grafite",
+        "manga"
+      ]
+    },
+    "onca-pintada-cabeca-orelha-2": {
+      "parte": "orelha",
+      "pai": "onca-pintada-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "base"
+      ],
+      "cores": {
+        "base": [
+          "#F08F18"
+        ]
+      },
+      "familias": [
+        "manga"
+      ]
+    },
+    "onca-pintada-cabeca-orelha-1": {
+      "parte": "orelha",
+      "pai": "onca-pintada-cabeca",
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca"
+      ],
+      "cores": {
+        "sombra": [
+          "#F08F18"
+        ],
+        "base": [
+          "#FFB632"
+        ],
+        "marca": [
+          "#5C311B"
+        ]
+      },
+      "familias": [
+        "cafe",
+        "manga"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

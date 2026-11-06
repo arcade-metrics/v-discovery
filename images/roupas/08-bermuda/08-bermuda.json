@@ -1,0 +1,43 @@
+{
+  "item": "bermuda",
+  "numero": 8,
+  "categoria": "roupas",
+  "nome": "Bermuda",
+  "svg": "08-bermuda.svg",
+  "png": "08-bermuda.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "bermuda-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#BE7F3E"
+        ],
+        "base": [
+          "#DDA15E"
+        ],
+        "marca": [
+          "#AEBEDB",
+          "#BE7F3E"
+        ],
+        "brilho": [
+          "#F0C68E"
+        ]
+      },
+      "familias": [
+        "madeira",
+        "metal"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

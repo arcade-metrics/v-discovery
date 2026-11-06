@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="borracha-titulo">
+  <title id="borracha-titulo">Borracha</title>
+  <defs>
+    <path id="borracha-corpo-forma" d="M215 535 Q196 478 253 459 L472 388 L552 636 L314 713 Q276 725 264 687 Z" />
+    <clipPath id="borracha-corpo-recorte">
+      <use href="#borracha-corpo-forma" />
+    </clipPath>
+    <path id="borracha-corpo-forma-2" d="M472 388 L719 308 Q748 299 757 327 L819 517 Q828 546 799 555 L552 636 Z" />
+    <clipPath id="borracha-corpo-recorte-2">
+      <use href="#borracha-corpo-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="borracha">
+    <g id="borracha-corpo">
+      <use href="#borracha-corpo-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#borracha-corpo-recorte)">
+        <use href="#borracha-corpo-forma" transform="translate(-14 -22)" fill="#EA4A3F" class="base" />
+      </g>
+      <use href="#borracha-corpo-forma-2" fill="#33479C" class="sombra" />
+      <g clip-path="url(#borracha-corpo-recorte-2)">
+        <use href="#borracha-corpo-forma-2" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M259 497 L453 434" fill="none" stroke="#F7867C" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <path d="M518 413 L719 348" fill="none" stroke="#8296E4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

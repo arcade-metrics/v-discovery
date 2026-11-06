@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="sunga-titulo">
+  <title id="sunga-titulo">Sunga</title>
+  <defs>
+    <path id="sunga-corpo-forma" d="M512 330 L724 330 Q744 330 742 350 L738 406 Q736 430 723 450 L590 665 Q574 690 544 695 L512 700 L480 695 Q450 690 434 665 L301 450 Q288 430 286 406 L282 350 Q280 330 300 330 Z" />
+    <clipPath id="sunga-corpo-recorte">
+      <use href="#sunga-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="sunga">
+    <g id="sunga-corpo">
+      <use href="#sunga-corpo-forma" fill="#33479C" class="sombra" />
+      <g clip-path="url(#sunga-corpo-recorte)">
+        <use href="#sunga-corpo-forma" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M290 382 L734 382" fill="none" stroke="#33479C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M332 432 L448 626" fill="none" stroke="#8296E4" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="navio-titulo">
+  <title id="navio-titulo">Navio</title>
+  <defs>
+    <path id="navio-chamine-forma" d="M399 200 Q400 190 410 190 L460 190 Q470 190 471 200 L478 324 L392 324 Z M509 200 Q510 190 520 190 L570 190 Q580 190 581 200 L588 324 L502 324 Z" />
+    <clipPath id="navio-chamine-recorte">
+      <use href="#navio-chamine-forma" />
+    </clipPath>
+    <path id="navio-cabine-forma-2" d="M260 426 Q260 410 276 410 L684 410 Q700 410 700 426 L700 566 L260 566 Z M330 336 Q330 320 346 320 L604 320 Q620 320 620 336 L620 414 L330 414 Z" />
+    <clipPath id="navio-cabine-recorte-2">
+      <use href="#navio-cabine-forma-2" />
+    </clipPath>
+    <path id="navio-corpo-forma-3" d="M150 560 L874 560 C866 600 842 650 806 690 C786 712 760 724 728 724 L222 724 C194 724 174 710 166 684 Z" />
+    <clipPath id="navio-corpo-recorte-3">
+      <use href="#navio-corpo-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="navio" transform="translate(0 55)">
+    <g id="navio-chamine">
+      <use href="#navio-chamine-forma" fill="#C93830" class="sombra" />
+      <g clip-path="url(#navio-chamine-recorte)">
+        <use href="#navio-chamine-forma" transform="translate(-6 -9)" fill="#EA4A3F" class="base" />
+      </g>
+      <path d="M406 214 L464 214 M516 214 L574 214" fill="none" stroke="#4A5468" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M414 250 L414 310 M524 250 L524 310" fill="none" stroke="#F7867C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="navio-cabine">
+      <use href="#navio-cabine-forma-2" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#navio-cabine-recorte-2)">
+        <use href="#navio-cabine-forma-2" transform="translate(-10 -16)" fill="#F4F6FA" class="base" />
+      </g>
+      <rect x="296" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="356" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="416" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="476" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="536" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="596" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="656" y="450" width="36" height="36" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="366" y="350" width="36" height="34" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="426" y="350" width="36" height="34" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="486" y="350" width="36" height="34" rx="8" fill="#C8E8F4" class="marca" />
+      <rect x="546" y="350" width="36" height="34" rx="8" fill="#C8E8F4" class="marca" />
+      <path d="M280 430 L280 540" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="navio-corpo">
+      <use href="#navio-corpo-forma-3" fill="#33479C" class="sombra" />
+      <g clip-path="url(#navio-corpo-recorte-3)">
+        <use href="#navio-corpo-forma-3" transform="translate(-14 -22)" fill="#4A62C8" class="base" />
+      </g>
+      <path d="M166 684 L812 684 C792 708 762 724 728 724 L222 724 C194 724 174 710 166 684 Z" fill="#EA4A3F" class="marca" />
+      <circle cx="240" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="304" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="368" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="432" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="496" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="560" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="624" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="688" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="752" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <circle cx="816" cy="614" r="13" fill="#F4F6FA" class="marca" />
+      <path d="M190 582 L420 582" fill="none" stroke="#8296E4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

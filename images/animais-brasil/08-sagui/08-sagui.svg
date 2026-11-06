@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="sagui-titulo">
+  <title id="sagui-titulo">Sagui</title>
+  <desc>Bioma: Mata Atlântica</desc>
+  <defs>
+    <path id="sagui-haste-forma" d="M280 665 Q280 646 299 646 L741 646 Q760 646 760 665 L760 665 Q760 684 741 684 L299 684 Q280 684 280 665 Z" />
+    <clipPath id="sagui-haste-recorte">
+      <use href="#sagui-haste-forma" />
+    </clipPath>
+    <path id="sagui-pata-3-forma-2" d="M409 572 L439 572 L451 636 Q453 646 443 646 L437 646 Q427 646 425 636 Z" />
+    <clipPath id="sagui-pata-3-recorte-2">
+      <use href="#sagui-pata-3-forma-2" />
+    </clipPath>
+    <path id="sagui-pata-1-forma-3" d="M614 566 L638 566 L665 637 Q669 646 659 646 L653 646 Q643 646 640 637 Z" />
+    <clipPath id="sagui-pata-1-recorte-3">
+      <use href="#sagui-pata-1-forma-3" />
+    </clipPath>
+    <path id="sagui-corpo-forma-4" d="M372 556 C378 516 432 494 504 492 C570 490 610 484 640 462 C668 442 700 456 702 492 C704 548 666 590 600 598 L440 602 C396 600 366 586 372 556 Z" />
+    <clipPath id="sagui-corpo-recorte-4">
+      <use href="#sagui-corpo-forma-4" />
+    </clipPath>
+    <path id="sagui-cabeca-orelha-1-forma-5" d="M672 438 C636 436 610 412 604 380 C616 372 626 382 632 370 C646 364 654 380 664 372 C680 384 688 412 672 438 Z" />
+    <clipPath id="sagui-cabeca-orelha-1-recorte-5">
+      <use href="#sagui-cabeca-orelha-1-forma-5" />
+    </clipPath>
+    <path id="sagui-cabeca-forma-6" d="M620 446 C620 396 656 362 702 362 C748 362 782 396 784 440 C796 450 804 466 800 482 C794 504 772 516 744 518 L690 518 C650 512 620 486 620 446 Z" />
+    <clipPath id="sagui-cabeca-recorte-6">
+      <use href="#sagui-cabeca-forma-6" />
+    </clipPath>
+  </defs>
+  <g id="sagui" transform="translate(0 -75)">
+    <g id="sagui-rabo" data-pivo="372,485">
+      <path d="M372 560 C304 604 300 700 322 780 C338 846 302 884 258 872" transform="translate(5 8)" fill="none" stroke="#8293B8" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M372 560 C304 604 300 700 322 780 C338 846 302 884 258 872" fill="none" stroke="#AEBEDB" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="base" />
+      <path d="M372 560 C304 604 300 700 322 780 C338 846 302 884 258 872" fill="none" stroke="#4A5468" stroke-width="40" stroke-dasharray="22 30" class="marca" />
+    </g>
+    <g id="sagui-pata-2" data-pivo="588,495">
+      <path d="M578 570 L598 570 L623 642 Q626 650 617 650 L611 650 Q602 650 599 641 Z" fill="#353D4E" class="base" />
+    </g>
+    <g id="sagui-pata-4" data-pivo="466,505">
+      <path d="M455 580 L477 580 L494 641 Q496 650 487 650 L481 650 Q472 650 470 641 Z" fill="#353D4E" class="base" />
+    </g>
+    <g id="sagui-haste">
+      <use href="#sagui-haste-forma" fill="#5C311B" class="sombra" />
+      <g clip-path="url(#sagui-haste-recorte)">
+        <use href="#sagui-haste-forma" transform="translate(-6 -9)" fill="#7A4426" class="base" />
+      </g>
+      <path d="M370 663.0 L430 667.0 M600 665.0 L650 662.0" fill="none" stroke="#5C311B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M310 656 L720 656" fill="none" stroke="#A0643F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="sagui-pata-3" data-pivo="424,497">
+      <use href="#sagui-pata-3-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#sagui-pata-3-recorte-2)">
+        <use href="#sagui-pata-3-forma-2" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <ellipse cx="444" cy="648" rx="22" ry="11" fill="#4A5468" class="marca" />
+    </g>
+    <g id="sagui-pata-1" data-pivo="626,491">
+      <use href="#sagui-pata-1-forma-3" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#sagui-pata-1-recorte-3)">
+        <use href="#sagui-pata-1-forma-3" transform="translate(-4 -6)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M640 640 C650 628 672 628 680 642 C684 652 678 662 668 664 C662 652 652 646 640 650 Z" fill="#4A5468" class="marca" />
+    </g>
+    <g id="sagui-corpo">
+      <use href="#sagui-corpo-forma-4" fill="#6B4423" class="sombra" />
+      <g clip-path="url(#sagui-corpo-recorte-4)">
+        <use href="#sagui-corpo-forma-4" transform="translate(-10 -16)" fill="#8A5A33" class="base" />
+      </g>
+      <path d="M404 516 L412 546 M436 506 L442 538 M468 500 L472 532 M500 498 L502 528" fill="none" stroke="#A0643F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M392 540 C404 516 432 504 466 502" fill="none" stroke="#A0643F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="sagui-cabeca" data-pivo="660,425">
+      <use href="#sagui-cabeca-forma-6" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#sagui-cabeca-recorte-6)">
+        <use href="#sagui-cabeca-forma-6" transform="translate(-14 -22)" fill="#4A5468" class="base" />
+      </g>
+      <path d="M726 408 C756 402 790 422 796 456 C798 488 776 506 750 508 C726 508 714 490 714 464 C714 438 716 418 726 408 Z" fill="#E9E2D2" class="marca" />
+      <ellipse cx="726" cy="390" rx="18" ry="11" transform="rotate(-10 726 390)" fill="#F4F6FA" class="marca" />
+      <circle cx="736" cy="438" r="13" fill="#353D4E" class="marca" />
+      <circle cx="731.45" cy="433.45" r="3.9" fill="#FFFFFF" class="brilho" />
+      <path d="M644 430 C652 404 670 388 692 382" fill="none" stroke="#717D95" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+      <g id="sagui-cabeca-orelha-1">
+      <use href="#sagui-cabeca-orelha-1-forma-5" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#sagui-cabeca-orelha-1-recorte-5)">
+        <use href="#sagui-cabeca-orelha-1-forma-5" transform="translate(-4 -6)" fill="#F4F6FA" class="base" />
+      </g>
+      </g>
+    </g>
+  </g>
+</svg>

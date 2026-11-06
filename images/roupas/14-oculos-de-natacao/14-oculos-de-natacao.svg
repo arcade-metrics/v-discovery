@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="oculos-de-natacao-titulo">
+  <title id="oculos-de-natacao-titulo">Óculos de natação</title>
+  <defs>
+    <path id="oculos-de-natacao-corpo-forma" d="M266 520 A122 96 0 1 0 510 520 A122 96 0 1 0 266 520 Z M514 520 A122 96 0 1 0 758 520 A122 96 0 1 0 514 520 Z M490 500 L490 540 L534 540 L534 500 Z" />
+    <clipPath id="oculos-de-natacao-corpo-recorte">
+      <use href="#oculos-de-natacao-corpo-forma" />
+    </clipPath>
+    <path id="oculos-de-natacao-visor-1-forma-2" d="M300 520 A88 64 0 1 0 476 520 A88 64 0 1 0 300 520 Z" />
+    <clipPath id="oculos-de-natacao-visor-1-recorte-2">
+      <use href="#oculos-de-natacao-visor-1-forma-2" />
+    </clipPath>
+    <path id="oculos-de-natacao-visor-2-forma-3" d="M548 520 A88 64 0 1 0 724 520 A88 64 0 1 0 548 520 Z" />
+    <clipPath id="oculos-de-natacao-visor-2-recorte-3">
+      <use href="#oculos-de-natacao-visor-2-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="oculos-de-natacao">
+    <g id="oculos-de-natacao-tira">
+      <path d="M150 530 C200 506 250 502 300 512 M724 512 C774 502 824 506 874 530" transform="translate(5 7)" fill="none" stroke="#353D4E" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="sombra" />
+      <path d="M150 530 C200 506 250 502 300 512 M724 512 C774 502 824 506 874 530" fill="none" stroke="#4A5468" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" class="base" />
+    </g>
+    <g id="oculos-de-natacao-corpo">
+      <use href="#oculos-de-natacao-corpo-forma" fill="#1EA396" class="sombra" />
+      <g clip-path="url(#oculos-de-natacao-corpo-recorte)">
+        <use href="#oculos-de-natacao-corpo-forma" transform="translate(-10 -16)" fill="#2EC4B6" class="base" />
+      </g>
+    </g>
+    <g id="oculos-de-natacao-visor-1">
+      <use href="#oculos-de-natacao-visor-1-forma-2" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#oculos-de-natacao-visor-1-recorte-2)">
+        <use href="#oculos-de-natacao-visor-1-forma-2" transform="translate(-8 -12)" fill="#C8E8F4" class="base" />
+      </g>
+      <ellipse cx="348" cy="496" rx="14" ry="24" transform="rotate(30 348 496)" fill="#EEF9FD" class="brilho" />
+    </g>
+    <g id="oculos-de-natacao-visor-2">
+      <use href="#oculos-de-natacao-visor-2-forma-3" fill="#9FD0E4" class="sombra" />
+      <g clip-path="url(#oculos-de-natacao-visor-2-recorte-3)">
+        <use href="#oculos-de-natacao-visor-2-forma-3" transform="translate(-8 -12)" fill="#C8E8F4" class="base" />
+      </g>
+      <ellipse cx="596" cy="496" rx="14" ry="24" transform="rotate(30 596 496)" fill="#EEF9FD" class="brilho" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="galocha-titulo">
+  <title id="galocha-titulo">Galocha</title>
+  <defs>
+    <path id="galocha-corpo-forma" d="M330 140 L600 140 C616 140 624 148 624 164 L626 540 C680 560 760 580 806 610 C846 636 862 680 862 720 L862 756 L320 756 L320 152 C320 146 324 140 330 140 Z" />
+    <clipPath id="galocha-corpo-recorte">
+      <use href="#galocha-corpo-forma" />
+    </clipPath>
+    <path id="galocha-sola-forma-2" d="M314 740 L870 740 C878 740 884 746 884 756 L884 786 C884 812 866 826 840 826 L340 826 C318 826 302 810 302 788 L302 748 C302 744 306 740 314 740 Z" />
+    <clipPath id="galocha-sola-recorte-2">
+      <use href="#galocha-sola-forma-2" />
+    </clipPath>
+  </defs>
+  <g id="galocha">
+    <g id="galocha-corpo">
+      <use href="#galocha-corpo-forma" fill="#EBA622" class="sombra" />
+      <g clip-path="url(#galocha-corpo-recorte)">
+        <use href="#galocha-corpo-forma" transform="translate(-14 -22)" fill="#FFC93C" class="base" />
+      </g>
+      <path d="M326 204 L620 204" fill="none" stroke="#EBA622" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+      <path d="M358 250 L358 700" fill="none" stroke="#FFDE73" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="galocha-sola">
+      <use href="#galocha-sola-forma-2" fill="#353D4E" class="sombra" />
+      <g clip-path="url(#galocha-sola-recorte-2)">
+        <use href="#galocha-sola-forma-2" transform="translate(-8 -12)" fill="#4A5468" class="base" />
+      </g>
+    </g>
+  </g>
+</svg>

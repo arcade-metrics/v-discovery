@@ -1,0 +1,64 @@
+{
+  "item": "tenis-de-basquete",
+  "numero": 4,
+  "categoria": "esportes-basquete",
+  "nome": "Tênis de basquete",
+  "svg": "04-tenis-de-basquete.svg",
+  "png": "04-tenis-de-basquete.png",
+  "viewBox": "0 0 1024 1024",
+  "partes": {
+    "tenis-de-basquete-corpo": {
+      "parte": "corpo",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base",
+        "marca",
+        "brilho"
+      ],
+      "cores": {
+        "sombra": [
+          "#6C3A9E"
+        ],
+        "base": [
+          "#9056C2"
+        ],
+        "marca": [
+          "#6C3A9E",
+          "#F4F6FA"
+        ],
+        "brilho": [
+          "#B98BE2"
+        ]
+      },
+      "familias": [
+        "branco",
+        "roxo"
+      ]
+    },
+    "tenis-de-basquete-sola": {
+      "parte": "sola",
+      "pai": null,
+      "move": false,
+      "pivo": null,
+      "tons": [
+        "sombra",
+        "base"
+      ],
+      "cores": {
+        "sombra": [
+          "#D3DAE6"
+        ],
+        "base": [
+          "#F4F6FA"
+        ]
+      },
+      "familias": [
+        "branco"
+      ]
+    }
+  },
+  "gerado_por": "_ferramentas/validar.py a partir do SVG; não edite à mão"
+}

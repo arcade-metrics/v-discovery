@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="maio-titulo">
+  <title id="maio-titulo">Maiô</title>
+  <defs>
+    <path id="maio-corpo-forma" d="M492 263 Q512 320 532 263 L561 179 Q564 170 574 170 L592 170 Q602 170 603 180 L624 321 Q632 380 635 440 L645 620 Q646 640 637 658 L568 786 Q560 800 544 803 L512 808 L480 803 Q464 800 456 786 L387 658 Q378 640 379 620 L389 440 Q392 380 400 321 L421 180 Q422 170 432 170 L450 170 Q460 170 463 179 Z" />
+    <clipPath id="maio-corpo-recorte">
+      <use href="#maio-corpo-forma" />
+    </clipPath>
+  </defs>
+  <g id="maio">
+    <g id="maio-corpo">
+      <use href="#maio-corpo-forma" fill="#C92E28" class="sombra" />
+      <g clip-path="url(#maio-corpo-recorte)">
+        <use href="#maio-corpo-forma" transform="translate(-14 -22)" fill="#F0423A" class="base" />
+      </g>
+      <path d="M414 420 L404 600" fill="none" stroke="#FF8078" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+  </g>
+</svg>

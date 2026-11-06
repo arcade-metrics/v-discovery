@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="gorro-titulo">
+  <title id="gorro-titulo">Gorro</title>
+  <defs>
+    <path id="gorro-corpo-forma" d="M290 620 C290 380 390 262 512 262 C634 262 734 380 734 620 Z" />
+    <clipPath id="gorro-corpo-recorte">
+      <use href="#gorro-corpo-forma" />
+    </clipPath>
+    <path id="gorro-punho-forma-2" d="M272 614 Q272 590 296 590 L728 590 Q752 590 752 614 L752 716 Q752 740 728 740 L296 740 Q272 740 272 716 Z" />
+    <clipPath id="gorro-punho-recorte-2">
+      <use href="#gorro-punho-forma-2" />
+    </clipPath>
+    <path id="gorro-pompom-forma-3" d="M438 232 A74 74 0 1 0 586 232 A74 74 0 1 0 438 232 Z" />
+    <clipPath id="gorro-pompom-recorte-3">
+      <use href="#gorro-pompom-forma-3" />
+    </clipPath>
+  </defs>
+  <g id="gorro">
+    <g id="gorro-corpo">
+      <use href="#gorro-corpo-forma" fill="#6C3A9E" class="sombra" />
+      <g clip-path="url(#gorro-corpo-recorte)">
+        <use href="#gorro-corpo-forma" transform="translate(-14 -22)" fill="#9056C2" class="base" />
+      </g>
+      <path d="M352 470 C372 384 412 334 452 314" fill="none" stroke="#B98BE2" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" class="brilho" />
+    </g>
+    <g id="gorro-punho">
+      <use href="#gorro-punho-forma-2" fill="#6C3A9E" class="sombra" />
+      <g clip-path="url(#gorro-punho-recorte-2)">
+        <use href="#gorro-punho-forma-2" transform="translate(-10 -16)" fill="#9056C2" class="base" />
+      </g>
+      <path d="M336 616 L336 716 M400 616 L400 716 M464 616 L464 716 M528 616 L528 716 M592 616 L592 716 M656 616 L656 716" fill="none" stroke="#6C3A9E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" class="marca" />
+    </g>
+    <g id="gorro-pompom">
+      <use href="#gorro-pompom-forma-3" fill="#D3DAE6" class="sombra" />
+      <g clip-path="url(#gorro-pompom-recorte-3)">
+        <use href="#gorro-pompom-forma-3" transform="translate(-10 -16)" fill="#F4F6FA" class="base" />
+      </g>
+      <ellipse cx="486" cy="206" rx="14" ry="22" transform="rotate(30 486 206)" fill="#FFFFFF" class="brilho" />
+    </g>
+  </g>
+</svg>
