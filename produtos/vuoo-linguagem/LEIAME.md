@@ -1,5 +1,7 @@
 # VUOO · Linguagem de produto dos microjogos
 
+> **Estudo anterior, enquadrado no projeto de pesquisa.** Em 2026-11-05 ficou decidido que o produto VUOO é independente do projeto com o CIATec e começa do zero. Este estudo continua como **precedente**: as decisões D-01 a D-23, os insumos e as pendências daqui só valem para o produto quando forem decididos de novo em [`../vuoo-microjogos/`](../vuoo-microjogos/LEIAME.md). Referências a PP, fases, CIATec, base de pesquisa e CEP descrevem o projeto, não o produto.
+
 Estudo de linguagem visual, verbal, sonora e de jogo para os microjogos do VUOO (PIPE-TC Fase 2, Wemoga), em cooperação com o CIATec (CCD/FAPESP, EACH/USP). Feito em 27/10/2026, com decisões delegadas pelo dono do produto, pesquisa em 4 frentes e 3 rodadas de revisão independente.
 
 ## Por onde começar

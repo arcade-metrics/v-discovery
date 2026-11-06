@@ -8,6 +8,8 @@ atualizado_em: 2026-10-27
 
 # 05 · Registro de decisões
 
+> **Precedente (2026-11-05).** Decisões tomadas no enquadramento do projeto de pesquisa. O produto VUOO é independente dele; estas decisões valem para o produto só quando forem adotadas em `../vuoo-microjogos/`. Ver [LEIAME](LEIAME.md).
+
 O dono do produto delegou as decisões. Cada uma está registrada como discussão: pergunta, opções, argumentos, decisão e custo de voltar atrás. **Reversibilidade:** *barata* = token ou texto; *média* = componentes ou telas; *cara* = identidade ou arquitetura. Decisões revistas depois das rodadas de revisão estão marcadas **[revista]**, com o achado que motivou a mudança (ver `revisao/discussao-rodadas-1-2.md`).
 
 **Natureza das decisões:** este estudo é insumo do co-design (OE6) e das consultorias do PIPE. Decisões de identidade (D-02, D-03, D-09, D-11) são **propostas para o 1º ciclo de co-design**, com critério de aceite. Decisões de segurança (D-05, D-06, D-07, D-12, D-17, D-19, D-20) são **invariantes**: o co-design pode mudar a forma, mas não o que elas protegem.

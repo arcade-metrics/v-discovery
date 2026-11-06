@@ -1,12 +1,12 @@
 # Discovery: base curada do VUOO
 
-Repositório de descoberta do produto VUOO (Wemoga + CIATec/CCD, EACH/USP). Reúne as fontes do projeto, uma base de conhecimento técnica agnóstica, benchmarks de produtos existentes e as decisões de produto, em camadas que só se referenciam de cima para baixo.
+Repositório de descoberta do produto VUOO, da Wemoga. **O produto é independente do projeto de pesquisa com o CIATec/CCD** (EACH/USP): as propostas em `projeto/` são só contexto e inspiração, nunca fonte de requisito. Reúne essas fontes de contexto, uma base de conhecimento técnica agnóstica, benchmarks de produtos existentes e as decisões de produto, em camadas que só se referenciam de cima para baixo.
 
 ```
-projeto/        propostas (PIPE-TC, CCD) e insumos IN-nn extraídos delas      → projeto/README.md
+projeto/        propostas (PIPE-TC, CCD) e insumos IN-nn; só contexto          → projeto/README.md
 conhecimento/   11 domínios técnicos, ids estáveis, sem menção a produto       → conhecimento/README.md
 benchmarks/     teardowns de produtos existentes (hoje: Duolingo)              → benchmarks/README.md
-produtos/       vuoo/ (plataforma, regras, padrões) e vuoo-linguagem/ (estudo) → produtos/vuoo/LEIAME.md
+produtos/       vuoo-microjogos/ (produto), vuoo-conversa-curricular/ e vuoo-linguagem/ (estudo) → produtos/vuoo-microjogos/LEIAME.md
 .claude/skills/ skills de produto que geram os specs em produtos/              → abaixo
 ```
 
