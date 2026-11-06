@@ -188,7 +188,3 @@ Complementa `iop.md.lrmi-schema-org` (fornece os identificadores que vão em `te
 | credengine2026ctdl | fornecedor | 2026-10-29 |
 | w3c2009skos | normativo | 2026-10-29 |
 | krathwohl2002revision | academico | 2026-10-29 |
-
-## Histórico
-
-Fusão, em 29/10/2026, de `iop.comp.case` (interoperabilidade, versão de 77 linhas) com `kg.voc.case` (grafo de conhecimento educacional, 155 linhas). Nenhum parágrafo foi descartado; as lacunas de um documento resolvidas pelo outro (existência de CASE 1.1; leitura do Information Model 1.0) foram retiradas da lista. `kg.voc.case` permanece como redirecionamento. As chaves `imsglobal2017case` e `ims2017case10` apontam para documentos distintos do conjunto 1.0 (serviço e Information Model).

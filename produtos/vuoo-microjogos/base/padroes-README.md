@@ -1,6 +1,6 @@
 # VUOO International Education Standards Research
 
-**Pasta:** `base/` de `produtos/vuoo-microjogos/` (movida de `PRD/padroes/` em 2026-11-05)
+**Pasta:** `base/` de `produtos/vuoo-microjogos/`
 
 **Estrutura:** convenções de entrega em [_convencoes.md](_convencoes.md);
 o que já existia no repositório em

@@ -3,7 +3,7 @@ produto: VUOO
 slug: vuoo-microjogos
 etapa: 03-mvp
 status: aprovado
-atualizado_em: 2026-11-05
+atualizado_em: 2026-11-06
 ---
 
 # MVP: VUOO Microjogos
@@ -105,6 +105,6 @@ O foco é fazer o login funcionar. Mas estas bases entram já, porque mudá-las 
 |---|---|---|
 | M-01 | Formato do manifesto de atividade. | Em paralelo. Partir da anatomia em 9 fases e da ficha-modelo de `base/precedente-linguagem/04-microjogos.md`, adaptadas (sem bloco de medida do projeto). |
 | M-02 | Curadoria e catálogo (700 a 2.000 atividades). | Em paralelo. Ponto de partida: Sinal Aberto (go/no-go), Luzes em Ordem (Corsi), Mudou a Regra (DCCS), Trilho (Torre de Londres). |
-| M-03 | Grafo de conhecimento (atividade, função executiva, BNCC). | No MVP, tabelas relacionais. O modelo deve permitir gerar o grafo depois. A BNCC vem do vuoo-base (versão relacional), com os mesmos identificadores do VUOO Elo. |
-| M-04 | Camada agnóstica e camada Brasil completas. | Copiadas para `base/camada-agnostica/` e `base/camada-brasil/`. |
+| M-03 | Grafo de conhecimento (atividade, função executiva, BNCC). | No MVP, tabelas relacionais. O modelo deve permitir gerar o grafo depois. A BNCC vem do vuoo-base v1.1 (versão relacional, com a BNCC Computação), com os mesmos identificadores do VUOO Elo (`bncc-2018/<CODIGO>`, `bncc-computacao-2022/<CODIGO>`). |
+| M-04 | Camada agnóstica e camada Brasil completas. | Em `base/camada-agnostica/` e `base/camada-brasil/`. |
 | M-05 | LGPD na rotina de acesso. | Mínimo definido na seção 7. |

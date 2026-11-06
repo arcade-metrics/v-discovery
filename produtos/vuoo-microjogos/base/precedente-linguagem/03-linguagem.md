@@ -1,6 +1,6 @@
 ---
 produto: VUOO — Linguagem de produto dos microjogos
-slug: vuoo-linguagem
+slug: vuoo-microjogos
 etapa: 03-linguagem
 status: em revisão
 atualizado_em: 2026-10-27

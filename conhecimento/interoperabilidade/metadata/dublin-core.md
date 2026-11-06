@@ -144,7 +144,3 @@ Alternativa parcial a `iop.md.ieee-lom` (genérico versus educacional; na práti
 | w3c2009skos | normativo | 2026-10-29 |
 | schemaorg2026learningresource | fornecedor | 2026-10-29 |
 | ieee2020lom | normativo | 2026-10-29 |
-
-## Histórico
-
-Fusão, em 29/10/2026, de `iop.md.dublin-core` (interoperabilidade, 89 linhas) com `kg.voc.dublin-core` (grafo de conhecimento educacional, 112 linhas). Nenhum parágrafo foi descartado; os dois exemplos foram mantidos porque usam serializações diferentes. A descrição detalhada do LRMI (LRMI Terms, concept schemes, LRMI 1.1), que estava no documento do grafo, foi levada para `iop.md.lrmi-schema-org`, dono do assunto. `kg.voc.dublin-core` permanece como redirecionamento.

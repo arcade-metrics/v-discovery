@@ -9,7 +9,7 @@
 3. Os códigos INEP de turma e matrícula **só existem depois da exportação** e mudam todo ano. As chaves estáveis precisam ser nossas.
 4. O leiaute do Censo **muda de estrutura todo ano**, então o adaptador precisa de um serializador por ano de censo.
 5. A situação do aluno tem **8 códigos anuais** no Censo e **17 códigos por evento** no CMDEB.
-6. **Código curricular não é identidade.** A BNCC de 2017 tem códigos impressos duas vezes, os textos de 2017 e 2018 diferem com o mesmo código, e o Currículo Paulista reaproveita e desdobra códigos.
+6. **Código curricular não é identidade.** A forma impressa pode diferir do código (`EF05CO011`, impresso com três dígitos na BNCC Computação) e o Currículo Paulista reaproveita e desdobra códigos. A BNCC vem do vuoo-base v1.1, com id próprio por item (`bncc-2018/<CODIGO>`, `bncc-computacao-2022/<CODIGO>`) e o código como atributo.
 7. **Três relógios no currículo** (vigência do ato, edição do texto, versão do dado) mais a **coorte**: a DCNEM 2024 faz o Ensino Médio de 2018 e o de 2024 conviverem.
 8. **Avaliação:** o valor na escala é um dado; os cortes (níveis do Saeb, SARESP, os 743 pontos do CNCA) são classificações versionadas por cima dele.
 9. **Inclusão:** necessidade de apoio, elegibilidade administrativa e diagnóstico ficam separados. A Portaria MEC 421/2026 fixa o conteúdo mínimo de PAEE e PEI e proíbe exigir laudo. A Res. SEDUC-SP 129/2025 traz formulários próprios e entra em conflito em alguns pontos.
@@ -17,12 +17,12 @@
 
 ## Índice
 
-### Transcrições de fonte (anteriores, movidas de `PRD/`)
+### Transcrições de fonte
+
+A BNCC (versão final) e a BNCC Computação não são transcritas aqui: a fonte única é o repositório **vuoo-base**, release v1.1 (https://github.com/arcade-metrics/v-base), em `dados/bncc-2018.json` e `dados/bncc-computacao-2022.json`.
 
 | Pasta | Conteúdo |
 |---|---|
-| [bncc/](bncc/README.md) | BNCC 2017 (EI e EF), quadros transcritos linha a linha. **Histórico:** a referência atual é a versão final no vuoo-base |
-| [bncc-computacao/](bncc-computacao/README.md) | Complemento de Computação, 141 objetivos e habilidades |
 | [cmdeb/](cmdeb/README.md) | CMDEB, Anexo da Portaria MEC 832/2025 |
 | [bncc-dados/](../fora-da-fase-1/brasil/bncc-dados/README.md) | Arquitetura de dado normativo verificado e playbook de replicação |
 | [bncc-pacotes/](../fora-da-fase-1/brasil/bncc-pacotes/README.md) | Distribuição para máquina (npm, PyPI, MCP) e aplicação ao VUOO |
@@ -51,7 +51,7 @@
 As decisões de 2026-11-05 estão em [../relatorio-infra-vuoo.md §7](../relatorio-infra-vuoo.md):
 
 - CPF preferencial, com vínculo ao responsável para quem não tem;
-- BNCC 2018 como texto canônico (fonte no repositório **vuoo-base** (`fontes/bncc/`, https://github.com/arcade-metrics/v-base): fonte oficial `BNCC_EI_EF_110518_versaofinal_site.pdf` (versão final, EI, EF e EM) e cópia de trabalho `BNCC_reparado.pdf`);
+- BNCC versão final como texto canônico: repositório **vuoo-base**, release v1.1 (https://github.com/arcade-metrics/v-base), `dados/bncc-2018.json` e `dados/bncc-computacao-2022.json`, extraídos da fonte oficial `fontes/bncc/BNCC_EI_EF_110518_versaofinal_site.pdf` (método em `ferramentas/METODO.md`);
 - laudo como campo, sem armazenar documento;
 - residência no Brasil inclusive para LLM;
 - granularidade mínima Brasil, com variações de SP como dado e campos opcionais.

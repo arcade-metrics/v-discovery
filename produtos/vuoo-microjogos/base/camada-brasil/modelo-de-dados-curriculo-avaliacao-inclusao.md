@@ -7,7 +7,7 @@
 | # | Princípio | Fato que o impõe |
 |---|---|---|
 | P1 | **Modelar a fonte como ela é**: estrutura por etapa e por documento, sem nível obrigatório | BNCC: EI, EF e EM organizados de formas diferentes ([bncc-dados/02](../fora-da-fase-1/brasil/bncc-dados/02-modelo-de-dados.md)); Computação com objeto em 2 níveis; IFAs sem código |
-| P2 | **Código não é identidade** | 2 códigos impressos duas vezes na BNCC 2017; mesmo código com texto 2017 ≠ 2018; Currículo Paulista reusa códigos BNCC e cria `EF01AR01` que não existe na BNCC |
+| P2 | **Código não é identidade** | a forma impressa pode diferir do código (`EF05CO011`, impresso com três dígitos na BNCC Computação; vuoo-base `ferramentas/METODO.md`); Currículo Paulista reusa códigos BNCC e cria `EF01AR01` que não existe na BNCC |
 | P3 | **Três relógios** para currículo: vigência do ato, edição do texto, versão do dado; e um quarto, a **coorte** do estudante | DCNEM 2024 arts. 39, 42 e 43: currículos de 2018 e 2024 coexistem por coorte |
 | P4 | **Resultado ≠ classificação**: o valor na escala é um dado; níveis são esquemas de corte versionados e múltiplos | Saeb (níveis 0..10), SARESP (4 níveis + 3 classes), CNCA (743, binário) sobre a mesma escala |
 | P5 | **Necessidade de apoio ≠ diagnóstico ≠ elegibilidade administrativa** | Port. MEC 421 art. 7 §4; Dec. 12.686 art. 11 §7; Lei 14.254 (apoio fora da educação especial); CMDEB exige categoria para coleta oficial |
@@ -21,7 +21,7 @@
 |---|---|---|---|
 | `DocumentoCurricular` | C.CFW | documento normativo ou referencial, com esfera | BNCC; BNCC Computação; Parâmetros dos IFAs (Res. CNE/CEB 4/2025, Anexo); Currículo Paulista EI/EF; Currículo Paulista EM |
 | `AtoNormativo` | C.PRV (+ C.CFW) | ato que institui, altera ou revoga | Res. CNE/CP 2/2017; Res. CNE/CP 4/2018; Res. CNE/CEB 1/2022; Deliberação CEE-SP 186/2020 (parcialmente revogada pela 236/2025) |
-| `EdicaoDoTexto` | C.CFW.version | texto específico de um documento | BNCC PDF 2017 (SHA `7d0004aa…`); BNCC 2018; CP 26/07/2019 (SHA `53e60892…`) |
+| `EdicaoDoTexto` | C.CFW.version | texto específico de um documento | BNCC versão final (SHA `ad623d7b…`); BNCC Computação 2022 (SHA `60aab0b1…`); CP 26/07/2019 (SHA `53e60892…`) |
 | `NoOrganizador` | C.CMP (tipo organizador) | nível estrutural tipado | etapa, área, componente, campo de experiências, grupo etário, unidade temática, prática de linguagem, campo de atuação, eixo, "linguagens" (CP Arte), competência específica, eixo estruturante (IFA) |
 | `ItemCurricular` | C.CMP | unidade de aprendizagem | habilidade, objetivo de aprendizagem e desenvolvimento, competência geral, competência comum de IFA, "capacidade" de IFA, objeto de conhecimento |
 | `AssociacaoCurricular` | C.CAS | relação tipada entre itens | `pertenceA`, `trataDeObjeto`, `derivaDe` (com subtipo), `criadoLocalmente`, `equivalente`, `alinhadoA`, `coberturaPorComponente` |
@@ -33,7 +33,7 @@
 
 | Campo | Tipo | Card. | Regra / origem |
 |---|---|---|---|
-| `id` | id cunhado imutável | 1 | ex. `bncc`, `bncc-computacao`, `sp-curriculo-paulista-efi` |
+| `id` | id cunhado imutável | 1 | ex. `bncc-2018`, `bncc-computacao-2022` (ids do vuoo-base v1.1), `sp-curriculo-paulista-efi` |
 | `titulo` | texto | 1 | como publicado |
 | `esfera` | enum {nacional, estadual, municipal, rede, escola} | 1 | DCN: base comum + parte diversificada |
 | `jurisdicao` | ref C.ORG | 1 | União; Estado de SP |
@@ -64,7 +64,7 @@
 | `tipo` | enum {habilidade, objetivo_aprendizagem_desenvolvimento, competencia_geral, competencia_especifica, competencia_comum_ifa, capacidade_ifa, objeto_conhecimento} | 1 | |
 | `anos` | lista de ano/série ou faixa etária | 0..n | `EF67LP08` → [6, 7]; CP `EF01AR01` → [1] |
 | `abrangencia` | enum {especifica_do_ano, articulavel_entre_anos} | 0..1 | CP, LP |
-| `localizador` | {pagina_impressa, pagina_pdf, quadro, linha} | 1 | rastreabilidade (padrão de bncc/) |
+| `localizador` | {pagina_impressa, pagina_pdf, quadro, linha} | 1 | rastreabilidade (no vuoo-base v1.1, cada item traz `pagina_pdf`) |
 | `vigencia` | {status: vigente/alterado/revogado, desde, ate} | 1 | desde/até = versões do dataset (bncc-dados) |
 | `ordemNoDocumento` | inteiro | 0..1 | P1: ordem impressa ≠ ordem do código (CP LP anos iniciais) |
 

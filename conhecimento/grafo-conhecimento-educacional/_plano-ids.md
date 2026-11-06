@@ -30,12 +30,6 @@ Lista de ids do domínio. Relações entre documentos usam estes ids. Todos os i
 | standards | kg.std.json-ld | standards/json-ld.md |
 | standards | kg.std.prov-o | standards/prov-o.md |
 | standards | kg.std.comparison | standards/comparison.md |
-| vocabularies | kg.voc.ieee-lom | vocabularies/ieee-lom.md |
-| vocabularies | kg.voc.dublin-core | vocabularies/dublin-core.md |
-| vocabularies | kg.voc.schema-org-learning-resource | vocabularies/schema-org-learning-resource.md |
-| vocabularies | kg.voc.case | vocabularies/case.md |
-| vocabularies | kg.voc.esco | vocabularies/esco.md |
-| vocabularies | kg.voc.ctdl | vocabularies/ctdl.md |
 | vocabularies | kg.voc.comparison | vocabularies/comparison.md |
 | modeling | kg.mod.conceptual-model | modeling/conceptual-model.md |
 | modeling | kg.mod.layer-separation | modeling/layer-separation.md |

@@ -45,7 +45,7 @@ research_status: parcial (EI/EF lido no PDF; EM não lido)
 
 ## Análise técnica: como o CP deriva da BNCC
 
-Levantamento automático dos códigos entre parênteses no PDF EI/EF (extração de texto, conferência visual não feita): **1.945 códigos distintos**, dos quais 1.362 no formato BNCC puro (`EF01LP05`), 451 com sufixo de letra (`EF01LP10A`, `EF01LP10B`, `EF01LP25C`) e 132 com asterisco (`EF01GE12*`, `EF01HI09*`, `EF01EF13*`). Contagem é indicativa [I], não auditada como a de [../bncc/](../bncc/README.md).
+Levantamento automático dos códigos entre parênteses no PDF EI/EF (extração de texto, conferência visual não feita): **1.945 códigos distintos**, dos quais 1.362 no formato BNCC puro (`EF01LP05`), 451 com sufixo de letra (`EF01LP10A`, `EF01LP10B`, `EF01LP25C`) e 132 com asterisco (`EF01GE12*`, `EF01HI09*`, `EF01EF13*`). Contagem é indicativa [I], não auditada como a da BNCC no vuoo-base v1.1 (`dados/bncc-2018.json`).
 
 | Mecanismo | Evidência no documento | Leitura para dados |
 |---|---|---|

@@ -76,7 +76,7 @@ A própria especificação alerta: esses resultados "refer to the worst-case com
 | cardinalidade qualificada | "toda Competência tem ao menos um Objetivo" |
 | `owl:versionIRI` | versionamento de ontologia [F: w3c2012owl2syntax] |
 
-Sobre `owl:sameAs`: [I] igualar dois indivíduos propaga todas as afirmações de um para o outro. Ao integrar currículos, é quase sempre errado — o que se quer é mapeamento, não identidade. Ver `skos:exactMatch` em kg.std.skos e `exactMatchOf` do CASE em kg.voc.case.
+Sobre `owl:sameAs`: [I] igualar dois indivíduos propaga todas as afirmações de um para o outro. Ao integrar currículos, é quase sempre errado — o que se quer é mapeamento, não identidade. Ver `skos:exactMatch` em kg.std.skos e `exactMatchOf` do CASE em iop.comp.case.
 
 ## Requisitos e pressupostos
 

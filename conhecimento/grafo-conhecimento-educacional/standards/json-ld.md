@@ -11,8 +11,8 @@ fontes: [w3c2020jsonld11, w3c2014rdf11concepts, schemaorg2026learningresource, o
 relacoes:
   - { tipo: parte-de, alvo: kg.std.index }
   - { tipo: depende-de, alvo: kg.std.rdf }
-  - { tipo: complementa, alvo: kg.voc.schema-org-learning-resource }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
+  - { tipo: complementa, alvo: iop.md.lrmi-schema-org }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
 termos: [JSON-LD, context, @context, @id, @type, @graph, compaction, expansion, linked data, serialização]
 ---
 
@@ -43,7 +43,7 @@ Transformações definidas pela especificação incluem expansão (resolver tudo
 
 Duas razões concretas:
 
-1. **Marcação de recursos educacionais na Web.** schema.org define os tipos e propriedades (`LearningResource`, `teaches`, `assesses`, `educationalAlignment`) [F: schemaorg2026learningresource]; JSON-LD é a forma usual de embuti-los em uma página. Ver kg.voc.schema-org-learning-resource.
+1. **Marcação de recursos educacionais na Web.** schema.org define os tipos e propriedades (`LearningResource`, `teaches`, `assesses`, `educationalAlignment`) [F: schemaorg2026learningresource]; JSON-LD é a forma usual de embuti-los em uma página. Ver iop.md.lrmi-schema-org.
 2. **Troca de dados entre sistemas que já falam JSON.** O CASE, por exemplo, troca frameworks de competências como entidades JSON — `CFItem`, `CFDocument`, `CFAssociation` — com identificadores globalmente únicos (GUIDs) [F: onedtech2025case, §1]. [I] Um documento JSON com GUID está a um `@context` de distância de ser RDF.
 
 ## Requisitos e pressupostos
@@ -95,7 +95,7 @@ Limitações: a mesma informação admite muitas formas JSON-LD equivalentes, o 
 
 ## Relações com outros conceitos
 
-Parte de kg.std.index. Depende de kg.std.rdf. Complementa kg.voc.schema-org-learning-resource (JSON-LD é a forma usual de aplicar schema.org). Relaciona-se com kg.voc.case.
+Parte de kg.std.index. Depende de kg.std.rdf. Complementa iop.md.lrmi-schema-org (JSON-LD é a forma usual de aplicar schema.org). Relaciona-se com iop.comp.case.
 
 ## Lacunas e questões abertas
 

@@ -113,7 +113,7 @@ Registro explícito, para que leitores não confundam síntese com evidência. O
 1. **A separação em três camadas** (grafo conceitual, modelo do aluno, dados observados). Apoiada em propriedades documentadas de grafos nomeados e na observação de que a literatura já trabalha com EduKG e PKG distintos, mas não afirmada como prática estabelecida por nenhuma fonte.
 2. **O modelo conceitual mínimo** de `modeling/conceptual-model.md`, com suas oito competency questions, não validado contra implementação.
 3. **A cadeia de quatro níveis** framework → habilidade → objetivo → conceito, cujas definições são operacionais, não ontológicas.
-4. **O mapeamento CASE → SKOS** de `vocabularies/case.md`, que perde `isPartOf` e `exemplar`.
+4. **O mapeamento CASE → SKOS** de `interoperabilidade/competencies/case.md` (`iop.comp.case`), que perde `isPartOf` e `exemplar`.
 5. **O mapeamento da BNCC para grafo**, em `curriculum/bncc.md`, que é a maior parte daquele documento.
 6. **Duas métricas de `retrieval/text-to-query.md`**: taxa de vazio enganoso e taxa de seleção do catálogo. As demais salvaguardas daquele documento deixaram de ser proposta e passaram a ter apoio em [F: allemang2024ontologies].
 7. **As métricas operacionalizadas** de `engineering/quality.md`: as dimensões são de Hogan et al., a tradução em consultas educacionais é daqui.

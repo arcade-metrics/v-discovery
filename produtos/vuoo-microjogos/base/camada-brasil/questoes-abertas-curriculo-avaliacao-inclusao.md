@@ -6,8 +6,7 @@
 
 | Id | Questão | Tipo | Como fechar |
 |---|---|---|---|
-| Q-CUR-01 | **Resolvida em 06/11/2026:** versão final (2018), no repositório **vuoo-base** (`fontes/bncc/`, https://github.com/arcade-metrics/v-base): fonte oficial `BNCC_EI_EF_110518_versaofinal_site.pdf` (versão final, EI, EF e EM) e cópia de trabalho `BNCC_reparado.pdf`. Pergunta original: Qual edição da BNCC usar como texto canônico de EI/EF: 2017 (transcrita em [bncc/](bncc/README.md)) ou 2018 (bncc-dados)? Diferem em 9 textos de habilidade e 8 objetos com o mesmo código. | decisão | decidir; o modelo suporta as duas como `EdicaoDoTexto` com `equivalente` só onde o texto é idêntico |
-| Q-CUR-02 | Os 2 códigos impressos duas vezes (EF05LP25, EF04LP27): qual registro um sistema externo quer dizer quando envia só o código? | ambiguidade da fonte | regra de desambiguação no adaptador (pela edição 2018, que corrigiu?) [conferir em bncc-dados] |
+| Q-CUR-01 | **Resolvida em 06/11/2026:** o texto canônico da BNCC é a versão final (EI, EF e EM), extraída no repositório **vuoo-base**, release v1.1 (https://github.com/arcade-metrics/v-base), em `dados/bncc-2018.json`; fonte oficial `fontes/bncc/BNCC_EI_EF_110518_versaofinal_site.pdf`. | decisão | fechada |
 | Q-CUR-03 | O portal da BNCC versiona o documento? Licença explícita? | lacuna | consultar MEC; até lá `license: unknown` |
 | Q-CUR-04 | Res. CNE/CEB 2/2025 (citada por redes como exigência de informar se o referencial contempla Computação) e prazo de implementação da Res. 1/2022: não abertos | lacuna | abrir os textos no portal do CNE |
 | Q-CUR-05 | **Candidato a entidade do Core**: `AdocaoCurricular` (organização × edição curricular × programa × coorte). Nenhuma entidade de `_convencoes.md` §4 cobre "regime curricular por coorte" (DCNEM 2024 arts. 39 e 42) | candidato a entidade do Core | discutir com a síntese do Core; alternativa: atributo de C.ENR |
@@ -15,7 +14,7 @@
 | Q-CUR-07 | DCN gerais (Res. CNE/CEB 4/2010), DCNEI (Res. 5/2009) e DCN do EF de 9 anos (Res. 7/2010): texto oficial não aberto; alterações posteriores não verificadas | lacuna de verificação | baixar do portal do CNE (gov.br/mec/cne) |
 | Q-CUR-08 | Significado oficial do sufixo `*` e das letras `A/B/C` no Currículo Paulista: inferido, não lido em definição explícita | lacuna | procurar nota metodológica no documento (introdução) ou no portal Efape |
 | Q-CUR-09 | Currículo Paulista EM: códigos próprios (FGB e itinerários)? A Del. CEE 186/2020 foi parcialmente revogada pela 236/2025: o que mudou? | lacuna | ler o volume EM e a Del. 236/2025 |
-| Q-CUR-10 | Existe tabela oficial de correspondência Currículo Paulista ↔ BNCC (ou dataset)? Hoje a correspondência é calculada pelo código | lacuna | consultar Efape/Seduc-SP; senão, validar por comparação de texto (como em bncc/99-verificacao) |
+| Q-CUR-10 | Existe tabela oficial de correspondência Currículo Paulista ↔ BNCC (ou dataset)? Hoje a correspondência é calculada pelo código | lacuna | consultar Efape/Seduc-SP; senão, validar por comparação de texto com `dados/bncc-2018.json` do vuoo-base v1.1 |
 
 ## Avaliação
 

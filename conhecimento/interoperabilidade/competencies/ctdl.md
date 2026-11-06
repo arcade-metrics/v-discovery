@@ -140,7 +140,3 @@ Alternativa a `iop.comp.case` conforme o domínio, e a `iop.comp.esco` no recort
 | w3c2009skos | normativo | 2026-10-29 |
 | esco2026what | fornecedor | 2026-10-29 |
 | onedtech2025case | normativo | 2026-10-29 |
-
-## Histórico
-
-Fusão, em 29/10/2026, de `iop.comp.ctdl` (interoperabilidade, 81 linhas) com `kg.voc.ctdl` (grafo de conhecimento educacional, 108 linhas). Nenhum parágrafo foi descartado. `kg.voc.ctdl` permanece como redirecionamento. As chaves `credengine2026ctdl` e `credentialengine2026ctdl` apontam para a mesma página do mantenedor, consultada por duas frentes de pesquisa; a consolidação das duas entradas na bibliografia fica para a próxima revisão de referências.

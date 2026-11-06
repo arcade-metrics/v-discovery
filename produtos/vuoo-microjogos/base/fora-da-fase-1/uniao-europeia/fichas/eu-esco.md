@@ -40,7 +40,7 @@ research_status: apontado (análise principal em conhecimento/)
 
 ## Análise
 
-**Dono do fato:** `conhecimento/interoperabilidade/competencies/esco.md` (`iop.comp.esco`; o antigo `kg.voc.esco` redireciona para ele). Não reescrito aqui.
+**Dono do fato:** `conhecimento/interoperabilidade/competencies/esco.md` (`iop.comp.esco`; o antigo `iop.comp.esco` redireciona para ele). Não reescrito aqui.
 
 O que falta lá e importa para o adaptador UE:
 

@@ -6,7 +6,7 @@ Repositório de descoberta do produto VUOO, da Wemoga. **O produto é independen
 projeto/        propostas (PIPE-TC, CCD) e insumos IN-nn; só contexto          → projeto/README.md
 conhecimento/   11 domínios técnicos, ids estáveis, sem menção a produto       → conhecimento/README.md
 benchmarks/     teardowns de produtos existentes (hoje: Duolingo)              → benchmarks/README.md
-produtos/       vuoo-microjogos/ (produto), vuoo-conversa-curricular/ e vuoo-linguagem/ (estudo) → produtos/vuoo-microjogos/LEIAME.md
+produtos/       vuoo-microjogos/ (produto; o estudo de linguagem está em base/precedente-linguagem/); a conversa curricular vive no repositório vuoo-elo → produtos/vuoo-microjogos/LEIAME.md
 .claude/skills/ skills de produto que geram os specs em produtos/              → abaixo
 ```
 
@@ -20,14 +20,7 @@ Cinco skills para Claude Code que transformam uma ideia de app em um conjunto de
 
 ## Instalação
 
-Copie as pastas para as skills do projeto (ficam versionadas junto com o código):
-
-```bash
-mkdir -p .claude/skills
-cp -r produto produto-descoberta produto-prd produto-mvp produto-plano .claude/skills/
-```
-
-Ou, para usar em qualquer projeto, troque o destino por `~/.claude/skills/`.
+As cinco skills já estão em `.claude/skills/` (`produto`, `produto-descoberta`, `produto-prd`, `produto-mvp`, `produto-plano`), versionadas com o repositório. Para usá-las em qualquer projeto, copie essas pastas para `~/.claude/skills/`.
 
 ## Uso
 

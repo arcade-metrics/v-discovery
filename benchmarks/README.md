@@ -7,6 +7,7 @@ A ponte com a base de conhecimento é um documento curto de estudo de caso no do
 | Benchmark | Pasta | Id em conhecimento | Estado |
 |---|---|---|---|
 | Duolingo | [duolingo/](duolingo/) | `lms.case.duolingo` | completo (29/10/2026) |
+| Blogs (produto, growth, marketing, vendas) | [blogs/](blogs/) | — | base de conhecimento de scraping; entrada por [blogs/CLAUDE.md](blogs/CLAUDE.md) e `blogs/kb/MAPA.md` |
 
 ## Convenções
 
@@ -18,4 +19,4 @@ A ponte com a base de conhecimento é um documento curto de estudo de caso no do
 
 ## Candidatos a próximos benchmarks
 
-Citados na proposta do projeto (`projeto/vuoo.md`, Tabelas 1 a 3) e em `produtos/vuoo-linguagem/pesquisa/c-benchmark.md`: Cogmed, EndeavorRx, CogniFit, Ello, Matific, Elefante Letrado, Khan Academy Kids. Cada um entra quando houver decisão de produto que dependa dele.
+Citados na proposta do projeto (`projeto/vuoo.md`, Tabelas 1 a 3): Cogmed, EndeavorRx, CogniFit, Ello, Matific, Elefante Letrado, Khan Academy Kids. Cada um entra quando houver decisão de produto que dependa dele.

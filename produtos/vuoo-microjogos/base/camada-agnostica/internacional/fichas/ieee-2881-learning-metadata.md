@@ -44,4 +44,4 @@ Escopo (página IEEE): modelo de "classes and properties that intentionally alig
 
 ## O que o Core adota (proposta)
 
-Manter LRMI/schema.org como serialização prática de C.ACT (ver `kg.voc.schema-org-learning-resource`) e registrar 2881 como alvo de alinhamento futuro. A separação recurso × evento (2881) confirma C.ACT ≠ C.EVT [I].
+Manter LRMI/schema.org como serialização prática de C.ACT (ver `iop.md.lrmi-schema-org`) e registrar 2881 como alvo de alinhamento futuro. A separação recurso × evento (2881) confirma C.ACT ≠ C.EVT [I].

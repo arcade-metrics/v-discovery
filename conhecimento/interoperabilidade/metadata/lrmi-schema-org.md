@@ -176,7 +176,3 @@ Complementa `iop.md.dublin-core` (descrição básica) e `iop.comp.case` (identi
 | schemaorg2026releases | fornecedor | 2026-10-29 |
 | dcmi2020terms | normativo | 2026-10-29 |
 | w3c2020jsonld11 | normativo | 2026-10-29 |
-
-## Histórico
-
-Fusão, em 29/10/2026, de `iop.md.lrmi-schema-org` (interoperabilidade, 98 linhas) com `kg.voc.schema-org-learning-resource` (grafo de conhecimento educacional, 135 linhas), mais a descrição do LRMI que estava em `kg.voc.dublin-core`. Nenhum parágrafo foi descartado; os dois exemplos foram mantidos porque mostram usos diferentes. `kg.voc.schema-org-learning-resource` permanece como redirecionamento.

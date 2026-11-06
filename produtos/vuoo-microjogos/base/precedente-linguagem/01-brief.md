@@ -1,6 +1,6 @@
 ---
 produto: VUOO — Linguagem de produto dos microjogos
-slug: vuoo-linguagem
+slug: vuoo-microjogos
 etapa: 00-brief
 status: em revisão
 atualizado_em: 2026-10-27
@@ -8,7 +8,7 @@ atualizado_em: 2026-10-27
 
 # Brief: a linguagem dos microjogos do VUOO
 
-> Este brief foi escrito sem entrevista com o dono do produto, que delegou as decisões. As perguntas que a descoberta faria foram respondidas a partir dos documentos-fonte (`00-insumos.md`) e da pesquisa (`pesquisa/`). Passou por duas revisões independentes (`revisao/`). O que é inferência está marcado `[ASSUMIDO]` e consolidado em `99-pendencias.md`.
+> Este brief foi escrito sem entrevista com o dono do produto, que delegou as decisões. As perguntas que a descoberta faria foram respondidas a partir dos documentos-fonte (`projeto/insumos.md`) e da pesquisa (`pesquisa/`). Passou por duas revisões independentes (`revisao/`). O que é inferência está marcado `[ASSUMIDO]` e consolidado em `99-pendencias.md`.
 >
 > **Este estudo é insumo**, e não substituto, da consultoria de especificação de produto e da consultoria de design instrucional previstas no orçamento do PIPE, e do co-design com professores (OE6). As decisões de identidade (metáfora, mascote) são **propostas para o 1º ciclo de co-design**.
 

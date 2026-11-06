@@ -28,7 +28,7 @@ Marcas como no restante de `produtos/`: `[ASSUMIDO]` valor proposto sem dado; `[
 | **Tipografia** | **em aberto** (D-31, A-12) | critérios em §6 |
 | **Personagem** | **em aberto** (D-31, A-12) | requisitos em §8 |
 | **Marca e logotipo** | **em aberto** (D-31, A-12) | — |
-| Linguagem de formas | em exploração | `base/exemplos-de-design/` |
+| Linguagem de formas | em exploração | [`exemplos-de-design/`](../../exemplos-de-design/) (raiz do repositório) |
 
 Resumo: o guia já diz **como** o estilo do VUOO se comporta e **o que ele nunca faz**. Ainda não diz **como ele se parece**. Essa é a primeira frente de design (D-31).
 
@@ -48,12 +48,12 @@ Público (D-24, D-30): ensino fundamental (anos iniciais e finais) e ensino méd
 2. **Padrão moderado, extremos de primeira classe.** O mínimo não é uma tela quebrada e o máximo não é um "modo festa" improvisado: os dois são desenhados e testados como o padrão (D-27).
 3. **Acesso vence estética.** Em qualquer conflito, o parâmetro que garante acesso prevalece.
 4. **Previsível antes de surpreendente.** Regras, rotina, tempo e fim são sempre conhecidos. Controles fixos não mudam de lugar `[PRECEDENTE]`.
-5. **Mostra o que o aluno fez, nunca o que faltou.** Sem casa vazia, sem perda por ausência, sem comparação com colegas (decidido em 05/11/2026: ofensiva compassiva, que pausa e nunca zera; `02-prd.md` §6).
+5. **Mostra o que o aluno fez, nunca o que faltou.** Os dias que faltam aparecem como casas **neutras** (sem cor de alerta, sem "faltam"), sem perda por ausência, sem comparação com colegas (ofensiva compassiva, que pausa e nunca zera; `02-prd.md` §6).
 6. **Literal para o aluno, transparente para o adulto.** Frases concretas para quem joga; evidência e limite por trás de cada afirmação para quem ensina `[PRECEDENTE]`.
 7. **Nada na tela expõe o aluno aos colegas.** Preset, ajuste ou Plano Educacional Individualizado nunca aparecem para outro aluno (D-19 `[PRECEDENTE]`; `base/parametrizacao-estilo.md` §12).
 8. **O aluno vê e desfaz toda mudança.** Manual, do professor ou da IA, toda mudança é nomeada em linguagem simples e reversível com um toque.
 9. **Nomes de experiência, não de diagnóstico.** "Calmo", "Leitura apoiada", "Toque fácil"; nunca "Autismo", "Dislexia" ou "TDAH".
-10. **Estilo não muda o que está sendo avaliado.** Se houver estímulos de medida, eles ficam protegidos de presets e da IA (palco de medida, D-20 `[PRECEDENTE]`; ver A-09).
+10. **Estilo não muda o que está sendo avaliado.** Na avaliação em momentos marcados (`02-prd.md` §7), os estímulos ficam protegidos de presets e da IA; só as acomodações de acesso continuam valendo (L-07; palco de medida, D-20 `[PRECEDENTE]`).
 
 ---
 
@@ -211,7 +211,7 @@ Os papéis do precedente continuam úteis mesmo com cores novas. A paleta nova p
 - **Pictogramas próprios.** O ARASAAC não permite uso comercial.
 
 ### 7.2 Linguagem de formas (em exploração)
-Os esboços em `base/exemplos-de-design/` testam três famílias:
+Os esboços em [`exemplos-de-design/`](../../exemplos-de-design/) (raiz do repositório) testam três famílias:
 
 | Família | Construção | Potencial descrito | Leitura contra os princípios |
 |---|---|---|---|
@@ -292,20 +292,7 @@ Toda tela é entregue em **cinco quadros**: moderado em 360 px, mínimo, máximo
 
 ## 12. Limites invioláveis
 
-Nenhum preset, ajuste manual, trava do professor ou ação de IA ultrapassa:
-
-| # | Limite |
-|---|---|
-| L-01 | No máximo 3 flashes por segundo |
-| L-02 | Texto ≥ 4,5:1 e componentes ≥ 3:1 em toda combinação |
-| L-03 | Cor nunca é o único código |
-| L-04 | Pausar, Ouvir e Ajustes sempre visíveis, na mesma posição |
-| L-05 | Todo laço de mais de 5 s é pausável |
-| L-06 | Erro nunca é punitivo: sem alarme, sem tremor, sem tristeza do personagem, sem sarcasmo |
-| L-07 | Estímulos de medida não mudam por estilo, preset ou IA |
-| L-08 | A IA nunca reduz acesso nem aumenta estímulo acima do teto do aluno ou do professor |
-| L-09 | Toda mudança automática é anunciada e desfeita com um toque |
-| L-10 | Alvos nunca abaixo de 44 px, espaçamento nunca abaixo de 8 px |
+Nenhum preset, ajuste manual, trava do professor ou ação de IA ultrapassa os limites **L-01 a L-10**: flashes (L-01), contraste (L-02), cor como único código (L-03), controles fixos (L-04), laços pausáveis (L-05), erro não punitivo (L-06), estímulos de medida protegidos (L-07), teto da IA (L-08), mudança automática anunciada e reversível (L-09) e alvos mínimos (L-10). O texto exato e a base normativa de cada um estão em `base/parametrizacao-estilo.md` §5, dono único.
 
 **Candidatos vindos do precedente** `[A CONFIRMAR]` para o público ampliado: sem ranking entre alunos; sem perda ou punição por ausência; sem contagem regressiva visível para o aluno; sem recompensa aleatória (a forma da regra está em A-11).
 
@@ -328,25 +315,14 @@ Nenhum preset, ajuste manual, trava do professor ou ação de IA ultrapassa:
 
 ## 14. O que falta para a versão 1 deste guia
 
-| # | Lacuna | Quem responde |
-|---|---|---|
-| A-12 | Paleta, tipografia, personagem e marca (logotipo, nome do personagem) | primeira frente de design (D-31) |
-| — | Linguagem de formas dominante (redonda, blocada ou afunilada) | design, a partir dos esboços |
-| — | A metáfora do voo e o vocabulário (Caminho, Ninho, Pouso, Penas, Céu) continuam? | usuário; era proposta do precedente (D-02) |
-| — | Tom de voz para anos finais e ensino médio (tamanho de frase, registro, humor) | usuário + co-design |
-| — | Conjunto de pictogramas próprio para o público ampliado | design (precedente D-15) |
-| A-02 | Padrões por etapa: alvo, fonte, leitura automática, agenda | usuário + co-design |
-| A-03 | Música no padrão: só no mapa ou desligada | usuário |
-| A-04 | Quais 4 bases aparecem na calibração inicial | usuário + co-design |
-| A-05 | Posição dos controles fixos | design |
-| A-09 | Haverá atividades com medida? Quem define o protocolo protegido | usuário |
-| A-11 | Recompensa aleatória fora por princípio ou por configuração | usuário |
+As lacunas estão em [`decisoes.md`](decisoes.md) §2. As que bloqueiam este guia: **A-12** (paleta, tipografia, personagem e marca), **A-13** (linguagem de formas), **A-14** (metáfora do voo), **A-15** (tom para anos finais e médio), **A-16** (pictogramas), **A-02** (padrões por etapa), **A-03** (música), **A-05** (posição dos controles) e **A-11** (recompensa aleatória).
 
 ---
 
 ## Fontes
 
-- `base/parametrizacao-estilo.md`: decisões D-24 a D-37, parâmetros, presets, limites, implicações para arte.
+- [`decisoes.md`](decisoes.md): decisões D-24 a D-37 e questões abertas A-nn.
+- `base/parametrizacao-estilo.md`: parâmetros, presets, limites, implicações para arte.
 - `base/precedente-linguagem/` (03-linguagem, 04-microjogos, 05-decisoes, 06-especificacao-base, guia-pratico-design, transformar-em-vuoo, ferramentas, pesquisa): precedente de marca, Bot, cor, tipografia, movimento, som, tom e tokens.
 - [`benchmarks/duolingo/03-estilo.md`](../../benchmarks/duolingo/03-estilo.md) e [`05-riscos-educacao-especial.md`](../../benchmarks/duolingo/05-riscos-educacao-especial.md) (fora da pasta, por exceção): o que copiar e o que evitar do Duolingo.
-- `base/exemplos-de-design/`: esboços de linguagem de formas (redonda, blocada, afunilada).
+- [`exemplos-de-design/`](../../exemplos-de-design/) (raiz do repositório): esboços de linguagem de formas (redonda, blocada, afunilada).

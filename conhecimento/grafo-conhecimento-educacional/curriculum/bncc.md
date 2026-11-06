@@ -12,7 +12,7 @@ relacoes:
   - { tipo: parte-de, alvo: kg.curr.competency-frameworks }
   - { tipo: depende-de, alvo: kg.std.skos }
   - { tipo: complementa, alvo: kg.mod.competencies-and-objectives }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
   - { tipo: relacionado-a, alvo: kg.eng.construction }
 termos: [BNCC, competência geral, competência específica, área de conhecimento, componente curricular, unidade temática, prática de linguagem, objeto de conhecimento, habilidade, campo de experiências, etapa]
 ---
@@ -140,7 +140,7 @@ ex:g/bncc/extracao-2026-10 a prov:Entity ;
 
 ## Relações com outros conceitos
 
-Parte de kg.curr.competency-frameworks. Depende de kg.std.skos. Complementa kg.mod.competencies-and-objectives (a BNCC fornece a camada "habilidade"). Relaciona-se com kg.voc.case (o formato de troca que caberia) e kg.eng.construction (a extração).
+Parte de kg.curr.competency-frameworks. Depende de kg.std.skos. Complementa kg.mod.competencies-and-objectives (a BNCC fornece a camada "habilidade"). Relaciona-se com iop.comp.case (o formato de troca que caberia) e kg.eng.construction (a extração).
 
 ## Lacunas e questões abertas
 

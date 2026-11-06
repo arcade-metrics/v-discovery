@@ -2,7 +2,7 @@
 
 > **Fonte:** análise nossa sobre os arquivos 01 a 07 desta pasta, que citam [bncc-dev/bncc-pacotes](https://github.com/bncc-dev/bncc-pacotes) (commit `e9b4985`). Contexto do VUOO: ../../produtos/vuoo/LEIAME.md, ../../produtos/vuoo/padroes/LEIAME.md e ../../projeto/vuoo.md (este último só como contexto: o produto é independente do projeto de pesquisa desde 2026-11-05). Escrito em 2026-11-04.
 >
-> **Inspirar, não copiar.** Nada aqui autoriza copiar código, documentação, descrições de tools, nomes ou marca do bncc-pacotes. Tudo o que for adotado é reescrito para o VUOO e entra como ADR próprio. Este arquivo é proposta para discussão: nada aqui é decisão até virar ADR aceito em `produtos/vuoo/padroes/`.
+> **Inspirar, não copiar.** Nada aqui autoriza copiar código, documentação, descrições de tools, nomes ou marca do bncc-pacotes. Tudo o que for adotado é reescrito para o VUOO e entra como ADR próprio. Este arquivo é proposta para discussão: nada aqui é decisão até virar ADR aceito em `produtos/vuoo-microjogos/padroes/`.
 
 ## A pergunta de partida: fazer igual o quê?
 
@@ -89,7 +89,7 @@ Não escritos agora (plano de 29/10/2026: ADRs só depois da base de conheciment
 | Separação entre distribuição do grafo e dado de aluno | este arquivo |
 | AGENTS.md e regras para agentes no repositório do VUOO | [06-operacao-e-governanca.md](06-operacao-e-governanca.md) |
 
-Ids de conhecimento relacionados: `kg.curr.bncc`, `kg.voc.case`, `kg.std.skos` (em `conhecimento/grafo-conhecimento-educacional/`).
+Ids de conhecimento relacionados: `kg.curr.bncc`, `iop.comp.case`, `kg.std.skos` (em `conhecimento/grafo-conhecimento-educacional/`).
 
 ## Perguntas em aberto para o time
 

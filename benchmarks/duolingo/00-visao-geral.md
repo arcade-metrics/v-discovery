@@ -68,7 +68,7 @@ O **Duolingo ABC** (alfabetização, 3 a 8 anos) não tem anúncios, compras, li
 
 ## 6. Matriz de decisão (recomendação para uma plataforma de educação especial) [I]
 
-Vereditos gerais. O cap. 05 detalha por perfil de aluno; o apêndice mostra uma aplicação concreta.
+Vereditos gerais. O cap. 05 detalha por perfil de aluno; a seção 7 resume como traduzir uma mecânica.
 
 | Mecânica | Veredito | Por quê, em uma linha | Forma adaptada |
 |---|---|---|---|
@@ -90,11 +90,19 @@ Vereditos gerais. O cap. 05 detalha por perfil de aluno; o apêndice mostra uma 
 | Humor sarcástico / "unhinged" | **Não usar** | Ambíguo e potencialmente angustiante | Humor físico e literal; personalidade estável |
 | Métrica de aprendizagem (TSLW) | **Adotar o princípio** | Até o Duolingo precisou corrigir a gamificação | Métrica-norte de habilidades consolidadas, não de DAU |
 
-## 7. Como os capítulos se relacionam
+## 7. Como traduzir uma mecânica sem copiá-la [I]
+
+1. Separar **onde a gamificação pode agir** de onde não pode: a avaliação, o conteúdo pedagógico ou qualquer medida ficam fora do alcance de recompensas, temas e testes A/B.
+2. Dar **nomes próprios e literais** às mecânicas adaptadas, em vez de reaproveitar os nomes do Duolingo com significado trocado.
+3. Escrever os guarda-corpos **antes** dos experimentos, incluindo o que é proibido testar (por exemplo, reduzir a visibilidade da pausa).
+4. Fazer a métrica-norte contar **pessoas que participam**, não volume, para não premiar quem joga mais.
+5. Tratar o modo de baixa estimulação e a pausa como recursos **para todos**, sem marcar quem os usa.
+
+## 8. Como os capítulos se relacionam
 
 ```
 00 visão ─┬─ 01 recompensas ──┐
-          ├─ 02 gameplay ─────┼─ 04 evidências e críticas ─ 05 riscos por perfil ─ apêndice (caso)
+          ├─ 02 gameplay ─────┼─ 04 evidências e críticas ─ 05 riscos por perfil
           └─ 03 estilo ───────┘
 ```
 

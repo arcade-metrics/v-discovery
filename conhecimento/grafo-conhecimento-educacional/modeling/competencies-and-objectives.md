@@ -13,7 +13,7 @@ relacoes:
   - { tipo: complementa, alvo: kg.curr.cognitive-taxonomies }
   - { tipo: complementa, alvo: kg.curr.competency-frameworks }
   - { tipo: depende-de, alvo: kg.std.skos }
-  - { tipo: relacionado-a, alvo: kg.voc.case }
+  - { tipo: relacionado-a, alvo: iop.comp.case }
   - { tipo: relacionado-a, alvo: adp.id.knowledge-components }
 termos: [competência, habilidade, objetivo de aprendizagem, learning outcome, descritor, verbo de ação, nível cognitivo, granularidade, operacionalização]
 ---
@@ -146,7 +146,7 @@ SELECT ?h WHERE {
 
 ## Relações com outros conceitos
 
-Parte de kg.mod.conceptual-model. Complementa kg.curr.cognitive-taxonomies e kg.curr.competency-frameworks. Depende de kg.std.skos. Relaciona-se com kg.voc.case (`hasSkillLevel`, `CFItem`) e, no domínio vizinho, com adp.id.knowledge-components (a granularidade do nível mais fino).
+Parte de kg.mod.conceptual-model. Complementa kg.curr.cognitive-taxonomies e kg.curr.competency-frameworks. Depende de kg.std.skos. Relaciona-se com iop.comp.case (`hasSkillLevel`, `CFItem`) e, no domínio vizinho, com adp.id.knowledge-components (a granularidade do nível mais fino).
 
 ## Lacunas e questões abertas
 

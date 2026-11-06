@@ -1,6 +1,6 @@
 # Ficha curta: IEEE LOM (1484.12.1-2020)
 
-> Análise completa em conhecimento/interoperabilidade/metadata/ieee-lom.md (`iop.md.ieee-lom`) e em `conhecimento/grafo-conhecimento-educacional/vocabularies/ieee-lom.md`. Comparação com Dublin Core e LRMI em `conhecimento/interoperabilidade/metadata/comparison.md`. Não repetir.
+> Análise completa em conhecimento/interoperabilidade/metadata/ieee-lom.md (`iop.md.ieee-lom`) e em `conhecimento/interoperabilidade/metadata/ieee-lom.md`. Comparação com Dublin Core e LRMI em `conhecimento/interoperabilidade/metadata/comparison.md`. Não repetir.
 
 ```yaml
 id: int.ieee-lom

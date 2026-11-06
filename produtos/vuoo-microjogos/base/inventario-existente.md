@@ -1,17 +1,15 @@
 # Inventário do que já existe
 
-Cruzamento entre as referências do [briefing](padroes-README.md) e o trabalho já feito no repositório, em 2026-11-05. Regra: **cada fato tem um dono**. Transcrição de fonte normativa mora aqui em `PRD/padroes/`; análise conceitual de padrão mora em `conhecimento/` e é citada pelo id.
+Cruzamento entre as referências do [briefing](padroes-README.md) e o trabalho já feito no repositório, em 2026-11-05. Regra: **cada fato tem um dono**. Transcrição de fonte normativa mora em `base/`, exceto a BNCC, cuja fonte única é o repositório vuoo-base, release v1.1 (https://github.com/arcade-metrics/v-base), com ids `bncc-2018/<CODIGO>` e `bncc-computacao-2022/<CODIGO>`; análise conceitual de padrão mora em `conhecimento/` e é citada pelo id.
 
-## 1. Movido para esta pasta (transcrição de fonte)
+## 1. Transcrições de fonte
 
-Hoje em `base/camada-brasil/<pasta>/` (movidos em 2026-11-05).
+Em `base/camada-brasil/<pasta>/`.
 
 | Pasta | Fonte | Domínios |
 |---|---|---|
-| [brasil/bncc/](camada-brasil/bncc/README.md) | BNCC homologada (EI e EF), transcrição linha a linha | D2, D4 |
-| [brasil/bncc-computacao/](camada-brasil/bncc-computacao/README.md) | Complemento de Computação à BNCC (Parecer CNE/CEB 2/2022) | D2, D4 |
-| [brasil/cmdeb/](camada-brasil/cmdeb/README.md) | CMDEB, Anexo da Portaria MEC 832/2025 (MEC Gestão Presente) | D1, D3, D7 |
-| [brasil/bncc-dados/](fora-da-fase-1/brasil/bncc-dados/README.md) | Repositório bncc-dev/bncc-dados: arquitetura de dado normativo verificado | D8 |
+| [camada-brasil/cmdeb/](camada-brasil/cmdeb/README.md) | CMDEB, Anexo da Portaria MEC 832/2025 (MEC Gestão Presente) | D1, D3, D7 |
+| [fora-da-fase-1/brasil/bncc-dados/](fora-da-fase-1/brasil/bncc-dados/README.md) | Repositório bncc-dev/bncc-dados: arquitetura de dado normativo verificado | D8 |
 | [brasil/bncc-pacotes/](fora-da-fase-1/brasil/bncc-pacotes/README.md) | Repositório bncc-dev/bncc-pacotes: distribuição (npm, PyPI, MCP) | D8 |
 
 ## 2. Já analisado em `conhecimento/` (citar, não reescrever)

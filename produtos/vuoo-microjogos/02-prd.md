@@ -2,8 +2,8 @@
 produto: VUOO
 slug: vuoo-microjogos
 etapa: 02-prd
-status: aprovado; revisado em 05/11/2026 com o precedente de linguagem
-atualizado_em: 2026-11-05
+status: aprovado
+atualizado_em: 2026-11-06
 ---
 
 # PRD: VUOO Microjogos
@@ -53,7 +53,7 @@ Dois modelos, com papéis diferentes:
   1. Núcleo: controle inibitório (inclui atenção seletiva), memória de trabalho e flexibilidade cognitiva. A flexibilidade depende das outras duas.
   2. Superiores, construídas sobre o núcleo: raciocínio, resolução de problemas e planejamento.
 - **BNCC é o mapeamento.** Cada atividade aponta para uma ou mais habilidades da BNCC: competências gerais → área → componente → unidade temática → objeto de conhecimento → habilidade (código, ex. EF01LP02).
-- **Fonte da BNCC:** a base canônica única, compartilhada com o VUOO Elo, no repositório [vuoo-base](https://github.com/arcade-metrics/v-base): versão final (EI, EF e EM) do MEC, com identificador estável por item e o código oficial como atributo. Os microjogos consomem a versão relacional; o Elo, a versão RDF.
+- **Fonte da BNCC:** a base canônica única, compartilhada com o VUOO Elo, no repositório [vuoo-base](https://github.com/arcade-metrics/v-base), **release v1.1**: versão final (EI, EF e EM) do MEC e BNCC Computação (`dados/bncc-2018.json`, `dados/bncc-computacao-2022.json`), com identificador estável por item (`bncc-2018/EF01LP02`, `bncc-computacao-2022/EF01CO01`) e o código oficial como atributo. Os microjogos consomem a versão relacional; o Elo, a versão RDF.
 
 **Ligação:** cada habilidade da BNCC aponta para as funções executivas que ela exige (relação N:N, guardada como dado). A ligação é **curadoria rotulada**, com autor e data, nunca norma.
 
@@ -205,7 +205,7 @@ Os números são revistos depois dos testes de peso.
 
 | Id | Requisito | Seção |
 |---|---|---|
-| RNF-01 | App nativo Android e iOS para o aluno; área web para professor e gestão. | 1, 3 |
+| RNF-01 | O aluno começa com app em Flutter (Android e iOS), *mobile first* (D-34); o build web do mesmo código vem depois (D-36). Área web para professor e gestão. | 1, 3 |
 | RNF-02 | Depois do primeiro acesso, o app funciona todo sem rede: trilha da semana e jogos livres ficam no aparelho. | 9 |
 | RNF-03 | Estímulo, resposta e feedback acontecem no aparelho, em até um quadro, sem rede. | 7 |
 | RNF-04 | Sincronização sempre que houver rede, em lote, sem duplicar e sem perder eventos (perda abaixo de 1%). | 9, 11 |
@@ -247,6 +247,6 @@ Os números são revistos depois dos testes de peso.
 | P-07 | Quais habilidades da BNCC e funções executivas entram primeiro, e a tabela de ligação entre elas. | `[A CONFIRMAR]` |
 | P-08 | Protocolo das avaliações: quais tarefas, frequência e quem define. | `[A CONFIRMAR]` |
 | P-09 | Lista de medidas calculadas no aparelho e fração de amostra bruta. | `[A CONFIRMAR]` |
-| P-11 | Identidade visual: paleta, tipografia, mascote. | `[A CONFIRMAR]` |
+| P-11 | Identidade visual: paleta, tipografia, mascote. É a A-12 de [decisoes.md](decisoes.md); acompanhar lá. | `[A CONFIRMAR]` |
 | P-12 | Pagamento: a escola ou rede paga pelos microjogos? Preço e risco de a escola não ver valor. Validar com 3 a 5 escolas. | deixado para depois |
 | P-13 | Situação de uso hoje (brief §2): confirmar com professores regentes e do AEE. | `[A CONFIRMAR]` |
